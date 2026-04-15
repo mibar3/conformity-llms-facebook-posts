@@ -1,2 +1,2 @@
-*.html
-*.png
+spotify_pie_plot/pie_plot_posts/baselines/**/*.html
+spotify_pie_plot/pie_plot_posts/baselines/**/*.png
