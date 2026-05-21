@@ -17,7 +17,7 @@ REACTION_DEFS = {
 def format_count(n):
     """Format large numbers like Facebook does (1.2K, 3.4M, etc.)"""
     if n == 0:
-        return None
+        return "0"
     if n >= 1_000_000:
         return f"{n/1_000_000:.1f}M".rstrip('0').rstrip('.')
     if n >= 1_000:
@@ -25,15 +25,14 @@ def format_count(n):
     return str(n)
 
 def build_reaction_bubbles_html(reactions: dict) -> str:
-    active = sorted([(k, v) for k, v in reactions.items() if v > 0],
-                    key=lambda x: x[1], reverse=True)
+    active = sorted(reactions.items(), key=lambda x: x[1], reverse=True)
     if not active:
         return ""
     
     bubbles = ""
     for name, count in active:
         emoji, color = REACTION_DEFS[name]
-        formatted = format_count(count)
+        formatted = count
         bubbles += (
             f'<span class="reaction-bubble">{emoji}</span>'
             f'<span class="reaction-count">&nbsp;{formatted}</span>'
@@ -77,10 +76,8 @@ def generate_facebook_post(profile_name, post_text, post_time,
     formatted_shares   = format_count(share_count)
     
     right_parts = []
-    if formatted_comments:
-        right_parts.append(f'{formatted_comments} Comments')
-    if formatted_shares:
-        right_parts.append(f'{formatted_shares} Shares')
+    right_parts.append(f'{format_count(comment_count)} Comments')
+    right_parts.append(f'{format_count(share_count)} Shares')
     engagement_right_html = ' · '.join(right_parts)
 
     # Verified badge SVG (Facebook blue checkmark)
