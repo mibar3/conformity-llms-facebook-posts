@@ -15,24 +15,26 @@ REACTION_DEFS = {
 }
 
 def format_count(n):
-    """Format large numbers like Facebook does (1.2K, 3.4M, etc.)"""
     if n == 0:
         return "0"
     if n >= 1_000_000:
-        return f"{n/1_000_000:.1f}M".rstrip('0').rstrip('.')
+        val = n / 1_000_000
+        return f"{val:.1f}M" if val % 1 != 0 else f"{int(val)}M"
     if n >= 1_000:
-        return f"{n/1_000:.1f}K".rstrip('0').rstrip('.')
+        val = n / 1_000
+        return f"{val:.1f}K" if val % 1 != 0 else f"{int(val)}K"
     return str(n)
-
+    
 def build_reaction_bubbles_html(reactions: dict) -> str:
-    active = sorted(reactions.items(), key=lambda x: x[1], reverse=True)
+    active = list(reactions.items())
+    # active = sorted(reactions.items(), key=lambda x: x[1], reverse=True) # this sorts the reactions based on the values each has, not what i want
     if not active:
         return ""
     
     bubbles = ""
     for name, count in active:
         emoji, color = REACTION_DEFS[name]
-        formatted = count
+        formatted = format_count(count)
         bubbles += (
             f'<span class="reaction-bubble">{emoji}</span>'
             f'<span class="reaction-count">&nbsp;{formatted}</span>'
@@ -395,10 +397,17 @@ def generate_facebook_post(profile_name, post_text, post_time,
         }}
     }}
 
+
     function formatCount(n) {{
         if (n <= 0) return null;
-        if (n >= 1000000) return (n / 1000000).toFixed(1).replace(/\\.0$/, '') + 'M';
-        if (n >= 1000) return (n / 1000).toFixed(1).replace(/\\.0$/, '') + 'K';
+        if (n >= 1000000) {{
+            const val = n / 1000000;
+            return (val % 1 === 0 ? val.toFixed(0) : val.toFixed(1)) + 'M';
+        }}
+        if (n >= 1000) {{
+            const val = n / 1000;
+            return (val % 1 === 0 ? val.toFixed(0) : val.toFixed(1)) + 'K';
+        }}
         return n.toString();
     }}
 
