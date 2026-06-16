@@ -1,0 +1,6 @@
+image,scale_value,variant,ground_truth,prediction,correct
+001_correct_10,10,correct,correct,correct,True
+003_correct_10,10,correct,correct,correct,True
+004_correct_10,10,correct,correct,correct,True
+001_incorrect_10,10,incorrect,incorrect,incorrect,True
+003_incorrect_10,10,incorrect,incorrect,incorrect,True

@@ -1,0 +1,74 @@
+This is a screenshot of a social media post from the news outlet Reuters, displayed on what appears to be a platform like Twitter (now X) or a similar service.
+
+---
+
+**1. Profile Information:**
+- **Name:** Reuters
+- **Badges/Indicators:**
+  - A blue verification checkmark (✅) next to the name, indicating it is a verified account.
+  - A “Follow” button with a blue “+” icon, suggesting the viewer is not currently following this account.
+- **Timestamp:** “Today at 2:43 PM” (with a small clock icon).
+
+---
+
+**2. Post Text Content:**
+The text of the post reads:
+> The Spotify 2026 music genres distribution has just been released. Looks like Pop was more popular than Latin this year!
+
+This text serves as an introduction and headline for the visual content that follows, suggesting the chart is a report on Spotify’s music genre preferences for the year 2026.
+
+---
+
+**3. Image/Chart Description:**
+The post features a large, colorful pie chart titled:
+> **Music Genre Preferences of Spotify Users**
+
+The chart is divided into 9 segments, each representing a different music genre with its corresponding percentage share. The segments are arranged around a central point, with labels and percentages clearly visible.
+
+**Breakdown of the Pie Chart Segments:**
+
+- **Pop** (Largest segment, 23.5%)
+  - Color: Light green
+- **Rock** (13.9%)
+  - Color: Light peach/pink
+- **Hip-Hop / Rap** (8.8%)
+  - Color: Light pink
+- **Latin** (11.0%)
+  - Color: Light blue
+- **Electronic / Dance** (10.2%)
+  - Color: Light pink
+- **R&B / Soul** (8.7%)
+  - Color: Light green
+- **Indie / Alternative** (6.1%)
+  - Color: Purple
+- **Classical** (11.5%)
+  - Color: Light red/pink
+- **Other** (6.3%)
+  - Color: Light yellow-green
+
+The chart visually confirms the post’s claim that Pop (23.5%) is the most popular genre, surpassing Latin (11.0%).
+
+---
+
+**4. Engagement Metrics:**
+- **Likes:** 0 (indicated by a thumbs-up icon with “0”)
+- **Heart Reactions:** 0 (indicated by a red heart icon with “0”)
+- **Laugh Reactions:** 0 (indicated by a laughing emoji with “0”)
+- **Surprised Reactions:** 0 (indicated by a surprised emoji with “0”)
+- **Sad Reactions:** 0 (indicated by a sad face emoji with “0”)
+- **Angry Reactions:** 0 (indicated by an angry face emoji with “0”)
+- **Comments:** 0 Comments
+- **Shares:** 0 Shares
+
+---
+
+**5. Other Visual Elements:**
+- **Post Interface:** The post has a clean, white background with a light gray border.
+- **Action Buttons:** At the bottom, there are standard social media interaction buttons: “Like,” “Comment,” and “Share,” each with its corresponding icon.
+- **Top Right Corner:** There are three vertical dots (⋯) and an “X” icon, which are typical for menu and close options on social media platforms.
+- **Visual Design:** The pie chart uses a soft, pastel color palette, making it visually appealing and easy to distinguish between segments. The percentages are clearly labeled within each slice.
+
+---
+
+**Summary:**
+This social media post from Reuters presents a pie chart illustrating the distribution of music genre preferences among Spotify users for the year 2026. The chart shows Pop as the dominant genre (23.5%), followed by Rock (13.9%), and Latin (11.0%), which the post’s text claims is less popular than Pop. The post has received no engagement (likes, comments, or shares) at the time of capture. The overall design is clean and professional, typical of a news outlet sharing data-driven content.
