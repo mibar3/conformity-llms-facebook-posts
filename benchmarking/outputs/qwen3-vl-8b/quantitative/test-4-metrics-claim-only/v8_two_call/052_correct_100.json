@@ -1,0 +1,13 @@
+{
+  "image": "052_correct_100",
+  "prompt_version": "v8_two_call",
+  "prompt_text": "Pop: 23.5%. Latin: 11.0%. The post claims: 'Looks like Pop was more popular than Latin this year!'. Does the claim match which percentage is higher? Reply with only 'correct' or 'incorrect'.",
+  "extracted_inputs": {
+    "pop_pct": "23.5",
+    "latin_pct": "11.0",
+    "claim": "Looks like Pop was more popular than Latin this year!"
+  },
+  "answers": {
+    "post_claim_correct": "correct"
+  }
+}

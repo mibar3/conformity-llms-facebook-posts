@@ -1,0 +1,58 @@
+This is a screenshot of a social media post from the news outlet Reuters, displayed on what appears to be a platform like Twitter (now X) or a similar service.
+
+---
+
+**1. Profile Name and Badges:**
+
+*   **Name:** Reuters
+*   **Badges/Indicators:**
+    *   A blue verification checkmark (✅) next to the name, indicating it is a verified account.
+    *   A blue "Follow" button, suggesting the viewer is not currently following this account.
+    *   A small circular icon with a "Q" inside it next to the timestamp, which typically indicates the post is from a "Quoted Tweet" or a "Quote Post" on Twitter/X.
+
+---
+
+**2. Post Text Content:**
+
+The text of the post reads:
+> The Spotify 2026 music genres distribution has just been released. Looks like Latin was more popular than Pop this year!
+
+This text serves as an introduction and a key takeaway, suggesting that the chart below is based on Spotify's 2026 genre distribution data and highlights a surprising trend: Latin music's popularity surpassing Pop.
+
+---
+
+**3. Image/Chart Shown:**
+
+The post features a large, colorful pie chart titled:
+> **Music Genre Preferences of Spotify Users**
+
+The chart is divided into eight segments, each representing a different music genre with its corresponding percentage share. The segments are color-coded and labeled as follows:
+
+*   **Pop:** 23.5% — A large, light green segment, the largest share.
+*   **Rock:** 13.9% — A light peach/pink segment.
+*   **Hip-Hop / Rap:** 8.8% — A light pink segment.
+*   **Latin:** 11.0% — A light blue segment, which is visually larger than Pop's segment, contradicting the post's claim that Latin was *more* popular than Pop. (Note: The post says "Latin was more popular than Pop this year!" but the chart shows Pop at 23.5% and Latin at 11.0%. This is a clear contradiction in the post's text and the data presented in the image. The chart data is the factual source.)
+*   **Electronic / Dance:** 10.2% — A light pink segment.
+*   **R&B / Soul:** 8.7% — A light green segment.
+*   **Indie / Alternative:** 6.1% — A purple segment.
+*   **Classical:** 11.5% — A coral/pink segment.
+*   **Other:** 6.3% — A light green segment.
+
+---
+
+**4. Engagement Metrics:**
+
+*   **Likes:** 0
+*   **Comments:** 0
+*   **Shares:** 0
+
+These metrics are displayed at the bottom of the post, indicating the post has not yet received any interaction.
+
+---
+
+**5. Other Visual Elements:**
+
+*   **Timestamp:** "Today at 2:43 PM" is displayed below the profile name.
+*   **Action Buttons:** At the very bottom, there are standard social media interaction buttons: "Like," "Comment," and "Share."
+*   **Reaction Icons:** A row of reaction emojis (thumbs up, heart, laughing, surprised, sad, angry) is shown above the engagement metrics, all with a count of 0.
+*   **Post Context:** The post is presented within a clean, white card layout with a light gray background, typical of social media interfaces. The top right corner has a three-dot menu icon (for more options) and a close (X) button.
