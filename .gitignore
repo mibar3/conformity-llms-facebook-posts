@@ -13,3 +13,16 @@ spotify_pie_plot/pie_plot_posts/for_benchmarking/**/*.html
 spotify_pie_plot/pie_plot_posts/for_benchmarking/**/*.png
 
 spotify_pie_plot/pie_visualizations/**/*.png
+
+benchmarking/correct/remy-ashford/*.png
+benchmarking/correct/remy-ashford/metrics/**/*.png
+benchmarking/incorrect/remy-ashford/*.png
+benchmarking/incorrect/remy-ashford/metrics/**/*.png
+
+benchmarking/correct/old-no-visible-0s/*.png
+benchmarking/incorrect/old-no-visible-0s/*.png
+
+benchmarking/ground_truth/old-no-visible-0s/*.csv
+
+benchmarking/outputs/qwen3-vl-8b/old-no-visible-0s/
+
