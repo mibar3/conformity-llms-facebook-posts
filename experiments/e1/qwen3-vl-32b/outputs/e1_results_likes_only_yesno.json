@@ -1,0 +1,4802 @@
+[
+  {
+    "image": "001_correct_10",
+    "num": "001",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "001_incorrect_10",
+    "num": "001",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "003_correct_10",
+    "num": "003",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "003_incorrect_10",
+    "num": "003",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "004_correct_10",
+    "num": "004",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "004_incorrect_10",
+    "num": "004",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "005_correct_10",
+    "num": "005",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "005_incorrect_10",
+    "num": "005",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "006_correct_10",
+    "num": "006",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "006_incorrect_10",
+    "num": "006",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "007_correct_10",
+    "num": "007",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "007_incorrect_10",
+    "num": "007",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "012_correct_10",
+    "num": "012",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "012_incorrect_10",
+    "num": "012",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "014_correct_10",
+    "num": "014",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "014_incorrect_10",
+    "num": "014",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "015_correct_10",
+    "num": "015",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "015_incorrect_10",
+    "num": "015",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "017_correct_10",
+    "num": "017",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "017_incorrect_10",
+    "num": "017",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "018_correct_10",
+    "num": "018",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "018_incorrect_10",
+    "num": "018",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "020_correct_10",
+    "num": "020",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "020_incorrect_10",
+    "num": "020",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "021_correct_10",
+    "num": "021",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "021_incorrect_10",
+    "num": "021",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "023_correct_10",
+    "num": "023",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "023_incorrect_10",
+    "num": "023",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "025_correct_10",
+    "num": "025",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "025_incorrect_10",
+    "num": "025",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "026_correct_10",
+    "num": "026",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "026_incorrect_10",
+    "num": "026",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "028_correct_10",
+    "num": "028",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "028_incorrect_10",
+    "num": "028",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "029_correct_10",
+    "num": "029",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "029_incorrect_10",
+    "num": "029",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "030_correct_10",
+    "num": "030",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "030_incorrect_10",
+    "num": "030",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "032_correct_10",
+    "num": "032",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "032_incorrect_10",
+    "num": "032",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "036_correct_10",
+    "num": "036",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "036_incorrect_10",
+    "num": "036",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "039_correct_10",
+    "num": "039",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "039_incorrect_10",
+    "num": "039",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "044_correct_10",
+    "num": "044",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "044_incorrect_10",
+    "num": "044",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "047_correct_10",
+    "num": "047",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "047_incorrect_10",
+    "num": "047",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "052_correct_10",
+    "num": "052",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "052_incorrect_10",
+    "num": "052",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "054_correct_10",
+    "num": "054",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "054_incorrect_10",
+    "num": "054",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "055_correct_10",
+    "num": "055",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "055_incorrect_10",
+    "num": "055",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "058_correct_10",
+    "num": "058",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "058_incorrect_10",
+    "num": "058",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "059_correct_10",
+    "num": "059",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "059_incorrect_10",
+    "num": "059",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "063_correct_10",
+    "num": "063",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "063_incorrect_10",
+    "num": "063",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "065_correct_10",
+    "num": "065",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "065_incorrect_10",
+    "num": "065",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "068_correct_10",
+    "num": "068",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "068_incorrect_10",
+    "num": "068",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "069_correct_10",
+    "num": "069",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "069_incorrect_10",
+    "num": "069",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "070_correct_10",
+    "num": "070",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "070_incorrect_10",
+    "num": "070",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "072_correct_10",
+    "num": "072",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "072_incorrect_10",
+    "num": "072",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "076_correct_10",
+    "num": "076",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "076_incorrect_10",
+    "num": "076",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "078_correct_10",
+    "num": "078",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "078_incorrect_10",
+    "num": "078",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "080_correct_10",
+    "num": "080",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "080_incorrect_10",
+    "num": "080",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "082_correct_10",
+    "num": "082",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "082_incorrect_10",
+    "num": "082",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "083_correct_10",
+    "num": "083",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "083_incorrect_10",
+    "num": "083",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "085_correct_10",
+    "num": "085",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "085_incorrect_10",
+    "num": "085",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "087_correct_10",
+    "num": "087",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "087_incorrect_10",
+    "num": "087",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "089_correct_10",
+    "num": "089",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "089_incorrect_10",
+    "num": "089",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "090_correct_10",
+    "num": "090",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "090_incorrect_10",
+    "num": "090",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "091_correct_10",
+    "num": "091",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "091_incorrect_10",
+    "num": "091",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "094_correct_10",
+    "num": "094",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "094_incorrect_10",
+    "num": "094",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "095_correct_10",
+    "num": "095",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "095_incorrect_10",
+    "num": "095",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "096_correct_10",
+    "num": "096",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "096_incorrect_10",
+    "num": "096",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "098_correct_10",
+    "num": "098",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "098_incorrect_10",
+    "num": "098",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "100_correct_10",
+    "num": "100",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "100_incorrect_10",
+    "num": "100",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "001_correct_100",
+    "num": "001",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "001_incorrect_100",
+    "num": "001",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "003_correct_100",
+    "num": "003",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "003_incorrect_100",
+    "num": "003",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "004_correct_100",
+    "num": "004",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "004_incorrect_100",
+    "num": "004",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "005_correct_100",
+    "num": "005",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "005_incorrect_100",
+    "num": "005",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "006_correct_100",
+    "num": "006",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "006_incorrect_100",
+    "num": "006",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "007_correct_100",
+    "num": "007",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "007_incorrect_100",
+    "num": "007",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "012_correct_100",
+    "num": "012",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "012_incorrect_100",
+    "num": "012",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "014_correct_100",
+    "num": "014",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "014_incorrect_100",
+    "num": "014",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "015_correct_100",
+    "num": "015",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "015_incorrect_100",
+    "num": "015",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "017_correct_100",
+    "num": "017",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "017_incorrect_100",
+    "num": "017",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "018_correct_100",
+    "num": "018",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "018_incorrect_100",
+    "num": "018",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "020_correct_100",
+    "num": "020",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "020_incorrect_100",
+    "num": "020",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "021_correct_100",
+    "num": "021",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "021_incorrect_100",
+    "num": "021",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "023_correct_100",
+    "num": "023",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "023_incorrect_100",
+    "num": "023",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "025_correct_100",
+    "num": "025",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "025_incorrect_100",
+    "num": "025",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "026_correct_100",
+    "num": "026",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "026_incorrect_100",
+    "num": "026",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "028_correct_100",
+    "num": "028",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "028_incorrect_100",
+    "num": "028",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "029_correct_100",
+    "num": "029",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "029_incorrect_100",
+    "num": "029",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "030_correct_100",
+    "num": "030",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "030_incorrect_100",
+    "num": "030",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "032_correct_100",
+    "num": "032",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "032_incorrect_100",
+    "num": "032",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "036_correct_100",
+    "num": "036",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "036_incorrect_100",
+    "num": "036",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "039_correct_100",
+    "num": "039",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "039_incorrect_100",
+    "num": "039",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "044_correct_100",
+    "num": "044",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "044_incorrect_100",
+    "num": "044",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "047_correct_100",
+    "num": "047",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "047_incorrect_100",
+    "num": "047",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "052_correct_100",
+    "num": "052",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "052_incorrect_100",
+    "num": "052",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "054_correct_100",
+    "num": "054",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "054_incorrect_100",
+    "num": "054",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "055_correct_100",
+    "num": "055",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "055_incorrect_100",
+    "num": "055",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "058_correct_100",
+    "num": "058",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "058_incorrect_100",
+    "num": "058",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "059_correct_100",
+    "num": "059",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "059_incorrect_100",
+    "num": "059",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "063_correct_100",
+    "num": "063",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "063_incorrect_100",
+    "num": "063",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "065_correct_100",
+    "num": "065",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "065_incorrect_100",
+    "num": "065",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "068_correct_100",
+    "num": "068",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "068_incorrect_100",
+    "num": "068",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "069_correct_100",
+    "num": "069",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "069_incorrect_100",
+    "num": "069",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "070_correct_100",
+    "num": "070",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "070_incorrect_100",
+    "num": "070",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "072_correct_100",
+    "num": "072",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "072_incorrect_100",
+    "num": "072",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "076_correct_100",
+    "num": "076",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "076_incorrect_100",
+    "num": "076",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "078_correct_100",
+    "num": "078",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "078_incorrect_100",
+    "num": "078",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "080_correct_100",
+    "num": "080",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "080_incorrect_100",
+    "num": "080",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "082_correct_100",
+    "num": "082",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "082_incorrect_100",
+    "num": "082",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "083_correct_100",
+    "num": "083",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "083_incorrect_100",
+    "num": "083",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "085_correct_100",
+    "num": "085",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "085_incorrect_100",
+    "num": "085",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "087_correct_100",
+    "num": "087",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "087_incorrect_100",
+    "num": "087",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "089_correct_100",
+    "num": "089",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "089_incorrect_100",
+    "num": "089",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "090_correct_100",
+    "num": "090",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "090_incorrect_100",
+    "num": "090",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "091_correct_100",
+    "num": "091",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "091_incorrect_100",
+    "num": "091",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "094_correct_100",
+    "num": "094",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "094_incorrect_100",
+    "num": "094",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "095_correct_100",
+    "num": "095",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "095_incorrect_100",
+    "num": "095",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "096_correct_100",
+    "num": "096",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "096_incorrect_100",
+    "num": "096",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "098_correct_100",
+    "num": "098",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "098_incorrect_100",
+    "num": "098",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "100_correct_100",
+    "num": "100",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "100_incorrect_100",
+    "num": "100",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "001_correct_1000",
+    "num": "001",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "001_incorrect_1000",
+    "num": "001",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "003_correct_1000",
+    "num": "003",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "003_incorrect_1000",
+    "num": "003",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "004_correct_1000",
+    "num": "004",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "004_incorrect_1000",
+    "num": "004",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "005_correct_1000",
+    "num": "005",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "005_incorrect_1000",
+    "num": "005",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "006_correct_1000",
+    "num": "006",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "006_incorrect_1000",
+    "num": "006",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "007_correct_1000",
+    "num": "007",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "007_incorrect_1000",
+    "num": "007",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "012_correct_1000",
+    "num": "012",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "012_incorrect_1000",
+    "num": "012",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "014_correct_1000",
+    "num": "014",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "014_incorrect_1000",
+    "num": "014",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "015_correct_1000",
+    "num": "015",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "015_incorrect_1000",
+    "num": "015",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "017_correct_1000",
+    "num": "017",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "017_incorrect_1000",
+    "num": "017",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "018_correct_1000",
+    "num": "018",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "018_incorrect_1000",
+    "num": "018",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "020_correct_1000",
+    "num": "020",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "020_incorrect_1000",
+    "num": "020",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "021_correct_1000",
+    "num": "021",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "021_incorrect_1000",
+    "num": "021",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "023_correct_1000",
+    "num": "023",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "023_incorrect_1000",
+    "num": "023",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "025_correct_1000",
+    "num": "025",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "025_incorrect_1000",
+    "num": "025",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "026_correct_1000",
+    "num": "026",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "026_incorrect_1000",
+    "num": "026",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "028_correct_1000",
+    "num": "028",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "028_incorrect_1000",
+    "num": "028",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "029_correct_1000",
+    "num": "029",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "029_incorrect_1000",
+    "num": "029",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "030_correct_1000",
+    "num": "030",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "030_incorrect_1000",
+    "num": "030",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "032_correct_1000",
+    "num": "032",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "032_incorrect_1000",
+    "num": "032",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "036_correct_1000",
+    "num": "036",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "036_incorrect_1000",
+    "num": "036",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "039_correct_1000",
+    "num": "039",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "039_incorrect_1000",
+    "num": "039",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "044_correct_1000",
+    "num": "044",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "044_incorrect_1000",
+    "num": "044",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "047_correct_1000",
+    "num": "047",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "047_incorrect_1000",
+    "num": "047",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "052_correct_1000",
+    "num": "052",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "052_incorrect_1000",
+    "num": "052",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "054_correct_1000",
+    "num": "054",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "054_incorrect_1000",
+    "num": "054",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "055_correct_1000",
+    "num": "055",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "055_incorrect_1000",
+    "num": "055",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "058_correct_1000",
+    "num": "058",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "058_incorrect_1000",
+    "num": "058",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "059_correct_1000",
+    "num": "059",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "059_incorrect_1000",
+    "num": "059",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "063_correct_1000",
+    "num": "063",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "063_incorrect_1000",
+    "num": "063",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "065_correct_1000",
+    "num": "065",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "065_incorrect_1000",
+    "num": "065",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "068_correct_1000",
+    "num": "068",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "068_incorrect_1000",
+    "num": "068",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "069_correct_1000",
+    "num": "069",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "069_incorrect_1000",
+    "num": "069",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "070_correct_1000",
+    "num": "070",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "070_incorrect_1000",
+    "num": "070",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "072_correct_1000",
+    "num": "072",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "072_incorrect_1000",
+    "num": "072",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "076_correct_1000",
+    "num": "076",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "076_incorrect_1000",
+    "num": "076",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "078_correct_1000",
+    "num": "078",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "078_incorrect_1000",
+    "num": "078",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "080_correct_1000",
+    "num": "080",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "080_incorrect_1000",
+    "num": "080",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "082_correct_1000",
+    "num": "082",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "082_incorrect_1000",
+    "num": "082",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "083_correct_1000",
+    "num": "083",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "083_incorrect_1000",
+    "num": "083",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "085_correct_1000",
+    "num": "085",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "085_incorrect_1000",
+    "num": "085",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "087_correct_1000",
+    "num": "087",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "087_incorrect_1000",
+    "num": "087",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "089_correct_1000",
+    "num": "089",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "089_incorrect_1000",
+    "num": "089",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "090_correct_1000",
+    "num": "090",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "090_incorrect_1000",
+    "num": "090",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "091_correct_1000",
+    "num": "091",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "091_incorrect_1000",
+    "num": "091",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "094_correct_1000",
+    "num": "094",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "094_incorrect_1000",
+    "num": "094",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "095_correct_1000",
+    "num": "095",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "095_incorrect_1000",
+    "num": "095",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "096_correct_1000",
+    "num": "096",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "096_incorrect_1000",
+    "num": "096",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "098_correct_1000",
+    "num": "098",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "098_incorrect_1000",
+    "num": "098",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "100_correct_1000",
+    "num": "100",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "100_incorrect_1000",
+    "num": "100",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "001_correct_10000",
+    "num": "001",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "001_incorrect_10000",
+    "num": "001",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "003_correct_10000",
+    "num": "003",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "003_incorrect_10000",
+    "num": "003",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "004_correct_10000",
+    "num": "004",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "004_incorrect_10000",
+    "num": "004",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "005_correct_10000",
+    "num": "005",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "005_incorrect_10000",
+    "num": "005",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "006_correct_10000",
+    "num": "006",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "006_incorrect_10000",
+    "num": "006",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "007_correct_10000",
+    "num": "007",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "007_incorrect_10000",
+    "num": "007",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "012_correct_10000",
+    "num": "012",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "012_incorrect_10000",
+    "num": "012",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "014_correct_10000",
+    "num": "014",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "014_incorrect_10000",
+    "num": "014",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "015_correct_10000",
+    "num": "015",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "015_incorrect_10000",
+    "num": "015",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "017_correct_10000",
+    "num": "017",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "017_incorrect_10000",
+    "num": "017",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "018_correct_10000",
+    "num": "018",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "018_incorrect_10000",
+    "num": "018",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "020_correct_10000",
+    "num": "020",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "020_incorrect_10000",
+    "num": "020",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "021_correct_10000",
+    "num": "021",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "021_incorrect_10000",
+    "num": "021",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "023_correct_10000",
+    "num": "023",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "023_incorrect_10000",
+    "num": "023",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "025_correct_10000",
+    "num": "025",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "025_incorrect_10000",
+    "num": "025",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "026_correct_10000",
+    "num": "026",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "026_incorrect_10000",
+    "num": "026",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "028_correct_10000",
+    "num": "028",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "028_incorrect_10000",
+    "num": "028",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "029_correct_10000",
+    "num": "029",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "029_incorrect_10000",
+    "num": "029",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "030_correct_10000",
+    "num": "030",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "030_incorrect_10000",
+    "num": "030",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "032_correct_10000",
+    "num": "032",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "032_incorrect_10000",
+    "num": "032",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "036_correct_10000",
+    "num": "036",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "036_incorrect_10000",
+    "num": "036",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "039_correct_10000",
+    "num": "039",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "039_incorrect_10000",
+    "num": "039",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "044_correct_10000",
+    "num": "044",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "044_incorrect_10000",
+    "num": "044",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "047_correct_10000",
+    "num": "047",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "047_incorrect_10000",
+    "num": "047",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "052_correct_10000",
+    "num": "052",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "052_incorrect_10000",
+    "num": "052",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "054_correct_10000",
+    "num": "054",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "054_incorrect_10000",
+    "num": "054",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "055_correct_10000",
+    "num": "055",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "055_incorrect_10000",
+    "num": "055",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "058_correct_10000",
+    "num": "058",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "058_incorrect_10000",
+    "num": "058",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "059_correct_10000",
+    "num": "059",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "059_incorrect_10000",
+    "num": "059",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "063_correct_10000",
+    "num": "063",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "063_incorrect_10000",
+    "num": "063",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "065_correct_10000",
+    "num": "065",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "065_incorrect_10000",
+    "num": "065",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "068_correct_10000",
+    "num": "068",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "068_incorrect_10000",
+    "num": "068",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "069_correct_10000",
+    "num": "069",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "069_incorrect_10000",
+    "num": "069",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "070_correct_10000",
+    "num": "070",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "070_incorrect_10000",
+    "num": "070",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "072_correct_10000",
+    "num": "072",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "072_incorrect_10000",
+    "num": "072",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "076_correct_10000",
+    "num": "076",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "076_incorrect_10000",
+    "num": "076",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "078_correct_10000",
+    "num": "078",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "078_incorrect_10000",
+    "num": "078",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "080_correct_10000",
+    "num": "080",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "080_incorrect_10000",
+    "num": "080",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "082_correct_10000",
+    "num": "082",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "082_incorrect_10000",
+    "num": "082",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "083_correct_10000",
+    "num": "083",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "083_incorrect_10000",
+    "num": "083",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "085_correct_10000",
+    "num": "085",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "085_incorrect_10000",
+    "num": "085",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "087_correct_10000",
+    "num": "087",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "087_incorrect_10000",
+    "num": "087",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "089_correct_10000",
+    "num": "089",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "089_incorrect_10000",
+    "num": "089",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "090_correct_10000",
+    "num": "090",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "090_incorrect_10000",
+    "num": "090",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "091_correct_10000",
+    "num": "091",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "091_incorrect_10000",
+    "num": "091",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "094_correct_10000",
+    "num": "094",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "094_incorrect_10000",
+    "num": "094",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "095_correct_10000",
+    "num": "095",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "095_incorrect_10000",
+    "num": "095",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "096_correct_10000",
+    "num": "096",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "096_incorrect_10000",
+    "num": "096",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "098_correct_10000",
+    "num": "098",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "098_incorrect_10000",
+    "num": "098",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "100_correct_10000",
+    "num": "100",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "100_incorrect_10000",
+    "num": "100",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "001_correct_100000",
+    "num": "001",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "001_incorrect_100000",
+    "num": "001",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "003_correct_100000",
+    "num": "003",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "003_incorrect_100000",
+    "num": "003",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "004_correct_100000",
+    "num": "004",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "004_incorrect_100000",
+    "num": "004",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "005_correct_100000",
+    "num": "005",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "005_incorrect_100000",
+    "num": "005",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "006_correct_100000",
+    "num": "006",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "006_incorrect_100000",
+    "num": "006",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "007_correct_100000",
+    "num": "007",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "007_incorrect_100000",
+    "num": "007",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "012_correct_100000",
+    "num": "012",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "012_incorrect_100000",
+    "num": "012",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "014_correct_100000",
+    "num": "014",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "014_incorrect_100000",
+    "num": "014",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "015_correct_100000",
+    "num": "015",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "015_incorrect_100000",
+    "num": "015",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "017_correct_100000",
+    "num": "017",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "017_incorrect_100000",
+    "num": "017",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "018_correct_100000",
+    "num": "018",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "018_incorrect_100000",
+    "num": "018",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "020_correct_100000",
+    "num": "020",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "020_incorrect_100000",
+    "num": "020",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "021_correct_100000",
+    "num": "021",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "021_incorrect_100000",
+    "num": "021",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "023_correct_100000",
+    "num": "023",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "023_incorrect_100000",
+    "num": "023",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "025_correct_100000",
+    "num": "025",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "025_incorrect_100000",
+    "num": "025",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "026_correct_100000",
+    "num": "026",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "026_incorrect_100000",
+    "num": "026",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "028_correct_100000",
+    "num": "028",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "028_incorrect_100000",
+    "num": "028",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "029_correct_100000",
+    "num": "029",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "029_incorrect_100000",
+    "num": "029",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "030_correct_100000",
+    "num": "030",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "030_incorrect_100000",
+    "num": "030",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "032_correct_100000",
+    "num": "032",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "032_incorrect_100000",
+    "num": "032",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "036_correct_100000",
+    "num": "036",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "036_incorrect_100000",
+    "num": "036",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "039_correct_100000",
+    "num": "039",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "039_incorrect_100000",
+    "num": "039",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "044_correct_100000",
+    "num": "044",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "044_incorrect_100000",
+    "num": "044",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "047_correct_100000",
+    "num": "047",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "047_incorrect_100000",
+    "num": "047",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "052_correct_100000",
+    "num": "052",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "052_incorrect_100000",
+    "num": "052",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "054_correct_100000",
+    "num": "054",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "054_incorrect_100000",
+    "num": "054",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "055_correct_100000",
+    "num": "055",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "055_incorrect_100000",
+    "num": "055",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "058_correct_100000",
+    "num": "058",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "058_incorrect_100000",
+    "num": "058",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "059_correct_100000",
+    "num": "059",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "059_incorrect_100000",
+    "num": "059",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "063_correct_100000",
+    "num": "063",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "063_incorrect_100000",
+    "num": "063",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "065_correct_100000",
+    "num": "065",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "065_incorrect_100000",
+    "num": "065",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "068_correct_100000",
+    "num": "068",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "068_incorrect_100000",
+    "num": "068",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "069_correct_100000",
+    "num": "069",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "069_incorrect_100000",
+    "num": "069",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "070_correct_100000",
+    "num": "070",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "070_incorrect_100000",
+    "num": "070",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "072_correct_100000",
+    "num": "072",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "072_incorrect_100000",
+    "num": "072",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "076_correct_100000",
+    "num": "076",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "076_incorrect_100000",
+    "num": "076",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "078_correct_100000",
+    "num": "078",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "078_incorrect_100000",
+    "num": "078",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "080_correct_100000",
+    "num": "080",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "080_incorrect_100000",
+    "num": "080",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "082_correct_100000",
+    "num": "082",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "082_incorrect_100000",
+    "num": "082",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "083_correct_100000",
+    "num": "083",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "083_incorrect_100000",
+    "num": "083",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "085_correct_100000",
+    "num": "085",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "085_incorrect_100000",
+    "num": "085",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "087_correct_100000",
+    "num": "087",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "087_incorrect_100000",
+    "num": "087",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "089_correct_100000",
+    "num": "089",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "089_incorrect_100000",
+    "num": "089",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "090_correct_100000",
+    "num": "090",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "090_incorrect_100000",
+    "num": "090",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "091_correct_100000",
+    "num": "091",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "091_incorrect_100000",
+    "num": "091",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "094_correct_100000",
+    "num": "094",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "094_incorrect_100000",
+    "num": "094",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "095_correct_100000",
+    "num": "095",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "095_incorrect_100000",
+    "num": "095",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "096_correct_100000",
+    "num": "096",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "096_incorrect_100000",
+    "num": "096",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "098_correct_100000",
+    "num": "098",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "098_incorrect_100000",
+    "num": "098",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "100_correct_100000",
+    "num": "100",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "100_incorrect_100000",
+    "num": "100",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "001_correct_1000000",
+    "num": "001",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "001_incorrect_1000000",
+    "num": "001",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "003_correct_1000000",
+    "num": "003",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "003_incorrect_1000000",
+    "num": "003",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "004_correct_1000000",
+    "num": "004",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "004_incorrect_1000000",
+    "num": "004",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "005_correct_1000000",
+    "num": "005",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "005_incorrect_1000000",
+    "num": "005",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "006_correct_1000000",
+    "num": "006",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "006_incorrect_1000000",
+    "num": "006",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "007_correct_1000000",
+    "num": "007",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "007_incorrect_1000000",
+    "num": "007",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "012_correct_1000000",
+    "num": "012",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "012_incorrect_1000000",
+    "num": "012",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "014_correct_1000000",
+    "num": "014",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "014_incorrect_1000000",
+    "num": "014",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "015_correct_1000000",
+    "num": "015",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "015_incorrect_1000000",
+    "num": "015",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "017_correct_1000000",
+    "num": "017",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "017_incorrect_1000000",
+    "num": "017",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "018_correct_1000000",
+    "num": "018",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "018_incorrect_1000000",
+    "num": "018",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "020_correct_1000000",
+    "num": "020",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "020_incorrect_1000000",
+    "num": "020",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "021_correct_1000000",
+    "num": "021",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "021_incorrect_1000000",
+    "num": "021",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "023_correct_1000000",
+    "num": "023",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "023_incorrect_1000000",
+    "num": "023",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "025_correct_1000000",
+    "num": "025",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "025_incorrect_1000000",
+    "num": "025",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "026_correct_1000000",
+    "num": "026",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "026_incorrect_1000000",
+    "num": "026",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "028_correct_1000000",
+    "num": "028",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "028_incorrect_1000000",
+    "num": "028",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "029_correct_1000000",
+    "num": "029",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "029_incorrect_1000000",
+    "num": "029",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "030_correct_1000000",
+    "num": "030",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "030_incorrect_1000000",
+    "num": "030",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "032_correct_1000000",
+    "num": "032",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "032_incorrect_1000000",
+    "num": "032",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "036_correct_1000000",
+    "num": "036",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "036_incorrect_1000000",
+    "num": "036",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "039_correct_1000000",
+    "num": "039",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "039_incorrect_1000000",
+    "num": "039",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "044_correct_1000000",
+    "num": "044",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "044_incorrect_1000000",
+    "num": "044",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "047_correct_1000000",
+    "num": "047",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "047_incorrect_1000000",
+    "num": "047",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "052_correct_1000000",
+    "num": "052",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "052_incorrect_1000000",
+    "num": "052",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "054_correct_1000000",
+    "num": "054",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "054_incorrect_1000000",
+    "num": "054",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "055_correct_1000000",
+    "num": "055",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "055_incorrect_1000000",
+    "num": "055",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "058_correct_1000000",
+    "num": "058",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "058_incorrect_1000000",
+    "num": "058",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "059_correct_1000000",
+    "num": "059",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "059_incorrect_1000000",
+    "num": "059",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "063_correct_1000000",
+    "num": "063",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "063_incorrect_1000000",
+    "num": "063",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "065_correct_1000000",
+    "num": "065",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "065_incorrect_1000000",
+    "num": "065",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "068_correct_1000000",
+    "num": "068",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "068_incorrect_1000000",
+    "num": "068",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "069_correct_1000000",
+    "num": "069",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "069_incorrect_1000000",
+    "num": "069",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "070_correct_1000000",
+    "num": "070",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "070_incorrect_1000000",
+    "num": "070",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "072_correct_1000000",
+    "num": "072",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "072_incorrect_1000000",
+    "num": "072",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "076_correct_1000000",
+    "num": "076",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "076_incorrect_1000000",
+    "num": "076",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "078_correct_1000000",
+    "num": "078",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "078_incorrect_1000000",
+    "num": "078",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "080_correct_1000000",
+    "num": "080",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "080_incorrect_1000000",
+    "num": "080",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "082_correct_1000000",
+    "num": "082",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "082_incorrect_1000000",
+    "num": "082",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "083_correct_1000000",
+    "num": "083",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "083_incorrect_1000000",
+    "num": "083",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "085_correct_1000000",
+    "num": "085",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "085_incorrect_1000000",
+    "num": "085",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "087_correct_1000000",
+    "num": "087",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "087_incorrect_1000000",
+    "num": "087",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "089_correct_1000000",
+    "num": "089",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "089_incorrect_1000000",
+    "num": "089",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "090_correct_1000000",
+    "num": "090",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "090_incorrect_1000000",
+    "num": "090",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "091_correct_1000000",
+    "num": "091",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "091_incorrect_1000000",
+    "num": "091",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "094_correct_1000000",
+    "num": "094",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "094_incorrect_1000000",
+    "num": "094",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "095_correct_1000000",
+    "num": "095",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "095_incorrect_1000000",
+    "num": "095",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "096_correct_1000000",
+    "num": "096",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "096_incorrect_1000000",
+    "num": "096",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "098_correct_1000000",
+    "num": "098",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "098_incorrect_1000000",
+    "num": "098",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "100_correct_1000000",
+    "num": "100",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "yes"
+  },
+  {
+    "image": "100_incorrect_1000000",
+    "num": "100",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  }
+]
