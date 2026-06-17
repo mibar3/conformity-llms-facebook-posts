@@ -33,10 +33,10 @@ def normalize_number(value: str) -> str:
     return value
 
 
-def run_accuracy_analysis(base_dir: Path, experiment_name: str):
+def run_accuracy_analysis(base_dir: Path, experiment_name: str, model_name: str):
     df_truth = pd.read_csv(base_dir / "ground_truth/ground_truth_all.csv")
 
-    experiment_dir = base_dir / "outputs/quantitative" / experiment_name
+    experiment_dir = base_dir / "outputs" / model_name / "quantitative" / experiment_name
     version_dirs = sorted([d for d in experiment_dir.iterdir() if d.is_dir()])
 
     for version_dir in version_dirs:

@@ -72,12 +72,12 @@ def ask_question(image_path: str, question: str, model, processor, device) -> st
 
 
 def output_exists_json(image_name: str, prompt_version: str, base_dir: Path, experiment_name: str, model_name: str) -> bool:
-    out_path = base_dir / "outputs/quantitative" / model_name / experiment_name / prompt_version / f"{image_name}.json"
+    out_path = base_dir / "outputs" / model_name / "quantitative" / experiment_name / prompt_version / f"{image_name}.json"
     return out_path.exists()
 
 
 def benchmark_image(image_path: str, image_name: str, prompt_version: str, prompt_text: str, model, processor, device, base_dir: Path, experiment_name: str, model_name: str, ask_fn):
-    out_path = base_dir / "outputs/quantitative" / model_name / experiment_name / prompt_version / f"{image_name}.json"
+    out_path = base_dir / "outputs" / model_name / "quantitative" / experiment_name / prompt_version / f"{image_name}.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
     results = {
@@ -103,7 +103,7 @@ def extract_two_call_inputs(image_path: str, model, processor, device, ask_fn) -
 
 
 def benchmark_image_two_call(image_path: str, image_name: str, prompt_version: str, prompt_template: str, model, processor, device, base_dir: Path, experiment_name: str, model_name: str, ask_fn):
-    out_path = base_dir / "outputs/quantitative" / model_name / experiment_name / prompt_version / f"{image_name}.json"
+    out_path = base_dir / "outputs" / model_name / "quantitative" / experiment_name / prompt_version / f"{image_name}.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
     extracted = extract_two_call_inputs(image_path, model, processor, device, ask_fn)
