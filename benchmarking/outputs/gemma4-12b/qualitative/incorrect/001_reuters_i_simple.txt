@@ -1,0 +1,32 @@
+A screenshot of a social media post from Reuters on a platform that resembles Facebook.
+
+**Profile Information:**
+*   **Profile Name:** Reuters
+*   **Badges:** A blue verified checkmark is next to the name.
+*   **Follow Button:** A "Follow" button is located to the right of the name.
+*   **Timestamp:** "Today at 2:43 PM" with a small globe icon next to it.
+
+**Post Text Content:**
+"The Spotify 2026 music genre distribution has just been released. Looks like Latin was more popular than Pop this year!"
+
+**Image/Chart Details:**
+The post features a pie chart titled **"Music Genre Preferences of Spotify Users"**. The chart is divided into several colored segments, each representing a different music genre with its corresponding percentage:
+*   **Pop:** 23.5% (Light green)
+*   **Rock:** 13.9% (Light peach/pink)
+*   **Classical:** 11.5% (Salmon pink)
+*   **Latin:** 11.0% (Light blue)
+*   **Electronic / Dance:** 10.2% (Light pink)
+*   **Hip-Hop / Rap:** 8.8% (Pale pink)
+*   **R&B / Soul:** 8.7% (Mint green)
+*   **Indie / Alternative:** 6.1% (Lavender/Purple)
+*   **Other:** 6.3% (Pale yellow)
+
+**Engagement Metrics:**
+*   **Reactions:** There are 0 likes, 0 hearts, 0 laughs, 0 surprised faces, 0 sad faces, and 0 angry faces.
+*   **Comments:** 0 Comments
+*   **Shares:** 0 Shares
+
+**Other Visual Elements:**
+*   The Reuters profile picture is a circular orange logo with white text.
+*   At the bottom of the post, there are three interactive buttons: "Like" (with a thumbs up icon), "Comment" (with a speech bubble icon), and "Share" (with a blue arrow icon).
+*   The top right corner of the post has three dots (more options) and an "X" to close the post.

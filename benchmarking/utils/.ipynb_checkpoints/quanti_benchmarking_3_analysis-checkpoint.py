@@ -9,7 +9,6 @@ GROUND_TRUTH = {
     "chart_percentages_latin": "11.0",
 }
 
-
 def normalize_number(value: str) -> str:
     value = str(value).strip().lower()
     value = re.sub(r'[,.](?=\d{3})', '', value)
@@ -22,10 +21,8 @@ def normalize_number(value: str) -> str:
             pass
     return value
 
-
-def run_accuracy_analysis(base_dir: Path, experiment_name: str):
-    test_dir = base_dir / "outputs/quantitative" / experiment_name
-
+def run_accuracy_analysis(base_dir: Path, experiment_name: str, model_name: str):
+    test_dir = base_dir / "outputs" / model_name / "quantitative" / experiment_name
     records = []
     for f in sorted(test_dir.glob("*.json")):
         data = json.loads(f.read_text())
@@ -39,10 +36,8 @@ def run_accuracy_analysis(base_dir: Path, experiment_name: str):
             row[f"{q}_true"] = truth
             row[f"{q}_correct"] = pred == truth
         records.append(row)
-
     df = pd.DataFrame(records)
     correct_cols = [f"{q}_correct" for q in GROUND_TRUTH]
-
     overall = pd.DataFrame({
         "metric": [
             "pop_accuracy_%",
@@ -63,13 +58,10 @@ def run_accuracy_analysis(base_dir: Path, experiment_name: str):
             round(df[df["variant"] == "incorrect"]["chart_percentages_latin_correct"].mean() * 100, 2),
         ]
     })
-
     print("=== Overall Summary ===")
     display(overall)
-
     print("=== Per Image Results ===")
     display(df)
-
     out_path = test_dir / f"accuracy_scores_{experiment_name}.csv"
     df.to_csv(out_path, index=False)
     print(f"✅ Saved to: {out_path}")

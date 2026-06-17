@@ -4,8 +4,8 @@ from pathlib import Path
 from IPython.display import display
 
 
-def run_accuracy_analysis(base_dir: Path, experiment_name: str):
-    test_dir = base_dir / "outputs/quantitative" / experiment_name
+def run_accuracy_analysis(base_dir: Path, experiment_name: str, model_name: str):
+    test_dir = base_dir / "outputs" / model_name / "quantitative" / experiment_name
     version_dirs = sorted([d for d in test_dir.iterdir() if d.is_dir()])
 
     for version_dir in version_dirs:
