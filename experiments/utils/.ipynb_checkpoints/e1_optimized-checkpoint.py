@@ -22,15 +22,11 @@ Reply with only 'A' or 'B'."""
 
 REACTION_VALUES = [10, 100, 1000, 10000, 100000, 1000000]
 
-ADJACENT_PAIRS = [
-    (0,10),
-    (10, 100),
-    (100, 1000),
-    (1000, 10000),
-    (10000, 100000),
-    (100000, 1000000),
-]
+SCALE_VALUES = [0, 10, 100, 1000, 10000, 100000, 1000000]
 
+ADJACENT_PAIRS = [
+    (c, i) for c in SCALE_VALUES for i in SCALE_VALUES
+]
 
 # --- Shared inference helper ---
 def _run_inference(messages: list, model, processor, device) -> str:
@@ -164,6 +160,7 @@ def run_e1_metrics(selected_numbers: list, correct_base: Path, incorrect_base: P
         already_done = set()
 
     output_dir.mkdir(parents=True, exist_ok=True)
+    
 
     for scale_value in REACTION_VALUES:
         correct_dir = correct_base / str(scale_value)
@@ -207,7 +204,6 @@ def run_e1_metrics(selected_numbers: list, correct_base: Path, incorrect_base: P
 # --- Metrics: paired A/B ---
 def run_e1_metrics_paired(selected_numbers: list, correct_base: Path, incorrect_base: Path, model, processor, device, output_dir: Path, seed: int, prompt: str, output_filename: str, baseline_correct_dir: Path = None, baseline_incorrect_dir: Path = None):
     output_path = output_dir / output_filename
-
     if output_path.exists():
         results = json.loads(output_path.read_text())
         already_done = {r["image"] for r in results}
@@ -215,31 +211,34 @@ def run_e1_metrics_paired(selected_numbers: list, correct_base: Path, incorrect_
     else:
         results = []
         already_done = set()
-
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    # Auto-derive baseline dirs if not provided
+    if baseline_correct_dir is None:
+        baseline_correct_dir = correct_base.parents[1]
+    if baseline_incorrect_dir is None:
+        baseline_incorrect_dir = incorrect_base.parents[1]
+
     for correct_scale, incorrect_scale in ADJACENT_PAIRS:
-        # resolve correct dir — scale 0 means baseline folder
+        # Resolve correct dir
         if correct_scale == 0:
-            if baseline_correct_dir is None or baseline_incorrect_dir is None:
-                print("⚠️ Skipping 0 vs 10 — no baseline dirs provided.")
-                continue
             correct_dir = baseline_correct_dir
         else:
             correct_dir = correct_base / str(correct_scale)
 
-        incorrect_dir = incorrect_base / str(incorrect_scale)
+        # Resolve incorrect dir
+        if incorrect_scale == 0:
+            incorrect_dir = baseline_incorrect_dir
+        else:
+            incorrect_dir = incorrect_base / str(incorrect_scale)
 
         for num in selected_numbers:
             image_name = f"{num}_correct{correct_scale}_vs_incorrect{incorrect_scale}"
             if image_name in already_done:
                 print(f"⏭ Skipping pair: {image_name}")
                 continue
-
             correct_path = str(correct_dir / f"{num}_remy_ashford_c.png")
             incorrect_path = str(incorrect_dir / f"{num}_remy_ashford_i.png")
-
-            # Randomise A/B order per pair reproducibly
             rng = random.Random(seed + int(num) + correct_scale + incorrect_scale)
             if rng.random() < 0.5:
                 post_a_path, post_a_variant = correct_path, "correct"
@@ -247,7 +246,6 @@ def run_e1_metrics_paired(selected_numbers: list, correct_base: Path, incorrect_
             else:
                 post_a_path, post_a_variant = incorrect_path, "incorrect"
                 post_b_path, post_b_variant = correct_path, "correct"
-
             messages = [
                 {
                     "role": "user",
@@ -262,7 +260,6 @@ def run_e1_metrics_paired(selected_numbers: list, correct_base: Path, incorrect_
             ]
             answer = _run_inference(messages, model, processor, device).upper()
             liked_variant = post_a_variant if answer == "A" else post_b_variant if answer == "B" else "invalid"
-
             results.append({
                 "image": image_name,
                 "num": num,
@@ -276,5 +273,4 @@ def run_e1_metrics_paired(selected_numbers: list, correct_base: Path, incorrect_
             })
             output_path.write_text(json.dumps(results, indent=2, ensure_ascii=False))
             print(f"✅ {image_name} → liked {liked_variant} (answered {answer})")
-
     print(f"\n✅ Metrics paired done. Results saved to {output_path}")

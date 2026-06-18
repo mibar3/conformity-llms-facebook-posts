@@ -8,13 +8,10 @@ import numpy as np
 
 REACTION_VALUES = [10, 100, 1000, 10000, 100000, 1000000]
 
+SCALE_VALUES = [0, 10, 100, 1000, 10000, 100000, 1000000]
+
 ADJACENT_PAIRS = [
-    (0,10),
-    (10, 100),
-    (100, 1000),
-    (1000, 10000),
-    (10000, 100000),
-    (100000, 1000000),
+    (c, i) for c in SCALE_VALUES for i in SCALE_VALUES
 ]
 
 
@@ -217,6 +214,7 @@ def plot_ab_grid(output_dir: Path, filename: str, title: str):
     ax.set_yticks(range(n))
     ax.set_xticklabels(scale_labels)
     ax.set_yticklabels(scale_labels)
+    ax.invert_yaxis()  # <-- add here
     ax.set_xlabel("Correct post reactions", fontsize=12)
     ax.set_ylabel("Incorrect post reactions", fontsize=12)
     ax.set_title(title, fontsize=13, fontweight="bold")
