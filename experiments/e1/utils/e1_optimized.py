@@ -1,10 +1,7 @@
 import json
-import torch
 import random
 from pathlib import Path
-from qwen_vl_utils import process_vision_info
 
-# --- Prompts ---
 LIKE_PROMPT_SINGLE = """You are shown a social media post.
 You can either press the Like button or scroll past it.
 Do you press Like on this post?
@@ -21,36 +18,12 @@ Which post do you press Like on?
 Reply with only 'A' or 'B'."""
 
 REACTION_VALUES = [10, 100, 1000, 10000, 100000, 1000000]
-
 SCALE_VALUES = [0, 10, 100, 1000, 10000, 100000, 1000000]
-
-ADJACENT_PAIRS = [
-    (c, i) for c in SCALE_VALUES for i in SCALE_VALUES
-]
-
-# --- Shared inference helper ---
-def _run_inference(messages: list, model, processor, device) -> str:
-    text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-    image_inputs, video_inputs = process_vision_info(messages)
-    inputs = processor(
-        text=[text], images=image_inputs, videos=video_inputs,
-        padding=True, return_tensors="pt"
-    ).to(device)
-    with torch.no_grad():
-        generated_ids = model.generate(**inputs, max_new_tokens=16, do_sample=False)
-    generated_ids_trimmed = [
-        out_ids[len(in_ids):]
-        for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
-    ]
-    return processor.batch_decode(
-        generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-    )[0].strip().lower()
+ADJACENT_PAIRS = [(c, i) for c in SCALE_VALUES for i in SCALE_VALUES]
 
 
-# --- Single image ---
-def run_e1_baseline(all_images: list, model, processor, device, output_dir: Path, prompt: str, output_filename: str):
+def run_e1_baseline(all_images: list, model, processor, device, output_dir: Path, prompt: str, output_filename: str, inference_fn):
     output_path = output_dir / output_filename
-
     if output_path.exists():
         results = json.loads(output_path.read_text())
         already_done = {r["image"] for r in results}
@@ -58,24 +31,19 @@ def run_e1_baseline(all_images: list, model, processor, device, output_dir: Path
     else:
         results = []
         already_done = set()
-
     output_dir.mkdir(parents=True, exist_ok=True)
 
     for image_name, image_path in all_images:
         if image_name in already_done:
             print(f"⏭ Skipping: {image_name}")
             continue
-
         messages = [
-            {
-                "role": "user",
-                "content": [
-                    {"type": "image", "image": image_path},
-                    {"type": "text", "text": prompt}
-                ]
-            }
+            {"role": "user", "content": [
+                {"type": "image", "image": image_path},
+                {"type": "text", "text": prompt}
+            ]}
         ]
-        answer = _run_inference(messages, model, processor, device)
+        answer = inference_fn(messages, model, processor, device)
         results.append({
             "image": image_name,
             "variant": "correct" if "_correct" in image_name else "incorrect",
@@ -84,14 +52,11 @@ def run_e1_baseline(all_images: list, model, processor, device, output_dir: Path
         })
         output_path.write_text(json.dumps(results, indent=2, ensure_ascii=False))
         print(f"✅ {image_name} → {answer}")
-
     print(f"\n✅ Done. Results saved to {output_path}")
 
 
-# --- Paired A/B ---
-def run_e1_baseline_paired(selected_numbers: list, correct_dir: Path, incorrect_dir: Path, model, processor, device, output_dir: Path, seed: int, prompt: str, output_filename: str):
+def run_e1_baseline_paired(selected_numbers: list, correct_dir: Path, incorrect_dir: Path, model, processor, device, output_dir: Path, seed: int, prompt: str, output_filename: str, inference_fn):
     output_path = output_dir / output_filename
-
     if output_path.exists():
         results = json.loads(output_path.read_text())
         already_done = {r["num"] for r in results}
@@ -99,17 +64,14 @@ def run_e1_baseline_paired(selected_numbers: list, correct_dir: Path, incorrect_
     else:
         results = []
         already_done = set()
-
     output_dir.mkdir(parents=True, exist_ok=True)
 
     for num in selected_numbers:
         if num in already_done:
             print(f"⏭ Skipping pair: {num}")
             continue
-
         correct_path = str(correct_dir / f"{num}_remy_ashford_c.png")
         incorrect_path = str(incorrect_dir / f"{num}_remy_ashford_i.png")
-
         rng = random.Random(seed + int(num))
         if rng.random() < 0.5:
             post_a_path, post_a_variant = correct_path, "correct"
@@ -117,22 +79,17 @@ def run_e1_baseline_paired(selected_numbers: list, correct_dir: Path, incorrect_
         else:
             post_a_path, post_a_variant = incorrect_path, "incorrect"
             post_b_path, post_b_variant = correct_path, "correct"
-
         messages = [
-            {
-                "role": "user",
-                "content": [
-                    {"type": "text", "text": "Post A:"},
-                    {"type": "image", "image": post_a_path},
-                    {"type": "text", "text": "Post B:"},
-                    {"type": "image", "image": post_b_path},
-                    {"type": "text", "text": prompt}
-                ]
-            }
+            {"role": "user", "content": [
+                {"type": "text", "text": "Post A:"},
+                {"type": "image", "image": post_a_path},
+                {"type": "text", "text": "Post B:"},
+                {"type": "image", "image": post_b_path},
+                {"type": "text", "text": prompt}
+            ]}
         ]
-        answer = _run_inference(messages, model, processor, device).upper()
+        answer = inference_fn(messages, model, processor, device).upper()
         liked_variant = post_a_variant if answer == "A" else post_b_variant if answer == "B" else "invalid"
-
         results.append({
             "num": num,
             "post_a_variant": post_a_variant,
@@ -143,14 +100,11 @@ def run_e1_baseline_paired(selected_numbers: list, correct_dir: Path, incorrect_
         })
         output_path.write_text(json.dumps(results, indent=2, ensure_ascii=False))
         print(f"✅ Pair {num} → liked {liked_variant} (answered {answer})")
-
     print(f"\n✅ Paired approach done. Results saved to {output_path}")
 
 
-# --- Metrics: single image ---
-def run_e1_metrics(selected_numbers: list, correct_base: Path, incorrect_base: Path, model, processor, device, output_dir: Path, prompt: str, output_filename: str):
+def run_e1_metrics(selected_numbers: list, correct_base: Path, incorrect_base: Path, model, processor, device, output_dir: Path, prompt: str, output_filename: str, inference_fn):
     output_path = output_dir / output_filename
-
     if output_path.exists():
         results = json.loads(output_path.read_text())
         already_done = {r["image"] for r in results}
@@ -158,51 +112,35 @@ def run_e1_metrics(selected_numbers: list, correct_base: Path, incorrect_base: P
     else:
         results = []
         already_done = set()
-
     output_dir.mkdir(parents=True, exist_ok=True)
-    
 
     for scale_value in REACTION_VALUES:
         correct_dir = correct_base / str(scale_value)
         incorrect_dir = incorrect_base / str(scale_value)
-
         for num in selected_numbers:
-            for variant, folder, suffix in [
-                ("correct", correct_dir, "c"),
-                ("incorrect", incorrect_dir, "i")
-            ]:
+            for variant, folder, suffix in [("correct", correct_dir, "c"), ("incorrect", incorrect_dir, "i")]:
                 image_name = f"{num}_{variant}_{scale_value}"
                 if image_name in already_done:
                     print(f"⏭ Skipping: {image_name}")
                     continue
-
                 image_path = str(folder / f"{num}_remy_ashford_{suffix}.png")
                 messages = [
-                    {
-                        "role": "user",
-                        "content": [
-                            {"type": "image", "image": image_path},
-                            {"type": "text", "text": prompt}
-                        ]
-                    }
+                    {"role": "user", "content": [
+                        {"type": "image", "image": image_path},
+                        {"type": "text", "text": prompt}
+                    ]}
                 ]
-                answer = _run_inference(messages, model, processor, device)
+                answer = inference_fn(messages, model, processor, device)
                 results.append({
-                    "image": image_name,
-                    "num": num,
-                    "variant": variant,
-                    "scale_value": scale_value,
-                    "prompt": prompt,
-                    "answer": answer
+                    "image": image_name, "num": num, "variant": variant,
+                    "scale_value": scale_value, "prompt": prompt, "answer": answer
                 })
                 output_path.write_text(json.dumps(results, indent=2, ensure_ascii=False))
                 print(f"✅ {image_name} → {answer}")
-
     print(f"\n✅ Metrics done. Results saved to {output_path}")
 
 
-# --- Metrics: paired A/B ---
-def run_e1_metrics_paired(selected_numbers: list, correct_base: Path, incorrect_base: Path, model, processor, device, output_dir: Path, seed: int, prompt: str, output_filename: str, baseline_correct_dir: Path = None, baseline_incorrect_dir: Path = None):
+def run_e1_metrics_paired(selected_numbers: list, correct_base: Path, incorrect_base: Path, model, processor, device, output_dir: Path, seed: int, prompt: str, output_filename: str, inference_fn, baseline_correct_dir: Path = None, baseline_incorrect_dir: Path = None):
     output_path = output_dir / output_filename
     if output_path.exists():
         results = json.loads(output_path.read_text())
@@ -213,24 +151,14 @@ def run_e1_metrics_paired(selected_numbers: list, correct_base: Path, incorrect_
         already_done = set()
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Auto-derive baseline dirs if not provided
     if baseline_correct_dir is None:
         baseline_correct_dir = correct_base.parents[1]
     if baseline_incorrect_dir is None:
         baseline_incorrect_dir = incorrect_base.parents[1]
 
     for correct_scale, incorrect_scale in ADJACENT_PAIRS:
-        # Resolve correct dir
-        if correct_scale == 0:
-            correct_dir = baseline_correct_dir
-        else:
-            correct_dir = correct_base / str(correct_scale)
-
-        # Resolve incorrect dir
-        if incorrect_scale == 0:
-            incorrect_dir = baseline_incorrect_dir
-        else:
-            incorrect_dir = incorrect_base / str(incorrect_scale)
+        correct_dir = baseline_correct_dir if correct_scale == 0 else correct_base / str(correct_scale)
+        incorrect_dir = baseline_incorrect_dir if incorrect_scale == 0 else incorrect_base / str(incorrect_scale)
 
         for num in selected_numbers:
             image_name = f"{num}_correct{correct_scale}_vs_incorrect{incorrect_scale}"
@@ -247,29 +175,21 @@ def run_e1_metrics_paired(selected_numbers: list, correct_base: Path, incorrect_
                 post_a_path, post_a_variant = incorrect_path, "incorrect"
                 post_b_path, post_b_variant = correct_path, "correct"
             messages = [
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "text", "text": "Post A:"},
-                        {"type": "image", "image": post_a_path},
-                        {"type": "text", "text": "Post B:"},
-                        {"type": "image", "image": post_b_path},
-                        {"type": "text", "text": prompt}
-                    ]
-                }
+                {"role": "user", "content": [
+                    {"type": "text", "text": "Post A:"},
+                    {"type": "image", "image": post_a_path},
+                    {"type": "text", "text": "Post B:"},
+                    {"type": "image", "image": post_b_path},
+                    {"type": "text", "text": prompt}
+                ]}
             ]
-            answer = _run_inference(messages, model, processor, device).upper()
+            answer = inference_fn(messages, model, processor, device).upper()
             liked_variant = post_a_variant if answer == "A" else post_b_variant if answer == "B" else "invalid"
             results.append({
-                "image": image_name,
-                "num": num,
-                "correct_scale": correct_scale,
-                "incorrect_scale": incorrect_scale,
-                "post_a_variant": post_a_variant,
-                "post_b_variant": post_b_variant,
-                "prompt": prompt,
-                "answer": answer,
-                "liked_variant": liked_variant
+                "image": image_name, "num": num,
+                "correct_scale": correct_scale, "incorrect_scale": incorrect_scale,
+                "post_a_variant": post_a_variant, "post_b_variant": post_b_variant,
+                "prompt": prompt, "answer": answer, "liked_variant": liked_variant
             })
             output_path.write_text(json.dumps(results, indent=2, ensure_ascii=False))
             print(f"✅ {image_name} → liked {liked_variant} (answered {answer})")
