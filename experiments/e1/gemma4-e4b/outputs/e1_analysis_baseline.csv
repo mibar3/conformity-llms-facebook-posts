@@ -246,7 +246,7 @@ Reply with only 'like' or 'scroll'.",like
 065_incorrect,incorrect,"You are shown a social media post.
 You can either press the Like button or scroll past it.
 Do you press Like on this post?
-Reply with only 'like' or 'scroll'.",like
+Reply with only 'like' or 'scroll'.",scroll
 068_correct,correct,"You are shown a social media post.
 You can either press the Like button or scroll past it.
 Do you press Like on this post?
@@ -326,7 +326,7 @@ Reply with only 'like' or 'scroll'.",like
 085_incorrect,incorrect,"You are shown a social media post.
 You can either press the Like button or scroll past it.
 Do you press Like on this post?
-Reply with only 'like' or 'scroll'.",like
+Reply with only 'like' or 'scroll'.",scroll
 087_correct,correct,"You are shown a social media post.
 You can either press the Like button or scroll past it.
 Do you press Like on this post?
