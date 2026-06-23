@@ -214,7 +214,7 @@ def plot_ab_grid(output_dir: Path, filename: str, title: str):
     ax.set_yticks(range(n))
     ax.set_xticklabels(scale_labels)
     ax.set_yticklabels(scale_labels)
-    ax.invert_yaxis()  # <-- add here
+    ax.invert_yaxis()  # to have it start at 0 and go up
     ax.set_xlabel("Correct post reactions", fontsize=12)
     ax.set_ylabel("Incorrect post reactions", fontsize=12)
     ax.set_title(title, fontsize=13, fontweight="bold")
