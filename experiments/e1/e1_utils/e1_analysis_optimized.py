@@ -226,3 +226,57 @@ def plot_ab_grid(output_dir: Path, filename: str, title: str):
     plt.savefig(out_path, dpi=150)
     plt.show()
     print(f"✅ Saved to: {out_path}")
+
+def plot_ab_diff_grid(output_dir: Path, filename_a: str, filename_b: str, title: str):
+    """Plot the difference in liked_correct_% between two paired A/B result files.
+    Positive values (green) mean filename_a had higher correct preference than filename_b.
+    Negative values (red) mean filename_b had higher correct preference than filename_a.
+    """
+    def build_grid(filename):
+        results = load_json(output_dir / filename)
+        df = pd.DataFrame(results)
+        scale_levels = [0, 10, 100, 1000, 10000, 100000, 1000000]
+        n = len(scale_levels)
+        grid = np.full((n, n), np.nan)
+        for _, row in df.iterrows():
+            c = scale_levels.index(row["correct_scale"])
+            i = scale_levels.index(row["incorrect_scale"])
+            mask = (df["correct_scale"] == row["correct_scale"]) & (df["incorrect_scale"] == row["incorrect_scale"])
+            grid[i][c] = round((df[mask]["liked_variant"] == "correct").mean() * 100, 1)
+        return grid
+
+    scale_labels = ["0", "10", "100", "1K", "10K", "100K", "1M"]
+    grid_a = build_grid(filename_a)
+    grid_b = build_grid(filename_b)
+    diff_grid = grid_a - grid_b
+
+    n = len(scale_labels)
+    fig, ax = plt.subplots(figsize=(9, 7))
+    cmap = mcolors.LinearSegmentedColormap.from_list("rg", ["#d73027", "#f7f7f7", "#1a9850"])
+    im = ax.imshow(diff_grid, cmap=cmap, vmin=-100, vmax=100, aspect="auto")
+
+    for i in range(n):
+        for j in range(n):
+            if not np.isnan(diff_grid[i][j]):
+                val = diff_grid[i][j]
+                sign = "+" if val > 0 else ""
+                ax.text(j, i, f"{sign}{val:.1f}%", ha="center", va="center",
+                        fontsize=10, fontweight="bold", color="black")
+
+    ax.set_xticks(range(n))
+    ax.set_yticks(range(n))
+    ax.set_xticklabels(scale_labels)
+    ax.set_yticklabels(scale_labels)
+    ax.invert_yaxis()
+    ax.set_xlabel("Correct post reactions", fontsize=12)
+    ax.set_ylabel("Incorrect post reactions", fontsize=12)
+    ax.set_title(title, fontsize=13, fontweight="bold")
+
+    plt.colorbar(im, ax=ax, label=f"Δ liked correct % ({Path(filename_a).stem} − {Path(filename_b).stem})")
+    plt.tight_layout()
+
+    stem = f"diff_{Path(filename_a).stem}_vs_{Path(filename_b).stem}"
+    out_path = output_dir / f"{stem}_grid.png"
+    plt.savefig(out_path, dpi=150)
+    plt.show()
+    print(f"✅ Saved to: {out_path}")
