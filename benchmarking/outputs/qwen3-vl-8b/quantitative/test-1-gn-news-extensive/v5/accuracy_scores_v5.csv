@@ -5,7 +5,7 @@ from the chart:
 - pop: 23.5%
 - latin: 11.0%
 
-since 23.5% > 11.0%, the claim is correct.
+since 23.5% > 11.0%, the text is correct.
 
 correct",correct,fox news,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
 001_ny_times_c,v5,"In the post, the text above the chart claims one genre is more popular than another. Find the percentage for Pop and the percentage for Latin in the chart. If the genre the text says is more popular has a numerically higher percentage, reply 'correct'. If not, reply 'incorrect'.",the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,"the text above the chart claims: ""looks like pop was more popular than latin this year!""
@@ -17,13 +17,13 @@ from the chart:
 since 23.5% > 11.0%, the text is correct.
 
 correct",correct,the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
-001_remy_ashford_c,v5,"In the post, the text above the chart claims one genre is more popular than another. Find the percentage for Pop and the percentage for Latin in the chart. If the genre the text says is more popular has a numerically higher percentage, reply 'correct'. If not, reply 'incorrect'.",remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,"the text claims that pop was more popular than latin in 2026.
+001_remy_ashford_c,v5,"In the post, the text above the chart claims one genre is more popular than another. Find the percentage for Pop and the percentage for Latin in the chart. If the genre the text says is more popular has a numerically higher percentage, reply 'correct'. If not, reply 'incorrect'.",remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,"the text claims that pop was more popular than latin.
 
 from the chart:
 - pop: 23.5%
 - latin: 11.0%
 
-since 23.5% > 11.0%, the claim is correct.
+since 23.5% > 11.0%, the text is correct.
 
 correct",correct,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
 001_reuters_c,v5,"In the post, the text above the chart claims one genre is more popular than another. Find the percentage for Pop and the percentage for Latin in the chart. If the genre the text says is more popular has a numerically higher percentage, reply 'correct'. If not, reply 'incorrect'.",reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,"the text above the chart claims: ""looks like pop was more popular than latin this year!""

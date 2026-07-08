@@ -1,0 +1,13 @@
+{
+  "image": "026_incorrect",
+  "prompt_version": "v8_two_call",
+  "prompt_text": "Pop: 23.5%. Latin: 11.0%. The post claims: 'The Spotify 2026 music genres distribution has just been released.'. Does the claim match which percentage is higher? Reply with only 'correct' or 'incorrect'.",
+  "extracted_inputs": {
+    "pop_pct": "23.5",
+    "latin_pct": "11.0",
+    "claim": "The Spotify 2026 music genres distribution has just been released."
+  },
+  "answers": {
+    "post_claim_correct": "incorrect"
+  }
+}

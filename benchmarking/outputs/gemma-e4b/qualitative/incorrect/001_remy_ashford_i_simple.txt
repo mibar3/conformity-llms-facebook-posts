@@ -1,0 +1,41 @@
+Here is a full and detailed description of the social media post image:
+
+**Profile Information:**
+*   **Profile Name:** Remy Ashford
+*   **Indicators:** The profile has a small circular profile picture (though the image is small, it appears to be a standard profile icon). There is a "Follow" button next to the name.
+*   **Timestamp:** Posted "Today at 2:43 PM"
+*   **Options:** There are three dots (...) and an 'X' icon in the top right corner, typical of social media post options.
+
+**Post Text Content:**
+*   "The Spotify 2026 music genres distribution has just been released. Looks like Latin was more popular than Pop this year!"
+
+**Image/Chart Content:**
+The post features a large, colorful **pie chart** titled: **"Music Genre Preferences of Spotify Users"**.
+
+The pie chart is divided into several segments, each representing a music genre with an associated percentage:
+
+*   **Pop:** 23.5% (Large, light green segment)
+*   **Other:** 6.3% (Light yellow-green segment)
+*   **Classical:** 11.5% (Pink/Red segment)
+*   **Indie / Alternative:** 6.1% (Light purple segment)
+*   **R&B / Soul:** 8.7% (Light green segment)
+*   **Electronic / Dance:** 10.2% (Pink segment)
+*   **Latin:** 11.0% (Light blue segment)
+*   **Rock:** 13.9% (Light orange/peach segment)
+*   **Hip-Hop / Rap:** 8.8% (Light salmon/peach segment)
+
+**Engagement Metrics and Actions:**
+Below the chart, there are engagement metrics displayed:
+*   **Likes:** 0 (Indicated by a thumbs-up icon)
+*   **Hearts/Reactions:** 0 (Indicated by a heart icon)
+*   **Laughing/Happy Faces:** 0 (Indicated by various emoji icons)
+*   **Comments:** 0
+*   **Shares:** 0
+
+Below the metrics, there are action buttons:
+*   **Like:** (With a thumbs-up icon)
+*   **Comment:** (With a speech bubble icon)
+*   **Share:** (With a share icon)
+
+**Overall Visual Elements:**
+The post has a clean, standard social media layout. The pie chart is the central focus, using distinct, bright colors to differentiate the nine music genres.

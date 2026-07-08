@@ -1,0 +1,66 @@
+image,prompt_version,prompt_text,profile_name_pred,profile_verification_pred,likes_count_pred,heart_reactions_pred,haha_reactions_pred,wow_reactions_pred,sad_reactions_pred,angry_reactions_pred,comment_count_pred,shares_count_pred,chart_percentages_pop_pred,chart_percentages_latin_pred,chart_color_pop_pred,chart_color_latin_pred,chart_largest_slice_pred,post_claim_correct_pred,variant,profile_name_true,profile_verification_true,likes_count_true,heart_reactions_true,haha_reactions_true,wow_reactions_true,sad_reactions_true,angry_reactions_true,comment_count_true,shares_count_true,chart_percentages_pop_true,chart_percentages_latin_true,chart_color_pop_true,chart_color_latin_true,chart_largest_slice_true,post_claim_correct_true,likes_count_correct,comment_count_correct,shares_count_correct,heart_reactions_correct,haha_reactions_correct,wow_reactions_correct,sad_reactions_correct,angry_reactions_correct,chart_percentages_pop_correct,chart_percentages_latin_correct,profile_name_correct,profile_verification_correct,chart_color_pop_correct,chart_color_latin_correct,chart_largest_slice_correct,post_claim_correct_correct,all_correct
+001_fox_news_c,v4,"In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",fox news,no,4,0,0,0,2,1,0,0,23.5,11,green,light blue,pop,"the claim in the text is: ""looks like pop was more popular than latin this year!""
+
+from the chart:
+*   **pop** accounts for **23.5%**.
+*   **latin** accounts for **11.0%**.
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim matches the visualization.
+
+correct",correct,fox news,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,False,True,True,True,True,True,False,False,True,True,True,False,True,False,True,False,False
+001_ny_times_c,v4,"In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",the new york times,yes,0,0,0,0,2,1,0,0,23.5,11,green,light blue,pop,"the claim in the text is: ""looks like pop was more popular than latin this year!""
+
+from the chart:
+*   **pop** popularity is **23.5%**.
+*   **latin** popularity is **11.0%**.
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim matches the visualization.
+
+correct",correct,the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,False,False,True,True,True,True,True,False,True,False,False
+001_remy_ashford_c,v4,"In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",remy ashford,no,0,0,0,0,2,1,0,0,23.5,11.0%,green,light blue,pop,"the claim in the text is: ""looks like pop was more popular than latin this year!""
+
+from the chart:
+*   **pop** popularity is **23.5%**.
+*   **latin** popularity is **11.0%**.
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim matches the visualization.
+
+correct",correct,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,False,False,True,False,True,True,True,False,True,False,False
+001_reuters_c,v4,"In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",reuters,yes,0,0,0,0,2,1,0,0,23.5,11,green,light blue,pop,correct,correct,reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,False,False,True,True,True,True,True,False,True,True,False
+001_fox_news_i,v4,"In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",fox news,no,4,0,0,0,2,1,0,0,23.5,11,green,light blue,pop,"the claim in the text is: ""looks like latin was more popular than pop this year!""
+
+from the chart:
+*   **latin** popularity is **11.0%**.
+*   **pop** popularity is **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect according to the visualization.
+
+incorrect",incorrect,fox news,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,False,True,True,True,True,True,False,False,True,True,True,False,True,False,True,False,False
+001_ny_times_i,v4,"In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",the new york times,yes,0,0,0,0,2,1,0,0,23.5,11,green,light blue,pop,"the claim in the text is: ""looks like latin was more popular than pop this year!""
+
+from the chart:
+*   **latin** popularity is **11.0%**.
+*   **pop** popularity is **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect according to the visualization.
+
+incorrect",incorrect,the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,False,False,True,True,True,True,True,False,True,False,False
+001_remy_ashford_i,v4,"In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",remy ashford,no,0,0,0,0,2,1,0,0,23.5,11.0%,green,light blue,pop,"the claim in the text is: ""the spotify 2026 music genres distribution has just been released. looks like **latin was more popular than pop this year!**""
+
+we need to compare the percentages for ""latin"" and ""pop"" in the chart:
+*   **latin:** 11.0%
+*   **pop:** 23.5%
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that ""latin was more popular than pop"" is **incorrect**.
+
+incorrect",incorrect,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,False,False,True,False,True,True,True,False,True,False,False
+001_reuters_i,v4,"In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",reuters,yes,0,0,0,0,2,1,0,0,23.5,11,green,light blue,pop,"the claim in the text is: ""the spotify 2026 music genres distribution has just been released. looks like **latin was more popular than pop this year!**""
+
+to verify this, we need to compare the percentages for ""latin"" and ""pop"" in the chart:
+
+*   **latin:** 11.0%
+*   **pop:** 23.5%
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that ""latin was more popular than pop"" is **incorrect**.
+
+incorrect",incorrect,reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,False,False,True,True,True,True,True,False,True,False,False

@@ -1,0 +1,43 @@
+Here is a full and detailed description of the social media post image:
+
+**Profile Information:**
+*   **Profile Name:** Reuters
+*   **Indicators:** It has a blue checkmark, indicating verification, and a "Follow" button next to the name.
+*   **Timestamp:** The post was made "Today at 2:43 PM."
+*   **Other Icons:** There are three dots (ellipsis) and an 'X' icon in the top right corner, typical of social media post controls.
+
+**Post Text Content:**
+*   "The Spotify 2026 music genres distribution has just been released. Looks like Latin was more popular than Pop this year!"
+
+**Image/Chart Content:**
+The main content of the post is a **pie chart** titled: **"Music Genre Preferences of Spotify Users"**. The chart is divided into several slices, each representing a different music genre with an associated percentage and color.
+
+Here is a breakdown of the slices:
+
+*   **Pop:** 23.5% (Light Green)
+*   **Other:** 6.3% (Light Yellow/Lime Green)
+*   **Classical:** 11.5% (Pink/Reddish)
+*   **Indie / Alternative:** 6.1% (Light Purple)
+*   **R&B / Soul:** 8.7% (Light Green/Mint)
+*   **Electronic / Dance:** 10.2% (Light Pink)
+*   **Latin:** 11.0% (Light Blue)
+*   **Rock:** 13.9% (Light Salmon/Peach)
+*   **Hip-Hop / Rap:** 8.8% (Light Orange/Peach)
+
+**Engagement Metrics and Actions:**
+Below the chart, there are engagement metrics displayed:
+*   **Likes (Thumbs Up):** 0
+*   **Hearts:** 0
+*   **Laughing Emoji:** 0
+*   **Sad Emoji:** 0
+*   **Crying Emoji:** 0
+*   **Angry Emoji:** 0
+*   **Comments/Shares:** 0 Comments · 0 Shares
+
+Below the metrics, there are interactive buttons:
+*   **Like:** (With a thumbs-up icon)
+*   **Comment:** (With a speech bubble icon)
+*   **Share:** (With a share icon)
+
+**Overall Visual Elements:**
+The post has a clean, professional layout typical of a news or data-driven social media update. The pie chart uses distinct, pastel-like colors to differentiate the nine music genres.

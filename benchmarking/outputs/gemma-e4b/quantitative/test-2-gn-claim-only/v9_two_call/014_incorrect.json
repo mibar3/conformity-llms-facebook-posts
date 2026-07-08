@@ -1,0 +1,13 @@
+{
+  "image": "014_incorrect",
+  "prompt_version": "v9_two_call",
+  "prompt_text": "Given Pop = 23.5% and Latin = 9.5%, is the following statement true or false: 'The Spotify 2026 music genres distribution has just been released.'. Reply with only 'correct' or 'incorrect'.",
+  "extracted_inputs": {
+    "pop_pct": "23.5",
+    "latin_pct": "9.5",
+    "claim": "The Spotify 2026 music genres distribution has just been released."
+  },
+  "answers": {
+    "post_claim_correct": "incorrect"
+  }
+}
