@@ -1,0 +1,58 @@
+Here is a detailed description of the social media post image:
+
+---
+
+**Profile Information:**
+- **Profile Name:** Remy Ashford
+- **Badge/Indicator:** A blue “Follow” button is next to the name, indicating the user is not yet followed by the poster.
+- **Post Timestamp:** “Today at 2:43 PM” with a small clock icon next to it.
+
+---
+
+**Post Text Content:**
+The post text reads:
+> The Spotify 2026 music genres distribution has just been released. Looks like Latin was more popular than Pop this year!
+
+---
+
+**Image/Chart in the Post:**
+The central element is a colorful pie chart titled:
+> **Music Genre Preferences of Spotify Users**
+
+The chart is divided into segments, each representing a music genre with its percentage share and a distinct color:
+
+1. **Pop** – Largest segment, **23.5%**, colored in a light green.
+2. **Rock** – **13.9%**, colored in a light peach.
+3. **Latin** – **11.0%**, colored in a light blue.
+4. **Electronic / Dance** – **10.2%**, colored in a light pink.
+5. **R&B / Soul** – **8.7%**, colored in a light mint green.
+6. **Hip-Hop / Rap** – **8.8%**, colored in a light pinkish-beige.
+7. **Classical** – **11.5%**, colored in a light coral pink.
+8. **Indie / Alternative** – **6.1%**, colored in a light purple.
+9. **Other** – **6.3%**, colored in a light yellow-green.
+
+---
+
+**Engagement Metrics:**
+- **Likes:** 0 (indicated by a thumbs-up emoji and the number “0”)
+- **Heart (Love):** 0
+- **Laughing Face:** 0
+- **Surprised Face:** 0
+- **Crying Face:** 0
+- **Angry Face:** 0
+- **Comments:** 0
+- **Shares:** 0
+
+---
+
+**Other Visual Elements:**
+- **Post Interface Elements:**
+  - A “Follow” button next to the profile name.
+  - A “...” menu icon (three dots) in the top right corner, likely for more options.
+  - A small “X” icon (close button) in the top right corner.
+  - Standard social media interaction buttons at the bottom: “Like,” “Comment,” and “Share,” each with their respective icons.
+  - The post is presented within a light gray background, typical of a social media feed.
+
+---
+
+This post appears to be a social media update sharing a pie chart of Spotify’s 2026 music genre preferences, with a note that Latin surpassed Pop in popularity. However, the chart’s data is labeled “2026,” which is likely a typo or placeholder, as the chart is presented as if it were from 2026, but the post was made in 2024 (based on the timestamp). The post has no engagement, suggesting it may be a placeholder or a joke.

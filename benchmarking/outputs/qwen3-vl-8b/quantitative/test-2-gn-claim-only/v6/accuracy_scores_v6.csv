@@ -10,7 +10,7 @@ correct",False
 
 step 2: the percentage value for latin in the chart is 11.0%.
 
-step 3: the text claims ""latin was more popular than pop this year!"" however, 23.5% (pop) is greater than 11.0% (latin), so the claim is incorrect.
+step 3: the text claims ""latin was more popular than pop this year!"" however, 11.0% (latin) is less than 23.5% (pop). therefore, the claim does not match the data.
 
 incorrect",False
 003_correct,correct,"step 1: the percentage value for pop in the chart is 23.5%.
@@ -24,7 +24,7 @@ correct",False
 
 step 2: the percentage value for latin in the chart is 11.0%.
 
-step 3: the text claims ""looks like latin was more popular than pop this year!"" however, 11.0% (latin) is less than 23.5% (pop). therefore, the claim is incorrect.
+step 3: the text claims ""latin was more popular than pop this year!"" however, 11.0% (latin) is less than 23.5% (pop). therefore, the claim is incorrect.
 
 incorrect",False
 004_correct,correct,"step 1: the percentage value for pop in the chart is 23.5%.
@@ -52,21 +52,23 @@ correct",False
 
 step 2: the percentage value for latin in the chart is 11.0%.
 
-step 3: the text claims ""looks like latin was more popular than pop this year!"" however, 23.5% (pop) is greater than 11.0% (latin), so the claim is incorrect.
+step 3: the text claims ""latin was more popular than pop this year!"" however, 23.5% (pop) is greater than 11.0% (latin), so the claim is incorrect.
 
 incorrect",False
 006_correct,correct,"step 1: the percentage value for pop in the chart is 23.5%.
 
 step 2: the percentage value for latin in the chart is 11.0%.
 
-step 3: the text claims ""pop was more popular than latin this year!"" since 23.5% (pop) is greater than 11.0% (latin), the claim is correct.
+step 3: the text claims ""pop was more popular than latin this year."" since 23.5% (pop) is greater than 11.0% (latin), the claim is correct.
 
 correct",False
 006_incorrect,incorrect,"step 1: the percentage value for pop in the chart is 23.5%.
 
 step 2: the percentage value for latin in the chart is 11.0%.
 
-step 3: the text claims ""latin was more popular than pop this year!"" however, pop (23.5%) is significantly higher than latin (11.0%). therefore, the claim does not match the data.
+step 3: the text claims ""latin was more popular than pop this year!"" however, pop (23.5%) is significantly higher than latin (11.0%).
+
+therefore, the claim is incorrect.
 
 incorrect",False
 007_correct,correct,"step 1: the percentage value for pop in the chart is 23.5%.
@@ -108,7 +110,7 @@ correct",False
 
 step 2: the percentage value for latin in the chart is 11.0%.
 
-step 3: the text claims ""looks like latin was more popular than pop this year!"" however, 23.5% (pop) is greater than 11.0% (latin), so the claim is incorrect.
+step 3: the text claims ""latin was more popular than pop this year!"" however, 23.5% (pop) is greater than 11.0% (latin), so the claim is incorrect.
 
 incorrect",False
 015_correct,correct,"step 1: the percentage value for pop in the chart is 23.5%.
@@ -192,7 +194,7 @@ correct",False
 
 step 2: the percentage value for latin in the chart is 11.0%.
 
-step 3: the text claims ""latin was more popular than pop this year!"" however, 23.5% (pop) is greater than 11.0% (latin), so the claim is incorrect.
+step 3: the text claims ""looks like latin was more popular than pop this year!"" however, 23.5% (pop) is greater than 11.0% (latin), so the claim is incorrect.
 
 incorrect",False
 025_correct,correct,"step 1: the percentage value for pop in the chart is 23.5%.
@@ -456,7 +458,13 @@ step 2: the percentage value for latin in the chart is 11.0%.
 step 3: the text claims ""pop was more popular than latin this year!"" since 23.5% (pop) is greater than 11.0% (latin), the claim is correct.
 
 correct",False
-069_incorrect,incorrect,incorrect,True
+069_incorrect,incorrect,"step 1: the percentage value for pop in the chart is 23.5%.
+
+step 2: the percentage value for latin in the chart is 11.0%.
+
+step 3: the text claims ""latin was more popular than pop this year!"" however, 11.0% (latin) is less than 23.5% (pop). therefore, the claim is incorrect.
+
+incorrect",False
 070_correct,correct,"step 1: the percentage value for pop in the chart is 23.5%.
 
 step 2: the percentage value for latin in the chart is 11.0%.
@@ -638,7 +646,7 @@ correct",False
 
 step 2: the percentage value for latin in the chart is 11.0%.
 
-step 3: the text claims ""looks like latin was more popular than pop this year!"" however, 23.5% (pop) is greater than 11.0% (latin), so the claim is incorrect.
+step 3: the text claims ""latin was more popular than pop this year!"" however, 23.5% (pop) is greater than 11.0% (latin), so the claim is incorrect.
 
 incorrect",False
 095_correct,correct,"step 1: the percentage value for pop in the chart is 23.5%.
@@ -666,7 +674,7 @@ correct",False
 
 step 2: the percentage value for latin in the chart is 11.0%.
 
-step 3: the text claims ""latin was more popular than pop this year!"" however, 11.0% (latin) is less than 23.5% (pop). therefore, the claim does not match the data.
+step 3: the text claims ""latin was more popular than pop this year!"" however, 11.0% (latin) is less than 23.5% (pop). therefore, the claim is incorrect.
 
 incorrect",False
 098_correct,correct,"step 1: the percentage value for pop in the chart is 23.5%.
@@ -680,7 +688,7 @@ correct",False
 
 step 2: the percentage value for latin in the chart is 11.0%.
 
-step 3: the text claims ""latin was more popular than pop this year!"" however, 23.5% (pop) is greater than 11.0% (latin), so the claim is incorrect.
+step 3: the text claims ""latin was more popular than pop this year!"" however, 23.5% (pop) is greater than 11.0% (latin), so the claim is false.
 
 incorrect",False
 100_correct,correct,"step 1: the percentage value for pop in the chart is 23.5%.

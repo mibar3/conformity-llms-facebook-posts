@@ -11,7 +11,7 @@ image,ground_truth,prediction,correct
 006_incorrect,incorrect,incorrect,True
 007_correct,correct,correct,True
 007_incorrect,incorrect,incorrect,True
-012_correct,correct,correct,True
+012_correct,correct,incorrect,False
 012_incorrect,incorrect,incorrect,True
 014_correct,correct,correct,True
 014_incorrect,incorrect,incorrect,True
@@ -43,7 +43,7 @@ image,ground_truth,prediction,correct
 036_incorrect,incorrect,incorrect,True
 039_correct,correct,correct,True
 039_incorrect,incorrect,incorrect,True
-044_correct,correct,correct,True
+044_correct,correct,incorrect,False
 044_incorrect,incorrect,incorrect,True
 047_correct,correct,correct,True
 047_incorrect,incorrect,incorrect,True

@@ -1,0 +1,57 @@
+Here is a detailed description of the social media post image:
+
+---
+
+**Profile Information:**
+- **Profile Name:** Reuters
+- **Badges/Indicators:** The name “Reuters” is accompanied by a blue verification checkmark (✓) and a “Follow” button next to it, indicating it is an official, verified account.
+
+---
+
+**Post Text Content:**
+The post text reads:
+> The Spotify 2026 music genres distribution has just been released. Looks like Pop was more popular than Latin this year!
+
+---
+
+**Image/Chart:**
+The central element of the post is a colorful pie chart titled:
+> **Music Genre Preferences of Spotify Users**
+
+The chart is divided into segments, each representing a different music genre with its corresponding percentage and color:
+
+- **Pop** (Largest segment, light green): 23.5%
+- **Rock** (Light pink): 13.9%
+- **Latin** (Light blue): 11.0%
+- **Electronic / Dance** (Light pink): 10.2%
+- **R&B / Soul** (Light green): 8.7%
+- **Hip-Hop / Rap** (Light pink): 8.8%
+- **Classical** (Light red): 11.5%
+- **Indie / Alternative** (Purple): 6.1%
+- **Other** (Light yellow-green): 6.3%
+
+---
+
+**Engagement Metrics:**
+- **Likes:** 0 (indicated by a thumbs-up emoji and the number “0”)
+- **Heart (Love):** 0
+- **Laughing Face:** 0
+- **Surprised Face:** 0
+- **Crying Face:** 0
+- **Angry Face:** 0
+- **Comments:** 0
+- **Shares:** 0
+
+---
+
+**Other Visual Elements:**
+- The post is timestamped: “Today at 2:43 PM”.
+- Below the chart, there are social media interaction buttons: “Like”, “Comment”, and “Share”.
+- The post is displayed within a light gray background, typical of a social media feed.
+- A small “X” icon (close button) is visible in the top right corner of the post.
+- The post includes a small “...” (more options) icon next to the close button.
+
+---
+
+**Note:**
+The post text mentions “Spotify 2026,” which is likely a typo or misstatement, as the chart is labeled “Music Genre Preferences of Spotify Users” without a specific year. However, the chart’s data is presented as if it were from 2026, which may be a mistake or a placeholder. The chart itself is visually clear and well-organized, with distinct colors for each genre and precise percentage labels.

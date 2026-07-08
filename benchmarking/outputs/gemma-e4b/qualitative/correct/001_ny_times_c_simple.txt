@@ -1,0 +1,38 @@
+Here is a full and detailed description of the social media post image:
+
+**Overall Appearance:**
+The image is a screenshot of a social media post, likely from a platform like X (formerly Twitter), featuring a data visualization (a pie chart) related to music genre preferences.
+
+**Profile Information:**
+*   **Profile Name:** The New York Times
+*   **Indicators:** It has a blue checkmark badge, indicating verification.
+*   **Action:** There is a "Follow" button next to the name.
+*   **Timestamp:** The post was made "Today at 2:43 PM."
+*   **Other Icons:** There are ellipsis (...) and an 'X' icon in the top right corner, typical of social media interfaces.
+
+**Post Text Content:**
+The text reads:
+"The Spotify 2026 music genres distribution has just been released. Looks like Pop was more popular than Latin this year!"
+
+**Image/Chart Content (Pie Chart):**
+The main visual element is a colorful pie chart titled: **"Music Genre Preferences of Spotify Users"**. The chart is divided into several slices, each representing a different music genre and showing its corresponding percentage:
+
+*   **Pop:** 23.5% (Large, light green slice)
+*   **Other:** 6.3% (Light green slice)
+*   **Classical:** 11.5% (Pink/Red slice)
+*   **Indie / Alternative:** 6.1% (Light purple slice)
+*   **R&B / Soul:** 8.7% (Light green/mint slice)
+*   **Electronic / Dance:** 10.2% (Pink slice)
+*   **Latin:** 11.0% (Light blue slice)
+*   **Rock:** 13.9% (Light orange/peach slice)
+*   **Hip-Hop / Rap:** 8.8% (Light salmon/peach slice)
+
+**Engagement Metrics and Footer:**
+Below the chart, there is a row of reaction icons and engagement counters:
+*   **Reactions:** Thumb-up (Like), Heart (Love), Laughing face, Sad face, Disappointed face, Crying face.
+*   **Counts:** All reaction counts are currently **0**.
+*   **Action Buttons:**
+    *   A "Like" button with a thumbs-up icon.
+    *   A "Comment" button with a speech bubble icon.
+    *   A "Share" button with a share icon.
+*   **Summary:** The post shows **0 Comments · 0 Shares**.
