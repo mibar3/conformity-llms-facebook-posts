@@ -26,3 +26,5 @@ benchmarking/ground_truth/old-no-visible-0s/*.csv
 
 benchmarking/outputs/qwen3-vl-8b/old-no-visible-0s/*
 
+docs/
+

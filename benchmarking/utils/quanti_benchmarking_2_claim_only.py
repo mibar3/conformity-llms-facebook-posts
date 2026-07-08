@@ -1,6 +1,7 @@
 import json
 import torch
 from pathlib import Path
+from PIL import Image
 from qwen_vl_utils import process_vision_info
 
 PROMPT_VERSIONS = {
@@ -68,6 +69,27 @@ def ask_question_gemma(image_path: str, question: str, model, processor, device)
     ]
     return processor.batch_decode(
         generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+    )[0]
+
+
+def ask_question_pixtral(image_path: str, question: str, model, processor, device) -> str:
+    image = Image.open(image_path).convert("RGB")
+    messages = [
+        {
+            "role": "user",
+            "content": [
+                {"type": "image"},
+                {"type": "text", "text": question}
+            ]
+        }
+    ]
+    prompt = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    inputs = processor(text=prompt, images=[image], return_tensors="pt").to(device)
+    with torch.no_grad():
+        generated_ids = model.generate(**inputs, max_new_tokens=256, do_sample=False)
+    output_ids = generated_ids[:, inputs["input_ids"].shape[1]:]
+    return processor.batch_decode(
+        output_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False
     )[0]
 
 
