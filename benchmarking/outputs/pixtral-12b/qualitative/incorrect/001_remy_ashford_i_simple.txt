@@ -1,0 +1,53 @@
+The image is a social media post from a user named "Remy Ashford," who has a "Follow" badge next to their name. The post was made today at 2:43 PM.
+
+### Post Text Content:
+The text of the post reads:
+```
+The Spotify 2026 music genres distribution has just been released. Looks like Latin was more popular than Pop this year!
+
+Music Genre Preferences of Spotify Users
+```
+
+### Image/Chart Description:
+The post includes a pie chart titled "Music Genre Preferences of Spotify Users." The pie chart is divided into several segments, each representing a different music genre and its corresponding percentage of user preference. The segments and their respective percentages are as follows:
+
+- **Latin**: 11.0%
+- **Rock**: 13.9%
+- **Hip-Hop / Rap**: 8.8%
+- **Pop**: 23.5%
+- **Other**: 6.3%
+- **Classical**: 11.5%
+- **Indie / Alternative**: 6.1%
+- **R&B / Soul**: 8.7%
+- **Electronic / Dance**: 10.2%
+
+The pie chart uses different colors for each genre:
+- Latin: Blue
+- Rock: Peach
+- Hip-Hop / Rap: Light Pink
+- Pop: Green
+- Other: Yellow
+- Classical: Red
+- Indie / Alternative: Purple
+- R&B / Soul: Light Green
+- Electronic / Dance: Pink
+
+### Engagement Metrics:
+At the bottom of the post, the engagement metrics are displayed:
+- **Likes**: 0
+- **Comments**: 0
+- **Shares**: 0
+
+There are also several emoji reaction options below the engagement metrics:
+- Thumbs Up
+- Heart
+- Laughing
+- Surprised
+- Sad
+- Angry
+
+### Additional Visual Elements:
+- There is a "Comment" button and a "Share" button at the bottom of the post.
+- The post has a timestamp indicating it was made today at 2:43 PM.
+
+This detailed description covers all visible elements in the social media post image.
