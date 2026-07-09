@@ -32,3 +32,5 @@ benchmarking/old_benchmarking_models_visible_0s.ipynb
 benchmarking/old_benchmarking_models.ipynb
 benchmarking/testing_importing_qwen.ipynb
 benchmarking/ground_truth_dataframe_creation_manual.ipynb
+
+experiments/e1/*/outputs_n50_backup/
