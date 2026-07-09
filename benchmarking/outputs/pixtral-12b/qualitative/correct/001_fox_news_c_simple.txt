@@ -1,0 +1,25 @@
+The image is a screenshot of a social media post from the "Fox News" profile. The profile has a "Verified" badge next to it, indicating that it is an official account. The post was made at 2:43 PM.
+
+The post text reads:
+"The Spotify 2026 music genres distribution has just been released. Looks like Pop was more popular than Latin this year!"
+
+Below the text is a pie chart titled "Music Genre Preferences of Spotify Users." The pie chart is divided into several segments, each representing a different music genre and its corresponding percentage of user preference. The colors and percentages for each genre are as follows:
+
+- **Pop**: 23.5% (Green)
+- **Rock**: 13.9% (Pink)
+- **Latin**: 11.0% (Blue)
+- **Electronic / Dance**: 10.2% (Purple)
+- **Hip-Hop / Rap**: 8.8% (Light Brown)
+- **R&B / Soul**: 8.7% (Light Green)
+- **Other**: 6.3% (Yellow)
+- **Classical**: 11.5% (Red)
+- **Indie / Alternative**: 6.1% (Dark Purple)
+
+At the bottom of the post, there are engagement metrics:
+- **Likes**: 0
+- **Comments**: 0
+- **Shares**: 0
+
+Additionally, there are several emoji reaction options below the engagement metrics, including a thumbs up, heart, laughing face, clapping hands, angry face, and crying face, all of which have 0 reactions.
+
+Overall, the post highlights the popularity of different music genres on Spotify for the year 2026, with Pop being the most popular genre.
