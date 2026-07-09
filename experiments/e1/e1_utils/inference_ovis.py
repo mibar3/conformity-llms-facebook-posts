@@ -37,7 +37,7 @@ def run_inference_ovis(messages: list, model, processor, device) -> str:
         output_ids = model.llm.generate(
             inputs=None,
             inputs_embeds=inputs_embeds,
-            attention_mask=None,
+            attention_mask=attention_mask,
             max_new_tokens=16,
             do_sample=False,
             eos_token_id=text_tokenizer.eos_token_id,
