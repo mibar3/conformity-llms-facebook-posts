@@ -21,7 +21,9 @@ def run_inference_ovis(messages: list, model, processor, device) -> str:
         enable_thinking=False
     )
 
-    input_ids = input_ids.unsqueeze(0).to(device=model.device)
+    input_ids = input_ids.to(device=model.device)
+    if input_ids.dim() == 1:
+        input_ids = input_ids.unsqueeze(0)
     if pixel_values is not None:
         pixel_values = pixel_values.to(dtype=model.dtype, device=model.device)
 
