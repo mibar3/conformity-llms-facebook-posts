@@ -111,6 +111,37 @@ def describe_social_media_post_pixtral(image_path, model, processor, device):
         output_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False
     )[0]
 
+def describe_social_media_post_mistral(image_path, model, processor, device):
+    messages = [
+        {
+            "role": "user",
+            "content": [
+                {"type": "image", "image": image_path},
+                {
+                    "type": "text",
+                    "text": """Provide a full detailed description of this social media post image. Include:
+- The profile name and any badges or indicators next to it
+- The post text content
+- Any images or charts shown in the post, including the text in the image, the percentages and the colors.
+- Engagement metrics such as likes, comments, shares
+- Any other visual elements you can see"""
+                }
+            ]
+        }
+    ]
+    inputs = processor.apply_chat_template(
+        messages, add_generation_prompt=True, tokenize=True, return_dict=True, return_tensors="pt"
+    ).to(device)
+
+    with torch.no_grad():
+        generated_ids = model.generate(**inputs, max_new_tokens=1024, do_sample=False)
+
+    output_ids = generated_ids[:, inputs["input_ids"].shape[1]:]
+    return processor.batch_decode(
+        output_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False
+    )[0]
+
+
 def save_output_txt(
     image_path: str,
     description: str,
