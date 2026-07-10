@@ -398,5 +398,405 @@
     "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
     "answer": "A",
     "liked_variant": "incorrect"
+  },
+  {
+    "num": "002",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "008",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "009",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "010",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "011",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "013",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "016",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "019",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "022",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "024",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "027",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "031",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "033",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "034",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "035",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "037",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "038",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "040",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "041",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "042",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "043",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "045",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "046",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "048",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "049",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "050",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "051",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "053",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "056",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "057",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "060",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "061",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "062",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "064",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "066",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "067",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "071",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "073",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "074",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "075",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "077",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "079",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "081",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "084",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "086",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "088",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "correct"
+  },
+  {
+    "num": "092",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "093",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "097",
+    "post_a_variant": "correct",
+    "post_b_variant": "incorrect",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "B",
+    "liked_variant": "incorrect"
+  },
+  {
+    "num": "099",
+    "post_a_variant": "incorrect",
+    "post_b_variant": "correct",
+    "prompt": "You are shown two social media posts, Post A and Post B.\nYou are only allowed to press the Like button on one of them.\nWhich post do you press Like on?\nReply with only 'A' or 'B'.",
+    "answer": "A",
+    "liked_variant": "incorrect"
   }
 ]
