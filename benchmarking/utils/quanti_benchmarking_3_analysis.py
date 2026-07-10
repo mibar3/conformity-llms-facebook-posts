@@ -11,14 +11,14 @@ GROUND_TRUTH = {
 
 def normalize_number(value: str) -> str:
     value = str(value).strip().lower()
+    value = value.rstrip('%').strip()
     value = re.sub(r'[,.](?=\d{3})', '', value)
     value = value.replace(',', '.')
-    if '.' in value:
-        try:
-            value = str(float(value))
-            value = re.sub(r'\.0$', '', value)
-        except ValueError:
-            pass
+    try:
+        value = str(float(value))
+        value = re.sub(r'\.0$', '', value)
+    except ValueError:
+        pass
     return value
 
 def run_accuracy_analysis(base_dir: Path, experiment_name: str, model_name: str):
