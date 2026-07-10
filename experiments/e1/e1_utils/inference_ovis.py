@@ -25,23 +25,14 @@ def run_inference_ovis(messages: list, model, processor, device) -> str:
     if pixel_values is not None:
         pixel_values = pixel_values.to(dtype=model.dtype, device=model.device)
 
-    # Merge multimodal embeddings manually
-    inputs_embeds = model.merge_multimodal(
-        input_ids=input_ids,
-        pixel_values=pixel_values,
-        grid_thws=grid_thws
-    )
-    attention_mask = torch.ne(input_ids, text_tokenizer.pad_token_id).to(device=model.device)
-
     with torch.no_grad():
-        output_ids = model.llm.generate(
-            inputs=None,
-            inputs_embeds=inputs_embeds,
-            attention_mask=attention_mask,
+        output_ids = model.generate(
+            inputs=input_ids,
+            pixel_values=pixel_values,
+            grid_thws=grid_thws,
+            enable_thinking=False,
             max_new_tokens=16,
             do_sample=False,
-            eos_token_id=text_tokenizer.eos_token_id,
-            pad_token_id=text_tokenizer.eos_token_id,
         )
 
     output_ids = output_ids[0][input_ids.shape[1]:]
