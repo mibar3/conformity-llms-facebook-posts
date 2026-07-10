@@ -93,6 +93,27 @@ def ask_question_pixtral(image_path: str, question: str, model, processor, devic
     )[0]
 
 
+def ask_question_mistral(image_path: str, question: str, model, processor, device) -> str:
+    messages = [
+        {
+            "role": "user",
+            "content": [
+                {"type": "image", "image": image_path},
+                {"type": "text", "text": question}
+            ]
+        }
+    ]
+    inputs = processor.apply_chat_template(
+        messages, add_generation_prompt=True, tokenize=True, return_dict=True, return_tensors="pt"
+    ).to(device)
+    with torch.no_grad():
+        generated_ids = model.generate(**inputs, max_new_tokens=256, do_sample=False)
+    output_ids = generated_ids[:, inputs["input_ids"].shape[1]:]
+    return processor.batch_decode(
+        output_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False
+    )[0]
+
+
 def output_exists_json(image_name: str, prompt_version: str, base_dir: Path, experiment_name: str, model_name: str) -> bool:
     out_path = base_dir / "outputs" / model_name / "quantitative" / experiment_name / prompt_version / f"{image_name}.json"
     return out_path.exists()
