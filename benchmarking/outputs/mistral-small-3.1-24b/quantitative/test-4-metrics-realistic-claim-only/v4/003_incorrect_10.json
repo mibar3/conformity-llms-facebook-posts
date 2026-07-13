@@ -1,0 +1,8 @@
+{
+  "image": "003_incorrect_10",
+  "prompt_version": "v4",
+  "prompt_text": "In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",
+  "answers": {
+    "post_claim_correct": "To verify the claim, we need to look at the percentages for Pop and Latin in the pie chart:\n\n- Pop: 23.5%\n- Latin: 11.0%\n\nThe claim states that Latin was more popular than Pop this year. However, the chart shows that Pop has a higher percentage (23.5%) compared to Latin (11.0%).\n\nTherefore, the claim is incorrect."
+  }
+}

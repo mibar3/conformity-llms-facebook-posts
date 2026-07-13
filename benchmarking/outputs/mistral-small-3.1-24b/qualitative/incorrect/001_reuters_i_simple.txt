@@ -1,0 +1,32 @@
+Here is a detailed description of the social media post image:
+
+**Profile Name and Badges:**
+- Profile Name: Reuters
+- Badges/Indicators: A blue checkmark next to the profile name, indicating a verified account.
+
+**Post Text Content:**
+- "The Spotify 2026 music genres distribution has just been released. Looks like Latin was more popular than Pop this year!"
+
+**Image/Chart Details:**
+- Title: "Music Genre Preferences of Spotify Users"
+- The image is a pie chart displaying the distribution of music genre preferences among Spotify users.
+- The chart is divided into several segments, each representing a different music genre with corresponding percentages and colors:
+  - Pop: 23.5% (Green)
+  - Rock: 13.9% (Light Orange)
+  - Latin: 11.0% (Light Blue)
+  - Classical: 11.5% (Red)
+  - Electronic / Dance: 10.2% (Pink)
+  - R&B / Soul: 8.7% (Light Green)
+  - Hip-Hop / Rap: 8.8% (Light Pink)
+  - Indie / Alternative: 6.1% (Purple)
+  - Other: 6.3% (Lime Green)
+
+**Engagement Metrics:**
+- Likes: 0
+- Comments: 0
+- Shares: 0
+
+**Other Visual Elements:**
+- There are several emoji reaction buttons below the post (Like, Love, Laugh, Wow, Sad, Angry).
+- There are options to Like, Comment, and Share the post.
+- The post was made "Today at 2:43 PM".
