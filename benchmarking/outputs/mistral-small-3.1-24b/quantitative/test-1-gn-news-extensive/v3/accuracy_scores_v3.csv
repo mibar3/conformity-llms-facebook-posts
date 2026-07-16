@@ -9,7 +9,7 @@ from the chart:
 
 since 23.5% (pop) is greater than 11.0% (latin), the claim is correct.
 
-reply: 'correct'",correct,fox news,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,False,False
+reply: 'correct'",correct,fox news,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
 001_ny_times_c,v3,"The post text claims one music genre is more popular than another. Look at the percentage values in the chart to verify this claim. If the genre described as more popular in the text has a higher percentage in the chart, reply 'correct'. If not, reply 'incorrect'.",the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,"to verify the claim, we need to compare the percentages of the genres mentioned in the text.
 
 the text states: ""looks like pop was more popular than latin this year!""
@@ -42,7 +42,7 @@ from the chart:
 
 since 23.5% (pop) is greater than 11.0% (latin), the claim is correct.
 
-reply: correct",correct,reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,False,False
+reply: correct",correct,reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
 001_fox_news_i,v3,"The post text claims one music genre is more popular than another. Look at the percentage values in the chart to verify this claim. If the genre described as more popular in the text has a higher percentage in the chart, reply 'correct'. If not, reply 'incorrect'.",fox news,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,"to verify the claim, we need to compare the percentages of the genres mentioned in the text.
 
 the text states: ""looks like latin was more popular than pop this year!""
@@ -64,7 +64,7 @@ from the chart:
 
 since 11.0% (latin) is not greater than 23.5% (pop), the claim is incorrect.
 
-reply: incorrect",incorrect,the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,True,False,True,True,True,True,True,False,True,False,False
+reply: incorrect",incorrect,the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,True,False,True,True,True,True,True,True,True,False,False
 001_remy_ashford_i,v3,"The post text claims one music genre is more popular than another. Look at the percentage values in the chart to verify this claim. If the genre described as more popular in the text has a higher percentage in the chart, reply 'correct'. If not, reply 'incorrect'.",remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,"to verify the claim, we need to compare the percentages of the genres mentioned in the text.
 
 the text states: ""looks like latin was more popular than pop this year!""
@@ -86,4 +86,4 @@ from the chart:
 
 since 11.0% (latin) is not greater than 23.5% (pop), the claim is incorrect.
 
-reply: incorrect",incorrect,reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,False,False
+reply: incorrect",incorrect,reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
