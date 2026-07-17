@@ -1,0 +1,8 @@
+{
+  "image": "065_correct_100000",
+  "prompt_version": "v3",
+  "prompt_text": "The post text claims one music genre is more popular than another. Look at the percentage values in the chart to verify this claim. If the genre described as more popular in the text has a higher percentage in the chart, reply 'correct'. If not, reply 'incorrect'.",
+  "answers": {
+    "post_claim_correct": "The post text claims that \"Latin was more popular than Latin this year!\". This sentence is grammatically confusing and seems to have a typo. Assuming the intent was to compare Latin to another genre mentioned, or perhaps to state that Latin is more popular than some other genre, let's look at the chart percentages for \"Latin\" and compare it to the other genres.\n\nThe percentage for **Latin** is **11.0%**.\n\nIf the claim is that \"Latin was more popular than [another genre]\", we need to know which genre it is being compared against.\n\nHowever, if we strictly interpret the text as: \"Looks like Pop was more popular than Latin this year!\", then:\n*   Pop percentage: **23.5%**\n*   Latin percentage: **11.0%**\n*   Since 23.5% > 11.0%, this specific comparison would be **correct**.\n\nGiven the ambiguity of the original sentence (\"Looks like Pop was more popular than Latin this year!\" is a common phrasing for this type of question, and the text provided is \"Looks like Pop was more popular than Latin this year!\"), and based on the visual evidence:\n\n**Pop (23.5"
+  }
+}

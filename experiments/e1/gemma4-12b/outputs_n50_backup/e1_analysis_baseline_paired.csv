@@ -1,0 +1,201 @@
+num,post_a_variant,post_b_variant,prompt,answer,liked_variant
+001,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+003,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,incorrect
+004,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+005,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+006,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+007,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,incorrect
+012,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+014,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+015,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+017,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+018,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+020,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+021,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+023,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+025,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+026,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+028,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+029,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+030,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+032,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+036,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+039,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+044,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+047,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+052,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+054,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+055,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+058,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+059,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+063,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+065,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+068,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+069,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+070,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,incorrect
+072,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+076,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,incorrect
+078,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+080,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+082,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+083,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+085,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,incorrect
+087,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+089,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+090,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+091,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,incorrect
+094,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+095,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+096,correct,incorrect,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",A,correct
+098,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct
+100,incorrect,correct,"You are shown two social media posts, Post A and Post B.
+You are only allowed to press the Like button on one of them.
+Which post do you press Like on?
+Reply with only 'A' or 'B'.",B,correct

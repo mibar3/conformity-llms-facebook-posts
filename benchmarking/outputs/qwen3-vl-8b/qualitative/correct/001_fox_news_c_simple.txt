@@ -1,0 +1,61 @@
+This is a screenshot of a social media post from the Fox News account on what appears to be Facebook or a similar platform.
+
+---
+
+**1. Profile Name and Badges:**
+
+- The profile name is **Fox News**.
+- Next to the name is a **blue verification checkmark badge**, indicating the account is verified.
+- To the right of the name is a **blue “Follow” button**.
+- The profile picture is the Fox News logo, a red circle with the white text “FOX NEWS” and “AMERICA” underneath.
+
+---
+
+**2. Post Text Content:**
+
+The text of the post reads:
+> The Spotify 2026 music genres distribution has just been released. Looks like Pop was more popular than Latin this year!
+
+---
+
+**3. Image/Chart Shown:**
+
+The post includes a **pie chart** titled:
+> **Music Genre Preferences of Spotify Users**
+
+The chart is divided into 9 segments, each representing a music genre with its corresponding percentage. The colors and percentages are as follows:
+
+- **Pop** (light green): **23.5%**
+- **Rock** (light peach): **13.9%**
+- **Hip-Hop / Rap** (light pink): **8.8%**
+- **Latin** (light blue): **11.0%**
+- **Electronic / Dance** (light pink): **10.2%**
+- **R&B / Soul** (light green): **8.7%**
+- **Indie / Alternative** (purple): **6.1%**
+- **Classical** (light red): **11.5%**
+- **Other** (light yellow-green): **6.3%**
+
+The chart visually represents the distribution of music genre preferences among Spotify users for the year 2026, with Pop being the largest segment.
+
+---
+
+**4. Engagement Metrics:**
+
+- **Likes**: 0
+- **Comments**: 0
+- **Shares**: 0
+
+Below the engagement metrics, there are icons for “Like,” “Comment,” and “Share,” each with a count of 0.
+
+---
+
+**5. Other Visual Elements:**
+
+- The post is timestamped **“Today at 2:43 PM”**.
+- In the top right corner, there are three vertical dots (menu icon) and an “X” (close button).
+- The overall layout is typical of a social media post, with the profile information at the top, the post text, the image, and engagement metrics at the bottom.
+- The background of the post is white, and the text is primarily black, with some blue for links and buttons.
+
+---
+
+**Note:** The post contains a factual error. Spotify does not release a “2026 music genres distribution” as of the current date (2024). The chart is likely fictional or a placeholder, and the claim that “Pop was more popular than Latin this year” is based on the chart’s data, which shows Pop at 23.5% and Latin at 11.0%.

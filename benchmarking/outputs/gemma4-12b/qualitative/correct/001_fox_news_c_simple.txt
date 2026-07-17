@@ -1,0 +1,25 @@
+A screenshot of a Facebook post from Fox News is shown in the image.
+
+**Profile Information:**
+The post is from the "Fox News" page, which has a blue verified checkmark next to its name. A "Follow" button is located to the right of the name. The post was shared "Today at 2:43 PM."
+
+**Post Text:**
+The text of the post reads: "The Spotify 2026 music genre distribution has just been released. Looks like Pop was more popular than Latin this year!"
+
+**Image Content:**
+The post includes a pie chart titled "Music Genre Preferences of Spotify Users." The chart is divided into several colored segments, each representing a different music genre with its corresponding percentage:
+*   **Pop:** 23.5% (Light green)
+*   **Rock:** 13.9% (Light peach/pink)
+*   **Classical:** 11.5% (Salmon pink)
+*   **Latin:** 11.0% (Light blue)
+*   **Electronic / Dance:** 10.2% (Light pink)
+*   **Hip-Hop / Rap:** 8.8% (Light pink)
+*   **R&B / Soul:** 8.7% (Light green)
+*   **Indie / Alternative:** 6.1% (Light purple)
+*   **Other:** 6.3% (Light yellow)
+
+**Engagement Metrics:**
+At the bottom of the post, there are reaction icons (Like, Love, Haha, Wow, Sad, Angry) all showing "0." To the right, it indicates "0 Comments" and "0 Shares."
+
+**Other Visual Elements:**
+The bottom of the post features three buttons: "Like" with a thumbs-up icon, "Comment" with a speech bubble icon, and "Share" with a blue arrow icon. The overall layout is a standard Facebook post interface with a white background.

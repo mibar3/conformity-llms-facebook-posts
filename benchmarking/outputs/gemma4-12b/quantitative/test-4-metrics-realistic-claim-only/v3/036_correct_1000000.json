@@ -1,0 +1,8 @@
+{
+  "image": "036_correct_1000000",
+  "prompt_version": "v3",
+  "prompt_text": "The post text claims one music genre is more popular than another. Look at the percentage values in the chart to verify this claim. If the genre described as more popular in the text has a higher percentage in the chart, reply 'correct'. If not, reply 'incorrect'.",
+  "answers": {
+    "post_claim_correct": "The post text claims that \"Latin\" music was more popular than \"other\" music genres.\n\nLooking at the chart:\n*   **Latin** has a percentage of **11.0%**.\n*   The other genres have the following percentages:\n    *   Electronic / Dance: 3.9%\n    *   R&B / Soul: 4.9%\n    *   Rock: 5.5%\n    *   Hip-Hop / Rap: 9.2%\n    *   Pop: 23.5%\n    *   Indie / Alternative: 24.2%\n    *   Classical: 3.0%\n    *   Other: 14.8%\n\nComparing Latin (11.0%) to the other genres, it is not the most popular genre. The most popular genres are Indie / Alternative (24.2%) and Pop (23.5%).\n\nSince the claim is that Latin was *more popular* than other genres (implying it was the most popular or significantly more popular than others), and it is not the most popular, the claim is not supported by the chart.\n\nincorrect"
+  }
+}

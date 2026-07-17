@@ -1,0 +1,36 @@
+The image is a social media post from "The New York Times" account. The post includes a pie chart titled "Music Genre Preferences of Spotify Users." The chart breaks down the popularity of various music genres among Spotify users. Here are the details:
+
+- **Profile Name and Badges**: The profile name is "The New York Times," and there is a blue "Follow" button next to it. There is also a small globe icon indicating that the post is from a verified account.
+
+- **Post Text Content**: The text reads, "The Spotify 2026 music genres distribution has just been released. Looks like Latin was more popular than Pop this year!"
+
+- **Pie Chart Details**:
+  - **Latin**: 11.0%
+  - **Rock**: 13.9%
+  - **Hip-Hop / Rap**: 8.8%
+  - **Pop**: 23.5%
+  - **Other**: 6.3%
+  - **Classical**: 11.5%
+  - **Indie / Alternative**: 6.1%
+  - **R&B / Soul**: 8.7%
+  - **Electronic / Dance**: 10.2%
+
+  The pie chart uses different colors for each genre:
+  - Latin: Blue
+  - Rock: Peach
+  - Hip-Hop / Rap: Pink
+  - Pop: Green
+  - Other: Yellow
+  - Classical: Red
+  - Indie / Alternative: Purple
+  - R&B / Soul: Light Green
+  - Electronic / Dance: Light Purple
+
+- **Engagement Metrics**:
+  - Likes: 0
+  - Comments: 0
+  - Shares: 0
+
+- **Other Visual Elements**: There are emoji buttons for reactions (like, love, laugh, wow, sad, angry, care) at the bottom of the post, but no reactions have been made yet.
+
+This post highlights the distribution of music genre preferences among Spotify users, with Pop being the most popular genre at 23.5%, followed by Rock at 13.9%, and Latin at 11.0%.

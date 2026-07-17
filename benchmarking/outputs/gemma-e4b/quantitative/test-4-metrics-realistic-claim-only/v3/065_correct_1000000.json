@@ -1,0 +1,8 @@
+{
+  "image": "065_correct_1000000",
+  "prompt_version": "v3",
+  "prompt_text": "The post text claims one music genre is more popular than another. Look at the percentage values in the chart to verify this claim. If the genre described as more popular in the text has a higher percentage in the chart, reply 'correct'. If not, reply 'incorrect'.",
+  "answers": {
+    "post_claim_correct": "The post text claims that \"Latin was more popular than Latin this year!\". This sentence is grammatically confusing and seems to have a typo. Assuming the intended comparison is between **Latin** and another genre mentioned, or perhaps comparing Latin to the most popular genre overall.\n\nLet's look at the percentages for the genres:\n*   Hip-Hop / Rap: 7.5%\n*   Pop: 23.5%\n*   Latin: 11.0%\n*   Other: 5.8%\n*   Classical: (No explicit percentage shown for Classical, but it's a slice)\n*   Indie / Alternative: 5.9%\n*   Electronic / Dance: 9.4%\n*   R&B / Soul: 14.2%\n\nIf the claim is that **Latin (11.0%)** is more popular than **Hip-Hop / Rap (7.5%)**, the claim is correct.\nIf the claim is that **Latin (11.0%)** is more popular than **Electronic / Dance (9.4%)**, the claim is correct.\nIf the claim is that **Latin (11.0%)**"
+  }
+}

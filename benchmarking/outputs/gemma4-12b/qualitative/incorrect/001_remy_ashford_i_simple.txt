@@ -1,0 +1,33 @@
+A screenshot of a social media post from a user named Remy Ashford.
+
+**Profile Information:**
+*   **Name:** Remy Ashford
+*   **Follow Button:** A blue "Follow" button is next to the name.
+*   **Timestamp:** "Today at 2:43 PM" with a small clock icon.
+*   **Profile Picture:** A circular placeholder for a profile picture is on the left.
+
+**Post Text:**
+"The Spotify 2026 music genre distribution has just been released. Looks like Latin was more popular than Pop this year!"
+
+**Main Image (Pie Chart):**
+The post features a large pie chart titled "Music Genre Preferences of Spotify Users." The chart is divided into several colored segments, each representing a different music genre with its corresponding percentage:
+*   **Pop:** 23.5% (Light green)
+*   **Rock:** 13.9% (Light peach/pink)
+*   **Classical:** 11.5% (Salmon pink)
+*   **Latin:** 11.0% (Light blue)
+*   **Electronic / Dance:** 10.2% (Light pink)
+*   **Hip-Hop / Rap:** 8.8% (Pale pink)
+*   **R&B / Soul:** 8.7% (Mint green)
+*   **Indie / Alternative:** 6.1% (Lavender/Purple)
+*   **Other:** 6.3% (Pale yellow)
+
+**Engagement Metrics:**
+*   **Reactions:** There are zero reactions shown for all categories (Like, Love, Haha, Wow, Sad, Angry).
+*   **Comments:** 0 Comments
+*   **Shares:** 0 Shares
+*   **Action Buttons:** At the bottom, there are three buttons: "Like" (with a thumbs up icon), "Comment" (with a speech bubble icon), and "Share" (with a blue arrow icon).
+
+**Other Visual Elements:**
+*   The post is framed in a white box with a light gray border.
+*   There is a three-dot menu icon and an "X" (close) button in the top right corner of the post.
+*   The overall aesthetic is clean and minimalist, typical of a social media feed.

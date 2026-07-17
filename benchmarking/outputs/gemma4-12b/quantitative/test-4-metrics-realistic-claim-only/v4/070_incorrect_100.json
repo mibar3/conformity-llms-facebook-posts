@@ -1,0 +1,8 @@
+{
+  "image": "070_incorrect_100",
+  "prompt_version": "v4",
+  "prompt_text": "In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",
+  "answers": {
+    "post_claim_correct": "The claim in the text is: \"Looks like Latin was more popular than Pop this year!\"\n\nLooking at the chart:\n*   **Latin** popularity is **11.0%**.\n*   **Pop** popularity is **23.5%**.\n\nSince 11.0% (Latin) is less than 23.5% (Pop), the claim that Latin was more popular than Pop is incorrect based on the visualization.\n\nincorrect"
+  }
+}

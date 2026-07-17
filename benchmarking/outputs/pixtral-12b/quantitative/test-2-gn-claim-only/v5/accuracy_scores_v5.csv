@@ -1,0 +1,299 @@
+image,ground_truth,prediction,correct
+001_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+001_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that latin was more popular than pop is incorrect.
+
+therefore, the answer is ""incorrect"".",False
+003_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+answer: correct",False
+003_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+004_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+answer: correct",False
+004_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin is more popular than pop is incorrect.
+
+therefore, the answer is ""incorrect"".",False
+005_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+005_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+006_correct,correct,"the percentage for pop is 23.5% and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin is correct.
+
+final answer: correct",False
+006_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+answer: correct",False
+007_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin is correct.
+
+final answer: correct",False
+007_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 11.0% (latin) is numerically lower than 23.5% (pop), the text's claim that latin was more popular than pop is incorrect.
+
+final answer: incorrect",False
+012_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+answer: correct",False
+012_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+answer: correct",False
+014_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+answer: correct",False
+014_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin was more popular than pop is incorrect.
+
+therefore, the answer is ""incorrect"".",False
+015_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+015_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+017_correct,correct,"the percentage for pop is 23.5% and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+017_incorrect,incorrect,"the percentage for pop is 23.5% and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+018_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin is correct.
+
+final answer: correct",False
+018_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin is more popular than pop is incorrect.
+
+final answer: incorrect",False
+020_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+020_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+021_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+021_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin is more popular than pop is incorrect.
+
+therefore, the answer is ""incorrect"".",False
+023_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+answer: correct",False
+023_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin was more popular than pop this year is incorrect.
+
+final answer: incorrect",False
+025_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin is correct.
+
+final answer: correct",False
+025_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin is more popular than pop is incorrect.
+
+final answer: incorrect",False
+026_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin is correct.
+
+final answer: correct",False
+026_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text saying latin is more popular than pop is incorrect.
+
+so, the answer is ""incorrect"".",False
+028_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin is correct.
+
+final answer: correct",False
+028_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin is more popular than pop is incorrect.
+
+therefore, the answer is ""incorrect"".",False
+029_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+answer: correct",False
+029_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+030_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+030_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin is more popular than pop is incorrect.
+
+therefore, the answer is ""incorrect"".",False
+032_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+032_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin is more popular than pop is incorrect.
+
+final answer: incorrect",False
+036_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+036_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin is more popular than pop is incorrect.
+
+final answer: incorrect",False
+039_correct,correct,"the percentage for pop is 23.5% and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin is correct. therefore, the answer is ""correct"".",False
+039_incorrect,incorrect,"the percentage for pop is 23.5% and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+answer: correct",False
+044_correct,correct,"the percentage for pop is 23.5% and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin is correct.
+
+final answer: correct",False
+044_incorrect,incorrect,"the percentage for pop is 23.5% and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+047_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+047_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+052_correct,correct,"the percentage for pop is 23.5% and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+052_incorrect,incorrect,"the percentage for pop is 23.5% and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+054_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+054_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+055_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+055_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin is more popular than pop is incorrect.
+
+final answer: incorrect",False
+058_correct,correct,"the percentage for pop is 23.5% and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+answer: correct",False
+058_incorrect,incorrect,"the percentage for pop is 23.5% and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+answer: correct",False
+059_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+059_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin is more popular than pop is incorrect.
+
+final answer: incorrect",False
+063_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+answer: correct",False
+063_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 20.9%. since 23.5% (pop) is numerically higher than 20.9% (latin), the text is correct.
+
+answer: correct",False
+065_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+065_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that latin was more popular than pop is incorrect.
+
+final answer: incorrect",False
+068_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+068_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin is more popular than pop is incorrect.
+
+therefore, the answer is ""incorrect"".",False
+069_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+069_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that latin was more popular than pop is incorrect.
+
+final answer: incorrect",False
+070_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+070_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+072_correct,correct,"the percentage for pop is 23.5% and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+072_incorrect,incorrect,"the percentage for pop is 23.5% and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+076_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+076_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+answer: correct",False
+078_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin is correct.
+
+final answer: correct",False
+078_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that latin was more popular than pop is incorrect.
+
+final answer: incorrect",False
+080_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 7.9%. since 23.5% (pop) is numerically higher than 7.9% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+080_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+answer: correct",False
+082_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+082_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin is more popular than pop is incorrect.
+
+final answer: incorrect",False
+083_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+083_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 11.0% (latin) is numerically lower than 23.5% (pop), the text claiming latin is more popular than pop is incorrect.
+
+therefore, the answer is ""incorrect"".",False
+085_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+085_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin is more popular than pop is incorrect.
+
+therefore, the answer is ""incorrect"".",False
+087_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+answer: correct",False
+087_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+089_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+answer: correct",False
+089_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 17.5%. since 23.5% (pop) is numerically higher than 17.5% (latin), the text is correct.
+
+final answer: correct",False
+090_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+090_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin is more popular than pop is incorrect.
+
+therefore, the answer is ""incorrect"".",False
+091_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+091_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that latin was more popular than pop is incorrect.
+
+therefore, the answer is ""incorrect"".",False
+094_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+094_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text claiming that latin is more popular than pop is incorrect.
+
+therefore, the answer is ""incorrect"".",False
+095_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+095_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 11.0% (latin) is numerically lower than 23.5% (pop), the text claiming latin is more popular than pop is incorrect.
+
+therefore, the answer is ""incorrect"".",False
+096_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+096_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text is correct.
+
+final answer: correct",False
+098_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+098_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that latin was more popular than pop is incorrect.
+
+final answer: incorrect",False
+100_correct,correct,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that pop was more popular than latin this year is correct.
+
+final answer: correct",False
+100_incorrect,incorrect,"the percentage for pop in the chart is 23.5%, and the percentage for latin is 11.0%. since 23.5% (pop) is numerically higher than 11.0% (latin), the text's claim that latin was more popular than pop is incorrect.
+
+final answer: incorrect",False

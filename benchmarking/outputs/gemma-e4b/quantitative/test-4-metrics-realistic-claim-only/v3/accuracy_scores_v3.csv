@@ -1,0 +1,1355 @@
+image,scale_value,variant,ground_truth,prediction,correct
+001_correct_10,10,correct,correct,correct,True
+003_correct_10,10,correct,correct,correct,True
+004_correct_10,10,correct,correct,correct,True
+005_correct_10,10,correct,correct,correct,True
+006_correct_10,10,correct,correct,incorrect,False
+007_correct_10,10,correct,correct,correct,True
+012_correct_10,10,correct,correct,incorrect,False
+014_correct_10,10,correct,correct,correct,True
+015_correct_10,10,correct,correct,correct,True
+017_correct_10,10,correct,correct,correct,True
+018_correct_10,10,correct,correct,correct,True
+020_correct_10,10,correct,correct,correct,True
+021_correct_10,10,correct,correct,correct,True
+023_correct_10,10,correct,correct,correct,True
+025_correct_10,10,correct,correct,correct,True
+026_correct_10,10,correct,correct,correct,True
+028_correct_10,10,correct,correct,incorrect,False
+029_correct_10,10,correct,correct,correct,True
+030_correct_10,10,correct,correct,correct,True
+032_correct_10,10,correct,correct,correct,True
+036_correct_10,10,correct,correct,correct,True
+039_correct_10,10,correct,correct,incorrect,False
+044_correct_10,10,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+047_correct_10,10,correct,correct,correct,True
+052_correct_10,10,correct,correct,correct,True
+054_correct_10,10,correct,correct,correct,True
+055_correct_10,10,correct,correct,correct,True
+058_correct_10,10,correct,correct,correct,True
+059_correct_10,10,correct,correct,correct,True
+063_correct_10,10,correct,correct,correct,True
+065_correct_10,10,correct,correct,incorrect,False
+068_correct_10,10,correct,correct,"the post text claims that ""like pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+069_correct_10,10,correct,correct,correct,True
+070_correct_10,10,correct,correct,correct,True
+072_correct_10,10,correct,correct,correct,True
+076_correct_10,10,correct,correct,correct,True
+078_correct_10,10,correct,correct,incorrect,False
+080_correct_10,10,correct,correct,correct,True
+082_correct_10,10,correct,correct,correct,True
+083_correct_10,10,correct,correct,correct,True
+085_correct_10,10,correct,correct,correct,True
+087_correct_10,10,correct,correct,correct,True
+089_correct_10,10,correct,correct,correct,True
+090_correct_10,10,correct,correct,correct,True
+091_correct_10,10,correct,correct,incorrect,False
+094_correct_10,10,correct,correct,correct,True
+095_correct_10,10,correct,correct,correct,True
+096_correct_10,10,correct,correct,incorrect,False
+098_correct_10,10,correct,correct,correct,True
+100_correct_10,10,correct,correct,correct,True
+001_incorrect_10,10,incorrect,incorrect,correct,False
+003_incorrect_10,10,incorrect,incorrect,incorrect,True
+004_incorrect_10,10,incorrect,incorrect,correct,False
+005_incorrect_10,10,incorrect,incorrect,correct,False
+006_incorrect_10,10,incorrect,incorrect,incorrect,True
+007_incorrect_10,10,incorrect,incorrect,correct,False
+012_incorrect_10,10,incorrect,incorrect,incorrect,True
+014_incorrect_10,10,incorrect,incorrect,correct,False
+015_incorrect_10,10,incorrect,incorrect,incorrect,True
+017_incorrect_10,10,incorrect,incorrect,correct,False
+018_incorrect_10,10,incorrect,incorrect,correct,False
+020_incorrect_10,10,incorrect,incorrect,correct,False
+021_incorrect_10,10,incorrect,incorrect,incorrect,True
+023_incorrect_10,10,incorrect,incorrect,correct,False
+025_incorrect_10,10,incorrect,incorrect,correct,False
+026_incorrect_10,10,incorrect,incorrect,correct,False
+028_incorrect_10,10,incorrect,incorrect,correct,False
+029_incorrect_10,10,incorrect,incorrect,correct,False
+030_incorrect_10,10,incorrect,incorrect,correct,False
+032_incorrect_10,10,incorrect,incorrect,correct,False
+036_incorrect_10,10,incorrect,incorrect,correct,False
+039_incorrect_10,10,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+044_incorrect_10,10,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+047_incorrect_10,10,incorrect,incorrect,correct,False
+052_incorrect_10,10,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+054_incorrect_10,10,incorrect,incorrect,correct,False
+055_incorrect_10,10,incorrect,incorrect,correct,False
+058_incorrect_10,10,incorrect,incorrect,correct,False
+059_incorrect_10,10,incorrect,incorrect,correct,False
+063_incorrect_10,10,incorrect,incorrect,correct,False
+065_incorrect_10,10,incorrect,incorrect,correct,False
+068_incorrect_10,10,incorrect,incorrect,correct,False
+069_incorrect_10,10,incorrect,incorrect,correct,False
+070_incorrect_10,10,incorrect,incorrect,incorrect,True
+072_incorrect_10,10,incorrect,incorrect,correct,False
+076_incorrect_10,10,incorrect,incorrect,correct,False
+078_incorrect_10,10,incorrect,incorrect,correct,False
+080_incorrect_10,10,incorrect,incorrect,correct,False
+082_incorrect_10,10,incorrect,incorrect,correct,False
+083_incorrect_10,10,incorrect,incorrect,correct,False
+085_incorrect_10,10,incorrect,incorrect,correct,False
+087_incorrect_10,10,incorrect,incorrect,correct,False
+089_incorrect_10,10,incorrect,incorrect,correct,False
+090_incorrect_10,10,incorrect,incorrect,correct,False
+091_incorrect_10,10,incorrect,incorrect,incorrect,True
+094_incorrect_10,10,incorrect,incorrect,incorrect,True
+095_incorrect_10,10,incorrect,incorrect,correct,False
+096_incorrect_10,10,incorrect,incorrect,incorrect,True
+098_incorrect_10,10,incorrect,incorrect,correct,False
+100_incorrect_10,10,incorrect,incorrect,correct,False
+001_correct_100,100,correct,correct,correct,True
+003_correct_100,100,correct,correct,correct,True
+004_correct_100,100,correct,correct,correct,True
+005_correct_100,100,correct,correct,correct,True
+006_correct_100,100,correct,correct,incorrect,False
+007_correct_100,100,correct,correct,correct,True
+012_correct_100,100,correct,correct,incorrect,False
+014_correct_100,100,correct,correct,correct,True
+015_correct_100,100,correct,correct,correct,True
+017_correct_100,100,correct,correct,correct,True
+018_correct_100,100,correct,correct,correct,True
+020_correct_100,100,correct,correct,correct,True
+021_correct_100,100,correct,correct,correct,True
+023_correct_100,100,correct,correct,correct,True
+025_correct_100,100,correct,correct,correct,True
+026_correct_100,100,correct,correct,correct,True
+028_correct_100,100,correct,correct,correct,True
+029_correct_100,100,correct,correct,correct,True
+030_correct_100,100,correct,correct,correct,True
+032_correct_100,100,correct,correct,correct,True
+036_correct_100,100,correct,correct,correct,True
+039_correct_100,100,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+044_correct_100,100,correct,correct,"the post text claims that ""latin this year"" is more popular than another genre.
+
+looking at the chart:
+*   **latin** has **11.0%**.
+*   the genre that is visually suggested as being compared to latin (and is often a major genre) is **pop**, which has **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin is more popular than another genre (implied to be pop or another major genre) is not supported by the chart if the comparison is against pop.
+
+however, the text says: ""looks like **pop was more popular than latin this year!**""
+
+let's re-read the claim in the prompt: ""the post text claims one music genre is more popular than another. look at the percentage values in the chart to verify this claim. if the genre described as more popular in the text has a higher percentage in the chart, reply 'correct'. if not, reply 'incorrect'.""
+
+the text states: ""**pop was more popular than latin this year!**""
+*   percentage for pop: **23.5%**
+*   percentage for",False
+047_correct_100,100,correct,correct,correct,True
+052_correct_100,100,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+054_correct_100,100,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim is correct.
+
+correct",False
+055_correct_100,100,correct,correct,correct,True
+058_correct_100,100,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+059_correct_100,100,correct,correct,correct,True
+063_correct_100,100,correct,correct,correct,True
+065_correct_100,100,correct,correct,incorrect,False
+068_correct_100,100,correct,correct,"the post text claims that ""like pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+069_correct_100,100,correct,correct,correct,True
+070_correct_100,100,correct,correct,correct,True
+072_correct_100,100,correct,correct,correct,True
+076_correct_100,100,correct,correct,correct,True
+078_correct_100,100,correct,correct,correct,True
+080_correct_100,100,correct,correct,correct,True
+082_correct_100,100,correct,correct,correct,True
+083_correct_100,100,correct,correct,correct,True
+085_correct_100,100,correct,correct,"the post text claims ""like pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **3.0%**.
+
+since 23.5% (pop) is higher than 3.0% (latin), the claim is correct.
+
+correct",False
+087_correct_100,100,correct,correct,correct,True
+089_correct_100,100,correct,correct,correct,True
+090_correct_100,100,correct,correct,correct,True
+091_correct_100,100,correct,correct,incorrect,False
+094_correct_100,100,correct,correct,correct,True
+095_correct_100,100,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim is correct.
+
+correct",False
+096_correct_100,100,correct,correct,incorrect,False
+098_correct_100,100,correct,correct,correct,True
+100_correct_100,100,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% is greater than 11.0%, the claim is correct.
+
+correct",False
+001_incorrect_100,100,incorrect,incorrect,correct,False
+003_incorrect_100,100,incorrect,incorrect,incorrect,True
+004_incorrect_100,100,incorrect,incorrect,correct,False
+005_incorrect_100,100,incorrect,incorrect,correct,False
+006_incorrect_100,100,incorrect,incorrect,incorrect,True
+007_incorrect_100,100,incorrect,incorrect,correct,False
+012_incorrect_100,100,incorrect,incorrect,incorrect,True
+014_incorrect_100,100,incorrect,incorrect,correct,False
+015_incorrect_100,100,incorrect,incorrect,incorrect,True
+017_incorrect_100,100,incorrect,incorrect,incorrect,True
+018_incorrect_100,100,incorrect,incorrect,correct,False
+020_incorrect_100,100,incorrect,incorrect,correct,False
+021_incorrect_100,100,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+023_incorrect_100,100,incorrect,incorrect,correct,False
+025_incorrect_100,100,incorrect,incorrect,correct,False
+026_incorrect_100,100,incorrect,incorrect,correct,False
+028_incorrect_100,100,incorrect,incorrect,correct,False
+029_incorrect_100,100,incorrect,incorrect,correct,False
+030_incorrect_100,100,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+032_incorrect_100,100,incorrect,incorrect,correct,False
+036_incorrect_100,100,incorrect,incorrect,correct,False
+039_incorrect_100,100,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+044_incorrect_100,100,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+047_incorrect_100,100,incorrect,incorrect,correct,False
+052_incorrect_100,100,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+054_incorrect_100,100,incorrect,incorrect,correct,False
+055_incorrect_100,100,incorrect,incorrect,correct,False
+058_incorrect_100,100,incorrect,incorrect,correct,False
+059_incorrect_100,100,incorrect,incorrect,correct,False
+063_incorrect_100,100,incorrect,incorrect,correct,False
+065_incorrect_100,100,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+068_incorrect_100,100,incorrect,incorrect,correct,False
+069_incorrect_100,100,incorrect,incorrect,correct,False
+070_incorrect_100,100,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+072_incorrect_100,100,incorrect,incorrect,correct,False
+076_incorrect_100,100,incorrect,incorrect,correct,False
+078_incorrect_100,100,incorrect,incorrect,correct,False
+080_incorrect_100,100,incorrect,incorrect,correct,False
+082_incorrect_100,100,incorrect,incorrect,correct,False
+083_incorrect_100,100,incorrect,incorrect,correct,False
+085_incorrect_100,100,incorrect,incorrect,correct,False
+087_incorrect_100,100,incorrect,incorrect,correct,False
+089_incorrect_100,100,incorrect,incorrect,correct,False
+090_incorrect_100,100,incorrect,incorrect,correct,False
+091_incorrect_100,100,incorrect,incorrect,incorrect,True
+094_incorrect_100,100,incorrect,incorrect,incorrect,True
+095_incorrect_100,100,incorrect,incorrect,correct,False
+096_incorrect_100,100,incorrect,incorrect,incorrect,True
+098_incorrect_100,100,incorrect,incorrect,correct,False
+100_incorrect_100,100,incorrect,incorrect,correct,False
+001_correct_1000,1000,correct,correct,correct,True
+003_correct_1000,1000,correct,correct,correct,True
+004_correct_1000,1000,correct,correct,correct,True
+005_correct_1000,1000,correct,correct,correct,True
+006_correct_1000,1000,correct,correct,incorrect,False
+007_correct_1000,1000,correct,correct,correct,True
+012_correct_1000,1000,correct,correct,incorrect,False
+014_correct_1000,1000,correct,correct,correct,True
+015_correct_1000,1000,correct,correct,correct,True
+017_correct_1000,1000,correct,correct,correct,True
+018_correct_1000,1000,correct,correct,correct,True
+020_correct_1000,1000,correct,correct,correct,True
+021_correct_1000,1000,correct,correct,correct,True
+023_correct_1000,1000,correct,correct,correct,True
+025_correct_1000,1000,correct,correct,correct,True
+026_correct_1000,1000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim is correct.
+
+correct",False
+028_correct_1000,1000,correct,correct,incorrect,False
+029_correct_1000,1000,correct,correct,correct,True
+030_correct_1000,1000,correct,correct,correct,True
+032_correct_1000,1000,correct,correct,correct,True
+036_correct_1000,1000,correct,correct,correct,True
+039_correct_1000,1000,correct,correct,incorrect,False
+044_correct_1000,1000,correct,correct,"the post text claims that ""latin this year"" is more popular than another genre.
+
+looking at the chart:
+*   **latin** has **11.0%**.
+*   the genre that is visually suggested as being compared to latin (and is often a major genre) is **pop** at **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin is more popular than another genre (implied to be pop or another major genre) is not supported by the chart if the comparison is against pop.
+
+however, the text says: ""looks like **pop was more popular than latin this year!**""
+
+let's re-read the claim in the text: ""the spotify 2026 music genres distribution has just been released. looks like **pop was more popular than latin this year!**""
+
+*   **pop percentage:** 23.5%
+*   **latin percentage:** 11.0%
+
+since 23.5% > 11.0%, the statement ""pop was more popular than latin this year!"" is **correct** according to the chart.",False
+047_correct_1000,1000,correct,correct,correct,True
+052_correct_1000,1000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+054_correct_1000,1000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim is correct.
+
+correct",False
+055_correct_1000,1000,correct,correct,correct,True
+058_correct_1000,1000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+059_correct_1000,1000,correct,correct,correct,True
+063_correct_1000,1000,correct,correct,correct,True
+065_correct_1000,1000,correct,correct,incorrect,False
+068_correct_1000,1000,correct,correct,"the post text claims that ""like pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+069_correct_1000,1000,correct,correct,correct,True
+070_correct_1000,1000,correct,correct,correct,True
+072_correct_1000,1000,correct,correct,correct,True
+076_correct_1000,1000,correct,correct,correct,True
+078_correct_1000,1000,correct,correct,incorrect,False
+080_correct_1000,1000,correct,correct,correct,True
+082_correct_1000,1000,correct,correct,correct,True
+083_correct_1000,1000,correct,correct,correct,True
+085_correct_1000,1000,correct,correct,"the post text claims ""like pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+087_correct_1000,1000,correct,correct,correct,True
+089_correct_1000,1000,correct,correct,correct,True
+090_correct_1000,1000,correct,correct,correct,True
+091_correct_1000,1000,correct,correct,incorrect,False
+094_correct_1000,1000,correct,correct,correct,True
+095_correct_1000,1000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim is correct.
+
+correct",False
+096_correct_1000,1000,correct,correct,incorrect,False
+098_correct_1000,1000,correct,correct,correct,True
+100_correct_1000,1000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% is greater than 11.0%, the claim is correct.
+
+correct",False
+001_incorrect_1000,1000,incorrect,incorrect,correct,False
+003_incorrect_1000,1000,incorrect,incorrect,incorrect,True
+004_incorrect_1000,1000,incorrect,incorrect,correct,False
+005_incorrect_1000,1000,incorrect,incorrect,correct,False
+006_incorrect_1000,1000,incorrect,incorrect,incorrect,True
+007_incorrect_1000,1000,incorrect,incorrect,correct,False
+012_incorrect_1000,1000,incorrect,incorrect,incorrect,True
+014_incorrect_1000,1000,incorrect,incorrect,correct,False
+015_incorrect_1000,1000,incorrect,incorrect,incorrect,True
+017_incorrect_1000,1000,incorrect,incorrect,incorrect,True
+018_incorrect_1000,1000,incorrect,incorrect,correct,False
+020_incorrect_1000,1000,incorrect,incorrect,correct,False
+021_incorrect_1000,1000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+023_incorrect_1000,1000,incorrect,incorrect,correct,False
+025_incorrect_1000,1000,incorrect,incorrect,correct,False
+026_incorrect_1000,1000,incorrect,incorrect,correct,False
+028_incorrect_1000,1000,incorrect,incorrect,correct,False
+029_incorrect_1000,1000,incorrect,incorrect,correct,False
+030_incorrect_1000,1000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+032_incorrect_1000,1000,incorrect,incorrect,correct,False
+036_incorrect_1000,1000,incorrect,incorrect,correct,False
+039_incorrect_1000,1000,incorrect,incorrect,incorrect,True
+044_incorrect_1000,1000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+047_incorrect_1000,1000,incorrect,incorrect,correct,False
+052_incorrect_1000,1000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+054_incorrect_1000,1000,incorrect,incorrect,correct,False
+055_incorrect_1000,1000,incorrect,incorrect,correct,False
+058_incorrect_1000,1000,incorrect,incorrect,correct,False
+059_incorrect_1000,1000,incorrect,incorrect,correct,False
+063_incorrect_1000,1000,incorrect,incorrect,correct,False
+065_incorrect_1000,1000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+068_incorrect_1000,1000,incorrect,incorrect,correct,False
+069_incorrect_1000,1000,incorrect,incorrect,correct,False
+070_incorrect_1000,1000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+072_incorrect_1000,1000,incorrect,incorrect,correct,False
+076_incorrect_1000,1000,incorrect,incorrect,correct,False
+078_incorrect_1000,1000,incorrect,incorrect,correct,False
+080_incorrect_1000,1000,incorrect,incorrect,correct,False
+082_incorrect_1000,1000,incorrect,incorrect,correct,False
+083_incorrect_1000,1000,incorrect,incorrect,correct,False
+085_incorrect_1000,1000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+087_incorrect_1000,1000,incorrect,incorrect,correct,False
+089_incorrect_1000,1000,incorrect,incorrect,correct,False
+090_incorrect_1000,1000,incorrect,incorrect,correct,False
+091_incorrect_1000,1000,incorrect,incorrect,incorrect,True
+094_incorrect_1000,1000,incorrect,incorrect,incorrect,True
+095_incorrect_1000,1000,incorrect,incorrect,correct,False
+096_incorrect_1000,1000,incorrect,incorrect,incorrect,True
+098_incorrect_1000,1000,incorrect,incorrect,correct,False
+100_incorrect_1000,1000,incorrect,incorrect,correct,False
+001_correct_10000,10000,correct,correct,correct,True
+003_correct_10000,10000,correct,correct,correct,True
+004_correct_10000,10000,correct,correct,correct,True
+005_correct_10000,10000,correct,correct,correct,True
+006_correct_10000,10000,correct,correct,incorrect,False
+007_correct_10000,10000,correct,correct,correct,True
+012_correct_10000,10000,correct,correct,incorrect,False
+014_correct_10000,10000,correct,correct,correct,True
+015_correct_10000,10000,correct,correct,correct,True
+017_correct_10000,10000,correct,correct,correct,True
+018_correct_10000,10000,correct,correct,correct,True
+020_correct_10000,10000,correct,correct,correct,True
+021_correct_10000,10000,correct,correct,correct,True
+023_correct_10000,10000,correct,correct,correct,True
+025_correct_10000,10000,correct,correct,correct,True
+026_correct_10000,10000,correct,correct,correct,True
+028_correct_10000,10000,correct,correct,incorrect,False
+029_correct_10000,10000,correct,correct,correct,True
+030_correct_10000,10000,correct,correct,correct,True
+032_correct_10000,10000,correct,correct,correct,True
+036_correct_10000,10000,correct,correct,correct,True
+039_correct_10000,10000,correct,correct,incorrect,False
+044_correct_10000,10000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+047_correct_10000,10000,correct,correct,correct,True
+052_correct_10000,10000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+054_correct_10000,10000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim is correct.
+
+correct",False
+055_correct_10000,10000,correct,correct,correct,True
+058_correct_10000,10000,correct,correct,correct,True
+059_correct_10000,10000,correct,correct,correct,True
+063_correct_10000,10000,correct,correct,correct,True
+065_correct_10000,10000,correct,correct,incorrect,False
+068_correct_10000,10000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim is correct.
+
+correct",False
+069_correct_10000,10000,correct,correct,correct,True
+070_correct_10000,10000,correct,correct,correct,True
+072_correct_10000,10000,correct,correct,"the post text claims that ""like pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+076_correct_10000,10000,correct,correct,correct,True
+078_correct_10000,10000,correct,correct,correct,True
+080_correct_10000,10000,correct,correct,correct,True
+082_correct_10000,10000,correct,correct,correct,True
+083_correct_10000,10000,correct,correct,correct,True
+085_correct_10000,10000,correct,correct,"the post text claims ""like pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+087_correct_10000,10000,correct,correct,correct,True
+089_correct_10000,10000,correct,correct,correct,True
+090_correct_10000,10000,correct,correct,correct,True
+091_correct_10000,10000,correct,correct,incorrect,False
+094_correct_10000,10000,correct,correct,incorrect,False
+095_correct_10000,10000,correct,correct,correct,True
+096_correct_10000,10000,correct,correct,incorrect,False
+098_correct_10000,10000,correct,correct,correct,True
+100_correct_10000,10000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% is greater than 11.0%, the claim is correct.
+
+correct",False
+001_incorrect_10000,10000,incorrect,incorrect,correct,False
+003_incorrect_10000,10000,incorrect,incorrect,incorrect,True
+004_incorrect_10000,10000,incorrect,incorrect,correct,False
+005_incorrect_10000,10000,incorrect,incorrect,correct,False
+006_incorrect_10000,10000,incorrect,incorrect,incorrect,True
+007_incorrect_10000,10000,incorrect,incorrect,correct,False
+012_incorrect_10000,10000,incorrect,incorrect,incorrect,True
+014_incorrect_10000,10000,incorrect,incorrect,correct,False
+015_incorrect_10000,10000,incorrect,incorrect,incorrect,True
+017_incorrect_10000,10000,incorrect,incorrect,incorrect,True
+018_incorrect_10000,10000,incorrect,incorrect,correct,False
+020_incorrect_10000,10000,incorrect,incorrect,correct,False
+021_incorrect_10000,10000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+023_incorrect_10000,10000,incorrect,incorrect,correct,False
+025_incorrect_10000,10000,incorrect,incorrect,correct,False
+026_incorrect_10000,10000,incorrect,incorrect,correct,False
+028_incorrect_10000,10000,incorrect,incorrect,correct,False
+029_incorrect_10000,10000,incorrect,incorrect,correct,False
+030_incorrect_10000,10000,incorrect,incorrect,correct,False
+032_incorrect_10000,10000,incorrect,incorrect,correct,False
+036_incorrect_10000,10000,incorrect,incorrect,correct,False
+039_incorrect_10000,10000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+044_incorrect_10000,10000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+047_incorrect_10000,10000,incorrect,incorrect,correct,False
+052_incorrect_10000,10000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+054_incorrect_10000,10000,incorrect,incorrect,correct,False
+055_incorrect_10000,10000,incorrect,incorrect,correct,False
+058_incorrect_10000,10000,incorrect,incorrect,correct,False
+059_incorrect_10000,10000,incorrect,incorrect,correct,False
+063_incorrect_10000,10000,incorrect,incorrect,correct,False
+065_incorrect_10000,10000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+068_incorrect_10000,10000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+069_incorrect_10000,10000,incorrect,incorrect,correct,False
+070_incorrect_10000,10000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+072_incorrect_10000,10000,incorrect,incorrect,correct,False
+076_incorrect_10000,10000,incorrect,incorrect,correct,False
+078_incorrect_10000,10000,incorrect,incorrect,correct,False
+080_incorrect_10000,10000,incorrect,incorrect,correct,False
+082_incorrect_10000,10000,incorrect,incorrect,correct,False
+083_incorrect_10000,10000,incorrect,incorrect,correct,False
+085_incorrect_10000,10000,incorrect,incorrect,correct,False
+087_incorrect_10000,10000,incorrect,incorrect,correct,False
+089_incorrect_10000,10000,incorrect,incorrect,correct,False
+090_incorrect_10000,10000,incorrect,incorrect,correct,False
+091_incorrect_10000,10000,incorrect,incorrect,incorrect,True
+094_incorrect_10000,10000,incorrect,incorrect,incorrect,True
+095_incorrect_10000,10000,incorrect,incorrect,correct,False
+096_incorrect_10000,10000,incorrect,incorrect,incorrect,True
+098_incorrect_10000,10000,incorrect,incorrect,correct,False
+100_incorrect_10000,10000,incorrect,incorrect,correct,False
+001_correct_100000,100000,correct,correct,correct,True
+003_correct_100000,100000,correct,correct,correct,True
+004_correct_100000,100000,correct,correct,correct,True
+005_correct_100000,100000,correct,correct,correct,True
+006_correct_100000,100000,correct,correct,incorrect,False
+007_correct_100000,100000,correct,correct,correct,True
+012_correct_100000,100000,correct,correct,incorrect,False
+014_correct_100000,100000,correct,correct,correct,True
+015_correct_100000,100000,correct,correct,correct,True
+017_correct_100000,100000,correct,correct,correct,True
+018_correct_100000,100000,correct,correct,correct,True
+020_correct_100000,100000,correct,correct,correct,True
+021_correct_100000,100000,correct,correct,correct,True
+023_correct_100000,100000,correct,correct,correct,True
+025_correct_100000,100000,correct,correct,correct,True
+026_correct_100000,100000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim is correct.
+
+correct",False
+028_correct_100000,100000,correct,correct,incorrect,False
+029_correct_100000,100000,correct,correct,correct,True
+030_correct_100000,100000,correct,correct,correct,True
+032_correct_100000,100000,correct,correct,correct,True
+036_correct_100000,100000,correct,correct,correct,True
+039_correct_100000,100000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+044_correct_100000,100000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+047_correct_100000,100000,correct,correct,correct,True
+052_correct_100000,100000,correct,correct,correct,True
+054_correct_100000,100000,correct,correct,correct,True
+055_correct_100000,100000,correct,correct,correct,True
+058_correct_100000,100000,correct,correct,correct,True
+059_correct_100000,100000,correct,correct,correct,True
+063_correct_100000,100000,correct,correct,correct,True
+065_correct_100000,100000,correct,correct,"the post text claims that ""latin was more popular than latin this year!"". this sentence is grammatically confusing and seems to have a typo. assuming the intent was to compare latin to another genre mentioned, or perhaps to state that latin is more popular than some other genre, let's look at the chart percentages for ""latin"" and compare it to the other genres.
+
+the percentage for **latin** is **11.0%**.
+
+if the claim is that ""latin was more popular than [another genre]"", we need to know which genre it is being compared against.
+
+however, if we strictly interpret the text as: ""looks like pop was more popular than latin this year!"", then:
+*   pop percentage: **23.5%**
+*   latin percentage: **11.0%**
+*   since 23.5% > 11.0%, this specific comparison would be **correct**.
+
+given the ambiguity of the original sentence (""looks like pop was more popular than latin this year!"" is a common phrasing for this type of question, and the text provided is ""looks like pop was more popular than latin this year!""), and based on the visual evidence:
+
+**pop (23.5",False
+068_correct_100000,100000,correct,correct,"the post text claims that ""like pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+069_correct_100000,100000,correct,correct,correct,True
+070_correct_100000,100000,correct,correct,correct,True
+072_correct_100000,100000,correct,correct,"the post text claims that ""like pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+076_correct_100000,100000,correct,correct,correct,True
+078_correct_100000,100000,correct,correct,incorrect,False
+080_correct_100000,100000,correct,correct,correct,True
+082_correct_100000,100000,correct,correct,correct,True
+083_correct_100000,100000,correct,correct,correct,True
+085_correct_100000,100000,correct,correct,"the post text claims ""like pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+087_correct_100000,100000,correct,correct,correct,True
+089_correct_100000,100000,correct,correct,correct,True
+090_correct_100000,100000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+091_correct_100000,100000,correct,correct,incorrect,False
+094_correct_100000,100000,correct,correct,correct,True
+095_correct_100000,100000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+096_correct_100000,100000,correct,correct,incorrect,False
+098_correct_100000,100000,correct,correct,correct,True
+100_correct_100000,100000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% is greater than 11.0%, the claim is correct.
+
+correct",False
+001_incorrect_100000,100000,incorrect,incorrect,correct,False
+003_incorrect_100000,100000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+004_incorrect_100000,100000,incorrect,incorrect,correct,False
+005_incorrect_100000,100000,incorrect,incorrect,correct,False
+006_incorrect_100000,100000,incorrect,incorrect,incorrect,True
+007_incorrect_100000,100000,incorrect,incorrect,correct,False
+012_incorrect_100000,100000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+014_incorrect_100000,100000,incorrect,incorrect,correct,False
+015_incorrect_100000,100000,incorrect,incorrect,incorrect,True
+017_incorrect_100000,100000,incorrect,incorrect,incorrect,True
+018_incorrect_100000,100000,incorrect,incorrect,correct,False
+020_incorrect_100000,100000,incorrect,incorrect,correct,False
+021_incorrect_100000,100000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+023_incorrect_100000,100000,incorrect,incorrect,correct,False
+025_incorrect_100000,100000,incorrect,incorrect,correct,False
+026_incorrect_100000,100000,incorrect,incorrect,correct,False
+028_incorrect_100000,100000,incorrect,incorrect,correct,False
+029_incorrect_100000,100000,incorrect,incorrect,correct,False
+030_incorrect_100000,100000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+032_incorrect_100000,100000,incorrect,incorrect,correct,False
+036_incorrect_100000,100000,incorrect,incorrect,correct,False
+039_incorrect_100000,100000,incorrect,incorrect,correct,False
+044_incorrect_100000,100000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+047_incorrect_100000,100000,incorrect,incorrect,correct,False
+052_incorrect_100000,100000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+054_incorrect_100000,100000,incorrect,incorrect,correct,False
+055_incorrect_100000,100000,incorrect,incorrect,correct,False
+058_incorrect_100000,100000,incorrect,incorrect,correct,False
+059_incorrect_100000,100000,incorrect,incorrect,correct,False
+063_incorrect_100000,100000,incorrect,incorrect,correct,False
+065_incorrect_100000,100000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+068_incorrect_100000,100000,incorrect,incorrect,correct,False
+069_incorrect_100000,100000,incorrect,incorrect,correct,False
+070_incorrect_100000,100000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+072_incorrect_100000,100000,incorrect,incorrect,correct,False
+076_incorrect_100000,100000,incorrect,incorrect,correct,False
+078_incorrect_100000,100000,incorrect,incorrect,correct,False
+080_incorrect_100000,100000,incorrect,incorrect,correct,False
+082_incorrect_100000,100000,incorrect,incorrect,correct,False
+083_incorrect_100000,100000,incorrect,incorrect,correct,False
+085_incorrect_100000,100000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+087_incorrect_100000,100000,incorrect,incorrect,correct,False
+089_incorrect_100000,100000,incorrect,incorrect,correct,False
+090_incorrect_100000,100000,incorrect,incorrect,correct,False
+091_incorrect_100000,100000,incorrect,incorrect,incorrect,True
+094_incorrect_100000,100000,incorrect,incorrect,incorrect,True
+095_incorrect_100000,100000,incorrect,incorrect,correct,False
+096_incorrect_100000,100000,incorrect,incorrect,incorrect,True
+098_incorrect_100000,100000,incorrect,incorrect,correct,False
+100_incorrect_100000,100000,incorrect,incorrect,correct,False
+001_correct_1000000,1000000,correct,correct,correct,True
+003_correct_1000000,1000000,correct,correct,correct,True
+004_correct_1000000,1000000,correct,correct,correct,True
+005_correct_1000000,1000000,correct,correct,correct,True
+006_correct_1000000,1000000,correct,correct,incorrect,False
+007_correct_1000000,1000000,correct,correct,"the post text says: ""looks like **pop** was more popular than **latin** this year!""
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+012_correct_1000000,1000000,correct,correct,incorrect,False
+014_correct_1000000,1000000,correct,correct,correct,True
+015_correct_1000000,1000000,correct,correct,correct,True
+017_correct_1000000,1000000,correct,correct,correct,True
+018_correct_1000000,1000000,correct,correct,correct,True
+020_correct_1000000,1000000,correct,correct,correct,True
+021_correct_1000000,1000000,correct,correct,correct,True
+023_correct_1000000,1000000,correct,correct,correct,True
+025_correct_1000000,1000000,correct,correct,correct,True
+026_correct_1000000,1000000,correct,correct,"the post text claims ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim is correct.
+
+correct",False
+028_correct_1000000,1000000,correct,correct,correct,True
+029_correct_1000000,1000000,correct,correct,correct,True
+030_correct_1000000,1000000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+032_correct_1000000,1000000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+036_correct_1000000,1000000,correct,correct,"the post text claims that ""latin"" music was more popular than ""other"" music genres.
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   the other genres have the following percentages:
+    *   electronic / dance: 3.9%
+    *   r&b / soul: 4.9%
+    *   rock: 5.5%
+    *   hip-hop / rap: 9.2%
+    *   pop: 23.5%
+    *   indie / alternative: 24.2%
+    *   classical: 3.0%
+    *   other: 14.8%
+
+comparing latin (11.0%) to the other genres, it is not the most popular genre. the most popular genres are indie / alternative (24.2%) and pop (23.5%).
+
+since the claim is that latin was *more popular* than other genres (implying it was the most popular or significantly more popular than others), and it is not the most popular, the claim is not supported by the chart.
+
+incorrect",False
+039_correct_1000000,1000000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+044_correct_1000000,1000000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+047_correct_1000000,1000000,correct,correct,correct,True
+052_correct_1000000,1000000,correct,correct,correct,True
+054_correct_1000000,1000000,correct,correct,correct,True
+055_correct_1000000,1000000,correct,correct,correct,True
+058_correct_1000000,1000000,correct,correct,correct,True
+059_correct_1000000,1000000,correct,correct,correct,True
+063_correct_1000000,1000000,correct,correct,correct,True
+065_correct_1000000,1000000,correct,correct,"the post text claims that ""latin was more popular than latin this year!"". this sentence is grammatically confusing and seems to have a typo. assuming the intended comparison is between **latin** and another genre mentioned, or perhaps comparing latin to the most popular genre overall.
+
+let's look at the percentages for the genres:
+*   hip-hop / rap: 7.5%
+*   pop: 23.5%
+*   latin: 11.0%
+*   other: 5.8%
+*   classical: (no explicit percentage shown for classical, but it's a slice)
+*   indie / alternative: 5.9%
+*   electronic / dance: 9.4%
+*   r&b / soul: 14.2%
+
+if the claim is that **latin (11.0%)** is more popular than **hip-hop / rap (7.5%)**, the claim is correct.
+if the claim is that **latin (11.0%)** is more popular than **electronic / dance (9.4%)**, the claim is correct.
+if the claim is that **latin (11.0%)**",False
+068_correct_1000000,1000000,correct,correct,"the post text claims that ""like pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+069_correct_1000000,1000000,correct,correct,correct,True
+070_correct_1000000,1000000,correct,correct,correct,True
+072_correct_1000000,1000000,correct,correct,correct,True
+076_correct_1000000,1000000,correct,correct,correct,True
+078_correct_1000000,1000000,correct,correct,correct,True
+080_correct_1000000,1000000,correct,correct,correct,True
+082_correct_1000000,1000000,correct,correct,correct,True
+083_correct_1000000,1000000,correct,correct,correct,True
+085_correct_1000000,1000000,correct,correct,"the post text claims ""like pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+087_correct_1000000,1000000,correct,correct,correct,True
+089_correct_1000000,1000000,correct,correct,correct,True
+090_correct_1000000,1000000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+091_correct_1000000,1000000,correct,correct,incorrect,False
+094_correct_1000000,1000000,correct,correct,correct,True
+095_correct_1000000,1000000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% (pop) is higher than 11.0% (latin), the claim is correct.
+
+correct",False
+096_correct_1000000,1000000,correct,correct,incorrect,False
+098_correct_1000000,1000000,correct,correct,correct,True
+100_correct_1000000,1000000,correct,correct,"the post text claims that ""pop was more popular than latin this year!"".
+
+looking at the chart:
+*   **pop** has a percentage of **23.5%**.
+*   **latin** has a percentage of **11.0%**.
+
+since 23.5% is greater than 11.0%, the claim is correct.
+
+correct",False
+001_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+003_incorrect_1000000,1000000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+004_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+005_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+006_incorrect_1000000,1000000,incorrect,incorrect,incorrect,True
+007_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+012_incorrect_1000000,1000000,incorrect,incorrect,incorrect,True
+014_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+015_incorrect_1000000,1000000,incorrect,incorrect,incorrect,True
+017_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+018_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+020_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+021_incorrect_1000000,1000000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+023_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+025_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+026_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+028_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+029_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+030_incorrect_1000000,1000000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+032_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+036_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+039_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+044_incorrect_1000000,1000000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+047_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+052_incorrect_1000000,1000000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+054_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+055_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+058_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+059_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+063_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+065_incorrect_1000000,1000000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% is less than 23.5%, the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+068_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+069_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+070_incorrect_1000000,1000000,incorrect,incorrect,"the post text claims that ""latin was more popular than pop this year!"".
+
+looking at the chart:
+*   **latin** has a percentage of **11.0%**.
+*   **pop** has a percentage of **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect.
+
+incorrect",False
+072_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+076_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+078_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+080_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+082_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+083_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+085_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+087_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+089_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+090_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+091_incorrect_1000000,1000000,incorrect,incorrect,incorrect,True
+094_incorrect_1000000,1000000,incorrect,incorrect,incorrect,True
+095_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+096_incorrect_1000000,1000000,incorrect,incorrect,incorrect,True
+098_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+100_incorrect_1000000,1000000,incorrect,incorrect,correct,False

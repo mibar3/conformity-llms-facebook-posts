@@ -1,0 +1,1202 @@
+[
+  {
+    "image": "001_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "001_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "003_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "003_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "004_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "004_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "005_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "005_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "006_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "006_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "007_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "007_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "012_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "012_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "014_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "014_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "015_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "015_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "017_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "017_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "018_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "018_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "020_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "020_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "021_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "021_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "023_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "023_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "025_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "025_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "026_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "026_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "028_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "028_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "029_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "029_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "030_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "030_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "032_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "032_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "036_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "036_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "039_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "039_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "044_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "044_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "047_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "047_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "052_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "052_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "054_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "054_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "055_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "055_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "058_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "058_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "059_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "059_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "063_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "063_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "065_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "065_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "068_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "068_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "069_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "069_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "070_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "070_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "072_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "072_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "076_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "076_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "078_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "078_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "080_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "080_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "082_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "082_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "083_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "083_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "085_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "085_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "087_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "087_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "089_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "089_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "090_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "090_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "091_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "091_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "094_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "094_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "095_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "095_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "096_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "096_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "098_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "098_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "100_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "100_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "002_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "002_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "008_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "008_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "009_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "009_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "010_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "010_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "011_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "011_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "013_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "013_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "016_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "016_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "019_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "019_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "022_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "022_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "024_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "024_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "027_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "027_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "031_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "031_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "033_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "033_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "034_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "034_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "035_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "035_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "037_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "037_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "038_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "038_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "040_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "040_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "041_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "041_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "042_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "042_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "043_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "043_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "045_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "045_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "046_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "046_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "048_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "048_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "049_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "049_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "050_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "050_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "051_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "051_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "053_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "053_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "056_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "056_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "057_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "057_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "060_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "060_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "061_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "061_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "062_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "062_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "064_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "064_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "066_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "066_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "067_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "067_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "071_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "071_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "073_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "073_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "074_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "074_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "075_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "075_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "077_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "077_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "079_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "079_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "081_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "081_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "084_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "084_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "086_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "086_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "088_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "088_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "092_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "092_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "093_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "093_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "097_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "097_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "099_correct",
+    "variant": "correct",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  },
+  {
+    "image": "099_incorrect",
+    "variant": "incorrect",
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'yes' or 'no'.",
+    "answer": "no"
+  }
+]
