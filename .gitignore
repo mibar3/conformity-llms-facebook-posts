@@ -34,3 +34,5 @@ benchmarking/testing_importing_qwen.ipynb
 benchmarking/ground_truth_dataframe_creation_manual.ipynb
 
 experiments/e1/*/outputs_n50_backup/
+
+__pycache__/
