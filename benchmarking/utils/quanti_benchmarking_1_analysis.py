@@ -19,6 +19,15 @@ TEXT_QUESTIONS = [
 
 ALL_QUESTIONS = NUMERIC_QUESTIONS + TEXT_QUESTIONS
 
+# Color questions get a lenient (substring) match instead of exact equality. Found 2026-07-16:
+# ground truth stores the coarse color name ("blue"), but a model describing the same wedge as
+# "light blue" (visually correct — see docs/THESIS.md Section 3.9) was being scored as wrong under
+# exact-string comparison. Confirmed affecting Gemma-E4B (0% -> 100%) and Mistral Small 3.1 24B
+# (50% -> 100%) on chart_color_latin, across all 6 prompt versions of test-1; no other
+# model/question combination was affected. A string is always a substring of itself, so an exact
+# match still counts as correct — this only adds leniency, it never removes it.
+COLOR_QUESTIONS = ["chart_color_pop", "chart_color_latin"]
+
 
 def normalize_number(value: str) -> str:
     value = str(value).strip().lower()
@@ -72,7 +81,12 @@ def run_accuracy_analysis(base_dir: Path, experiment_name: str, model_name: str)
         for q in ALL_QUESTIONS:
             pred_col, true_col = f"{q}_pred", f"{q}_true"
             if pred_col in merged.columns and true_col in merged.columns:
-                merged[f"{q}_correct"] = merged[pred_col] == merged[true_col]
+                if q in COLOR_QUESTIONS:
+                    merged[f"{q}_correct"] = merged.apply(
+                        lambda row, tc=true_col, pc=pred_col: str(row[tc]) in str(row[pc]), axis=1
+                    )
+                else:
+                    merged[f"{q}_correct"] = merged[pred_col] == merged[true_col]
 
         correct_cols = [f"{q}_correct" for q in ALL_QUESTIONS if f"{q}_correct" in merged.columns]
 

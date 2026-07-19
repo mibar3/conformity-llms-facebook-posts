@@ -6,7 +6,7 @@ image,prompt_version,prompt_text,profile_name_pred,profile_verification_pred,lik
 
 since 23.5% (pop) is greater than 11.0% (latin), the claim that pop was more popular than latin this year is correct.
 
-reply: 'correct'",correct,fox news,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,False,False
+reply: 'correct'",correct,fox news,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
 001_ny_times_c,v4,"In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,"to verify the claim, we need to look at the percentages for pop and latin in the pie chart:
 
 - pop: 23.5%
@@ -30,7 +30,7 @@ reply: correct",correct,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,c
 
 since 23.5% (pop) is greater than 11.0% (latin), the claim that pop was more popular than latin this year is correct.
 
-reply: 'correct'",correct,reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,False,False
+reply: 'correct'",correct,reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
 001_fox_news_i,v4,"In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",fox news,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,"to verify the claim, we need to look at the percentages for pop and latin in the pie chart:
 
 - pop: 23.5%
@@ -46,7 +46,7 @@ therefore, the claim is incorrect.",incorrect,fox news,yes,0,0,0,0,0,0,0,0,23.5,
 
 the claim states that latin was more popular than pop this year. however, the chart shows that pop has a higher percentage (23.5%) compared to latin (11.0%).
 
-therefore, the claim is incorrect.",incorrect,the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,True,False,True,True,True,True,True,False,True,False,False
+therefore, the claim is incorrect.",incorrect,the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,True,False,True,True,True,True,True,True,True,False,False
 001_remy_ashford_i,v4,"In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,"to verify the claim, we need to look at the percentages for pop and latin in the pie chart:
 
 - pop: 23.5%
@@ -62,4 +62,4 @@ therefore, the claim is incorrect.",incorrect,remy ashford,no,0,0,0,0,0,0,0,0,23
 
 the claim states that latin was more popular than pop this year. however, the chart shows that pop (23.5%) has a higher percentage than latin (11.0%).
 
-therefore, the claim is incorrect.",incorrect,reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,False,False
+therefore, the claim is incorrect.",incorrect,reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
