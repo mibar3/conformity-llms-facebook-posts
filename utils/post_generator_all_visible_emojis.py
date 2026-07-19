@@ -15,6 +15,21 @@ REACTION_DEFS = {
 }
 
 def format_count(n):
+<<<<<<< HEAD
+    if n == 0:
+        return "0"
+    if n >= 1_000_000:
+        val = n / 1_000_000
+        return f"{val:.1f}M" if val % 1 != 0 else f"{int(val)}M"
+    if n >= 1_000:
+        val = n / 1_000
+        return f"{val:.1f}K" if val % 1 != 0 else f"{int(val)}K"
+    return str(n)
+    
+def build_reaction_bubbles_html(reactions: dict) -> str:
+    active = list(reactions.items())
+    # active = sorted(reactions.items(), key=lambda x: x[1], reverse=True) # this sorts the reactions based on the values each has, not what i want
+=======
     """Format large numbers like Facebook does (1.2K, 3.4M, etc.)"""
     if n == 0:
         return None
@@ -27,6 +42,7 @@ def format_count(n):
 def build_reaction_bubbles_html(reactions: dict) -> str:
     active = sorted([(k, v) for k, v in reactions.items() if v > 0],
                     key=lambda x: x[1], reverse=True)
+>>>>>>> origin/main
     if not active:
         return ""
     
@@ -77,10 +93,15 @@ def generate_facebook_post(profile_name, post_text, post_time,
     formatted_shares   = format_count(share_count)
     
     right_parts = []
+<<<<<<< HEAD
+    right_parts.append(f'{format_count(comment_count)} Comments')
+    right_parts.append(f'{format_count(share_count)} Shares')
+=======
     if formatted_comments:
         right_parts.append(f'{formatted_comments} Comments')
     if formatted_shares:
         right_parts.append(f'{formatted_shares} Shares')
+>>>>>>> origin/main
     engagement_right_html = ' · '.join(right_parts)
 
     # Verified badge SVG (Facebook blue checkmark)
@@ -398,10 +419,24 @@ def generate_facebook_post(profile_name, post_text, post_time,
         }}
     }}
 
+<<<<<<< HEAD
+
+    function formatCount(n) {{
+        if (n <= 0) return null;
+        if (n >= 1000000) {{
+            const val = n / 1000000;
+            return (val % 1 === 0 ? val.toFixed(0) : val.toFixed(1)) + 'M';
+        }}
+        if (n >= 1000) {{
+            const val = n / 1000;
+            return (val % 1 === 0 ? val.toFixed(0) : val.toFixed(1)) + 'K';
+        }}
+=======
     function formatCount(n) {{
         if (n <= 0) return null;
         if (n >= 1000000) return (n / 1000000).toFixed(1).replace(/\\.0$/, '') + 'M';
         if (n >= 1000) return (n / 1000).toFixed(1).replace(/\\.0$/, '') + 'K';
+>>>>>>> origin/main
         return n.toString();
     }}
 
