@@ -176,6 +176,59 @@ def analyse_metrics_paired(output_dir: Path, filename: str):
     df.to_csv(out_path, index=False)
     print(f"✅ Saved to: {out_path}")
 
+def analyse_cc_paired(output_dir: Path, filename: str):
+    """Correct-vs-correct paired A/B analysis (both posts show the correct claim,
+    only engagement scale differs). Diagonal pairs (scale_a == scale_b) are excluded
+    from the engagement-preference summary since both posts are identical there —
+    liked_higher_engagement is trivially true and doesn't measure anything about
+    engagement preference. Diagonal rows are reported separately as the position-bias
+    check (chose 'Post A' %) instead — see plot_cc_grid for the same reasoning."""
+    results = load_json(output_dir / filename)
+    df = pd.DataFrame(results)
+    stem = Path(filename).stem
+
+    df["pair"] = df["scale_a"].astype(str) + "_vs_" + df["scale_b"].astype(str)
+    pair_order = [f"{a}_vs_{b}" for a, b in ADJACENT_PAIRS]
+    df["pair"] = pd.Categorical(df["pair"], categories=pair_order, ordered=True)
+    df = df.sort_values(["pair", "num"])
+
+    off_diag = df[df["scale_a"] != df["scale_b"]]
+    diag = df[df["scale_a"] == df["scale_b"]]
+
+    print("\n" + "="*60)
+    print(f"Correct-vs-correct paired A/B analysis: {stem}")
+    print("="*60)
+
+    summary = pd.DataFrame({
+        "metric": [
+            "overall_chose_higher_engagement_% (off-diagonal only)",
+            "invalid_answer_% (off-diagonal only)",
+            "position_bias_chose_A_% (diagonal only, 50% = no bias)"
+        ],
+        "value": [
+            round((off_diag["liked_higher_engagement"] == True).mean() * 100, 2),
+            round((off_diag["liked_scale"] == "invalid").mean() * 100, 2),
+            round((diag["answer"] == "A").mean() * 100, 2) if len(diag) else float("nan"),
+        ]
+    })
+    print("=== Overall Summary ===")
+    display(summary)
+
+    per_pair = off_diag.groupby("pair").apply(lambda g: pd.Series({
+        "total_pairs": len(g),
+        "chose_higher_engagement_%": round((g["liked_higher_engagement"] == True).mean() * 100, 2),
+        "invalid_%": round((g["liked_scale"] == "invalid").mean() * 100, 2),
+    })).reset_index()
+    print("=== Chose-Higher-Engagement Rate per Scale Pair (off-diagonal) ===")
+    display(per_pair)
+
+    print("=== Per Pair Results (all rows, including diagonal) ===")
+    display(df)
+
+    out_path = output_dir / f"{stem.replace('results', 'analysis')}.csv"
+    df.to_csv(out_path, index=False)
+    print(f"✅ Saved to: {out_path}")
+
 
 def plot_ab_grid(output_dir: Path, filename: str, title: str):
     """Plot a grid of liked_correct_% for adjacent scale pairs."""
@@ -280,3 +333,62 @@ def plot_ab_diff_grid(output_dir: Path, filename_a: str, filename_b: str, title:
     plt.savefig(out_path, dpi=150)
     plt.show()
     print(f"✅ Saved to: {out_path}")
+
+
+def plot_cc_grid(output_dir: Path, filename: str, title: str):
+    """Plot a grid of % chose higher-engagement post for the correct-vs-correct control
+    (both posts show the correct claim, only engagement scale differs — see
+    run_e1_correct_vs_correct_paired). The diagonal (scale_a == scale_b) is left blank:
+    both posts are byte-identical there, so liked_higher_engagement is trivially true and
+    doesn't measure engagement preference — it only reflects position bias (A vs B slot),
+    which is reported separately below the plot instead of baked into the grid."""
+    results = load_json(output_dir / filename)
+    df = pd.DataFrame(results)
+    stem = Path(filename).stem
+
+    scale_levels = [0, 10, 100, 1000, 10000, 100000, 1000000]
+    scale_labels = ["0", "10", "100", "1K", "10K", "100K", "1M"]
+    n = len(scale_levels)
+    grid = np.full((n, n), np.nan)
+
+    for a_idx, scale_a in enumerate(scale_levels):
+        for b_idx, scale_b in enumerate(scale_levels):
+            if scale_a == scale_b:
+                continue
+            mask = (df["scale_a"] == scale_a) & (df["scale_b"] == scale_b)
+            if mask.sum() == 0:
+                continue
+            grid[b_idx][a_idx] = round((df[mask]["liked_higher_engagement"] == True).mean() * 100, 1)
+
+    fig, ax = plt.subplots(figsize=(9, 7))
+    cmap = mcolors.LinearSegmentedColormap.from_list("rg", ["#d73027", "#f7f7f7", "#1a9850"])
+    im = ax.imshow(grid, cmap=cmap, vmin=0, vmax=100, aspect="auto")
+
+    for i in range(n):
+        for j in range(n):
+            if not np.isnan(grid[i][j]):
+                ax.text(j, i, f"{grid[i][j]:.1f}%", ha="center", va="center",
+                        fontsize=11, fontweight="bold", color="black")
+
+    ax.set_xticks(range(n))
+    ax.set_yticks(range(n))
+    ax.set_xticklabels(scale_labels)
+    ax.set_yticklabels(scale_labels)
+    ax.invert_yaxis()
+    ax.set_xlabel("Post A reactions (both posts correct)", fontsize=12)
+    ax.set_ylabel("Post B reactions (both posts correct)", fontsize=12)
+    ax.set_title(title, fontsize=13, fontweight="bold")
+
+    plt.colorbar(im, ax=ax, label="Chose higher-engagement post (%)")
+    plt.tight_layout()
+
+    out_path = output_dir / f"{stem}_grid.png"
+    plt.savefig(out_path, dpi=150)
+    plt.show()
+    print(f"✅ Saved to: {out_path}")
+
+    diag_mask = df["scale_a"] == df["scale_b"]
+    if diag_mask.sum() > 0:
+        pct_a = (df[diag_mask]["answer"] == "A").mean() * 100
+        print(f"ℹ Position-bias check (diagonal, {diag_mask.sum()} trials, both posts identical): "
+              f"chose 'Post A' {pct_a:.1f}% of the time (50% = no position bias)")
