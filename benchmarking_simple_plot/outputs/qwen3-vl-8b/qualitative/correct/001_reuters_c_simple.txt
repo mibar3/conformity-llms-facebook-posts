@@ -1,0 +1,72 @@
+This is a screenshot of a social media post from the news outlet Reuters, displayed on what appears to be a platform like Facebook or LinkedIn.
+
+---
+
+**1. Profile Information:**
+- **Name:** Reuters
+- **Badges/Indicators:**
+  - A blue verification checkmark (✅) next to the name, indicating it is a verified account.
+  - A blue “Follow” button, suggesting the viewer is not currently following this account.
+- **Timestamp:** “Today at 2:43 PM” with a small clock icon, indicating the post was made recently.
+
+---
+
+**2. Post Text Content:**
+The text reads:
+> The Spotify 2026 music genres distribution has just been released. Looks like Pop was more popular than Latin this year!
+
+This text sets up the context for the image, claiming that Spotify has released its 2026 genre distribution data and highlighting that Pop is more popular than Latin.
+
+---
+
+**3. Image/Chart:**
+The post features a large, circular pie chart titled:
+> **Music Genre Preferences of Spotify Users**
+
+The chart is divided into three segments:
+
+- **Pop (Green):**
+  - Color: Light green.
+  - Percentage: 23.5%.
+  - Label: “Pop” is written below the segment.
+
+- **Latin (Pink):**
+  - Color: Light pink.
+  - Percentage: 11.0%.
+  - Label: “Latin” is written below the segment.
+
+- **Other (Gray):**
+  - Color: Light gray.
+  - Percentage: Not explicitly labeled, but visually it is the largest segment, representing the remaining 65.5% (100% - 23.5% - 11.0%).
+  - Label: “Other” is written above the segment.
+
+The chart is visually designed with a slight 3D effect, and the “Other” segment is pulled out slightly from the center, making it appear larger and drawing attention to it.
+
+---
+
+**4. Engagement Metrics:**
+- **Reactions (Emojis):**
+  - Like (thumbs up): 0
+  - Heart: 0
+  - Laughing face: 0
+  - Surprised face: 0
+  - Sad face: 0
+  - Angry face: 0
+- **Comments & Shares:**
+  - “0 Comments · 0 Shares”
+
+---
+
+**5. Other Visual Elements:**
+- **Post Interface:**
+  - At the bottom, there are standard social media interaction buttons: “Like,” “Comment,” and “Share,” each with its corresponding icon.
+  - The “Share” button has a blue arrow icon.
+  - The top right corner has a “...” (more options) menu and a “X” (close) button.
+- **Overall Layout:**
+  - The post is contained within a white rectangular card with rounded corners, set against a light gray background.
+  - The text and chart are centered within the card for clear visibility.
+
+---
+
+**Note on Accuracy:**
+It is important to note that the post claims the data is for “Spotify 2026,” which is likely a fictional or humorous reference, as Spotify does not release annual genre distribution data for a future year. The post may be satirical or a placeholder for a real 2024 or 2025 report. The data presented (Pop 23.5%, Latin 11.0%) is illustrative and not necessarily factual.

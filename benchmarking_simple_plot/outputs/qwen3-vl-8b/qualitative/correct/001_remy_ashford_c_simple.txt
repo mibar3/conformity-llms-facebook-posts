@@ -1,0 +1,30 @@
+Based on the provided image, here is a detailed description of the social media post:
+
+**Profile Information:**
+- The post is from a user named **Remy Ashford**.
+- Next to the name, there is a blue **“Follow”** button, indicating the viewer is not currently following this user.
+- Below the name, the post was made **“Today at 2:43 PM”**.
+- A small circular icon with a gray silhouette of a person is visible next to the timestamp, likely indicating the user's profile picture placeholder.
+
+**Post Text Content:**
+The text of the post reads:
+> The Spotify 2026 music genres distribution has just been released. Looks like Pop was more popular than Latin this year!
+
+**Image/Chart:**
+The post features a large, circular **pie chart** titled:
+> **Music Genre Preferences of Spotify Users**
+
+The chart is divided into three segments:
+1.  **Pop:** Represented by a **light green** slice, accounting for **23.5%** of the chart.
+2.  **Latin:** Represented by a **light pink** slice, accounting for **11.0%** of the chart.
+3.  **Other:** Represented by a large **light gray** slice, which visually dominates the chart and represents the remaining percentage (calculated as 100% - 23.5% - 11.0% = 65.5%).
+
+**Engagement Metrics:**
+- Below the chart, there is a row of reaction emojis (thumbs up, heart, laughing, surprised, crying, angry) with all counts showing **0**.
+- To the right of the reactions, it states: **“0 Comments · 0 Shares”**.
+
+**Other Visual Elements:**
+- The post has a clean, white background with a subtle gray border.
+- At the bottom, there are interactive buttons for **“Like”**, **“Comment”**, and **“Share”**.
+- In the top right corner of the post, there are three vertical dots (a menu icon) and an 'X' button for closing the post.
+- The overall layout is typical of a social media platform like Facebook or Instagram.
