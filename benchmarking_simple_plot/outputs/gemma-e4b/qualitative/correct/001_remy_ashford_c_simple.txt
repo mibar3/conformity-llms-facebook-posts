@@ -1,0 +1,37 @@
+Here is a full and detailed description of the social media post image:
+
+**Overall Appearance:**
+The image is a screenshot of a social media post, likely from a platform like Medium or LinkedIn, featuring a data visualization (a pie chart) related to music genre preferences.
+
+**Profile Information:**
+*   **Profile Name:** Remy Ashford
+*   **Indicator:** A small profile picture (a light-colored circle with a silhouette) is visible next to the name.
+*   **Action:** A "Follow" button is present next to the name.
+*   **Timestamp:** The post was made "Today at 2:43 PM."
+*   **Options:** A three-dot menu and an 'X' icon are visible in the top right corner, indicating post options.
+
+**Post Text Content:**
+The text accompanying the post reads:
+"The Spotify 2026 music genres distribution has just been released. Looks like Pop was more popular than Latin this year!"
+
+**Image/Chart Content (Pie Chart):**
+The main visual element is a large pie chart illustrating music genre preferences. The chart is divided into three visible segments:
+
+1.  **Other:** This segment is the largest, colored in a very light gray/off-white. It does not have a specific percentage label visible within the slice itself, but it represents the majority of the data.
+2.  **Pop:** This segment is colored in a light green. It is clearly labeled with **"23.5%"**.
+3.  **Latin:** This segment is colored in a light pink/salmon color. It is clearly labeled with **"11.0%"**.
+
+The chart is titled: **"Music Genre Preferences of Spotify Users"**
+
+**Engagement Metrics and Footer:**
+Below the chart, there is a row displaying engagement metrics:
+*   **Likes:** A thumbs-up icon followed by the number **"0"**.
+*   **Hearts/Reactions:** A heart icon followed by the number **"0"**.
+*   **Laughing/Smiling Emojis:** Several other reaction icons (a smiling face, a laughing face, etc.) are shown, all followed by the number **"0"**.
+*   **Comments/Shares:** The bottom right corner shows **"0 Comments · 0 Shares"**.
+
+**Action Buttons:**
+At the very bottom, there are three interactive buttons:
+1.  **Like:** Accompanied by a thumbs-up icon.
+2.  **Comment:** Accompanied by a speech bubble icon.
+3.  **Share:** Accompanied by a sharing icon.

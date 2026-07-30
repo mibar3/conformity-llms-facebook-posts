@@ -1,0 +1,39 @@
+Here is a full and detailed description of the social media post image:
+
+**Overall Appearance:**
+The image is a screenshot of a social media post, likely from a platform like Medium or a similar blogging/social networking site, featuring a data visualization (a pie chart).
+
+**Profile Information:**
+*   **Profile Name:** Remy Ashford
+*   **Indicator:** There is a "Follow" button next to the name.
+*   **Timestamp:** The post was made "Today at 2:43 PM."
+*   **Options:** There are ellipsis (...) and an 'X' icon in the top right corner, indicating options and the ability to close/dismiss the post.
+
+**Post Text Content:**
+The text accompanying the post reads:
+"The Spotify 2026 music genres distribution has just been released. Looks like Latin was more popular than Pop this year!"
+
+**Visual Content (The Chart):**
+The main feature of the post is a large **pie chart** titled:
+**"Music Genre Preferences of Spotify Users"**
+
+The pie chart is divided into three visible segments:
+
+1.  **Other:** This is the largest segment, colored in a light gray/off-white. It does not have a specific percentage label visible within the slice itself, but it represents the majority of the chart.
+2.  **Pop:** This segment is colored in a light green. It is clearly labeled with **"23.5%"**.
+3.  **Latin:** This segment is colored in a light pink/salmon color. It is clearly labeled with **"11.0%"**.
+
+**Engagement Metrics and Footer:**
+Below the chart, there is a row displaying engagement metrics:
+
+*   **Reactions/Likes:** There are five emoji reactions shown, each with a count of **"0"**:
+    *   Thumbs up (👍)
+    *   Heart (❤️)
+    *   Smiling face (😊)
+    *   Slightly smiling face (🙂)
+    *   Laughing face (😂)
+*   **Action Buttons:** Below the reactions, there are three interactive buttons:
+    *   **Like:** Accompanied by a thumbs-up icon.
+    *   **Comment:** Accompanied by a speech bubble icon.
+    *   **Share:** Accompanied by a share icon.
+*   **Comment/Share Count:** In the bottom right corner, it states: **"0 Comments · 0 Shares"**.

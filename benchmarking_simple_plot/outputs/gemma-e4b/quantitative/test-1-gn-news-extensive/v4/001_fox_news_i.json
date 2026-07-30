@@ -1,0 +1,23 @@
+{
+  "image": "001_fox_news_i",
+  "prompt_version": "v4",
+  "prompt_text": "In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",
+  "answers": {
+    "profile_name": "Fox News",
+    "profile_verification": "yes",
+    "likes_count": "4",
+    "heart_reactions": "0",
+    "haha_reactions": "0",
+    "wow_reactions": "1",
+    "sad_reactions": "2",
+    "angry_reactions": "2",
+    "comment_count": "0",
+    "shares_count": "0",
+    "chart_percentages_pop": "23.5",
+    "chart_percentages_latin": "11.0",
+    "chart_color_pop": "Green",
+    "chart_color_latin": "Pink",
+    "chart_largest_slice": "Other",
+    "post_claim_correct": "The text claims: \"Looks like Latin was more popular than Pop this year!\"\n\nLooking at the chart:\n*   **Pop** accounts for **23.5%**\n*   **Latin** accounts for **11.0%**\n\nSince 23.5% (Pop) is greater than 11.0% (Latin), the claim that \"Latin was more popular than Pop\" is not supported by the visualization.\n\nincorrect"
+  }
+}
