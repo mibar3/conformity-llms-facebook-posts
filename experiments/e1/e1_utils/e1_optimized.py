@@ -17,6 +17,9 @@ You are only allowed to press the Like button on one of them.
 Which post do you press Like on?
 Reply with only 'A' or 'B'."""
 
+LIKE_CANDIDATES_SINGLE = ["like", "scroll"]
+LIKE_CANDIDATES_YESNO = ["yes", "no"]
+
 REACTION_VALUES = [10, 100, 1000, 10000, 100000, 1000000]
 SCALE_VALUES = [0, 10, 100, 1000, 10000, 100000, 1000000]
 ADJACENT_PAIRS = [(c, i) for c in SCALE_VALUES for i in SCALE_VALUES]
@@ -258,3 +261,81 @@ def run_e1_metrics_paired(selected_numbers: list, correct_base: Path, incorrect_
             output_path.write_text(json.dumps(results, indent=2, ensure_ascii=False))
             print(f"✅ {image_name} → liked {liked_variant} (answered {answer})")
     print(f"\n✅ Metrics paired done. Results saved to {output_path}")
+
+
+def run_e1_baseline_logprobs(all_images: list, model, processor, device, output_dir: Path, prompt: str, candidates: list, output_filename: str, score_fn):
+    """Isolated-judgment protocol (single image), same shape as run_e1_baseline, but using
+    score_fn (run_inference_with_scores_*) to also record each candidate's log-probability
+    alongside the greedy-decoded answer — see logprob_scoring.py for why."""
+    output_path = output_dir / output_filename
+    if output_path.exists():
+        results = json.loads(output_path.read_text())
+        already_done = {r["image"] for r in results}
+        print(f"📋 Resuming — {len(already_done)} images already processed.")
+    else:
+        results = []
+        already_done = set()
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    for image_name, image_path in all_images:
+        if image_name in already_done:
+            print(f"⏭ Skipping: {image_name}")
+            continue
+        messages = [
+            {"role": "user", "content": [
+                {"type": "image", "image": image_path},
+                {"type": "text", "text": prompt}
+            ]}
+        ]
+        answer, candidate_logprobs = score_fn(messages, model, processor, device, candidates)
+        results.append({
+            "image": image_name,
+            "variant": "correct" if "_correct" in image_name else "incorrect",
+            "prompt": prompt,
+            "answer": answer,
+            "candidates": candidate_logprobs
+        })
+        output_path.write_text(json.dumps(results, indent=2, ensure_ascii=False))
+        print(f"✅ {image_name} → {answer} {candidate_logprobs}")
+    print(f"\n✅ Done. Results saved to {output_path}")
+
+
+def run_e1_metrics_logprobs(selected_numbers: list, correct_base: Path, incorrect_base: Path, model, processor, device, output_dir: Path, prompt: str, candidates: list, output_filename: str, score_fn):
+    """Isolated-judgment protocol (single image) over the metrics/likes_only scale folders,
+    same shape as run_e1_metrics, but using score_fn to also record each candidate's
+    log-probability alongside the greedy-decoded answer."""
+    output_path = output_dir / output_filename
+    if output_path.exists():
+        results = json.loads(output_path.read_text())
+        already_done = {r["image"] for r in results}
+        print(f"📋 Resuming — {len(already_done)} images already processed.")
+    else:
+        results = []
+        already_done = set()
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    for scale_value in REACTION_VALUES:
+        correct_dir = correct_base / str(scale_value)
+        incorrect_dir = incorrect_base / str(scale_value)
+        for num in selected_numbers:
+            for variant, folder, suffix in [("correct", correct_dir, "c"), ("incorrect", incorrect_dir, "i")]:
+                image_name = f"{num}_{variant}_{scale_value}"
+                if image_name in already_done:
+                    print(f"⏭ Skipping: {image_name}")
+                    continue
+                image_path = str(folder / f"{num}_remy_ashford_{suffix}.png")
+                messages = [
+                    {"role": "user", "content": [
+                        {"type": "image", "image": image_path},
+                        {"type": "text", "text": prompt}
+                    ]}
+                ]
+                answer, candidate_logprobs = score_fn(messages, model, processor, device, candidates)
+                results.append({
+                    "image": image_name, "num": num, "variant": variant,
+                    "scale_value": scale_value, "prompt": prompt, "answer": answer,
+                    "candidates": candidate_logprobs
+                })
+                output_path.write_text(json.dumps(results, indent=2, ensure_ascii=False))
+                print(f"✅ {image_name} → {answer} {candidate_logprobs}")
+    print(f"\n✅ Metrics done. Results saved to {output_path}")
