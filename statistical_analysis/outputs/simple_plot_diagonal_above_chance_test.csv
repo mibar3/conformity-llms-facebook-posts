@@ -1,0 +1,5 @@
+model,signal_type,mean_diagonal_pct,n_images_above_50,n_images_below_50,n_images_at_50,p_value
+gemma4-e4b-simple-plot,metrics,52.714285714285715,57,43,0,0.19334790449564246
+gemma4-e4b-simple-plot,likes_only_noise,51.57142857142857,56,44,0,0.2712530240738347
+qwen3-vl-8b-simple-plot,metrics,55.42857142857142,53,47,0,0.617299413589252
+qwen3-vl-8b-simple-plot,likes_only_noise,58.0,60,40,0,0.05688793364098079

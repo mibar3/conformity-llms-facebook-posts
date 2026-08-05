@@ -1,0 +1,5 @@
+model,signal_type,mean_sum_pct,n_wins_excess_correctness,n_losses_deficit,n_ties,p_value
+gemma4-e4b-simple-plot,metrics,99.85714285714286,8,11,2081,0.6476058959960938
+gemma4-e4b-simple-plot,likes_only_noise,98.85714285714286,104,128,1868,0.13086028845916364
+qwen3-vl-8b-simple-plot,metrics,100.66666666666667,81,67,1952,0.28521668718128357
+qwen3-vl-8b-simple-plot,likes_only_noise,105.19047619047619,345,236,1519,7.022353058674199e-06
