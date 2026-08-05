@@ -18,6 +18,6 @@
     "chart_color_pop": "Green",
     "chart_color_latin": "Pink",
     "chart_largest_slice": "Other",
-    "post_claim_correct": "Step 1: The percentage value for Pop in the chart is 23.5%.\nStep 2: The percentage value for Latin in the chart is 11.0%.\nStep 3: The text claims \"Looks like Pop was more popular than Latin this year!\". Since 23.5% (Pop) is greater than 11.0% (Latin), the claim matches the chart.\n\ncorrect"
+    "post_claim_correct": "Step 1: The percentage value for Pop in the chart is 23.5%.\nStep 2: The percentage value for Latin in the chart is 11.0%.\nStep 3: The text claims \"Looks like Pop was more popular than Latin this year!\". Since 23.5% (Pop) is greater than 11.0% (Latin), the claim matches the data.\n\ncorrect"
   }
 }

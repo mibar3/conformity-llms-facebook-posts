@@ -1,52 +1,4 @@
 image,ground_truth,prediction,correct
-001_correct,correct,correct,True
-001_incorrect,incorrect,"the text claims: ""looks like latin was more popular than pop this year!""
-
-looking at the chart:
-*   **pop** accounts for **23.5%**
-*   **latin** accounts for **11.0%**
-
-since 23.5% (pop) is greater than 11.0% (latin), the claim that ""latin was more popular than pop"" is not supported by the visualization.
-
-incorrect",False
-003_correct,correct,incorrect,False
-003_incorrect,incorrect,incorrect,True
-004_correct,correct,correct,True
-004_incorrect,incorrect,correct,False
-005_correct,correct,"the claim in the text is: ""looks like pop was more popular than latin this year!""
-
-looking at the chart:
-*   **pop** popularity is **23.5%**.
-*   **latin** popularity is **11.0%**.
-
-since 23.5% (pop) is greater than 11.0% (latin), the claim matches the visualization.
-
-correct",False
-005_incorrect,incorrect,"the claim in the text is: ""looks like latin was more popular than pop this year!""
-
-looking at the chart:
-*   **latin** popularity is **11.0%**.
-*   **pop** popularity is **23.5%**.
-
-since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is **incorrect**.",False
-006_correct,correct,"the claim in the text is: ""looks like pop was more popular than latin this year!""
-
-looking at the pie chart:
-*   **pop** accounts for **23.5%**.
-*   **latin** accounts for **11.0%**.
-
-since 23.5% (pop) is greater than 11.0% (latin), the claim matches the visualization.
-
-correct",False
-006_incorrect,incorrect,"the claim in the text is: ""looks like latin was more popular than pop this year!""
-
-looking at the pie chart:
-*   **latin** popularity is **11.0%**.
-*   **pop** popularity is **23.5%**.
-
-since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect according to the visualization.
-
-incorrect",False
 007_correct,correct,correct,True
 007_incorrect,incorrect,correct,False
 012_correct,correct,correct,True
@@ -56,7 +8,7 @@ looking at the pie chart:
 *   **latin** accounts for **11.0%** of the music genre preferences.
 *   **pop** accounts for **23.5%** of the music genre preferences.
 
-since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is not supported by the visualization.
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect based on the visualization.
 
 incorrect",False
 014_correct,correct,correct,True
@@ -106,7 +58,7 @@ looking at the pie chart:
 *   **latin** popularity is **11.0%**.
 *   **pop** popularity is **23.5%**.
 
-since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect according to the visualization.
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect based on the visualization.
 
 incorrect",False
 021_correct,correct,correct,True
@@ -168,7 +120,7 @@ looking at the pie chart:
 *   **latin** popularity is **11.0%**.
 *   **pop** popularity is **23.5%**.
 
-since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect according to the visualization.
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect based on the visualization.
 
 incorrect",False
 047_correct,correct,correct,True
@@ -188,7 +140,7 @@ looking at the pie chart:
 *   **latin** popularity is **11.0%**.
 *   **pop** popularity is **23.5%**.
 
-since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect according to the visualization.
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect according to the chart.
 
 incorrect",False
 054_correct,correct,correct,True
@@ -226,7 +178,7 @@ looking at the chart:
 *   **latin** popularity is **11.0%**.
 *   **pop** popularity is **23.5%**.
 
-since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect based on the visualization.
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect according to the visualization.
 
 incorrect",False
 059_correct,correct,correct,True
@@ -254,13 +206,13 @@ incorrect",False
 083_correct,correct,correct,True
 083_incorrect,incorrect,correct,False
 085_correct,correct,correct,True
-085_incorrect,incorrect,"the claim in the text is: ""looks like latin was more popular than pop this year!""
+085_incorrect,incorrect,"the text claims: ""looks like latin was more popular than pop this year!""
 
 looking at the chart:
 *   **latin** popularity is **11.0%**.
 *   **pop** popularity is **23.5%**.
 
-since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect based on the visualization.
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect according to the visualization.
 
 incorrect",False
 087_correct,correct,correct,True
@@ -292,6 +244,55 @@ looking at the chart:
 since 23.5% (pop) is greater than 11.0% (latin), the claim matches the visualization.
 
 correct",False
+100_correct,correct,correct,True
+001_correct,correct,correct,True
+001_incorrect,incorrect,"the text claims: ""looks like latin was more popular than pop this year!""
+
+looking at the chart:
+*   **pop** accounts for **23.5%**
+*   **latin** accounts for **11.0%**
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim that ""latin was more popular than pop"" is not supported by the visualization.
+
+incorrect",False
+003_correct,correct,incorrect,False
+003_incorrect,incorrect,incorrect,True
+004_correct,correct,correct,True
+004_incorrect,incorrect,correct,False
+005_correct,correct,"the claim in the text is: ""looks like pop was more popular than latin this year!""
+
+looking at the chart:
+*   **pop** popularity is **23.5%**.
+*   **latin** popularity is **11.0%**.
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim matches the visualization.
+
+correct",False
+005_incorrect,incorrect,"the claim in the text is: ""looks like latin was more popular than pop this year!""
+
+looking at the chart:
+*   **latin** popularity is **11.0%**.
+*   **pop** popularity is **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is **incorrect**.",False
+006_correct,correct,"the claim in the text is: ""looks like pop was more popular than latin this year!""
+
+looking at the pie chart:
+*   **pop** accounts for **23.5%**.
+*   **latin** accounts for **11.0%**.
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim matches the visualization.
+
+correct",False
+006_incorrect,incorrect,"the claim in the text is: ""looks like latin was more popular than pop this year!""
+
+looking at the pie chart:
+*   **latin** popularity is **11.0%**.
+*   **pop** popularity is **23.5%**.
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect according to the visualization.
+
+incorrect",False
 098_incorrect,incorrect,"the claim in the text is: ""looks like latin was more popular than pop this year!""
 
 looking at the chart:
@@ -301,5 +302,4 @@ looking at the chart:
 since 11.0% (latin) is less than 23.5% (pop), the claim that latin was more popular than pop is incorrect according to the visualization.
 
 incorrect",False
-100_correct,correct,correct,True
 100_incorrect,incorrect,correct,False
