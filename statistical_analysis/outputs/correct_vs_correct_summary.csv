@@ -1,0 +1,9 @@
+model,condition,n,n_chose_higher,pct_chose_higher
+gemma-12b,metrics,4200,3860,91.9047619047619
+gemma-12b,likes_only_noise,4200,4164,99.14285714285714
+gemma-e4b,metrics,4200,4160,99.04761904761905
+gemma-e4b,likes_only_noise,4200,3666,87.28571428571429
+qwen3-vl-4b,metrics,4200,4077,97.07142857142857
+qwen3-vl-4b,likes_only_noise,4200,4123,98.16666666666667
+qwen3-vl-8b,metrics,4200,4199,99.97619047619048
+qwen3-vl-8b,likes_only_noise,4200,3920,93.33333333333333
