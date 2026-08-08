@@ -5,12 +5,30 @@ see docs/SESSION_HANDOFF.md), applied to the simple-plot pilot models
 same tests already run on the original-chart models via statistical_analysis/gee_analysis.ipynb
 (statistical_analysis/outputs/opposite_corner_test.csv, diagonal_above_chance_test.csv).
 
-1. Opposite-corner test: for a grid cell (correct_scale=X, incorrect_scale=Y) and its
-   mirror (correct_scale=Y, incorrect_scale=X), a model responding to engagement alone
-   (no independent correctness sensitivity) should choose the correct post in one cell
-   and the incorrect post in the mirrored cell about equally often -- the two outcomes,
-   summed as 0/1 indicators, should average to 1 across many such pairs. A sum reliably
-   above 1 is evidence of a genuine correctness effect beyond pure engagement-following.
+1. Opposite-corner test (rewritten 2026-08, supervisor correction -- the original sum-based
+   version below is wrong): for a grid cell (correct_scale=X, incorrect_scale=Y) with X<Y --
+   the "disadvantaged" cell, correct post has less engagement -- and its mirror
+   (correct_scale=Y, incorrect_scale=X) -- the "advantaged" cell -- compute the % of images
+   choosing the correct post in each (aggregated across images, i.e. the same per-cell
+   percentage the 7x7 grid heatmaps already show), then take
+   ratio = disadvantaged_pct / advantaged_pct.
+   Ratio == 1 means engagement has no effect on the decision at all (the model does equally
+   well/poorly regardless of which post has more engagement) -- no conformity. Ratio -> 0
+   means engagement fully determines the outcome (never picks correct when it's disadvantaged,
+   always when it's advantaged) -- a strong conformity/engagement effect. The disadvantaged
+   cell is used as the numerator specifically because it is the one that can legitimately hit
+   0% (full conformity collapse); the advantaged cell essentially never does, so division is
+   safe -- but both are given a Haldane-Anscombe continuity correction (+0.5/+1 on the
+   underlying counts) regardless, so a literal 0% disadvantaged cell still yields a finite,
+   comparable ratio instead of exactly 0. The single most extreme pair (correct=0 vs
+   incorrect=1,000,000, i.e. the actual top-left/bottom-right corners of the 7x7 grid as
+   plotted) is reported separately as the headline number; all 21 off-diagonal mirrored pairs
+   are also reported for the full picture.
+
+   [Previous version, kept here for the record only, not used below: summed the two mirrored
+   cells' 0/1 per-image outcomes and sign-tested whether the sum exceeded 1 across images --
+   intended to test for a correctness effect independent of engagement, not to size the
+   engagement effect itself, which is what was actually wanted.]
 
 2. Diagonal-above-chance test: per-image accuracy at disparity=0 (correct_scale ==
    incorrect_scale, no engagement pressure either way), tested against chance (50%) with
@@ -62,42 +80,45 @@ def load_grid(path):
     return lookup, images
 
 
-def opposite_corner_test(lookup, images):
-    wins = losses = ties = 0
-    sums = []
-    seen_pairs = set()
+def cell_pct(lookup, images, cs, ics):
+    """Aggregate % of images choosing the correct post at grid cell (correct_scale=cs,
+    incorrect_scale=ics), plus the Haldane-Anscombe-corrected version ((k+0.5)/(n+1)) used
+    for the ratio so a literal 0% or 100% cell never breaks the division."""
+    vals = [lookup[(num, cs, ics)] for num in images if (num, cs, ics) in lookup]
+    n = len(vals)
+    if n == 0:
+        return None
+    k = sum(vals)
+    return {"n": n, "k": k, "pct": 100 * k / n, "pct_corrected": 100 * (k + 0.5) / (n + 1)}
+
+
+def opposite_corner_ratio_test(lookup, images):
+    """One row per off-diagonal mirrored pair (X<Y): ratio = disadvantaged_pct / advantaged_pct
+    (both continuity-corrected). See module docstring for why this replaced the sum-based test."""
+    rows = []
     for cs in SCALES:
         for ics in SCALES:
-            if cs == ics:
+            if cs >= ics:
+                continue  # only X<Y, so "disadvantaged" (cs=X) is unambiguous
+            disadv = cell_pct(lookup, images, cs, ics)   # correct=X (small), incorrect=Y (large)
+            adv = cell_pct(lookup, images, ics, cs)      # correct=Y (large), incorrect=X (small)
+            if disadv is None or adv is None:
                 continue
-            pair_key = frozenset({cs, ics})
-            if pair_key in seen_pairs:
-                continue
-            seen_pairs.add(pair_key)
-            for num in images:
-                a = lookup.get((num, cs, ics))
-                b = lookup.get((num, ics, cs))
-                if a is None or b is None:
-                    continue
-                s = a + b
-                sums.append(s)
-                if s > 1:
-                    wins += 1
-                elif s < 1:
-                    losses += 1
-                else:
-                    ties += 1
-    n_decisive = wins + losses
-    if n_decisive == 0 or not sums:
-        return None
-    p = sign_test_p(n_decisive, wins)
-    return {
-        "mean_sum_pct": 100 * sum(sums) / len(sums),
-        "n_wins_excess_correctness": wins,
-        "n_losses_deficit": losses,
-        "n_ties": ties,
-        "p_value": p,
-    }
+            ratio = disadv["pct_corrected"] / adv["pct_corrected"]
+            rows.append({
+                "correct_scale_disadv": cs,
+                "incorrect_scale_disadv": ics,
+                "disadvantaged_pct": disadv["pct"],
+                "advantaged_pct": adv["pct"],
+                "ratio": ratio,
+                "n_disadv": disadv["n"],
+                "n_adv": adv["n"],
+            })
+    if not rows:
+        return None, None
+    extreme = next((r for r in rows if r["correct_scale_disadv"] == SCALES[0]
+                     and r["incorrect_scale_disadv"] == SCALES[-1]), None)
+    return rows, extreme
 
 
 def diagonal_test(lookup, images):
@@ -124,6 +145,7 @@ def diagonal_test(lookup, images):
 
 def main():
     corner_rows = []
+    extreme_rows = []
     diagonal_rows = []
 
     for model, outdir in MODELS.items():
@@ -134,15 +156,19 @@ def main():
                 continue
             lookup, images = load_grid(path)
 
-            corner = opposite_corner_test(lookup, images)
-            if corner:
-                row = {"model": model, "signal_type": condition, **corner}
-                corner_rows.append(row)
+            pair_rows, extreme = opposite_corner_ratio_test(lookup, images)
+            if pair_rows:
+                for r in pair_rows:
+                    corner_rows.append({"model": model, "signal_type": condition, **r})
+                mean_ratio = sum(r["ratio"] for r in pair_rows) / len(pair_rows)
                 print(f"[opposite-corner] {model:26s} {condition:18s} "
-                      f"mean_sum={corner['mean_sum_pct']:6.2f}%  "
-                      f"wins={corner['n_wins_excess_correctness']:5d} "
-                      f"losses={corner['n_losses_deficit']:5d} "
-                      f"ties={corner['n_ties']:5d}  p={corner['p_value']:.3e}")
+                      f"mean_ratio(21 pairs)={mean_ratio:6.3f}  "
+                      f"extreme(0v1M)_ratio={extreme['ratio']:6.3f} "
+                      f"({extreme['disadvantaged_pct']:.1f}% / {extreme['advantaged_pct']:.1f}%)"
+                      if extreme else
+                      f"[opposite-corner] {model:26s} {condition:18s} mean_ratio(21 pairs)={mean_ratio:6.3f}")
+            if extreme:
+                extreme_rows.append({"model": model, "signal_type": condition, **extreme})
 
             diagonal = diagonal_test(lookup, images)
             if diagonal:
@@ -156,17 +182,23 @@ def main():
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    with open(OUT_DIR / "simple_plot_opposite_corner_test.csv", "w", newline="") as f:
+    with open(OUT_DIR / "simple_plot_opposite_corner_ratio_test.csv", "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=list(corner_rows[0].keys()))
         writer.writeheader()
         writer.writerows(corner_rows)
+
+    with open(OUT_DIR / "simple_plot_opposite_corner_ratio_extreme.csv", "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=list(extreme_rows[0].keys()))
+        writer.writeheader()
+        writer.writerows(extreme_rows)
 
     with open(OUT_DIR / "simple_plot_diagonal_above_chance_test.csv", "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=list(diagonal_rows[0].keys()))
         writer.writeheader()
         writer.writerows(diagonal_rows)
 
-    print(f"\nSaved to {OUT_DIR}/simple_plot_opposite_corner_test.csv "
+    print(f"\nSaved to {OUT_DIR}/simple_plot_opposite_corner_ratio_test.csv, "
+          f"{OUT_DIR}/simple_plot_opposite_corner_ratio_extreme.csv, "
           f"and {OUT_DIR}/simple_plot_diagonal_above_chance_test.csv")
 
 
