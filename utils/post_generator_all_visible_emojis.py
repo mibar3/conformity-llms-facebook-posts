@@ -415,6 +415,12 @@ def generate_facebook_post(profile_name, post_text, post_time,
 """
 
     if output_file:
+        # Create the parent directory if it doesn't exist yet -- most callers write into a
+        # brand-new tree (e.g. a first run against a new *_bigfont output path) rather than one
+        # already populated by a prior run. Some individual notebook cells already do this
+        # explicitly before calling generate_facebook_post, but not all -- doing it here once
+        # covers every caller instead of requiring each cell to remember it.
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
         with open(output_file, "w", encoding="utf-8") as f:
             f.write(html_template)
         print(f"Facebook post generated: {os.path.abspath(output_file)}")
