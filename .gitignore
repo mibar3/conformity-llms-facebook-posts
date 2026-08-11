@@ -35,6 +35,7 @@ benchmarking/ground_truth_dataframe_creation_manual.ipynb
 
 experiments/e1/*/outputs_n50_backup/
 
-utils/.ipynb_checkpoints/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
 
 __pycache__/
