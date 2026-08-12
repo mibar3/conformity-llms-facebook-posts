@@ -1,0 +1,54 @@
+Here’s a detailed description of the social media post image you provided:
+
+---
+
+### **Profile Information:**
+- **Profile Name:** Fox News
+- **Badges/Indicators:**
+  - A blue checkmark (✓) next to the name, indicating a verified account.
+  - The word "Follow" is displayed below the profile name, suggesting the user can follow Fox News on this platform.
+
+---
+
+### **Post Text Content:**
+- **Main Text:**
+  "The Spotify 2026 music genres distribution has just been released. Looks like Pop was more popular than Latin this year!"
+
+---
+
+### **Image/Chart Details:**
+- **Title of the Chart:** "Music Genre Preferences of Spotify Users"
+- **Type of Chart:** Pie chart
+- **Genres and Percentages (with associated colors):**
+  - **Pop:** 23.5% (light green)
+  - **Rock:** 13.9% (light peach)
+  - **Latin:** 11.0% (light blue)
+  - **Classical:** 11.5% (light red/pink)
+  - **Hip-Hop/Rap:** 8.8% (light purple)
+  - **R&B/Soul:** 8.7% (light greenish-blue)
+  - **Electronic/Dance:** 10.2% (light pink)
+  - **Indie/Alternative:** 6.1% (purple)
+  - **Other:** 6.3% (light yellow)
+
+- **Visual Elements:**
+  - The pie chart is divided into segments, each representing a different music genre with its corresponding percentage.
+  - The segments are color-coded for easy differentiation.
+
+---
+
+### **Engagement Metrics:**
+- **Likes:** 0 (indicated by a thumbs-up icon with "0" next to it)
+- **Reactions:** 0 for each reaction type (heart, laugh, surprise, sad, angry)
+- **Comments:** 0 Comments
+- **Shares:** 0 Shares
+
+---
+
+### **Other Visual Elements:**
+- **Timestamp:** "Today at 2:43 PM"
+- **Social Media Icons:**
+  - Like (thumbs-up icon)
+  - Comment (speech bubble icon)
+  - Share (arrow icon pointing right)
+
+---

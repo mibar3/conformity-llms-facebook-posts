@@ -1,0 +1,8 @@
+{
+  "image": "082_incorrect_1000",
+  "prompt_version": "v4",
+  "prompt_text": "In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",
+  "answers": {
+    "post_claim_correct": "The claim in the post states that \"Latin was more popular than Pop this year!\"\n\nAccording to the chart:\n- **Latin** has a percentage of **11.0%** (though the slice is actually labeled **19.2%** for Electronic/Dance and **11.0%** for Latin, but the **Latin** segment is clearly marked as **11.0%**).\n- **Pop** has a percentage of **23.5%**.\n\nThe **Latin** genre is **not** more popular than **Pop** based on the chart.\n\n**Incorrect** (the claim is wrong). The chart shows **Pop (23.5%)** is more popular than **Latin (11.0%)**. It seems there might be a mistake in the text above the image. The largest segment is actually **Electronic/Dance (19.2%)**, followed by **Pop (23.5%)**."
+  }
+}

@@ -1,0 +1,46 @@
+Here’s a detailed description of the social media post image you provided:
+
+---
+
+### **Profile Information:**
+- **Profile Name:** Remy Ashford
+- **Follow Indicator:** There is a "Follow" button next to the profile name.
+- **Timestamp:** The post was made "Today at 2:43 PM."
+- **Reaction Icons:** Below the profile name, there are icons for reactions (e.g., like, love, laugh, etc.), but none have been selected yet.
+
+---
+
+### **Post Text Content:**
+The text in the post reads:
+*"The Spotify 2026 music genres distribution has just been released. Looks like Pop was more popular than Latin this year!"*
+
+---
+
+### **Image/Chart Description:**
+The post includes a pie chart titled **"Music Genre Preferences of Spotify Users."** The chart is divided into several segments, each representing a different music genre along with its corresponding percentage of user preference. Here are the details:
+
+1. **Pop:** 23.5% (colored in a light green shade)
+2. **Rock:** 13.9% (colored in a peach/pink shade)
+3. **Latin:** 11.0% (colored in a light blue shade)
+4. **Classical:** 11.5% (colored in a reddish-pink shade)
+5. **Hip-Hop / Rap:** 8.8% (colored in a light purple shade)
+6. **R&B / Soul:** 8.7% (colored in a green shade)
+7. **Electronic / Dance:** 10.2% (colored in a light pink shade)
+8. **Indie / Alternative:** 6.1% (colored in a purple shade)
+9. **Other:** 6.3% (colored in a yellowish-green shade)
+
+---
+
+### **Engagement Metrics:**
+- **Likes:** 0
+- **Comments:** 0
+- **Shares:** 0
+- **Reactions:** No reactions (like, love, laugh, etc.) have been selected.
+
+---
+
+### **Other Visual Elements:**
+- Below the pie chart, there are standard social media interaction buttons: **Like**, **Comment**, and **Share**.
+- The post has no comments or shares yet.
+
+---

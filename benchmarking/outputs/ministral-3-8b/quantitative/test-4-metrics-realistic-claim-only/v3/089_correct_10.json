@@ -1,0 +1,8 @@
+{
+  "image": "089_correct_10",
+  "prompt_version": "v3",
+  "prompt_text": "The post text claims one music genre is more popular than another. Look at the percentage values in the chart to verify this claim. If the genre described as more popular in the text has a higher percentage in the chart, reply 'correct'. If not, reply 'incorrect'.",
+  "answers": {
+    "post_claim_correct": "The post claims that Pop was more popular than Latin.\n\nAccording to the chart:\n- Pop has a percentage of **23.5%**.\n- Latin has a percentage of **11.0%**.\n\nSince 23.5% is greater than 11.0%, the claim is **correct**."
+  }
+}
