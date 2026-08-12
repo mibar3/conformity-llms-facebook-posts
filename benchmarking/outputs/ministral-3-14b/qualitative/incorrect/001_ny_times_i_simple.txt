@@ -1,0 +1,47 @@
+Here’s a detailed description of the social media post image you provided:
+
+---
+
+### **Profile Information:**
+- **Profile Name:** The New York Times
+- **Badges/Indicators:** A blue checkmark (✓) next to the name, indicating a verified account.
+
+---
+
+### **Post Text Content:**
+- **Timestamp:** "Today at 2:43 PM"
+- **Text:** *"The Spotify 2026 music genres distribution has just been released. Looks like Latin was more popular than Pop this year!"*
+
+---
+
+### **Image/Chart Details:**
+The post includes a **pie chart** titled:
+- **Title:** *"Music Genre Preferences of Spotify Users"*
+
+The pie chart is divided into the following segments with their respective percentages and colors:
+
+1. **Pop** – 23.5% (Green)
+2. **Rock** – 13.9% (Light Pink)
+3. **Latin** – 11.0% (Light Blue)
+4. **Classical** – 11.5% (Red)
+5. **Hip-Hop / Rap** – 8.8% (Light Orange)
+6. **R&B / Soul** – 8.7% (Light Green)
+7. **Electronic / Dance** – 10.2% (Pink)
+8. **Indie / Alternative** – 6.1% (Purple)
+9. **Other** – 6.3% (Yellow-Green)
+
+---
+
+### **Engagement Metrics:**
+- **Likes:** 0
+- **Comments:** 0
+- **Shares:** 0
+- **Reactions:** No visible reactions (e.g., emojis like 😂, ❤️, etc.)
+
+---
+
+### **Other Visual Elements:**
+- **Social Media Buttons:** Below the chart, there are buttons for "Like," "Comment," and "Share."
+- **Reaction Icons:** A row of emoji reaction icons (e.g., 😂, ❤️, 😍, etc.) is present but none are selected.
+
+---

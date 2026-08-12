@@ -1,0 +1,67 @@
+Here’s a detailed description of the social media post image you provided:
+
+---
+
+### **Profile Information**
+- **Profile Name:** Fox News
+- **Badges/Indicators:**
+  - A blue checkmark (✓) next to "Fox News," indicating a verified account.
+  - A "Follow" button is visible below the profile name.
+
+---
+
+### **Post Text Content**
+The post includes a caption that reads:
+*"The Spotify 2026 music genres distribution has just been released. Looks like Latin was more popular than Pop this year!"*
+
+---
+
+### **Image/Chart Details**
+The post features a pie chart titled **"Music Genre Preferences of Spotify Users"**. The chart is divided into several segments, each representing a different music genre with corresponding percentages and colors:
+
+1. **Pop** (light green):
+   - Percentage: 23.5%
+
+2. **Rock** (peach/pink):
+   - Percentage: 13.9%
+
+3. **Latin** (light blue):
+   - Percentage: 11.0%
+
+4. **Classical** (red):
+   - Percentage: 11.5%
+
+5. **Hip-Hop / Rap** (light brown):
+   - Percentage: 8.8%
+
+6. **R&B / Soul** (green):
+   - Percentage: 8.7%
+
+7. **Electronic / Dance** (light purple):
+   - Percentage: 10.2%
+
+8. **Indie / Alternative** (purple):
+   - Percentage: 6.1%
+
+9. **Other** (light yellow-green):
+   - Percentage: 6.3%
+
+---
+
+### **Engagement Metrics**
+- **Likes:** 0
+- **Comments:** 0
+- **Shares:** 0
+
+---
+
+### **Visual Elements**
+- **Emoji Reactions:** Below the chart, there are several emoji reaction buttons (e.g., thumbs up, heart, laughing, etc.), all showing a count of 0.
+- **Buttons:** There are standard social media interaction buttons at the bottom of the post:
+  - Like (heart icon)
+  - Comment (speech bubble icon)
+  - Share (paper airplane icon)
+
+---
+
+This post appears to be a news update from Fox News regarding the distribution of music genre preferences on Spotify for the year 2026, highlighting that Latin music surpassed Pop in popularity.

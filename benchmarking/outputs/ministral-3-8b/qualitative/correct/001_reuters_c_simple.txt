@@ -1,0 +1,63 @@
+Here’s a detailed description of the social media post image you provided:
+
+---
+
+### **Profile Information**
+- **Profile Name:** Reuters
+- **Badges/Indicators:**
+  - A blue checkmark (✓) next to "Reuters," indicating a verified account.
+  - A timestamp: "Today at 2:43 PM."
+
+---
+
+### **Post Text Content**
+The caption reads:
+*"The Spotify 2026 music genres distribution has just been released. Looks like Pop was more popular than Latin this year!"*
+
+---
+
+### **Visual Elements: Chart**
+The post includes a **pie chart** titled:
+*"Music Genre Preferences of Spotify Users"*
+
+#### **Pie Chart Breakdown:**
+The chart is divided into several colored segments, each representing a music genre with its corresponding percentage:
+
+1. **Pop** (light green):
+   - **Percentage:** 23.5%
+2. **Rock** (peach/pink):
+   - **Percentage:** 13.9%
+3. **Latin** (light blue):
+   - **Percentage:** 11.0%
+4. **Classical** (red):
+   - **Percentage:** 11.5%
+5. **Hip-Hop / Rap** (light brown):
+   - **Percentage:** 8.8%
+6. **R&B / Soul** (green):
+   - **Percentage:** 8.7%
+7. **Electronic / Dance** (pink):
+   - **Percentage:** 10.2%
+8. **Indie / Alternative** (purple):
+   - **Percentage:** 6.1%
+9. **Other** (light green/yellow):
+   - **Percentage:** 6.3%
+
+---
+
+### **Engagement Metrics**
+- **Likes:** 0
+- **Comments:** 0
+- **Shares:** 0
+
+---
+
+### **Additional Visual Elements**
+- **Reaction Icons:** Below the chart, there are several reaction emojis (👍, 💖, 😂, 😮, 😢, 😡, 😍) with a count of 0 for each.
+- **Buttons:** At the bottom, there are standard social media interaction buttons:
+  - Like (👍)
+  - Comment (speech bubble icon)
+  - Share (paper airplane icon)
+
+---
+
+This post appears to be a summary of Spotify's music genre distribution data for the year 2026, highlighting the popularity of different music genres among users.
