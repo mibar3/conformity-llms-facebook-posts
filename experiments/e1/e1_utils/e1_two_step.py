@@ -33,7 +33,7 @@ import json
 import random
 from pathlib import Path
 
-from e1_optimized import SCALE_VALUES
+from e1_utils.e1_optimized import SCALE_VALUES
 
 DIAGONAL_PAIRS = [(s, s) for s in SCALE_VALUES]
 
