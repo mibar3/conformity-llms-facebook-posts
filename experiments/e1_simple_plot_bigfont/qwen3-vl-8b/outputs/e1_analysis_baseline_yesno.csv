@@ -1,0 +1,801 @@
+image,variant,prompt,answer
+001_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+001_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+002_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+002_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+003_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+003_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+004_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+004_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+005_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+005_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+006_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+006_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+007_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+007_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+008_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+008_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+009_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+009_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+010_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+010_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+011_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+011_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+012_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+012_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+013_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+013_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+014_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+014_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+015_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+015_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+016_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+016_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+017_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+017_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+018_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+018_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+019_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+019_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+020_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+020_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+021_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+021_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+022_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+022_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+023_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+023_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+024_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+024_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+025_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+025_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+026_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+026_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+027_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+027_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+028_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+028_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+029_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+029_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+030_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+030_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+031_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+031_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+032_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+032_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+033_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+033_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+034_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+034_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+035_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+035_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+036_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+036_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+037_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+037_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+038_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+038_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+039_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+039_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+040_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+040_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+041_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+041_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+042_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+042_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+043_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+043_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+044_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+044_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+045_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+045_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+046_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+046_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+047_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+047_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+048_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+048_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+049_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+049_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+050_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+050_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+051_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+051_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+052_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+052_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+053_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+053_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+054_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+054_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+055_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+055_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+056_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+056_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+057_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+057_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+058_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+058_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+059_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+059_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+060_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+060_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+061_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+061_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+062_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+062_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+063_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+063_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+064_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+064_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+065_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+065_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+066_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+066_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+067_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+067_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+068_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+068_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+069_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+069_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+070_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+070_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+071_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+071_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+072_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+072_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+073_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+073_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+074_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+074_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+075_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+075_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+076_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+076_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+077_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+077_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+078_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+078_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+079_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+079_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+080_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+080_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+081_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+081_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+082_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+082_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+083_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+083_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+084_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+084_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+085_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+085_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+086_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+086_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+087_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+087_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+088_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+088_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+089_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+089_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+090_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+090_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+091_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+091_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+092_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+092_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+093_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+093_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+094_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+094_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+095_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+095_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+096_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+096_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+097_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+097_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+098_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+098_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+099_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",yes
+099_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+100_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
+100_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'yes' or 'no'.",no
