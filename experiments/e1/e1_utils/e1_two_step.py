@@ -46,6 +46,15 @@ ISOLATED_VERDICT_STEP1_PROMPT = """You are shown a social media post.
 Does the text in the post accurately describe the chart shown?
 Reply with only 'correct' or 'incorrect'."""
 
+# v4-wording variant (2026-08-16): benchmarking's quanti_benchmarking_1_details.py v1 scored only
+# 69% claim-verification accuracy for qwen3-vl-8b on this same image set, vs. 98% for v4's wording
+# (naming the specific categories being compared, explicit "verify" instruction). isolated_verdict
+# above uses v1's wording verbatim -- this variant re-tests step 1 with v4's wording to check
+# whether a stronger step-1 verdict signal changes the final two-step diagonal accuracy.
+ISOLATED_VERDICT_V4_STEP1_PROMPT = """In the post, the text above the image makes a claim comparing the popularity of Pop and Latin.
+Identify the according values in the chart to verify this claim.
+If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'."""
+
 LIKE_PROMPT_PAIR_TWOSTEP_PAIRED = """You are shown two social media posts, Post A and Post B.
 You already determined that: {verdict_sentence}
 You are only allowed to press the Like button on one of them.
@@ -72,9 +81,9 @@ def run_e1_metrics_paired_twostep(selected_numbers: list, correct_base: Path, in
                                    device, output_dir: Path, seed: int, design: str, output_filename: str,
                                    inference_fn, baseline_correct_dir: Path = None,
                                    baseline_incorrect_dir: Path = None, scale_pairs: list = None):
-    """`design` is 'paired_verdict' or 'isolated_verdict' -- see module docstring.
+    """`design` is 'paired_verdict', 'isolated_verdict', or 'isolated_verdict_v4' -- see module docstring.
     `scale_pairs` defaults to DIAGONAL_PAIRS (7 cells); pass ADJACENT_PAIRS for the full 49-cell grid."""
-    assert design in ("paired_verdict", "isolated_verdict")
+    assert design in ("paired_verdict", "isolated_verdict", "isolated_verdict_v4")
     if scale_pairs is None:
         scale_pairs = DIAGONAL_PAIRS
 
@@ -127,13 +136,15 @@ def run_e1_metrics_paired_twostep(selected_numbers: list, correct_base: Path, in
                     verdict_sentence=_verdict_sentence(step1_answer))
                 step1_record = {"step1_answer": step1_answer}
             else:
+                step1_prompt = (ISOLATED_VERDICT_V4_STEP1_PROMPT if design == "isolated_verdict_v4"
+                                 else ISOLATED_VERDICT_STEP1_PROMPT)
                 step1_a = inference_fn(
                     [{"role": "user", "content": [{"type": "image", "image": post_a_path},
-                                                   {"type": "text", "text": ISOLATED_VERDICT_STEP1_PROMPT}]}],
+                                                   {"type": "text", "text": step1_prompt}]}],
                     model, processor, device)
                 step1_b = inference_fn(
                     [{"role": "user", "content": [{"type": "image", "image": post_b_path},
-                                                   {"type": "text", "text": ISOLATED_VERDICT_STEP1_PROMPT}]}],
+                                                   {"type": "text", "text": step1_prompt}]}],
                     model, processor, device)
                 step2_prompt = LIKE_PROMPT_PAIR_TWOSTEP_ISOLATED.format(
                     verdict_a=step1_a.strip().lower(), verdict_b=step1_b.strip().lower())
