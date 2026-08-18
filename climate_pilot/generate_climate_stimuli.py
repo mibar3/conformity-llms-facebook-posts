@@ -93,8 +93,10 @@ def generate_solar_wind_series(post_num: int):
 
 
 def make_line_chart(solar_values, wind_values, output_path: Path):
-    if output_path.exists():
-        return
+    # Deliberately always overwrites (no skip-if-exists) -- chart generation is cheap (pure
+    # matplotlib, no browser), and a stale skip here previously caused charts to silently keep
+    # showing an old dataset after the generation logic changed, while the HTML/captions moved
+    # on to the new one -- a real mismatch this caused once already.
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     fig, ax = plt.subplots(figsize=(8, 5))
