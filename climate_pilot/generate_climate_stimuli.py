@@ -75,16 +75,16 @@ def generate_solar_wind_series(post_num: int):
         solar_values.append(round(s, 1))
         wind_values.append(round(w, 1))
 
-    # Force a clean, unambiguous winner at the final point (avoid near-tie endpoints, which
-    # would make the "correct" answer genuinely ambiguous from the chart rather than a clean
-    # ground truth) -- mirrors how the pie chart's fixed Pop/Latin values were chosen to be
-    # clearly separated, not a coin-flip-close pair.
-    solar_wins = rng.random() < 0.5
+    # Solar is the fixed true winner in every single post -- matches the original study's
+    # convention exactly (Pop was the fixed true winner over Latin in every one of the 50 pie
+    # charts, e.g. fixed_pop=23.5/fixed_latin=11.0 in one batch, fixed_pop=55/fixed_latin=11 in
+    # another -- the magnitude of the win varies, the *direction* never does). Force a clean,
+    # unambiguous gap at the final point (avoid near-tie endpoints, which would make the
+    # "correct" answer genuinely ambiguous from the chart rather than a clean ground truth).
+    solar_wins = True
     min_gap = 4.0
-    if solar_wins and solar_values[-1] <= wind_values[-1] + min_gap:
+    if solar_values[-1] <= wind_values[-1] + min_gap:
         solar_values[-1] = wind_values[-1] + min_gap + rng.uniform(0, 3)
-    elif not solar_wins and wind_values[-1] <= solar_values[-1] + min_gap:
-        wind_values[-1] = solar_values[-1] + min_gap + rng.uniform(0, 3)
 
     return solar_values, wind_values, solar_wins
 
