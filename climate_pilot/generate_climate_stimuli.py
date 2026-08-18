@@ -10,7 +10,7 @@ Design, matching the reasoning already established for the main study's pie char
   6"), not a rate-of-change claim -- kept at the same reading difficulty as "Pop was more
   popular than Latin" on purpose, so a null/positive result here isn't confounded by the new
   claim being a harder reading task than the original.
-- Data: entirely fabricated, generic "Year 1".."Year 6" x-axis (not real calendar years) -- so
+- Data: entirely fabricated, generic "Year 1".."Year 10" x-axis (not real calendar years) -- so
   no model's training-data cutoff can matter, and no model can lean on a real-world prior about
   actual solar/wind adoption trends. Same principle as the original Pop/Latin percentages,
   which were never real Spotify data either.
@@ -47,7 +47,7 @@ POSTS_DIR = OUT_DIR / "posts"
 N_POSTS = 25
 SEED = 42
 SCALE_VALUES = [10, 100, 1000, 10000, 100000, 1000000]  # matches REACTION_VALUES elsewhere
-YEAR_LABELS = [f"Year {i}" for i in range(1, 7)]  # 6 points, generic (not real calendar years)
+YEAR_LABELS = [f"Year {i}" for i in range(1, 11)]  # 10 points, generic (not real calendar years)
 REACTION_TYPES = ["like", "love", "haha", "wow", "sad", "angry"]
 
 PROFILE_NAME = "Remy Ashford"
@@ -123,7 +123,7 @@ def make_claim_text(solar_wins: bool, correct: bool) -> str:
     return (
         "The 2026 Global Energy Transition Report has just been released. "
         f"Looks like {winner_name} investment ended up higher than {loser_name} "
-        f"investment by Year 6!"
+        f"investment by Year 10!"
     )
 
 
@@ -187,7 +187,7 @@ def main():
 
         ground_truth_rows.append({
             "num": f"{num:03d}",
-            "solar_year6": solar_values[-1], "wind_year6": wind_values[-1],
+            "solar_final_year": solar_values[-1], "wind_final_year": wind_values[-1],
             "solar_series": ";".join(str(v) for v in solar_values),
             "wind_series": ";".join(str(v) for v in wind_values),
             "solar_wins": solar_wins,
