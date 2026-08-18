@@ -1,0 +1,201 @@
+image,variant,prompt,answer
+001_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",like
+001_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+002_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",like
+002_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+003_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",like
+003_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+004_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+004_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+005_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+005_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+006_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+006_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+007_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",like
+007_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+008_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+008_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+009_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+009_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+010_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+010_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+011_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+011_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+012_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+012_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+013_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+013_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+014_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",like
+014_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+015_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",like
+015_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+016_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+016_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+017_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+017_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+018_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",like
+018_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+019_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+019_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+020_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+020_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+021_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",like
+021_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+022_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+022_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+023_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",like
+023_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+024_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",like
+024_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
+025_correct,correct,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",like
+025_incorrect,incorrect,"You are shown a social media post.
+You can either press the Like button or scroll past it.
+Do you press Like on this post?
+Reply with only 'like' or 'scroll'.",scroll
