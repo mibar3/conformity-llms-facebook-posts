@@ -3,7 +3,6 @@ import base64
 from PIL import Image
 import io
 import webbrowser
-from IPython.display import HTML, display
 
 REACTION_DEFS = {
     "like":  ("👍", "#1877f2"),
@@ -429,6 +428,7 @@ def generate_facebook_post(profile_name, post_text, post_time,
 
 
 def display_facebook_post(html_content):
+    from IPython.display import HTML, display  # only needed for this notebook-display helper
     display(HTML(html_content))
 
 
