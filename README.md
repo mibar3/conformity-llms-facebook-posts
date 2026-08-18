@@ -22,30 +22,24 @@ repository).
 | `climate_pilot/` | Stimulus generation for the generalization pilot: a fabricated solar-vs-wind investment line chart, deliberately independent of the main study's pool. Self-contained, documented at the top of `generate_climate_stimuli.py`. |
 | `statistical_analysis/` | Cross-model formal statistics (GEE regression, `gee_analysis.ipynb`), grid overview figures, and supporting analysis scripts. |
 
-## Environment: this pipeline spans two separate machines
+## Hardware used
 
-**Stimulus rendering** (HTML → PNG screenshot) needs Python + Selenium + a working Chromium
-binary. This is normally run on a machine that already has Chromium installed (referred to as
-`scc2` in this project) — it does **not** need a GPU.
-
-**Model inference** (loading and running each VLM) needs a CUDA GPU + PyTorch + `transformers`
-(+ model-specific extras, e.g. `qwen_vl_utils` for Qwen). This does **not** need Chromium or
-Selenium.
-
-Trying to run a rendering step on the GPU machine, or an inference step on the rendering
-machine, will fail on a missing dependency that installing more Python packages won't fix (no
-Chromium binary on the GPU machine, no GPU on the rendering machine). Match the step to the
-machine.
+All model inference (Phase 1 benchmarking and the Phase 2 experiments) was run on an **NVIDIA
+H100 80GB HBM3** (in some runs, a MIG partition of it — 40GB slices; some larger models used
+the full 80GB), CUDA 12.4, driver 550.127.08. Per-model VRAM usage is modest enough that a
+single 40GB MIG slice was sufficient for most models in the roster; the largest (Ministral-3-14B)
+was run on the full 80GB card. Exact `nvidia-smi` output is captured in each model's own
+notebook (an early cell in `experiments/e1/<model>/e1-<model>.ipynb`).
 
 ## Reproducing the main study
 
-1. **Generate stimuli** (rendering machine): pie-chart pool + engagement-scaled HTML posts —
-   see the notebooks under `spotify_pie_plot/` and `utils/`, then render with
-   `utils/html_to_png.ipynb`. This step is normally already done; the resulting PNGs live under
-   `benchmarking/{correct,incorrect}/remy-ashford/`.
-2. **Run Phase 1 perception benchmarking** (GPU machine, optional — validates the model can read
+1. **Generate stimuli**: pie-chart pool + engagement-scaled HTML posts — see the notebooks
+   under `spotify_pie_plot/` and `utils/`, then render with `utils/html_to_png.ipynb` (needs
+   Selenium + a Chromium binary). This step is normally already done; the resulting PNGs live
+   under `benchmarking/{correct,incorrect}/remy-ashford/`.
+2. **Run Phase 1 perception benchmarking** (optional — validates the model can read
    the stimulus before trusting Phase 2 results): `benchmarking/<model>-benchmarking.ipynb`.
-3. **Run Phase 2 (the actual experiment)** (GPU machine): open `experiments/e1/<model>/e1-<model>.ipynb`
+3. **Run Phase 2 (the actual experiment)**: open `experiments/e1/<model>/e1-<model>.ipynb`
    and run its cells top to bottom. Each notebook:
    - loads its model,
    - builds (or reuses) a reproducible 50/100-image sample via `e1_utils.sampling.build_paired_sample`
@@ -64,12 +58,10 @@ machine.
 Self-contained, does not touch the main study's data:
 
 ```bash
-# Rendering machine
-python3 climate_pilot/generate_climate_stimuli.py       # chart + HTML generation, no GPU/browser needed
+python3 climate_pilot/generate_climate_stimuli.py       # chart + HTML generation
 python3 climate_pilot/render_climate_html_to_png.py      # HTML -> PNG, needs Selenium + Chromium
 
-# GPU machine, per model
-# open experiments/e1_climate/<model>/e1-climate-<model>.ipynb and run top to bottom
+# then, per model: open experiments/e1_climate/<model>/e1-climate-<model>.ipynb and run top to bottom
 ```
 
 See the module docstring at the top of `climate_pilot/generate_climate_stimuli.py` for the
@@ -91,9 +83,9 @@ is) before changing the stimulus design.
 
 ## Common pitfalls
 
-- **`ModuleNotFoundError: No module named 'selenium'` / missing Chromium** — you're likely on
-  the wrong machine for this step (see "Environment" above), or just need
-  `python3 -m pip install --user selenium` on the rendering machine.
+- **`ModuleNotFoundError: No module named 'selenium'` / missing Chromium** — the rendering step
+  (`utils/html_to_png.ipynb`, `climate_pilot/render_climate_html_to_png.py`) needs both;
+  `python3 -m pip install --user selenium` if only the Python package is missing.
 - **A notebook run silently does nothing / prints "Skipping"** — this is the harness's
   resume logic working as intended (results already exist for that trial in the corresponding
   `outputs/e1_results_*.json`); delete or move that file if you want to force a clean re-run.
