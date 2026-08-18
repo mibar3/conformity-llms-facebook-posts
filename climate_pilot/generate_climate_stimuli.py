@@ -116,9 +116,17 @@ def make_line_chart(solar_values, wind_values, output_path: Path):
     # matplotlib, no browser), and a stale skip here previously caused charts to silently keep
     # showing an old dataset after the generation logic changed, while the HTML/captions moved
     # on to the new one -- a real mismatch this caused once already.
+    #
+    # All points labeled with their value, not just Year 10 -- the unlabeled version left models
+    # needing to visually estimate line height with no printed number to read, unlike the main
+    # study's pie chart where the compared quantities are printed on the slices. Three of four
+    # models showed zero content-conditioned behavior on the unlabeled chart (see e1_climate
+    # baseline/metrics results). Starting with every point labeled (not just Year 10) since the
+    # main study already found that simplifying a chart (e1_simple_plot/_bigfont) didn't move
+    # perception -- more information first, fall back to Year-10-only if this doesn't help either.
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    fig, ax = plt.subplots(figsize=(8, 5))
+    fig, ax = plt.subplots(figsize=(9, 5.5))
     ax.plot(YEAR_LABELS, solar_values, label="Solar", color="#f39c12",
              linewidth=2.5, marker="o", markersize=6)
     ax.plot(YEAR_LABELS, wind_values, label="Wind", color="#3498db",
@@ -129,6 +137,14 @@ def make_line_chart(solar_values, wind_values, output_path: Path):
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
     ax.set_ylim(bottom=0)
+
+    for i, (s, w) in enumerate(zip(solar_values, wind_values)):
+        solar_off, wind_off = ((0, 10), (0, -14)) if s >= w else ((0, -14), (0, 10))
+        ax.annotate(f"{s:.1f}", (i, s), textcoords="offset points", xytext=solar_off,
+                    fontsize=7.5, color="#c8790a", ha="center")
+        ax.annotate(f"{w:.1f}", (i, w), textcoords="offset points", xytext=wind_off,
+                    fontsize=7.5, color="#2a72a8", ha="center")
+
     fig.tight_layout()
     fig.savefig(output_path, dpi=150)
     plt.close(fig)
