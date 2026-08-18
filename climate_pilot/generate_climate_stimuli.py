@@ -57,37 +57,78 @@ PROFILE_IMAGE_PATH = None
 
 
 def generate_solar_wind_series(post_num: int):
-    """Fabricated 6-point series for solar/wind annual investment ($ billions) -- chosen over a
+    """Fabricated series for solar/wind annual investment ($ billions) -- chosen over a
     capacity-share (%) framing since "how much money was invested" needs no domain knowledge of
     grid-capacity accounting to read, keeping the claim at the same intuitive difficulty as the
-    original Pop-vs-Latin percentage comparison. Deterministic per post
-    number so re-running this script reproduces the identical dataset. Returns
-    (solar_values, wind_values, solar_wins: bool)."""
+    original Pop-vs-Latin percentage comparison. Deterministic per post number so re-running
+    this script reproduces the identical dataset. Returns (solar_values, wind_values, solar_wins: bool).
+
+    Solar is the fixed true winner in every single post -- matches the original study's
+    convention exactly (Pop was the fixed true winner over Latin in every one of the 50 pie
+    charts, e.g. fixed_pop=23.5/fixed_latin=11.0 in one batch, fixed_pop=55/fixed_latin=11 in
+    another -- the magnitude of the win varies, the *direction* never does).
+
+    Solar is generated as wind's own trajectory plus a gap that moves smoothly from a starting
+    value toward a comfortably positive final value, rather than generating solar independently
+    and patching only the last point to force a win -- the earlier version could (and did, e.g.
+    post 001) produce a solar line trending down for years and then jumping sharply at the very
+    last point, which looks unrealistic. This way the "solar pulls ahead" story is spread across
+    the whole series."""
     rng = random.Random(SEED + post_num)
+    n = len(YEAR_LABELS)
 
-    solar_start = rng.uniform(15, 30)
     wind_start = rng.uniform(15, 30)
-    solar_drift = rng.uniform(-3, 6)  # per-year average change
-    wind_drift = rng.uniform(-3, 6)
-
-    solar_values, wind_values = [], []
-    s, w = solar_start, wind_start
+    wind_drift = rng.uniform(-3, 6)  # per-year average change
+    wind_values = []
+    w = wind_start
     for _ in YEAR_LABELS:
-        s = max(2.0, s + solar_drift + rng.uniform(-1.5, 1.5))
         w = max(2.0, w + wind_drift + rng.uniform(-1.5, 1.5))
-        solar_values.append(round(s, 1))
-        wind_values.append(round(w, 1))
+        wind_values.append(w)
 
-    # Solar is the fixed true winner in every single post -- matches the original study's
-    # convention exactly (Pop was the fixed true winner over Latin in every one of the 50 pie
-    # charts, e.g. fixed_pop=23.5/fixed_latin=11.0 in one batch, fixed_pop=55/fixed_latin=11 in
-    # another -- the magnitude of the win varies, the *direction* never does). Force a clean,
-    # unambiguous gap at the final point (avoid near-tie endpoints, which would make the
-    # "correct" answer genuinely ambiguous from the chart rather than a clean ground truth).
-    solar_wins = True
     min_gap = 4.0
+    gap_start = rng.uniform(-6, 2)          # solar can start behind or roughly tied
+    gap_end = min_gap + rng.uniform(0, 4)    # but always ends comfortably ahead
+    solar_values = []
+    for i in range(n):
+        t = i / (n - 1)
+        target_gap = gap_start + (gap_end - gap_start) * t  # smooth linear taper, not a jump
+        noisy_gap = target_gap + rng.uniform(-1.2, 1.2)
+        solar_values.append(max(2.0, wind_values[i] + noisy_gap))
+
+    solar_values = [round(v, 1) for v in solar_values]
+    wind_values = [round(v, 1) for v in wind_values]
+
+    # Safety net only -- rounding/clamping noise could in principle shave the final gap below
+    # the minimum; should rarely trigger given the construction above, unlike the old per-point
+    # patch this replaces.
+    solar_wins = True
     if solar_values[-1] <= wind_values[-1] + min_gap:
-        solar_values[-1] = wind_values[-1] + min_gap + rng.uniform(0, 3)
+        solar_values[-1] = round(wind_values[-1] + min_gap + rng.uniform(0, 2), 1)
+
+    # If solar's own last few points are flat/declining, reshape that stretch into a genuine
+    # multi-point ramp toward the same final value, rather than solar visibly declining right up
+    # until a single last-point jump -- the gap-based construction above can still produce this
+    # (e.g. wind declining and solar declining more slowly still widens the gap "smoothly," but
+    # solar's own line still reads as trending down at the end).
+    ramp_k = min(4, n - 1)
+    if ramp_k >= 2:
+        recent = solar_values[-ramp_k:]
+        is_flat_or_declining = all(recent[j] <= recent[j - 1] + 0.05 for j in range(1, len(recent)))
+        if is_flat_or_declining:
+            # Force a genuine rise across the ramp -- interpolating toward the target isn't
+            # enough on its own, since the target can itself be lower than the point before the
+            # ramp (e.g. wind declined a lot too, so beating it by min_gap doesn't require a high
+            # absolute value), which would smoothly interpolate to another decline.
+            target = solar_values[-1]
+            desired_rise = rng.uniform(3, 8)
+            ramp_start_value = target - desired_rise
+            for j in range(ramp_k):
+                frac = (j + 1) / ramp_k
+                ramp_val = ramp_start_value + desired_rise * frac
+                idx = n - ramp_k + j
+                if idx == n - 1:
+                    continue  # keep the already-validated final value exactly as is
+                solar_values[idx] = round(max(2.0, ramp_val + rng.uniform(-0.4, 0.4)), 1)
 
     return solar_values, wind_values, solar_wins
 
@@ -121,7 +162,7 @@ def make_claim_text(solar_wins: bool, correct: bool) -> str:
     winner_name = "solar" if claimed_winner_is_solar else "wind"
     loser_name = "wind" if claimed_winner_is_solar else "solar"
     return (
-        "The 2026 Global Energy Transition Report has just been released. "
+        "The 2026 Energy Transition Report has just been released. "
         f"Looks like {winner_name} investment ended up higher than {loser_name} "
         f"investment by Year 10!"
     )
