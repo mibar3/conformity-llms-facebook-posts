@@ -124,14 +124,15 @@ def make_claim_text(solar_wins: bool, correct: bool) -> str:
 
 def make_log_reactions(scale_value: int, jitter: float = 0.10, seed: int = None) -> dict:
     """Same 'realistic' log-weighted reaction-type allocation used for the main study's metrics
-    condition (ported from utils/updated_post_generator_all_visible_emojis.ipynb) -- likes get
-    the largest share, angry the smallest, with per-reaction jitter."""
+    condition (ported from the production cell of utils/updated_post_generator_all_visible_emojis.ipynb,
+    not the earlier draft cell that shuffled shares -- the shares are deliberately left in fixed
+    order so 'like' always gets the largest share and 'angry' always the smallest, matching the
+    main study's documented realistic-condition behavior exactly, jitter aside)."""
     rng = random.Random(seed)
     n = len(REACTION_TYPES)
     log_weights = [math.log(n + 1 - i) for i in range(n)]
     total_weight = sum(log_weights)
     shares = [w / total_weight for w in log_weights]
-    rng.shuffle(shares)
     reactions = {}
     for emoji, share in zip(REACTION_TYPES, shares):
         base = scale_value * share
@@ -164,13 +165,17 @@ def main():
 
             # 6 engagement scales, "realistic" (metrics) reaction distribution -- the condition
             # that showed the strongest conformity effect in the main study (Section 6.2).
+            # seed=num (not scale-dependent) and the 0.08/0.04 comment/share fractions match the
+            # main study's production generator exactly, not just the same shape.
             for scale in SCALE_VALUES:
-                reactions = make_log_reactions(scale, seed=SEED + num + scale)
+                reactions = make_log_reactions(scale, seed=num)
+                comment_count = max(1, round(scale * 0.08))
+                share_count = max(1, round(scale * 0.04))
                 scaled_out = (POSTS_DIR / variant / "html" / "metrics" / "realistic" / str(scale)
                               / f"{num:03d}_remy_ashford_{suffix}.html")
                 generate_facebook_post(
                     profile_name=PROFILE_NAME, post_text=post_text, post_time=POST_TIME,
-                    reactions=reactions, comment_count=scale, share_count=scale,
+                    reactions=reactions, comment_count=comment_count, share_count=share_count,
                     profile_image_path=PROFILE_IMAGE_PATH, post_image_path=str(chart_path),
                     output_file=str(scaled_out), verified=VERIFIED,
                 )
