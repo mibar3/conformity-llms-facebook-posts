@@ -57,7 +57,10 @@ PROFILE_IMAGE_PATH = None
 
 
 def generate_solar_wind_series(post_num: int):
-    """Fabricated 6-point series for solar/wind capacity share (%). Deterministic per post
+    """Fabricated 6-point series for solar/wind annual investment ($ billions) -- chosen over a
+    capacity-share (%) framing since "how much money was invested" needs no domain knowledge of
+    grid-capacity accounting to read, keeping the claim at the same intuitive difficulty as the
+    original Pop-vs-Latin percentage comparison. Deterministic per post
     number so re-running this script reproduces the identical dataset. Returns
     (solar_values, wind_values, solar_wins: bool)."""
     rng = random.Random(SEED + post_num)
@@ -99,8 +102,8 @@ def make_line_chart(solar_values, wind_values, output_path: Path):
              linewidth=2.5, marker="o", markersize=6)
     ax.plot(YEAR_LABELS, wind_values, label="Wind", color="#3498db",
              linewidth=2.5, marker="o", markersize=6)
-    ax.set_ylabel("Share of total generation capacity (%)")
-    ax.set_title("Renewable Energy Capacity Share")
+    ax.set_ylabel("Annual investment ($ billions)")
+    ax.set_title("Renewable Energy Investment")
     ax.legend(loc="best", frameon=False)
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
@@ -117,8 +120,8 @@ def make_claim_text(solar_wins: bool, correct: bool) -> str:
     loser_name = "wind" if claimed_winner_is_solar else "solar"
     return (
         "The 2026 Global Energy Transition Report has just been released. "
-        f"Looks like {winner_name} capacity share ended up higher than {loser_name} "
-        f"capacity share by Year 6!"
+        f"Looks like {winner_name} investment ended up higher than {loser_name} "
+        f"investment by Year 6!"
     )
 
 
