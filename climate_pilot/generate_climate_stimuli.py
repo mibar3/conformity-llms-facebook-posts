@@ -99,36 +99,14 @@ def generate_solar_wind_series(post_num: int):
     wind_values = [round(v, 1) for v in wind_values]
 
     # Safety net only -- rounding/clamping noise could in principle shave the final gap below
-    # the minimum; should rarely trigger given the construction above, unlike the old per-point
-    # patch this replaces.
+    # the minimum; should rarely trigger given the construction above (gap_end's floor already
+    # sits at min_gap, and per-point noise is small relative to it), so when it does trigger the
+    # correction needed is small too -- not a dramatic peak. A flat or gently declining tail is
+    # fine; the only thing this guards against is the *ratio* ground truth (solar must end up
+    # ahead by min_gap), not the shape of the last few points.
     solar_wins = True
     if solar_values[-1] <= wind_values[-1] + min_gap:
         solar_values[-1] = round(wind_values[-1] + min_gap + rng.uniform(0, 2), 1)
-
-    # If solar's own last few points are flat/declining, reshape that stretch into a genuine
-    # multi-point ramp toward the same final value, rather than solar visibly declining right up
-    # until a single last-point jump -- the gap-based construction above can still produce this
-    # (e.g. wind declining and solar declining more slowly still widens the gap "smoothly," but
-    # solar's own line still reads as trending down at the end).
-    ramp_k = min(4, n - 1)
-    if ramp_k >= 2:
-        recent = solar_values[-ramp_k:]
-        is_flat_or_declining = all(recent[j] <= recent[j - 1] + 0.05 for j in range(1, len(recent)))
-        if is_flat_or_declining:
-            # Force a genuine rise across the ramp -- interpolating toward the target isn't
-            # enough on its own, since the target can itself be lower than the point before the
-            # ramp (e.g. wind declined a lot too, so beating it by min_gap doesn't require a high
-            # absolute value), which would smoothly interpolate to another decline.
-            target = solar_values[-1]
-            desired_rise = rng.uniform(3, 8)
-            ramp_start_value = target - desired_rise
-            for j in range(ramp_k):
-                frac = (j + 1) / ramp_k
-                ramp_val = ramp_start_value + desired_rise * frac
-                idx = n - ramp_k + j
-                if idx == n - 1:
-                    continue  # keep the already-validated final value exactly as is
-                solar_values[idx] = round(max(2.0, ramp_val + rng.uniform(-0.4, 0.4)), 1)
 
     return solar_values, wind_values, solar_wins
 
