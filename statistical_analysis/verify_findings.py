@@ -328,6 +328,22 @@ try:
 except ImportError:
     print("\n  [sign tests + Spearman SKIPPED — needs scipy]")
 
+sub("Correct-vs-correct control (both posts correct; only engagement differs)")
+print("  Off-diagonal ONLY is the correct measure: on the diagonal both scales are equal, and the")
+print("  harness sets liked_higher_engagement = (liked_scale == max(a,b)), which is trivially True")
+print("  for every tied trial. Including the diagonal adds 700 free successes and inflates the rate.")
+print()
+print(f"  {'model':18s}{'condition':20s}{'off-diagonal':>14s}{'incl-diagonal':>15s}")
+import glob as _glob
+for _p in sorted(_glob.glob(str(ROOT / "experiments/e1/*/outputs/e1_results_*_correct_vs_correct_paired.json"))):
+    _rel = Path(_p).relative_to(ROOT)
+    _m = _rel.parts[2]
+    _cond = Path(_p).name.split("e1_results_")[1].split("_correct_vs_correct")[0]
+    _d = json.loads(Path(_p).read_text())
+    _off = [x for x in _d if x["post_a_scale"] != x["post_b_scale"]]
+    _r = lambda g: sum(1 for x in g if x["liked_higher_engagement"]) / len(g) * 100
+    print(f"  {_m:18s}{_cond:20s}{_r(_off):13.1f}%{_r(_d):14.1f}%")
+
 sub("GEE joint Wald tests (read from the saved notebook output)")
 wt = ROOT / "statistical_analysis/outputs/wald_tests.txt"
 print(wt.read_text().rstrip() if wt.exists() else "  [wald_tests.txt not found — re-run gee_analysis.ipynb]")
