@@ -1,5 +1,5 @@
 Joint Wald test (model x disparity):
-<Wald test (chi2): statistic=740.1953709174842, p-value=4.034746273056792e-160, df_denom=3>
+<Wald test (chi2): statistic=1379.2575286227454, p-value=4.2979784452644047e-296, df_denom=5>
 
 Joint Wald test (signal_type x disparity):
-<Wald test (chi2): statistic=27.589807852305327, p-value=1.4996690862442784e-07, df_denom=1>
+<Wald test (chi2): statistic=154.87668115958292, p-value=1.489850864509115e-35, df_denom=1>

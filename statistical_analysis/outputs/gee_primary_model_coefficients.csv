@@ -1,11 +1,15 @@
 ,coef,std_err,p_value,OR,OR_2.5%,OR_97.5%
-Intercept,1.9112,0.1105,0.0,6.7613,5.4444,8.3968
-"C(model, Treatment(reference='gemma4-12b'))[T.gemma4-e4b]",-1.8567,0.1147,0.0,0.1562,0.1247,0.1956
-"C(model, Treatment(reference='gemma4-12b'))[T.qwen3-vl-4b]",-1.8897,0.1154,0.0,0.1511,0.1205,0.1895
-"C(model, Treatment(reference='gemma4-12b'))[T.qwen3-vl-8b]",-1.8614,0.1165,0.0,0.1555,0.1237,0.1953
-"C(signal_type, Treatment(reference='metrics'))[T.likes_only_noise]",-0.1552,0.027,0.0,0.8563,0.8121,0.9028
-disparity,-0.2188,0.0299,0.0,0.8035,0.7577,0.852
-"C(model, Treatment(reference='gemma4-12b'))[T.gemma4-e4b]:disparity",-1.0844,0.0498,0.0,0.3381,0.3066,0.3728
-"C(model, Treatment(reference='gemma4-12b'))[T.qwen3-vl-4b]:disparity",-1.0121,0.0465,0.0,0.3635,0.3318,0.3981
-"C(model, Treatment(reference='gemma4-12b'))[T.qwen3-vl-8b]:disparity",-0.7774,0.0428,0.0,0.4596,0.4226,0.4998
-"C(signal_type, Treatment(reference='metrics'))[T.likes_only_noise]:disparity",0.1484,0.0283,0.0,1.16,1.0975,1.2261
+Intercept,1.9478,0.1145,0.0,7.0131,5.6034,8.7775
+"C(model, Treatment(reference='gemma4-12b'))[T.gemma4-e4b]",-1.9226,0.12,0.0,0.1462,0.1156,0.185
+"C(model, Treatment(reference='gemma4-12b'))[T.ministral-3-14b]",-1.9827,0.1238,0.0,0.1377,0.108,0.1755
+"C(model, Treatment(reference='gemma4-12b'))[T.ministral-3-8b]",-2.0542,0.1208,0.0,0.1282,0.1012,0.1624
+"C(model, Treatment(reference='gemma4-12b'))[T.qwen3-vl-4b]",-1.9558,0.1207,0.0,0.1415,0.1117,0.1792
+"C(model, Treatment(reference='gemma4-12b'))[T.qwen3-vl-8b]",-1.9271,0.1216,0.0,0.1456,0.1147,0.1848
+"C(signal_type, Treatment(reference='metrics'))[T.likes_only_noise]",-0.0934,0.0253,0.0002,0.9108,0.8667,0.9571
+disparity,-0.3276,0.0307,0.0,0.7206,0.6785,0.7653
+"C(model, Treatment(reference='gemma4-12b'))[T.gemma4-e4b]:disparity",-1.1087,0.05,0.0,0.33,0.2992,0.3639
+"C(model, Treatment(reference='gemma4-12b'))[T.ministral-3-14b]:disparity",-1.6776,0.0747,0.0,0.1868,0.1614,0.2163
+"C(model, Treatment(reference='gemma4-12b'))[T.ministral-3-8b]:disparity",-0.2423,0.0347,0.0,0.7848,0.7332,0.84
+"C(model, Treatment(reference='gemma4-12b'))[T.qwen3-vl-4b]:disparity",-1.0374,0.047,0.0,0.3544,0.3232,0.3886
+"C(model, Treatment(reference='gemma4-12b'))[T.qwen3-vl-8b]:disparity",-0.806,0.0436,0.0,0.4466,0.4101,0.4865
+"C(signal_type, Treatment(reference='metrics'))[T.likes_only_noise]:disparity",0.3638,0.0292,0.0,1.4388,1.3587,1.5237
