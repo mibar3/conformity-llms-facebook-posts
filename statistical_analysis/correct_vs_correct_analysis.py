@@ -38,6 +38,10 @@ MODELS = {
     "gemma-e4b":   ROOT_DIR / "experiments/e1/gemma4-e4b/outputs",
     "qwen3-vl-4b": ROOT_DIR / "experiments/e1/qwen3-vl-4b/outputs",
     "qwen3-vl-8b": ROOT_DIR / "experiments/e1/qwen3-vl-8b/outputs",
+    # Added 2026-08-19: confirmed main roster is six models -- Ministral-3-8B/3-14B replace
+    # Pixtral-12B and Mistral Small 3.1 24B (now Appendix E supplementary models).
+    "ministral-3-8b":  ROOT_DIR / "experiments/e1/ministral-3-8b/outputs",
+    "ministral-3-14b": ROOT_DIR / "experiments/e1/ministral-3-14b/outputs",
 }
 CONDITIONS = ["metrics", "likes_only_noise"]
 
@@ -129,7 +133,7 @@ def main():
 
     test_rows = [
         paired_sign_test(gemma_metrics, gemma_noise, "gemma-12b: metrics < own likes_only_noise"),
-        paired_sign_test(gemma_metrics, pooled_other_metrics, "gemma-12b: metrics < pooled other-3-models metrics"),
+        paired_sign_test(gemma_metrics, pooled_other_metrics, f"gemma-12b: metrics < pooled other-{len(other_metrics_by_model)}-models metrics"),
     ]
 
     with open(OUT_DIR / "correct_vs_correct_gemma12b_metrics_gap_test.csv", "w", newline="") as f:
