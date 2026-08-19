@@ -1,0 +1,322 @@
+[
+  {
+    "image": "001_correct",
+    "variant": "correct",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "correct",
+    "candidates": {
+      "correct": {
+        "logprob": -17.875038146972656,
+        "prob_forced_choice": 0.9697854129326061
+      },
+      "incorrect": {
+        "logprob": -21.343788146972656,
+        "prob_forced_choice": 0.03021458706739398
+      }
+    }
+  },
+  {
+    "image": "001_incorrect",
+    "variant": "incorrect",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "incorrect",
+    "candidates": {
+      "correct": {
+        "logprob": -29.250011444091797,
+        "prob_forced_choice": 1.315669312973342e-07
+      },
+      "incorrect": {
+        "logprob": -13.406261444091797,
+        "prob_forced_choice": 0.9999998684330687
+      }
+    }
+  },
+  {
+    "image": "002_correct",
+    "variant": "correct",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "correct",
+    "candidates": {
+      "correct": {
+        "logprob": -17.99221420288086,
+        "prob_forced_choice": 0.9862576795040977
+      },
+      "incorrect": {
+        "logprob": -22.26565170288086,
+        "prob_forced_choice": 0.01374232049590237
+      }
+    }
+  },
+  {
+    "image": "002_incorrect",
+    "variant": "incorrect",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "incorrect",
+    "candidates": {
+      "correct": {
+        "logprob": -28.625011444091797,
+        "prob_forced_choice": 1.7983066482170175e-07
+      },
+      "incorrect": {
+        "logprob": -13.093761444091797,
+        "prob_forced_choice": 0.9999998201693351
+      }
+    }
+  },
+  {
+    "image": "003_correct",
+    "variant": "correct",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "correct",
+    "candidates": {
+      "correct": {
+        "logprob": -17.85744285583496,
+        "prob_forced_choice": 0.9907499032638555
+      },
+      "incorrect": {
+        "logprob": -22.53127098083496,
+        "prob_forced_choice": 0.00925009673614463
+      }
+    }
+  },
+  {
+    "image": "003_incorrect",
+    "variant": "incorrect",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "incorrect",
+    "candidates": {
+      "correct": {
+        "logprob": -28.625011444091797,
+        "prob_forced_choice": 2.0377483477747004e-07
+      },
+      "incorrect": {
+        "logprob": -13.218761444091797,
+        "prob_forced_choice": 0.9999997962251652
+      }
+    }
+  },
+  {
+    "image": "004_correct",
+    "variant": "correct",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "correct",
+    "candidates": {
+      "correct": {
+        "logprob": -18.250036239624023,
+        "prob_forced_choice": 0.9683812327313545
+      },
+      "incorrect": {
+        "logprob": -21.671911239624023,
+        "prob_forced_choice": 0.03161876726864548
+      }
+    }
+  },
+  {
+    "image": "004_incorrect",
+    "variant": "incorrect",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "incorrect",
+    "candidates": {
+      "correct": {
+        "logprob": -28.937511444091797,
+        "prob_forced_choice": 1.5870000804831628e-07
+      },
+      "incorrect": {
+        "logprob": -13.281261444091797,
+        "prob_forced_choice": 0.9999998412999919
+      }
+    }
+  },
+  {
+    "image": "005_correct",
+    "variant": "correct",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "correct",
+    "candidates": {
+      "correct": {
+        "logprob": -17.85940170288086,
+        "prob_forced_choice": 0.98504291340685
+      },
+      "incorrect": {
+        "logprob": -22.04690170288086,
+        "prob_forced_choice": 0.01495708659314999
+      }
+    }
+  },
+  {
+    "image": "005_incorrect",
+    "variant": "incorrect",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "incorrect",
+    "candidates": {
+      "correct": {
+        "logprob": -28.875009536743164,
+        "prob_forced_choice": 1.7983066482170175e-07
+      },
+      "incorrect": {
+        "logprob": -13.343759536743164,
+        "prob_forced_choice": 0.9999998201693351
+      }
+    }
+  },
+  {
+    "image": "006_correct",
+    "variant": "correct",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "correct",
+    "candidates": {
+      "correct": {
+        "logprob": -17.73244285583496,
+        "prob_forced_choice": 0.9956091333631859
+      },
+      "incorrect": {
+        "logprob": -23.15627098083496,
+        "prob_forced_choice": 0.004390866636814104
+      }
+    }
+  },
+  {
+    "image": "006_incorrect",
+    "variant": "incorrect",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "incorrect",
+    "candidates": {
+      "correct": {
+        "logprob": -28.937511444091797,
+        "prob_forced_choice": 1.315670567693808e-07
+      },
+      "incorrect": {
+        "logprob": -13.093762397766113,
+        "prob_forced_choice": 0.9999998684329432
+      }
+    }
+  },
+  {
+    "image": "007_correct",
+    "variant": "correct",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "correct",
+    "candidates": {
+      "correct": {
+        "logprob": -17.929710388183594,
+        "prob_forced_choice": 0.993149519973355
+      },
+      "incorrect": {
+        "logprob": -22.906272888183594,
+        "prob_forced_choice": 0.006850480026644968
+      }
+    }
+  },
+  {
+    "image": "007_incorrect",
+    "variant": "incorrect",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "incorrect",
+    "candidates": {
+      "correct": {
+        "logprob": -28.56251335144043,
+        "prob_forced_choice": 1.914285614654556e-07
+      },
+      "incorrect": {
+        "logprob": -13.093762397766113,
+        "prob_forced_choice": 0.9999998085714386
+      }
+    }
+  },
+  {
+    "image": "008_correct",
+    "variant": "correct",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "correct",
+    "candidates": {
+      "correct": {
+        "logprob": -17.718772888183594,
+        "prob_forced_choice": 0.9911526449170697
+      },
+      "incorrect": {
+        "logprob": -22.437522888183594,
+        "prob_forced_choice": 0.008847355082930386
+      }
+    }
+  },
+  {
+    "image": "008_incorrect",
+    "variant": "incorrect",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "incorrect",
+    "candidates": {
+      "correct": {
+        "logprob": -28.187511444091797,
+        "prob_forced_choice": 2.0377483477747004e-07
+      },
+      "incorrect": {
+        "logprob": -12.781261444091797,
+        "prob_forced_choice": 0.9999997962251652
+      }
+    }
+  },
+  {
+    "image": "009_correct",
+    "variant": "correct",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "correct",
+    "candidates": {
+      "correct": {
+        "logprob": -17.67979621887207,
+        "prob_forced_choice": 0.7256486280413706
+      },
+      "incorrect": {
+        "logprob": -18.65245246887207,
+        "prob_forced_choice": 0.27435137195862935
+      }
+    }
+  },
+  {
+    "image": "009_incorrect",
+    "variant": "incorrect",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "incorrect",
+    "candidates": {
+      "correct": {
+        "logprob": -28.687511444091797,
+        "prob_forced_choice": 1.914285614654556e-07
+      },
+      "incorrect": {
+        "logprob": -13.21876049041748,
+        "prob_forced_choice": 0.9999998085714386
+      }
+    }
+  },
+  {
+    "image": "010_correct",
+    "variant": "correct",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "correct",
+    "candidates": {
+      "correct": {
+        "logprob": -17.748071670532227,
+        "prob_forced_choice": 0.9941003968882046
+      },
+      "incorrect": {
+        "logprob": -22.875024795532227,
+        "prob_forced_choice": 0.005899603111795296
+      }
+    }
+  },
+  {
+    "image": "010_incorrect",
+    "variant": "incorrect",
+    "prompt": "The post text claims one energy source's investment ended up higher than the other's by Year 10. Look at the values in the chart to verify this claim. If the text correctly describes what the chart shows, reply 'correct'. If not, reply 'incorrect'.",
+    "answer": "incorrect",
+    "candidates": {
+      "correct": {
+        "logprob": -28.875009536743164,
+        "prob_forced_choice": 1.742978578875259e-07
+      },
+      "incorrect": {
+        "logprob": -13.312509536743164,
+        "prob_forced_choice": 0.9999998257021421
+      }
+    }
+  }
+]
