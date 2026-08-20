@@ -84,9 +84,67 @@ sub("MAIN STUDY (pie chart) — same models, for comparison")
 for m in ["gemma4-12b", "gemma4-e4b", "ministral-3-14b"]:
     show_paired(m, f"experiments/e1/{m}/outputs/e1_results_metrics_paired.json")
 
-sub("Newly added models (blank until their climate notebooks are run)")
+sub("Remaining roster models")
 for m in ["qwen3-vl-4b", "ministral-3-8b"]:
     show_paired(m, f"experiments/e1_climate/{m}/outputs/e1_results_metrics_paired.json")
+
+
+# ---------------------------------------------------------------------------
+# 1b. Is tied-engagement accuracy REAL judgment, or a position default?
+# ---------------------------------------------------------------------------
+CLIMATE_PAIRED = [
+    ("ministral-3-14b", "experiments/e1_climate/ministral-3-14b/outputs/pre_label_backup/e1_results_metrics_paired.json"),
+    ("ministral-3-8b",  "experiments/e1_climate/ministral-3-8b/outputs/e1_results_metrics_paired.json"),
+    ("qwen3-vl-8b",     "experiments/e1_climate/qwen3-vl-8b/outputs/pre_label_backup/e1_results_metrics_paired.json"),
+    ("qwen3-vl-4b",     "experiments/e1_climate/qwen3-vl-4b/outputs/e1_results_metrics_paired.json"),
+    ("gemma4-e4b",      "experiments/e1_climate/gemma4-e4b/outputs/e1_results_metrics_paired.json"),
+    ("gemma4-12b",      "experiments/e1_climate/gemma4-12b/outputs/e1_results_metrics_paired.json"),
+]
+
+
+def lower_slot(x):
+    """Which slot holds the post with FEWER reactions."""
+    a = x["correct_scale"] if x["post_a_variant"] == "correct" else x["incorrect_scale"]
+    b = x["correct_scale"] if x["post_b_variant"] == "correct" else x["incorrect_scale"]
+    return "A" if a < b else "B"
+
+
+hdr("1b. Real judgment, or a position default? (+ direction of the engagement effect)")
+print("""
+A model that always answers the same slot scores ~50% when engagement is tied -- not because
+it judged badly, but because the correct post sat in that slot about half the time. The
+per-image sign test separates the two: genuine judgment is consistent image to image, a
+positional default is not.
+
+'picks-less-popular' is the direction of the engagement effect: LOW = conformity (goes with
+the crowd), HIGH = anti-conformity.
+""")
+try:
+    from scipy.stats import binomtest as _bt
+
+    print(f"  {'model':17s}{'tied-acc':>9s}{'answers-A':>11s}{'sign-test p':>13s}  "
+          f"{'verdict':<24s}{'picks-less-popular':>19s}")
+    for m, rel in CLIMATE_PAIRED:
+        d = load(rel)
+        if d is None:
+            print(f"  {m:17s} [FILE NOT FOUND]")
+            continue
+        v = [x for x in d if x["answer"] in ("A", "B")]
+        diag = [x for x in v if x["correct_scale"] == x["incorrect_scale"]]
+        off = [x for x in v if x["correct_scale"] != x["incorrect_scale"]]
+        per = defaultdict(list)
+        for x in diag:
+            per[x["num"]].append(1 if x["liked_variant"] == "correct" else 0)
+        hi = sum(1 for g in per.values() if sum(g) / len(g) > 0.5)
+        lo = sum(1 for g in per.values() if sum(g) / len(g) < 0.5)
+        p = _bt(hi, hi + lo, 0.5).pvalue if hi + lo else float("nan")
+        acc = sum(1 for x in diag if x["liked_variant"] == "correct") / len(diag) * 100
+        a_rate = sum(1 for x in diag if x["answer"] == "A") / len(diag) * 100
+        picked_lower = sum(1 for x in off if x["answer"] == lower_slot(x)) / len(off) * 100
+        verdict = "REAL judgment" if (p < 0.05 and acc > 50) else "position default"
+        print(f"  {m:17s}{acc:8.1f}%{a_rate:10.1f}%{p:13.2e}  {verdict:<24s}{picked_lower:18.1f}%")
+except ImportError:
+    print("  [SKIPPED — needs scipy]")
 
 
 # ---------------------------------------------------------------------------
@@ -269,6 +327,22 @@ try:
         print(f"  five below-threshold models rho={r_five.statistic:+.3f}  p={r_five.pvalue:.3f}")
 except ImportError:
     print("\n  [sign tests + Spearman SKIPPED — needs scipy]")
+
+sub("Correct-vs-correct control (both posts correct; only engagement differs)")
+print("  Off-diagonal ONLY is the correct measure: on the diagonal both scales are equal, and the")
+print("  harness sets liked_higher_engagement = (liked_scale == max(a,b)), which is trivially True")
+print("  for every tied trial. Including the diagonal adds 700 free successes and inflates the rate.")
+print()
+print(f"  {'model':18s}{'condition':20s}{'off-diagonal':>14s}{'incl-diagonal':>15s}")
+import glob as _glob
+for _p in sorted(_glob.glob(str(ROOT / "experiments/e1/*/outputs/e1_results_*_correct_vs_correct_paired.json"))):
+    _rel = Path(_p).relative_to(ROOT)
+    _m = _rel.parts[2]
+    _cond = Path(_p).name.split("e1_results_")[1].split("_correct_vs_correct")[0]
+    _d = json.loads(Path(_p).read_text())
+    _off = [x for x in _d if x["post_a_scale"] != x["post_b_scale"]]
+    _r = lambda g: sum(1 for x in g if x["liked_higher_engagement"]) / len(g) * 100
+    print(f"  {_m:18s}{_cond:20s}{_r(_off):13.1f}%{_r(_d):14.1f}%")
 
 sub("GEE joint Wald tests (read from the saved notebook output)")
 wt = ROOT / "statistical_analysis/outputs/wald_tests.txt"
