@@ -39,3 +39,10 @@ experiments/e1/*/outputs_n50_backup/
 **/.ipynb_checkpoints/
 
 __pycache__/
+
+# Generated profile-condition stimuli (authority pilot etc.) -- regenerable in one command
+# via utils/generate_profile_posts.py, and ~180MB per profile as embedded-base64 HTML.
+spotify_pie_plot/pie_plot_posts/baselines_*/**/*.html
+spotify_pie_plot/pie_plot_posts/metrics/dr-remy-ashford/**/*.html
+spotify_pie_plot/pie_plot_posts/metrics/*-verified/**/*.html
+spotify_pie_plot/pie_plot_posts/metrics/*-noverify/**/*.html
