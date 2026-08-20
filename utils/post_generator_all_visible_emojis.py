@@ -15,17 +15,47 @@ REACTION_DEFS = {
 
 def format_count(n):
     """Format large numbers like Facebook does (1.2K, 3.4M, etc.)"""
+    # Must return "0", not None. The whole study's stimuli render zeros explicitly --
+    # baseline posts show 👍0 ❤️0 😆0 😮0 😢0 😡0 and "0 Comments · 0 Shares", and the
+    # likes_only conditions show 👍N alongside five literal zeros. Returning None makes
+    # build_reaction_bubbles_html emit "None" and makes the `if formatted_comments:` guard
+    # below drop the comment/share line entirely. Regressed by 909a2658e (2026-08-11);
+    # see the note in build_reaction_bubbles_html.
     if n == 0:
-        return None
+        return "0"
+    # One decimal place, EXCEPT when the division is exact -- then the ".0" is dropped.
+    #   2,000  -> "2K"      (2000/1000 == 2.0 exactly)
+    # 195,000  -> "195K"    (exact)
+    # 160,969  -> "161.0K"  (160.969 rounds to 161.0, but is not exact -> ".0" kept)
+    # Verified against every in-thesis condition: 2,400 posts across metrics/realistic and
+    # likes_only_noise reproduce exactly under this rule. It also explains the deprecated
+    # likes_only tree, whose values are always exact round numbers and so always strip
+    # ("1K", "10K", "1M") -- there was never a real inconsistency between the trees.
+    #
+    # Regressed by 909a2658e (2026-08-11), which wrote `f"...K".rstrip('0')` -- a no-op,
+    # since the string already ends in "K"/"M" -- yielding "1.0K" everywhere.
     if n >= 1_000_000:
-        return f"{n/1_000_000:.1f}M".rstrip('0').rstrip('.')
+        q = n / 1_000_000
+        return (f"{int(q)}M" if q == int(q) else f"{q:.1f}M")
     if n >= 1_000:
-        return f"{n/1_000:.1f}K".rstrip('0').rstrip('.')
+        q = n / 1_000
+        return (f"{int(q)}K" if q == int(q) else f"{q:.1f}K")
     return str(n)
 
 def build_reaction_bubbles_html(reactions: dict) -> str:
-    active = sorted([(k, v) for k, v in reactions.items() if v > 0],
-                    key=lambda x: x[1], reverse=True)
+    # Render EVERY reaction type in dict order, including zeros. Do not filter on `v > 0`
+    # and do not sort by count.
+    #
+    # A merge-conflict resolution (909a2658e, 2026-08-11) replaced this line with
+    #     sorted([(k, v) for k, v in reactions.items() if v > 0], key=..., reverse=True)
+    # which silently changed two things: zero-count reactions stopped rendering, and the
+    # remaining ones were re-ordered by count. The whole study's stimuli were generated
+    # BEFORE that commit and therefore show all six reactions, in dict order, zeros included
+    # (verify: benchmarking/correct/remy-ashford baseline posts render "0 0 0 0 0 0").
+    # Anything generated with the filtered version does not match the rest of the study --
+    # this is what broke the bigger-font pilot's baseline stimuli, whose 0-engagement posts
+    # rendered no reaction bar at all.
+    active = list(reactions.items())
     if not active:
         return ""
     

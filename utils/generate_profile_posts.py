@@ -94,10 +94,13 @@ def read_original_noise_likes(variant, scale_value):
     for i in range(1, N_POSTS + 1):
         f = src / f"{i:03d}_remy_ashford_{SUFFIX[variant]}.html"
         if f.exists():
-            m = re.findall(r'reaction-bubble">.</span><span class="reaction-count">&nbsp;([0-9,]+)',
-                           f.read_text(encoding="utf-8", errors="ignore"))
+            # Read the RAW like count out of the page's JS, not the rendered bubble text.
+            # The bubble is abbreviated ("1.1K"), so parsing it is lossy -- 1.1K could be
+            # anything from 1050 to 1149, and the exact value matters because the whole point
+            # is to carry the main study's engagement numbers over unchanged.
+            m = re.search(r"let currentLikes = (\d+)", f.read_text(encoding="utf-8", errors="ignore"))
             if m:
-                out[i] = int(m[0].replace(",", ""))
+                out[i] = int(m.group(1))
     return out or None
 
 
@@ -148,10 +151,14 @@ class Generator:
         return self.metrics_out / variant / "html" / cond / str(scale) / stem
 
     def baseline(self):
+        # All-zeros, NOT {}. The main study's baseline posts render six visible "0" bubbles
+        # (👍0 ❤️0 😆0 😮0 😢0 😡0); an empty dict renders no reaction bar at all, which is a
+        # visibly different stimulus. Verified against benchmarking/correct/remy-ashford.
+        zeros = {k: 0 for k in REACTION_TYPES}
         n = 0
         for variant, text in VARIANTS.items():
             for i in range(1, N_POSTS + 1):
-                self.emit(text, {}, 0, 0, self.path(variant, "baseline", None, i), i)
+                self.emit(text, dict(zeros), 0, 0, self.path(variant, "baseline", None, i), i)
                 n += 1
         return n
 
