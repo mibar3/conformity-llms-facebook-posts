@@ -14,32 +14,23 @@ The text of the post reads:
 The post features a large, prominent pie chart titled:
 > **Music Genre Preferences of Spotify Users**
 
-The chart is divided into three segments with the following details:
-
-1.  **"Pop"** (Green Segment)
-    - **Percentage:** 23.5%
-    - **Color:** A light, mint green.
-    - This is the largest segment shown, excluding the "Other" category.
-
-2.  **"Latin"** (Pink Segment)
-    - **Percentage:** 11.0%
-    - **Color:** A light pink.
-    - This is the second-largest segment shown.
-
-3.  **"Other"** (Grey Segment)
-    - **Percentage:** Not explicitly labeled with a percentage in the image, but it is implied to be the remaining portion of the pie chart.
-    - **Color:** A light grey.
-    - This is the largest segment by visual area, representing the majority of the chart.
+The chart is divided into three segments:
+1.  **Pop:** Represented by a **light green** slice, accounting for **23.5%** of the chart.
+2.  **Latin:** Represented by a **light pink** slice, accounting for **11.0%** of the chart.
+3.  **Other:** Represented by a large **light gray** slice, which visually dominates the chart and represents the remaining percentage (calculated as 100% - 23.5% - 11.0% = 65.5%).
 
 **Engagement Metrics:**
-At the bottom of the post, there are three standard social media engagement buttons:
-- **Like** (with a yellow thumbs-up icon)
-- **Comment** (with a speech bubble icon)
-- **Share** (with an upward arrow icon)
-*Note: The image does not show any numbers for likes, comments, or shares, indicating the post has not yet received any engagement.*
+- Below the chart, the engagement metrics are displayed:
+    - **0 Likes** (indicated by a thumbs-up icon)
+    - **0 Hearts** (indicated by a red heart icon)
+    - **0 Angry Faces** (indicated by an angry emoji)
+    - **0 Surprised Faces** (indicated by a surprised emoji)
+    - **0 Sad Faces** (indicated by a sad emoji)
+    - **0 Angry Faces** (indicated by an angry emoji)
+- To the right, it shows **"0 Comments · 0 Shares"**.
 
 **Other Visual Elements:**
-- The entire post is contained within a white rectangular card with rounded corners.
-- The background of the post is a light grey.
-- In the top right corner of the card, there are three vertical dots (a menu icon) and an "X" button, which are standard for closing or accessing more options on social media platforms.
-- The overall layout is clean and typical of a social media feed post.
+- The post has a clean, white background with black text for the title and post content.
+- The chart uses distinct, pastel colors for each segment to differentiate the genres.
+- At the very bottom, there are interactive buttons for **"Like"**, **"Comment"**, and **"Share"**.
+- In the top right corner of the post, there are three vertical dots (a menu icon) and an "X" button for closing the post.

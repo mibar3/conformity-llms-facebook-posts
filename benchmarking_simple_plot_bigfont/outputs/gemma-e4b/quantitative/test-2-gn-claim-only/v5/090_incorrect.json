@@ -3,6 +3,6 @@
   "prompt_version": "v5",
   "prompt_text": "In the post, the text above the chart claims one genre is more popular than another. Find the percentage for Pop and the percentage for Latin in the chart. If the genre the text says is more popular has a numerically higher percentage, reply 'correct'. If not, reply 'incorrect'.",
   "answers": {
-    "post_claim_correct": "The text states: \"Looks like **Latin was more popular than Pop** this year!\"\n\nFrom the chart:\n*   Percentage for Pop = **23.5%**\n*   Percentage for Latin = **11.0%**\n\nThe text claims Latin (11.0%) is more popular than Pop (23.5%). Since 11.0% is not numerically higher than 23.5%, the statement is incorrect.\n\nincorrect"
+    "post_claim_correct": "The text states: \"Looks like Latin was more popular than Pop this year!\"\n\nFrom the chart:\n*   Percentage for Pop = 23.5%\n*   Percentage for Latin = 11.0%\n\nThe text claims Latin (11.0%) was more popular than Pop (23.5%). Since 11.0% is not numerically higher than 23.5%, the statement is incorrect.\n\nincorrect"
   }
 }

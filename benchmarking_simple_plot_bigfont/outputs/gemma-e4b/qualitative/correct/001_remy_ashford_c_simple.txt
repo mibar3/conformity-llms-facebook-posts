@@ -1,13 +1,14 @@
 Here is a full and detailed description of the social media post image:
 
 **Overall Appearance:**
-The image is a screenshot of a social media post, likely from a platform like X (formerly Twitter), featuring a data visualization (a pie chart) related to music genre preferences.
+The image is a screenshot of a social media post, likely from a platform like LinkedIn or X (Twitter), featuring a data visualization (a pie chart) related to music genre preferences.
 
 **Profile Information:**
 *   **Profile Name:** Remy Ashford
-*   **Indicator:** There is a "Follow" button next to the name.
+*   **Indicator:** A small circular profile picture is visible next to the name.
+*   **Action:** A "Follow" button is present next to the name.
 *   **Timestamp:** The post was made "Today at 2:43 PM."
-*   **Action Icons:** There are ellipsis (...) and an 'X' icon in the top right corner, typical of social media post controls.
+*   **Options:** A three-dot menu icon and an 'X' (close/more options) icon are visible in the top right corner of the post header.
 
 **Post Text Content:**
 The text accompanying the post reads:
@@ -16,12 +17,19 @@ The text accompanying the post reads:
 **Visual Content (The Chart):**
 The main body of the post features a large, circular **pie chart** illustrating music genre preferences. The chart is divided into three visible segments:
 
-1.  **Other:** This segment is the largest, colored in a light gray/off-white. It is labeled "Other" at the top right of the chart.
-2.  **Pop:** This segment is colored in a light green/mint color. It is labeled "Pop" at the bottom left and shows a percentage of **23.5%**.
-3.  **Latin:** This segment is colored in a light pink/salmon color. It is labeled "Latin" at the bottom right and shows a percentage of **11.0%**.
+1.  **Other:** This segment is the largest, colored in a light gray/off-white. It is labeled with the text **"Other"** near the top.
+2.  **Pop:** This segment is colored in a light green/mint color. It is labeled with the text **"Pop"** and shows a percentage of **"23.5%"**.
+3.  **Latin:** This segment is colored in a light pink/salmon color. It is labeled with the text **"Latin"** and shows a percentage of **"11.0%"**.
 
-**Engagement Metrics (Bottom Bar):**
-At the very bottom of the post, there is a bar showing engagement options:
-*   **Like:** Represented by a thumbs-up icon and the text "Like."
-*   **Comment:** Represented by a speech bubble icon and the text "Comment."
-*   **Share:** Represented by a sharing icon and the text "Share."
+**Engagement Metrics and Footer:**
+Below the chart, there is a row displaying engagement metrics:
+*   **Likes:** A thumbs-up icon followed by the number **"0"**.
+*   **Hearts/Reactions:** A heart icon followed by the number **"0"**.
+*   **Laughing/Smiling Emojis:** Several other reaction icons (laughing, smiling) are shown, all followed by the number **"0"**.
+*   **Comments/Shares:** The text indicates **"0 Comments · 0 Shares"**.
+
+**Action Buttons:**
+At the very bottom, there are three interactive buttons:
+1.  **Like:** Accompanied by a thumbs-up icon.
+2.  **Comment:** Accompanied by a speech bubble icon.
+3.  **Share:** Accompanied by a share icon.

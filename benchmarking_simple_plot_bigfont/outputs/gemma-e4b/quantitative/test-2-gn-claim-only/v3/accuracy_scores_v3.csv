@@ -1,7 +1,7 @@
 image,ground_truth,prediction,correct
 001_correct,correct,correct,True
 001_incorrect,incorrect,correct,False
-003_correct,correct,incorrect,False
+003_correct,correct,correct,True
 003_incorrect,incorrect,correct,False
 004_correct,correct,correct,True
 004_incorrect,incorrect,correct,False
@@ -40,10 +40,10 @@ image,ground_truth,prediction,correct
 032_correct,correct,correct,True
 032_incorrect,incorrect,correct,False
 036_correct,correct,correct,True
-036_incorrect,incorrect,incorrect,True
+036_incorrect,incorrect,correct,False
 039_correct,correct,correct,True
 039_incorrect,incorrect,correct,False
-044_correct,correct,incorrect,False
+044_correct,correct,correct,True
 044_incorrect,incorrect,correct,False
 047_correct,correct,correct,True
 047_incorrect,incorrect,correct,False
@@ -59,11 +59,11 @@ image,ground_truth,prediction,correct
 059_incorrect,incorrect,correct,False
 063_correct,correct,correct,True
 063_incorrect,incorrect,correct,False
-065_correct,correct,correct,True
+065_correct,correct,incorrect,False
 065_incorrect,incorrect,correct,False
 068_correct,correct,correct,True
 068_incorrect,incorrect,correct,False
-069_correct,correct,incorrect,False
+069_correct,correct,correct,True
 069_incorrect,incorrect,correct,False
 070_correct,correct,correct,True
 070_incorrect,incorrect,correct,False
@@ -80,7 +80,7 @@ image,ground_truth,prediction,correct
 083_correct,correct,correct,True
 083_incorrect,incorrect,correct,False
 085_correct,correct,correct,True
-085_incorrect,incorrect,incorrect,True
+085_incorrect,incorrect,correct,False
 087_correct,correct,correct,True
 087_incorrect,incorrect,correct,False
 089_correct,correct,correct,True
@@ -92,7 +92,7 @@ image,ground_truth,prediction,correct
 094_correct,correct,correct,True
 094_incorrect,incorrect,correct,False
 095_correct,correct,correct,True
-095_incorrect,incorrect,incorrect,True
+095_incorrect,incorrect,correct,False
 096_correct,correct,correct,True
 096_incorrect,incorrect,correct,False
 098_correct,correct,correct,True

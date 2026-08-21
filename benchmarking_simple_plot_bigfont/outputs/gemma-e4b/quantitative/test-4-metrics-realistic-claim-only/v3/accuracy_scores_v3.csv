@@ -99,7 +99,7 @@ image,scale_value,variant,ground_truth,prediction,correct
 096_incorrect_10,10,incorrect,incorrect,correct,False
 098_incorrect_10,10,incorrect,incorrect,correct,False
 100_incorrect_10,10,incorrect,incorrect,correct,False
-001_correct_100,100,correct,correct,correct,True
+001_correct_100,100,correct,correct,incorrect,False
 003_correct_100,100,correct,correct,correct,True
 004_correct_100,100,correct,correct,correct,True
 005_correct_100,100,correct,correct,correct,True
@@ -192,14 +192,14 @@ image,scale_value,variant,ground_truth,prediction,correct
 085_incorrect_100,100,incorrect,incorrect,correct,False
 087_incorrect_100,100,incorrect,incorrect,correct,False
 089_incorrect_100,100,incorrect,incorrect,correct,False
-090_incorrect_100,100,incorrect,incorrect,correct,False
+090_incorrect_100,100,incorrect,incorrect,incorrect,True
 091_incorrect_100,100,incorrect,incorrect,correct,False
 094_incorrect_100,100,incorrect,incorrect,correct,False
 095_incorrect_100,100,incorrect,incorrect,correct,False
 096_incorrect_100,100,incorrect,incorrect,correct,False
 098_incorrect_100,100,incorrect,incorrect,correct,False
 100_incorrect_100,100,incorrect,incorrect,correct,False
-001_correct_1000,1000,correct,correct,correct,True
+001_correct_1000,1000,correct,correct,incorrect,False
 003_correct_1000,1000,correct,correct,correct,True
 004_correct_1000,1000,correct,correct,correct,True
 005_correct_1000,1000,correct,correct,correct,True
@@ -229,7 +229,7 @@ image,scale_value,variant,ground_truth,prediction,correct
 058_correct_1000,1000,correct,correct,correct,True
 059_correct_1000,1000,correct,correct,correct,True
 063_correct_1000,1000,correct,correct,correct,True
-065_correct_1000,1000,correct,correct,correct,True
+065_correct_1000,1000,correct,correct,incorrect,False
 068_correct_1000,1000,correct,correct,correct,True
 069_correct_1000,1000,correct,correct,correct,True
 070_correct_1000,1000,correct,correct,correct,True
@@ -392,7 +392,7 @@ image,scale_value,variant,ground_truth,prediction,correct
 085_incorrect_10000,10000,incorrect,incorrect,correct,False
 087_incorrect_10000,10000,incorrect,incorrect,correct,False
 089_incorrect_10000,10000,incorrect,incorrect,correct,False
-090_incorrect_10000,10000,incorrect,incorrect,incorrect,True
+090_incorrect_10000,10000,incorrect,incorrect,correct,False
 091_incorrect_10000,10000,incorrect,incorrect,correct,False
 094_incorrect_10000,10000,incorrect,incorrect,correct,False
 095_incorrect_10000,10000,incorrect,incorrect,correct,False
@@ -492,7 +492,7 @@ image,scale_value,variant,ground_truth,prediction,correct
 085_incorrect_100000,100000,incorrect,incorrect,correct,False
 087_incorrect_100000,100000,incorrect,incorrect,correct,False
 089_incorrect_100000,100000,incorrect,incorrect,correct,False
-090_incorrect_100000,100000,incorrect,incorrect,correct,False
+090_incorrect_100000,100000,incorrect,incorrect,incorrect,True
 091_incorrect_100000,100000,incorrect,incorrect,correct,False
 094_incorrect_100000,100000,incorrect,incorrect,correct,False
 095_incorrect_100000,100000,incorrect,incorrect,correct,False

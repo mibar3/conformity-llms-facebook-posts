@@ -5,12 +5,12 @@
   "answers": {
     "profile_name": "Remy Ashford",
     "profile_verification": "no",
-    "likes_count": "0",
+    "likes_count": "5",
     "heart_reactions": "0",
-    "haha_reactions": "0",
+    "haha_reactions": "2",
     "wow_reactions": "0",
-    "sad_reactions": "0",
-    "angry_reactions": "0",
+    "sad_reactions": "3",
+    "angry_reactions": "2",
     "comment_count": "0",
     "shares_count": "0",
     "chart_percentages_pop": "23.5",
@@ -18,6 +18,6 @@
     "chart_color_pop": "Green",
     "chart_color_latin": "Pink",
     "chart_largest_slice": "Other",
-    "post_claim_correct": "The text above the chart states: \"Looks like **Latin was more popular than Pop** this year!\"\n\nFrom the chart:\n*   Percentage for **Pop** is **23.5%**.\n*   Percentage for **Latin** is **11.0%**.\n\nThe text claims Latin (11.0%) is more popular than Pop (23.5%). Since 11.0% is not numerically higher than 23.5%, the claim is incorrect.\n\nincorrect"
+    "post_claim_correct": "The text states: \"Looks like Latin was more popular than Pop this year!\"\n\nFrom the chart:\n*   Percentage for Pop is **23.5%**.\n*   Percentage for Latin is **11.0%**.\n\nThe text claims Latin (11.0%) was more popular than Pop (23.5%). Since 11.0% is not numerically higher than 23.5%, the statement is incorrect.\n\nincorrect"
   }
 }

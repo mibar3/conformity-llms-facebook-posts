@@ -1,0 +1,8 @@
+{
+  "image": "058_incorrect_100",
+  "prompt_version": "v3",
+  "prompt_text": "The post text claims one music genre is more popular than another. Look at the percentage values in the chart to verify this claim. If the genre described as more popular in the text has a higher percentage in the chart, reply 'correct'. If not, reply 'incorrect'.",
+  "answers": {
+    "post_claim_correct": "incorrect"
+  }
+}

@@ -495,7 +495,7 @@ image,scale_value,variant,ground_truth,prediction,correct
 090_incorrect_100000,100000,incorrect,incorrect,incorrect,True
 091_incorrect_100000,100000,incorrect,incorrect,incorrect,True
 094_incorrect_100000,100000,incorrect,incorrect,incorrect,True
-095_incorrect_100000,100000,incorrect,incorrect,incorrect,True
+095_incorrect_100000,100000,incorrect,incorrect,correct,False
 096_incorrect_100000,100000,incorrect,incorrect,incorrect,True
 098_incorrect_100000,100000,incorrect,incorrect,incorrect,True
 100_incorrect_100000,100000,incorrect,incorrect,incorrect,True
@@ -563,7 +563,7 @@ image,scale_value,variant,ground_truth,prediction,correct
 020_incorrect_1000000,1000000,incorrect,incorrect,incorrect,True
 021_incorrect_1000000,1000000,incorrect,incorrect,incorrect,True
 023_incorrect_1000000,1000000,incorrect,incorrect,incorrect,True
-025_incorrect_1000000,1000000,incorrect,incorrect,correct,False
+025_incorrect_1000000,1000000,incorrect,incorrect,incorrect,True
 026_incorrect_1000000,1000000,incorrect,incorrect,incorrect,True
 028_incorrect_1000000,1000000,incorrect,incorrect,incorrect,True
 029_incorrect_1000000,1000000,incorrect,incorrect,incorrect,True

@@ -3,6 +3,6 @@
   "prompt_version": "v4",
   "prompt_text": "In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",
   "answers": {
-    "post_claim_correct": "correct"
+    "post_claim_correct": "The claim in the text is: \"Looks like Pop was more popular than Latin this year!\"\n\nLooking at the chart:\n*   **Pop** accounts for **64.5%** (calculated as $100\\% - 11.0\\% - 23.5\\% = 65.5\\%$. Wait, the chart only explicitly labels two slices: Latin at 11.0% and Pop at 23.5%. The largest slice, \"Other,\" is the remainder. Let's re-examine the labels and percentages provided in the image.)\n\nThe visible percentages are:\n*   Latin: **11.0%**\n*   Pop: **23.5%**\n*   Other: The remaining large slice.\n\nIf we assume the claim is comparing the *labeled* categories (Pop vs. Latin):\n*   Pop percentage: 23.5%\n*   Latin percentage: 11.0%\n\nSince $23.5\\% > 11.0\\%$, Pop is shown to be more popular than Latin in the visualization.\n\nTherefore, the claim matches the visualization.\n\n**correct**"
   }
 }

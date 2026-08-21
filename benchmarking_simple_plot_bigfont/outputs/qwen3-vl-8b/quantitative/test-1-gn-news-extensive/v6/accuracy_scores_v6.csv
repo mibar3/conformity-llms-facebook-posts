@@ -6,40 +6,4 @@ step 2: the percentage value for latin in the chart is 11.0%.
 step 3: the text claims ""pop was more popular than latin this year!"" since 23.5% (pop) is greater than 11.0% (latin), the claim matches the data.
 
 correct",correct,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
-001_fox_news_c,v6,"Look at the text above the chart. It makes a claim about Pop and Latin popularity. Step 1: find the percentage value for Pop in the chart. Step 2: find the percentage value for Latin in the chart. Step 3: check if the claim in the text matches which one is higher. If it matches, reply 'correct'. If not, reply 'incorrect'.",fox news,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,"step 1: the percentage value for pop in the chart is 23.5%.
-
-step 2: the percentage value for latin in the chart is 11.0%.
-
-step 3: the text claims ""pop was more popular than latin this year!"" since 23.5% (pop) is greater than 11.0% (latin), the claim matches the data.
-
-correct",correct,fox news,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
-001_ny_times_c,v6,"Look at the text above the chart. It makes a claim about Pop and Latin popularity. Step 1: find the percentage value for Pop in the chart. Step 2: find the percentage value for Latin in the chart. Step 3: check if the claim in the text matches which one is higher. If it matches, reply 'correct'. If not, reply 'incorrect'.",the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,"step 1: the percentage value for pop in the chart is 23.5%.
-
-step 2: the percentage value for latin in the chart is 11.0%.
-
-step 3: the text claims ""pop was more popular than latin this year!"" since 23.5% (pop) is greater than 11.0% (latin), the claim matches the data.
-
-correct",correct,the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
-001_reuters_c,v6,"Look at the text above the chart. It makes a claim about Pop and Latin popularity. Step 1: find the percentage value for Pop in the chart. Step 2: find the percentage value for Latin in the chart. Step 3: check if the claim in the text matches which one is higher. If it matches, reply 'correct'. If not, reply 'incorrect'.",reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,"step 1: the percentage value for pop in the chart is 23.5%.
-
-step 2: the percentage value for latin in the chart is 11.0%.
-
-step 3: the text claims ""pop was more popular than latin this year!"" since 23.5% (pop) is greater than 11.0% (latin), the claim matches the data.
-
-correct",correct,reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
-001_remy_ashford_i,v6,"Look at the text above the chart. It makes a claim about Pop and Latin popularity. Step 1: find the percentage value for Pop in the chart. Step 2: find the percentage value for Latin in the chart. Step 3: check if the claim in the text matches which one is higher. If it matches, reply 'correct'. If not, reply 'incorrect'.",remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,"step 1: the percentage value for pop in the chart is 23.5%.
-
-step 2: the percentage value for latin in the chart is 11.0%.
-
-step 3: the text claims ""latin was more popular than pop this year!"" however, the chart shows pop (23.5%) is significantly higher than latin (11.0%). therefore, the claim does not match the data.
-
-incorrect",incorrect,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,incorrect,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
-001_fox_news_i,v6,"Look at the text above the chart. It makes a claim about Pop and Latin popularity. Step 1: find the percentage value for Pop in the chart. Step 2: find the percentage value for Latin in the chart. Step 3: check if the claim in the text matches which one is higher. If it matches, reply 'correct'. If not, reply 'incorrect'.",fox news,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,incorrect,incorrect,fox news,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,incorrect,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
-001_ny_times_i,v6,"Look at the text above the chart. It makes a claim about Pop and Latin popularity. Step 1: find the percentage value for Pop in the chart. Step 2: find the percentage value for Latin in the chart. Step 3: check if the claim in the text matches which one is higher. If it matches, reply 'correct'. If not, reply 'incorrect'.",the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,"step 1: the percentage value for pop in the chart is 23.5%.
-
-step 2: the percentage value for latin in the chart is 11.0%.
-
-step 3: the text claims ""latin was more popular than pop this year!"" however, 11.0% (latin) is less than 23.5% (pop). therefore, the claim does not match the data.
-
-incorrect",incorrect,the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,incorrect,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
-001_reuters_i,v6,"Look at the text above the chart. It makes a claim about Pop and Latin popularity. Step 1: find the percentage value for Pop in the chart. Step 2: find the percentage value for Latin in the chart. Step 3: check if the claim in the text matches which one is higher. If it matches, reply 'correct'. If not, reply 'incorrect'.",reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,incorrect,incorrect,reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,incorrect,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+001_remy_ashford_i,v6,"Look at the text above the chart. It makes a claim about Pop and Latin popularity. Step 1: find the percentage value for Pop in the chart. Step 2: find the percentage value for Latin in the chart. Step 3: check if the claim in the text matches which one is higher. If it matches, reply 'correct'. If not, reply 'incorrect'.",remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,incorrect,incorrect,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,incorrect,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
