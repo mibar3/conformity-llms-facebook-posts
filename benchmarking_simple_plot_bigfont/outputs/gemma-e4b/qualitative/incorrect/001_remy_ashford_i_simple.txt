@@ -1,32 +1,37 @@
 Here is a full and detailed description of the social media post image:
 
 **Overall Appearance:**
-The image is a screenshot of a social media post, likely from a platform like X (formerly Twitter), featuring a text update and a large pie chart visualization.
+The image is a screenshot of a social media post, likely from a platform like LinkedIn or X (Twitter), featuring a data visualization (a pie chart) related to music genre preferences.
 
 **Profile Information:**
 *   **Profile Name:** Remy Ashford
-*   **Indicator:** There is a "Follow" button next to the name, indicating the user can be followed.
+*   **Indicator:** A small circular profile picture is visible next to the name.
+*   **Action:** A "Follow" button is present next to the name.
 *   **Timestamp:** The post was made "Today at 2:43 PM."
-*   **Options:** There are three dots (...) and an 'X' icon in the top right corner, typical for post options.
+*   **Options:** A three-dot menu and an 'X' icon are visible in the top right corner, indicating post options.
 
 **Post Text Content:**
-The text reads:
+The text accompanying the post reads:
 "The Spotify 2026 music genres distribution has just been released. Looks like Latin was more popular than Pop this year!"
 
-**Visual Content (Pie Chart):**
-The main focus of the post is a large, circular pie chart illustrating music genre preferences. The chart is divided into three visible segments:
+**Visual Content (The Chart):**
+The main body of the post features a large, circular **pie chart** illustrating music genre preferences. The chart is divided into three visible segments:
 
 1.  **Other:** This segment is the largest, colored in a light gray/off-white. It is labeled "Other" at the top right of the chart.
-2.  **Pop:** This segment is colored in a light green/mint color. It is labeled "Pop" at the bottom left and shows a percentage of **23.5%**.
-3.  **Latin:** This segment is colored in a light pink/salmon color. It is labeled "Latin" at the bottom right and shows a percentage of **11.0%**.
+2.  **Pop:** This segment is colored in a light green/mint color. It is labeled "Pop" and shows a percentage of **23.5%**.
+3.  **Latin:** This segment is colored in a light pink/salmon color. It is labeled "Latin" and shows a percentage of **11.0%**.
 
-*(Note: The percentages for the "Other" category are not explicitly visible on the chart, but they would account for the remainder of the 100%.)*
+*(Note: The percentages for the "Other" category are not explicitly displayed on the chart, but they represent the remainder of the total.)*
 
-**Engagement Metrics:**
-At the bottom of the post, there are icons and labels for user engagement:
-*   **Like:** Indicated by a thumbs-up icon and the text "Like."
-*   **Comment:** Indicated by a speech bubble icon and the text "Comment."
-*   **Share:** Indicated by a sharing icon and the text "Share."
+**Engagement Metrics and Footer:**
+Below the chart, there is a row displaying engagement metrics:
+*   **Likes:** A thumbs-up icon followed by the number **0**.
+*   **Hearts/Reactions:** A heart icon followed by the number **0**.
+*   **Laughing/Smiling Emojis:** Several other reaction icons (laughing, smiling) are shown, all followed by the number **0**.
+*   **Comments/Shares:** The bottom right corner shows: **0 Comments · 0 Shares**.
 
-**Summary:**
-The post by Remy Ashford shares data from the "Spotify 2026 music genres distribution," using a pie chart to visually compare the popularity of music genres. The chart shows that "Other" is the largest category, followed by Pop (23.5%) and Latin (11.0%), with the poster noting that Latin was more popular than Pop in the context of the release.
+**Action Buttons:**
+At the very bottom, there are three interactive buttons:
+1.  **Like:** Accompanied by a thumbs-up icon.
+2.  **Comment:** Accompanied by a speech bubble icon.
+3.  **Share:** Accompanied by a sharing icon.

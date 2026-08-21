@@ -18,6 +18,6 @@
     "chart_color_pop": "Green",
     "chart_color_latin": "Pink",
     "chart_largest_slice": "Other",
-    "post_claim_correct": "incorrect"
+    "post_claim_correct": "correct"
   }
 }

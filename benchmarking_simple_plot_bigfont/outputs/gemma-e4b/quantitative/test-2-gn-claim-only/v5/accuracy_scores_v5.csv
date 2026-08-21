@@ -1,27 +1,27 @@
 image,ground_truth,prediction,correct
-001_correct,correct,"the text above the chart states: ""looks like pop was more popular than latin this year!""
+001_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   the percentage for **pop** is **23.5%**.
-*   the percentage for **latin** is **11.0%**.
+*   percentage for pop is **23.5%**.
+*   percentage for latin is **11.0%**.
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
 correct",False
-001_incorrect,incorrect,"the text above the chart states: ""looks like **latin was more popular than pop** this year!""
+001_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
-*   percentage for **pop** is **23.5%**.
-*   percentage for **latin** is **11.0%**.
+*   percentage for pop is **23.5%**.
+*   percentage for latin is **11.0%**.
 
-the text claims latin (11.0%) is more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the claim is incorrect.
+the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
 003_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop = 23.5%
-*   percentage for latin = 11.0%
+*   percentage for pop is **23.5%**
+*   percentage for latin is **11.0%**
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
@@ -35,11 +35,11 @@ from the chart:
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
-004_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
+004_correct,correct,"the text above the chart states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop is **23.5%**.
-*   percentage for latin is **11.0%**.
+*   the percentage for **pop** is **23.5%**.
+*   the percentage for **latin** is **11.0%**.
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
@@ -53,22 +53,22 @@ from the chart:
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
-005_correct,correct,"the text states: ""looks like **pop** was more popular than **latin** this year!""
+005_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop = **23.5%**
-*   percentage for latin = **11.0%**
+*   percentage for pop = 23.5%
+*   percentage for latin = 11.0%
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
 correct",False
-005_incorrect,incorrect,"the text states: ""looks like **latin was more popular than pop** this year!""
+005_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
-*   percentage for pop = **23.5%**
-*   percentage for latin = **11.0%**
+*   percentage for pop = 23.5%
+*   percentage for latin = 11.0%
 
-the text claims latin (11.0%) is more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
+the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
 006_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
@@ -83,8 +83,8 @@ correct",False
 006_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
-*   percentage for pop = 23.5%
 *   percentage for latin = 11.0%
+*   percentage for pop = 23.5%
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
@@ -92,8 +92,8 @@ incorrect",False
 007_correct,correct,"the text above the chart states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop is **23.5%**.
-*   percentage for latin is **11.0%**.
+*   the percentage for **pop** is **23.5%**.
+*   the percentage for **latin** is **11.0%**.
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
@@ -104,7 +104,7 @@ from the chart:
 *   percentage for pop is **23.5%**.
 *   percentage for latin is **11.0%**.
 
-the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement in the text is incorrect based on the chart.
+the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
 012_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
@@ -155,8 +155,8 @@ correct",False
 015_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
-*   percentage for latin = 11.0%
 *   percentage for pop = 23.5%
+*   percentage for latin = 11.0%
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
@@ -188,11 +188,11 @@ from the chart:
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
 correct",False
-018_incorrect,incorrect,"the text states: ""looks like **latin** was more popular than **pop** this year!""
+018_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
-*   percentage for pop = **23.5%**
-*   percentage for latin = **11.0%**
+*   percentage for pop = 23.5%
+*   percentage for latin = 11.0%
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
@@ -224,13 +224,13 @@ from the chart:
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
 correct",False
-021_incorrect,incorrect,"the text above the chart states: ""looks like latin was more popular than pop this year!""
+021_incorrect,incorrect,"the text above the chart states: ""looks like **latin** was more popular than **pop** this year!""
 
 from the chart:
 *   the percentage for **pop** is **23.5%**.
 *   the percentage for **latin** is **11.0%**.
 
-the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the claim is incorrect.
+the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
 023_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
@@ -260,20 +260,20 @@ from the chart:
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
 correct",False
-025_incorrect,incorrect,"the text above the chart states: ""looks like **latin** was more popular than **pop** this year!""
+025_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
-*   percentage for pop = **23.5%**
-*   percentage for latin = **11.0%**
+*   percentage for pop = 23.5%
+*   percentage for latin = 11.0%
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
-026_correct,correct,"the text above the chart states: ""looks like pop was more popular than latin this year!""
+026_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   the percentage for **pop** is **23.5%**.
-*   the percentage for **latin** is **11.0%**.
+*   percentage for pop is **23.5%**.
+*   percentage for latin is **11.0%**.
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
@@ -281,8 +281,8 @@ correct",False
 026_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
-*   percentage for pop is **23.5%**
-*   percentage for latin is **11.0%**
+*   percentage for pop is **23.5%**.
+*   percentage for latin is **11.0%**.
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
@@ -299,8 +299,8 @@ correct",False
 028_incorrect,incorrect,"the text states: ""looks like **latin** was more popular than **pop** this year!""
 
 from the chart:
-*   percentage for pop = **23.5%**
-*   percentage for latin = **11.0%**
+*   percentage for **pop** is **23.5%**.
+*   percentage for **latin** is **11.0%**.
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
@@ -308,8 +308,8 @@ incorrect",False
 029_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop = 23.5%
-*   percentage for latin = 11.0%
+*   percentage for pop = **23.5%**
+*   percentage for latin = **11.0%**
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement is correct.
 
@@ -326,8 +326,8 @@ incorrect",False
 030_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop is **23.5%**
-*   percentage for latin is **11.0%**
+*   percentage for pop is **23.5%**.
+*   percentage for latin is **11.0%**.
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
@@ -335,8 +335,8 @@ correct",False
 030_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
-*   percentage for pop is **23.5%**
-*   percentage for latin is **11.0%**
+*   **pop** percentage is **23.5%**
+*   **latin** percentage is **11.0%**
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
@@ -362,8 +362,8 @@ incorrect",False
 036_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop = 23.5%
-*   percentage for latin = 11.0%
+*   percentage for pop is **23.5%**.
+*   percentage for latin is **11.0%**.
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
@@ -380,8 +380,8 @@ incorrect",False
 039_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop = 23.5%
-*   percentage for latin = 11.0%
+*   percentage for pop is **23.5%**.
+*   percentage for latin is **11.0%**.
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
@@ -413,7 +413,7 @@ from the chart:
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
-047_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
+047_correct,correct,"the text states: ""looks like **pop was more popular than latin** this year!""
 
 from the chart:
 *   percentage for pop = **23.5%**
@@ -422,31 +422,31 @@ from the chart:
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
 correct",False
-047_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
+047_incorrect,incorrect,"the text states: ""looks like **latin was more popular than pop** this year!""
 
 from the chart:
-*   percentage for pop = 23.5%
-*   percentage for latin = 11.0%
+*   percentage for pop = **23.5%**
+*   percentage for latin = **11.0%**
 
-the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
+the text claims latin (11.0%) is more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
 052_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop = 23.5%
-*   percentage for latin = 11.0%
+*   percentage for pop = **23.5%**
+*   percentage for latin = **11.0%**
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
 correct",False
-052_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
+052_incorrect,incorrect,"the text states: ""looks like **latin was more popular than pop** this year!""
 
 from the chart:
-*   percentage for pop = 23.5%
-*   percentage for latin = 11.0%
+*   percentage for **pop** is **23.5%**.
+*   percentage for **latin** is **11.0%**.
 
-the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
+the text claims latin (11.0%) is more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
 054_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
@@ -470,8 +470,8 @@ incorrect",False
 055_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop is **23.5%**.
-*   percentage for latin is **11.0%**.
+*   percentage for pop is **23.5%**
+*   percentage for latin is **11.0%**
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
@@ -479,8 +479,8 @@ correct",False
 055_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
-*   percentage for pop = 23.5%
 *   percentage for latin = 11.0%
+*   percentage for pop = 23.5%
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
@@ -503,11 +503,11 @@ from the chart:
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
-059_correct,correct,"the text above the chart states: ""looks like pop was more popular than latin this year!""
+059_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   the percentage for **pop** is **23.5%**.
-*   the percentage for **latin** is **11.0%**.
+*   percentage for pop is **23.5%**.
+*   percentage for latin is **11.0%**.
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
@@ -515,13 +515,13 @@ correct",False
 059_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
-*   percentage for pop is **23.5%**
-*   percentage for latin is **11.0%**
+*   **pop** percentage is **23.5%**
+*   **latin** percentage is **11.0%**
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
-063_correct,correct,"the text above the chart says: ""looks like pop was more popular than latin this year!""
+063_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
 *   percentage for pop = **23.5%**
@@ -530,13 +530,13 @@ from the chart:
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
 correct",False
-063_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
+063_incorrect,incorrect,"the text states: ""looks like **latin** was more popular than **pop** this year!""
 
 from the chart:
-*   percentage for pop = 23.5%
-*   percentage for latin = 11.0%
+*   percentage for **pop** is **23.5%**.
+*   percentage for **latin** is **11.0%**.
 
-the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
+the text claims latin (11.0%) is more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
 065_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
@@ -560,17 +560,17 @@ incorrect",False
 068_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop = 23.5%
-*   percentage for latin = 11.0%
+*   percentage for pop = **23.5%**
+*   percentage for latin = **11.0%**
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
 correct",False
-068_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
+068_incorrect,incorrect,"the text states: ""looks like **latin** was more popular than **pop** this year!""
 
 from the chart:
-*   percentage for pop = 23.5%
-*   percentage for latin = 11.0%
+*   percentage for pop = **23.5%**
+*   percentage for latin = **11.0%**
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
@@ -593,20 +593,20 @@ from the chart:
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
-070_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
+070_correct,correct,"the text above the chart states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop is **23.5%**
-*   percentage for latin is **11.0%**
+*   the percentage for **pop** is **23.5%**.
+*   the percentage for **latin** is **11.0%**.
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
 correct",False
-070_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
+070_incorrect,incorrect,"the text above the chart states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
-*   percentage for pop is **23.5%**.
-*   percentage for latin is **11.0%**.
+*   the percentage for **pop** is **23.5%**.
+*   the percentage for **latin** is **11.0%**.
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
@@ -614,8 +614,8 @@ incorrect",False
 072_correct,correct,"the text above the chart states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop is **23.5%**.
-*   percentage for latin is **11.0%**.
+*   the percentage for **pop** is **23.5%**.
+*   the percentage for **latin** is **11.0%**.
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
@@ -623,8 +623,8 @@ correct",False
 072_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
-*   percentage for pop is **23.5%**
-*   percentage for latin is **11.0%**
+*   percentage for pop is **23.5%**.
+*   percentage for latin is **11.0%**.
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
@@ -647,11 +647,11 @@ from the chart:
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
-078_correct,correct,"the text above the chart says: ""looks like pop was more popular than latin this year!""
+078_correct,correct,"the text above the chart states: ""looks like **pop was more popular than latin** this year!""
 
 from the chart:
-*   percentage for pop = 23.5%
-*   percentage for latin = 11.0%
+*   percentage for pop = **23.5%**
+*   percentage for latin = **11.0%**
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
@@ -663,7 +663,7 @@ from the chart:
 *   percentage for pop = **23.5%**
 *   percentage for latin = **11.0%**
 
-since 23.5% is numerically higher than 11.0%, the statement in the text is correct.
+since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
 correct",False
 080_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
@@ -678,26 +678,26 @@ incorrect",False
 082_correct,correct,"the text above the chart states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop = **23.5%**
-*   percentage for latin = **11.0%**
-
-since 23.5% is numerically higher than 11.0%, the statement in the text is correct.
-
-correct",False
-082_incorrect,incorrect,"the text above the chart states: ""looks like **latin was more popular than pop** this year!""
-
-from the chart:
-*   percentage for pop = **23.5%**
-*   percentage for latin = **11.0%**
-
-the text claims latin (11.0%) is more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
-
-incorrect",False
-083_correct,correct,"the text above the chart states: ""looks like pop was more popular than latin this year!""
-
-from the chart:
 *   the percentage for **pop** is **23.5%**.
 *   the percentage for **latin** is **11.0%**.
+
+since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
+
+correct",False
+082_incorrect,incorrect,"the text above the chart states: ""looks like **latin** was more popular than **pop** this year!""
+
+from the chart:
+*   percentage for pop = **23.5%**
+*   percentage for latin = **11.0%**
+
+the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
+
+incorrect",False
+083_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
+
+from the chart:
+*   percentage for pop is **23.5%**
+*   percentage for latin is **11.0%**
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
@@ -711,7 +711,7 @@ from the chart:
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
-085_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
+085_correct,correct,"the text above the chart states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
 *   percentage for pop is **23.5%**.
@@ -720,11 +720,11 @@ from the chart:
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
 correct",False
-085_incorrect,incorrect,"the text above the chart states: ""looks like latin was more popular than pop this year!""
+085_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
-*   percentage for pop is **23.5%**.
-*   percentage for latin is **11.0%**.
+*   percentage for pop = 23.5%
+*   percentage for latin = 11.0%
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
@@ -756,11 +756,11 @@ from the chart:
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement is correct.
 
 correct",False
-089_incorrect,incorrect,"the text states: ""looks like **latin** was more popular than **pop** this year!""
+089_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
-*   percentage for pop = **23.5%**
-*   percentage for latin = **11.0%**
+*   percentage for pop = 23.5%
+*   percentage for latin = 11.0%
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
@@ -768,26 +768,26 @@ incorrect",False
 090_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
+*   percentage for pop is **23.5%**.
+*   percentage for latin is **11.0%**.
+
+since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
+
+correct",False
+090_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
+
+from the chart:
 *   percentage for pop = 23.5%
 *   percentage for latin = 11.0%
 
-since 23.5% (pop) is numerically higher than 11.0% (latin), the statement is correct.
-
-correct",False
-090_incorrect,incorrect,"the text states: ""looks like **latin was more popular than pop** this year!""
-
-from the chart:
-*   percentage for pop = **23.5%**
-*   percentage for latin = **11.0%**
-
-the text claims latin (11.0%) is more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
+the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
 091_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop is **23.5%**
-*   percentage for latin is **11.0%**
+*   percentage for pop is **23.5%**.
+*   percentage for latin is **11.0%**.
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
@@ -795,8 +795,8 @@ correct",False
 091_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
-*   percentage for pop is **23.5%**
-*   percentage for latin is **11.0%**
+*   percentage for pop is **23.5%**.
+*   percentage for latin is **11.0%**.
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
@@ -807,7 +807,7 @@ from the chart:
 *   percentage for pop is **23.5%**.
 *   percentage for latin is **11.0%**.
 
-since 23.5% is numerically higher than 11.0%, the statement in the text is correct.
+since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
 correct",False
 094_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
@@ -822,26 +822,26 @@ incorrect",False
 095_correct,correct,"the text above the chart states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop is **23.5%**.
-*   percentage for latin is **11.0%**.
+*   the percentage for **pop** is **23.5%**.
+*   the percentage for **latin** is **11.0%**.
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
 correct",False
-095_incorrect,incorrect,"the text above the chart states: ""looks like **latin was more popular than pop** this year!""
+095_incorrect,incorrect,"the text above the chart states: ""looks like **latin** was more popular than **pop** this year!""
 
 from the chart:
 *   percentage for **pop** is **23.5%**.
 *   percentage for **latin** is **11.0%**.
 
-the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the claim is incorrect.
+the text claims latin (11.0%) is more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
 incorrect",False
 096_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop = 23.5%
-*   percentage for latin = 11.0%
+*   percentage for pop is **23.5%**.
+*   percentage for latin is **11.0%**.
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
@@ -861,7 +861,7 @@ from the chart:
 *   percentage for pop = 23.5%
 *   percentage for latin = 11.0%
 
-since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
+since 23.5% (pop) is numerically higher than 11.0% (latin), the statement is correct.
 
 correct",False
 098_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""
@@ -876,10 +876,10 @@ incorrect",False
 100_correct,correct,"the text states: ""looks like pop was more popular than latin this year!""
 
 from the chart:
-*   percentage for pop = 23.5%
-*   percentage for latin = 11.0%
+*   percentage for pop = **23.5%**
+*   percentage for latin = **11.0%**
 
-since 23.5% (pop) is numerically higher than 11.0% (latin), the statement is correct.
+since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
 correct",False
 100_incorrect,incorrect,"the text states: ""looks like latin was more popular than pop this year!""

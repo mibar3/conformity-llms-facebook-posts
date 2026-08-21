@@ -3,6 +3,6 @@
   "prompt_version": "v1",
   "prompt_text": "Does the text in the post accurately describe the chart? Reply with only 'correct' or 'incorrect'.",
   "answers": {
-    "post_claim_correct": "incorrect"
+    "post_claim_correct": "correct"
   }
 }

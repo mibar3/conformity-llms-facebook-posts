@@ -10,37 +10,31 @@ Based on the provided image, here is a detailed description of the social media 
 The text of the post reads:
 > The Spotify 2026 music genres distribution has just been released. Looks like Latin was more popular than Pop this year!
 
+This text sets up the context for the image, claiming that a 2026 distribution has been released and making a surprising claim that Latin music was more popular than Pop.
+
 **Image/Chart:**
 The post features a large, prominent pie chart titled:
 > **Music Genre Preferences of Spotify Users**
 
-The chart is divided into three segments with the following details:
-
-1.  **"Other"** (Largest Segment):
-    - Color: Light gray.
-    - This segment occupies the majority of the pie chart, visually representing the largest share of user preferences.
-    - The percentage is not explicitly labeled on this slice, but its size implies it is the largest category.
-
-2.  **"Pop"** (Second Largest Segment):
-    - Color: Light green.
-    - Percentage: **23.5%**.
-    - Labeled clearly in black text within the slice.
-
-3.  **"Latin"** (Smallest Segment):
-    - Color: Light pink.
-    - Percentage: **11.0%**.
-    - Labeled clearly in black text within the slice.
+The chart is divided into three segments:
+1.  **Pop:** Represented by a **green** slice, accounting for **23.5%** of the chart.
+2.  **Latin:** Represented by a **pink** slice, accounting for **11.0%** of the chart.
+3.  **Other:** Represented by a large **gray** slice, which visually dominates the chart and represents the remaining percentage (calculated as 100% - 23.5% - 11.0% = 65.5%).
 
 **Engagement Metrics:**
-At the bottom of the post, there are three standard social media engagement buttons:
-- **Like** (with a yellow thumbs-up icon)
-- **Comment** (with a speech bubble icon)
-- **Share** (with an upward arrow icon)
-No numbers are displayed next to these icons, indicating that the post has not yet received any likes, comments, or shares.
+- Below the image, the engagement metrics are displayed:
+    - **Likes:** 0 (indicated by a thumbs-up icon)
+    - **Heart:** 0 (indicated by a red heart icon)
+    - **Laughing:** 0 (indicated by a laughing emoji)
+    - **Surprised:** 0 (indicated by a surprised emoji)
+    - **Crying:** 0 (indicated by a crying emoji)
+    - **Angry:** 0 (indicated by an angry emoji)
+    - **Comments:** 0
+    - **Shares:** 0
 
 **Other Visual Elements:**
-- The entire post is contained within a white rectangular card with rounded corners.
-- The background of the post is a light gray.
-- The text is primarily black, with the title in a bold, larger font.
-- The post includes a small "X" icon in the top right corner, which is typically used to close or dismiss the post.
-- The overall layout is clean and typical of a social media platform like Twitter (X) or Facebook.
+- The post has a clean, white background with black text for the title and post content.
+- The chart uses distinct, contrasting colors (green, pink, gray) to differentiate the segments.
+- At the bottom, there are standard social media interaction buttons: **"Like"**, **"Comment"**, and **"Share"**.
+- In the top right corner, there are three vertical dots (a menu icon) and an "X" button, which are standard for closing or accessing more options on many social media platforms.
+- The overall layout is typical of a social media post, with the profile information at the top, the text, the image, and the engagement metrics at the bottom.
