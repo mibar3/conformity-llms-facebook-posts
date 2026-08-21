@@ -202,3 +202,106 @@ def analyse_profile_grid(output_dir: Path, output_filename: str):
                 flag = "  ← crossover" if p < 50 else ""
                 print(f"    {ps:>8,} likes → chose 'Dr.' {p:5.1f}%  (n={len(sub)}){flag}")
     return summary
+
+
+# --------------------------------------------------------------------------------------------
+# Plotting. The number-crunching is kept in plain Python (authority_grid_matrix) so it can be
+# checked without numpy/matplotlib; only the drawing needs them.
+# --------------------------------------------------------------------------------------------
+
+SCALE_LABELS = ["0", "10", "100", "1K", "10K", "100K", "1M"]
+
+
+def authority_grid_matrix(output_dir: Path, output_filename: str):
+    """% chose the 'Dr.' post per cell, plus the position gap that says whether to believe it.
+
+    Returns (pct, gap, n) as 7x7 lists indexed [dr_scale][plain_scale], None where empty.
+    `gap` is |P(chose Dr | Dr in slot A) - P(chose Dr | Dr in slot B)| for that cell: small means
+    the model was tracking the profile, large means it was tracking the slot.
+    """
+    data = json.loads((Path(output_dir) / output_filename).read_text())
+    valid = [r for r in data if r["answer"] in ("A", "B")]
+    n_lv = len(SCALE_VALUES)
+    pct = [[None] * n_lv for _ in range(n_lv)]
+    gap = [[None] * n_lv for _ in range(n_lv)]
+    cnt = [[0] * n_lv for _ in range(n_lv)]
+
+    for i, dr_s in enumerate(SCALE_VALUES):
+        for j, pl_s in enumerate(SCALE_VALUES):
+            cell = [r for r in valid if r["dr_scale"] == dr_s and r["plain_scale"] == pl_s]
+            if not cell:
+                continue
+            cnt[i][j] = len(cell)
+            pct[i][j] = sum(1 for r in cell if r["liked_dr"]) / len(cell) * 100
+            halves = []
+            for slot in ("A", "B"):
+                half = [r for r in cell if (r["post_a_profile"] == "dr") == (slot == "A")]
+                if half:
+                    halves.append(sum(1 for r in half if r["liked_dr"]) / len(half) * 100)
+            gap[i][j] = abs(halves[0] - halves[1]) if len(halves) == 2 else None
+    return pct, gap, cnt
+
+
+def plot_authority_grid(output_dir: Path, output_filename: str, title: str,
+                        position_gap_threshold: float = 60.0, save: bool = True):
+    """7x7 heatmap of "% chose the Dr. post", hatching cells where position drove the number.
+
+    Unlike `plot_cc_grid`, the diagonal is NOT blank: with "Dr." on one side the two posts stop
+    being identical there, so equal-engagement cells become the pure-authority test.
+
+    Hatched cells are ones where the model answered by slot rather than by profile (position gap
+    >= `position_gap_threshold`). The percentage printed in those cells is an artifact of where
+    each post happened to land and must not be read as a preference.
+    """
+    import numpy as np
+    import matplotlib.pyplot as plt
+    import matplotlib.colors as mcolors
+
+    pct, gap, cnt = authority_grid_matrix(output_dir, output_filename)
+    n = len(SCALE_VALUES)
+    grid = np.array([[np.nan if v is None else v for v in row] for row in pct])
+
+    # CVD-safe diverging palette, same one validated for statistical_analysis/grid_overview_figures
+    cmap = mcolors.LinearSegmentedColormap.from_list("red_gray_blue",
+                                                     ["#e34948", "#f0efec", "#2a78d6"])
+    fig, ax = plt.subplots(figsize=(9, 7.5))
+    im = ax.imshow(grid, cmap=cmap, vmin=0, vmax=100, aspect="auto")
+
+    for i in range(n):
+        for j in range(n):
+            if np.isnan(grid[i][j]):
+                continue
+            suspect = gap[i][j] is not None and gap[i][j] >= position_gap_threshold
+            if suspect:
+                ax.add_patch(plt.Rectangle((j - .5, i - .5), 1, 1, fill=False,
+                                           hatch="////", edgecolor="black", linewidth=0))
+            ax.text(j, i, f"{grid[i][j]:.0f}%", ha="center", va="center", fontsize=10,
+                    fontweight="bold", color="#555555" if suspect else "black",
+                    style="italic" if suspect else "normal")
+        # outline the diagonal -- the pure-authority test at each engagement level
+        ax.add_patch(plt.Rectangle((i - .5, i - .5), 1, 1, fill=False,
+                                   edgecolor="black", linewidth=1.6))
+
+    ax.set_xticks(range(n)); ax.set_yticks(range(n))
+    ax.set_xticklabels(SCALE_LABELS); ax.set_yticklabels(SCALE_LABELS)
+    ax.invert_yaxis()
+    ax.set_xlabel("Reactions on the PLAIN 'Remy Ashford' post", fontsize=12)
+    ax.set_ylabel("Reactions on the 'Dr. Remy Ashford' post", fontsize=12)
+    ax.set_title(title, fontsize=13, fontweight="bold")
+    fig.colorbar(im, ax=ax, label="Chose the 'Dr.' post (%)   —   gray = 50%, chance")
+
+    ax.text(0.5, -0.16, "outlined = equal engagement (pure authority)   ·   "
+                        "hatched = model answered by slot, not by profile",
+            transform=ax.transAxes, ha="center", fontsize=9, color="#444444")
+    plt.tight_layout()
+
+    if save:
+        out = Path(output_dir) / f"{Path(output_filename).stem}_grid.png"
+        plt.savefig(out, dpi=150, bbox_inches="tight")
+        print(f"✅ Saved to: {out}")
+    plt.show()
+
+    suspect = sum(1 for i in range(n) for j in range(n)
+                  if gap[i][j] is not None and gap[i][j] >= position_gap_threshold)
+    print(f"ℹ {suspect} of {sum(1 for r in pct for v in r if v is not None)} cells are "
+          f"position-driven (hatched) and should not be read as authority effects.")
