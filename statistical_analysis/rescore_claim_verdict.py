@@ -34,6 +34,11 @@ TARGETS = [
     ("benchmarking/outputs/gemma-e4b", "test-4-metrics-realistic-claim-only", "scale"),
     ("benchmarking_simple_plot/outputs/gemma-e4b", "test-2-gn-claim-only", "single"),
     ("benchmarking_simple_plot/outputs/gemma-e4b", "test-4-metrics-realistic-claim-only", "scale"),
+    # Added 2026-08-21: the bigger-font pilot hits this artifact far harder than either tree
+    # above -- under those stimuli Gemma-E4B stops emitting bare verdicts almost entirely and
+    # reasons step-by-step instead, so v5/v6 score 0.0% despite stating the right answer.
+    ("benchmarking_simple_plot_bigfont/outputs/gemma-e4b", "test-2-gn-claim-only", "single"),
+    ("benchmarking_simple_plot_bigfont/outputs/gemma-e4b", "test-4-metrics-realistic-claim-only", "scale"),
 ]
 
 VERDICT_RE = re.compile(r"\b(in)?correct\b")
