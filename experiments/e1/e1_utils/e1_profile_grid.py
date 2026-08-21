@@ -305,3 +305,121 @@ def plot_authority_grid(output_dir: Path, output_filename: str, title: str,
                   if gap[i][j] is not None and gap[i][j] >= position_gap_threshold)
     print(f"ℹ {suspect} of {sum(1 for r in pct for v in r if v is not None)} cells are "
           f"position-driven (hatched) and should not be read as authority effects.")
+
+
+# Order matches statistical_analysis/grid_overview_figures.ipynb so the two figure sets read
+# as siblings: larger models on the top row, smaller on the bottom.
+ROSTER = [("Gemma-12B", "gemma4-12b"), ("Qwen3-VL-8B", "qwen3-vl-8b"),
+          ("Ministral-3-14B", "ministral-3-14b"), ("Gemma-E4B", "gemma4-e4b"),
+          ("Qwen3-VL-4B", "qwen3-vl-4b"), ("Ministral-3-8B", "ministral-3-8b")]
+
+GRID_FILENAME = "e1_results_authority_grid_metrics.json"
+
+
+def _grid_dir(repo_root: Path, slug: str) -> Path:
+    return Path(repo_root) / "experiments/e1_authority_grid" / slug / "outputs"
+
+
+def exchange_rate_series(repo_root: Path, slug: str, output_filename: str = GRID_FILENAME):
+    """% chose the 'Dr.' post at each engagement-gap size, in log steps (0 = tied .. 6 = 10^6x).
+
+    Pure Python, so the numbers can be checked without matplotlib. Returns (steps, pct, n).
+    """
+    data = json.loads((_grid_dir(repo_root, slug) / output_filename).read_text())
+    valid = [r for r in data if r["answer"] in ("A", "B") and r["plain_scale"] >= r["dr_scale"]]
+    idx = {s: i for i, s in enumerate(SCALE_VALUES)}
+    steps, pct, cnt = [], [], []
+    for step in range(len(SCALE_VALUES)):
+        cell = [r for r in valid if idx[r["plain_scale"]] - idx[r["dr_scale"]] == step]
+        if not cell:
+            continue
+        steps.append(step)
+        pct.append(sum(1 for r in cell if r["liked_dr"]) / len(cell) * 100)
+        cnt.append(len(cell))
+    return steps, pct, cnt
+
+
+def plot_authority_grid_overview(repo_root: Path, output_filename: str = GRID_FILENAME,
+                                 models=None, position_gap_threshold: float = 60.0,
+                                 save_path: Path = None):
+    """All six models' authority grids as one 2x3 figure, for the thesis rather than for reading
+    a single run. Layout, palette and 2x3 ordering match grid_overview_figures.ipynb."""
+    import numpy as np
+    import matplotlib.pyplot as plt
+    import matplotlib.colors as mcolors
+
+    models = models or ROSTER
+    n = len(SCALE_VALUES)
+    cmap = mcolors.LinearSegmentedColormap.from_list("red_gray_blue",
+                                                     ["#e34948", "#f0efec", "#2a78d6"])
+    fig, axes = plt.subplots(2, 3, figsize=(16, 10))
+    flat = axes.flatten()
+    im = None
+
+    for ax, (label, slug) in zip(flat, models):
+        pct, gap, _ = authority_grid_matrix(_grid_dir(repo_root, slug), output_filename)
+        grid = np.array([[np.nan if v is None else v for v in row] for row in pct])
+        im = ax.imshow(grid, cmap=cmap, vmin=0, vmax=100, aspect="auto")
+        for i in range(n):
+            for j in range(n):
+                if gap[i][j] is not None and gap[i][j] >= position_gap_threshold:
+                    ax.add_patch(plt.Rectangle((j - .5, i - .5), 1, 1, fill=False,
+                                               hatch="////", edgecolor="black", linewidth=0))
+            ax.add_patch(plt.Rectangle((i - .5, i - .5), 1, 1, fill=False,
+                                       edgecolor="black", linewidth=1.3))
+        ax.set_title(label, fontsize=13, fontweight="bold")
+        ax.set_xticks(range(n)); ax.set_yticks(range(n))
+        ax.set_xticklabels(SCALE_LABELS, fontsize=8, rotation=45)
+        ax.set_yticklabels(SCALE_LABELS, fontsize=8)
+        ax.invert_yaxis()
+
+    fig.supxlabel("Reactions on the plain 'Remy Ashford' post", fontsize=13)
+    fig.supylabel("Reactions on the 'Dr. Remy Ashford' post", fontsize=13)
+    fig.suptitle("% chose the 'Dr.' post — both posts correct, engagement varied",
+                 fontsize=16, fontweight="bold", y=1.02)
+    cbar = fig.colorbar(im, ax=flat.tolist(), shrink=0.8, pad=0.02)
+    cbar.set_label("Chose the 'Dr.' post (%)   —   gray = 50%, chance", fontsize=11)
+    fig.text(0.5, -0.02, "outlined = equal engagement (pure authority)   ·   "
+                         "hatched = answered by slot, not by profile",
+             ha="center", fontsize=10, color="#444444")
+
+    if save_path:
+        Path(save_path).parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(save_path, dpi=150, bbox_inches="tight")
+        print(f"✅ Saved to: {save_path}")
+    plt.show()
+
+
+def plot_exchange_rate(repo_root: Path, output_filename: str = GRID_FILENAME, models=None,
+                       save_path: Path = None):
+    """One line per model: how much engagement it takes to overturn the 'Dr.' preference.
+
+    This is the pilot's headline figure — where a line crosses 50% is the point at which
+    popularity outweighs the credential.
+    """
+    import matplotlib.pyplot as plt
+
+    models = models or ROSTER
+    fig, ax = plt.subplots(figsize=(10, 6.5))
+    colors = ["#2a78d6", "#e34948", "#3fa34d", "#c46a1f", "#7d54b3", "#6b7280"]
+
+    for (label, slug), c in zip(models, colors):
+        steps, pct, _ = exchange_rate_series(repo_root, slug, output_filename)
+        ax.plot(steps, pct, marker="o", linewidth=2, color=c, label=label)
+
+    ax.axhline(50, ls="--", color="#888888", linewidth=1)
+    ax.text(6.05, 51, "chance", fontsize=9, color="#888888", va="bottom", ha="right")
+    ax.set_xticks(range(len(SCALE_VALUES)))
+    ax.set_xticklabels(["tied", "10x", "100x", "1Kx", "10Kx", "100Kx", "1Mx"])
+    ax.set_ylim(-3, 103)
+    ax.set_xlabel("How much more engagement the PLAIN post shows", fontsize=12)
+    ax.set_ylabel("Chose the 'Dr.' post (%)", fontsize=12)
+    ax.set_title("How much popularity outweighs a credential", fontsize=14, fontweight="bold")
+    ax.legend(fontsize=10, framealpha=0.9)
+    ax.grid(axis="y", alpha=0.25)
+
+    if save_path:
+        Path(save_path).parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(save_path, dpi=150, bbox_inches="tight")
+        print(f"✅ Saved to: {save_path}")
+    plt.show()
