@@ -34,8 +34,11 @@ CONDITIONS = [("metrics", "e1_results_metrics_paired.json", "Metrics (all reacti
               ("likes_only_noise", "e1_results_likes_only_noise_paired.json", "Likes only (with noise)")]
 
 
-def _load(repo_root: Path, slug: str, filename: str):
-    p = Path(repo_root) / "experiments/e1" / slug / "outputs" / filename
+def _load(repo_root: Path, slug: str, filename: str, experiment_dir: str = "experiments/e1"):
+    """`experiment_dir` selects the study: experiments/e1 (main), experiments/e1_climate,
+    experiments/e1_simple_plot, experiments/e1_simple_plot_bigfont. All four write the same
+    record shape, so every function here works on any of them unchanged."""
+    p = Path(repo_root) / experiment_dir / slug / "outputs" / filename
     return [r for r in json.loads(p.read_text()) if r["answer"] in ("A", "B")]
 
 
@@ -43,13 +46,14 @@ def _pct(rows, pred):
     return sum(1 for r in rows if pred(r)) / len(rows) * 100 if rows else None
 
 
-def competence_collapse_series(repo_root: Path, filename: str, models=None):
+def competence_collapse_series(repo_root: Path, filename: str, models=None,
+                               experiment_dir: str = "experiments/e1"):
     """Per model: tied-engagement accuracy ("competence"), accuracy when the correct post is
     disadvantaged ("collapse"), and the tied-trial A-rate that says whether the first number
     means anything at all."""
     out = []
     for label, slug in (models or ROSTER):
-        rows = _load(repo_root, slug, filename)
+        rows = _load(repo_root, slug, filename, experiment_dir)
         tied = [r for r in rows if r["correct_scale"] == r["incorrect_scale"]]
         above = [r for r in rows if r["incorrect_scale"] > r["correct_scale"]]
         below = [r for r in rows if r["correct_scale"] > r["incorrect_scale"]]
@@ -65,7 +69,8 @@ def competence_collapse_series(repo_root: Path, filename: str, models=None):
     return out
 
 
-def position_diagnostic_series(repo_root: Path, filename: str, models=None):
+def position_diagnostic_series(repo_root: Path, filename: str, models=None,
+                               experiment_dir: str = "experiments/e1"):
     """The cross-tab. For off-diagonal trials, how much does the answer swing with WHERE the
     correct post sits, versus where the MORE-ENGAGED post sits?
 
@@ -75,7 +80,7 @@ def position_diagnostic_series(repo_root: Path, filename: str, models=None):
     """
     out = []
     for label, slug in (models or ROSTER):
-        rows = [r for r in _load(repo_root, slug, filename)
+        rows = [r for r in _load(repo_root, slug, filename, experiment_dir)
                 if r["correct_scale"] != r["incorrect_scale"]]
         a = lambda rs: _pct(rs, lambda r: r["answer"] == "A")
 
@@ -98,34 +103,44 @@ def position_diagnostic_series(repo_root: Path, filename: str, models=None):
 
 
 def plot_competence_vs_collapse(repo_root: Path, filename: str, cond_title: str,
-                                models=None, save_path: Path = None):
+                                models=None, save_path: Path = None,
+                                artifact_threshold: float = 80.0,
+                                experiment_dir: str = "experiments/e1"):
     """Dumbbell: each model's tied-engagement accuracy against its accuracy under pressure.
-    Models whose tied figure is a positional artifact are drawn hollow and flagged."""
+    Models whose tied figure is a positional artifact are drawn hollow and flagged.
+
+    `artifact_threshold` is 80, not 90: Qwen3-VL-4B answers "A" on 88.4% of tied trials and its
+    45.0% is not a competence reading (THESIS.md 4.10, per-image sign test p = 0.69). A 90%
+    cutoff would leave it drawn as though it were genuine.
+    """
     import matplotlib.pyplot as plt
 
-    data = competence_collapse_series(repo_root, filename, models)
-    fig, ax = plt.subplots(figsize=(10, 5.5))
+    data = competence_collapse_series(repo_root, filename, models, experiment_dir)
+    fig, ax = plt.subplots(figsize=(11, 5.5))
     for i, d in enumerate(data):
-        artifact = max(d["tied_a_rate"], 100 - d["tied_a_rate"]) >= 90
+        one_slot = max(d["tied_a_rate"], 100 - d["tied_a_rate"])
+        artifact = one_slot >= artifact_threshold
         ax.plot([d["pressure"], d["diagonal"]], [i, i], color="#bbbbbb", lw=2, zorder=1)
         ax.scatter(d["diagonal"], i, s=130, zorder=2, color="white" if artifact else "#2a78d6",
                    edgecolor="#2a78d6", linewidth=2,
                    label="tied engagement" if i == 0 else None)
         ax.scatter(d["pressure"], i, s=130, zorder=2, color="#e34948",
                    label="correct post disadvantaged" if i == 0 else None)
-        if artifact:
-            ax.annotate(f"tied score is positional ({d['tied_a_rate']:.0f}% one slot)",
-                        (d["diagonal"], i), textcoords="offset points", xytext=(12, 0),
-                        fontsize=8, color="#777777", va="center")
+        # fixed x so the labels form a clean column instead of colliding with the dots
+        ax.text(107, i, f"{one_slot:.0f}% one slot" + ("  ← not competence" if artifact else ""),
+                fontsize=8, va="center",
+                color="#c0392b" if artifact else "#777777",
+                fontweight="bold" if artifact else "normal")
 
     ax.axvline(50, ls="--", color="#888888", lw=1)
     ax.set_yticks(range(len(data)))
     ax.set_yticklabels([d["label"] for d in data])
     ax.invert_yaxis()
-    ax.set_xlim(-3, 103)
+    ax.set_xlim(-3, 150)
+    ax.set_xticks([0, 20, 40, 60, 80, 100])
     ax.set_xlabel("Chose the correct post (%)", fontsize=12)
     ax.set_title(f"Competence vs. collapse — {cond_title}", fontsize=13, fontweight="bold")
-    ax.legend(fontsize=9, loc="lower right")
+    ax.legend(fontsize=9, loc="lower center", bbox_to_anchor=(0.5, 1.03), ncol=2, frameon=False)
     ax.grid(axis="x", alpha=0.25)
     if save_path:
         Path(save_path).parent.mkdir(parents=True, exist_ok=True)
@@ -134,19 +149,20 @@ def plot_competence_vs_collapse(repo_root: Path, filename: str, cond_title: str,
     plt.show()
 
     for d in data:
-        if max(d["tied_a_rate"], 100 - d["tied_a_rate"]) >= 90:
+        one_slot = max(d["tied_a_rate"], 100 - d["tied_a_rate"])
+        if one_slot >= artifact_threshold:
             print(f"⚠ {d['label']}: tied-engagement {d['diagonal']:.1f}% is NOT competence — "
-                  f"it answers one slot on {max(d['tied_a_rate'], 100-d['tied_a_rate']):.1f}% "
-                  f"of {d['n_tied']} tied trials.")
+                  f"it answers one slot on {one_slot:.1f}% of {d['n_tied']} tied trials.")
 
 
 def plot_position_diagnostic(repo_root: Path, filename: str, cond_title: str,
-                             models=None, save_path: Path = None):
+                             models=None, save_path: Path = None,
+                             experiment_dir: str = "experiments/e1"):
     """What is each model actually responding to: correctness, engagement, or the slot?"""
     import numpy as np
     import matplotlib.pyplot as plt
 
-    data = position_diagnostic_series(repo_root, filename, models)
+    data = position_diagnostic_series(repo_root, filename, models, experiment_dir)
     x = np.arange(len(data))
     fig, ax = plt.subplots(figsize=(11, 5.5))
     ax.bar(x - 0.22, [d["swing_correct"] for d in data], 0.42, color="#2a78d6",
@@ -154,8 +170,10 @@ def plot_position_diagnostic(repo_root: Path, filename: str, cond_title: str,
     ax.bar(x + 0.22, [d["swing_engagement"] for d in data], 0.42, color="#e34948",
            label="swing with where the MORE-ENGAGED post sits")
     for i, d in enumerate(data):
-        ax.annotate(f"A-rate\n{d['a_rate']:.0f}%", (i, 2), ha="center", va="bottom",
+        top = max(d["swing_correct"], d["swing_engagement"])
+        ax.annotate(f"A-rate {d['a_rate']:.0f}%", (i, top + 2.5), ha="center", va="bottom",
                     fontsize=8, color="#444444")
+    ax.set_ylim(0, 112)
     ax.set_xticks(x)
     ax.set_xticklabels([d["label"] for d in data], fontsize=9, rotation=20, ha="right")
     ax.set_ylabel("Swing in % answering 'A' (percentage points)", fontsize=11)
@@ -172,7 +190,8 @@ def plot_position_diagnostic(repo_root: Path, filename: str, cond_title: str,
 
 
 def plot_cc_overview(repo_root: Path, filename: str, cond_title: str,
-                     models=None, save_path: Path = None):
+                     models=None, save_path: Path = None,
+                     experiment_dir: str = "experiments/e1"):
     """2x3 of the correct-vs-correct control: both posts correct, so only engagement can decide.
     The diagonal is left blank because both posts are identical there."""
     import numpy as np
@@ -187,7 +206,7 @@ def plot_cc_overview(repo_root: Path, filename: str, cond_title: str,
     flat = axes.flatten()
     im = None
     for ax, (label, slug) in zip(flat, (models or ROSTER)):
-        rows = _load(repo_root, slug, filename)
+        rows = _load(repo_root, slug, filename, experiment_dir)
         grid = np.full((n, n), np.nan)
         for i, sa in enumerate(scales):
             for j, sb in enumerate(scales):
