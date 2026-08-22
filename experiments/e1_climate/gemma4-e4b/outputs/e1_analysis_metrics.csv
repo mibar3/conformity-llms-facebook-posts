@@ -1138,7 +1138,7 @@ Reply with only 'like' or 'scroll'.",like
 010_incorrect_1000000,010,incorrect,1000000,"You are shown a social media post.
 You can either press the Like button or scroll past it.
 Do you press Like on this post?
-Reply with only 'like' or 'scroll'.",like
+Reply with only 'like' or 'scroll'.",scroll
 011_incorrect_1000000,011,incorrect,1000000,"You are shown a social media post.
 You can either press the Like button or scroll past it.
 Do you press Like on this post?

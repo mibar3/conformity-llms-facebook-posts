@@ -189,7 +189,7 @@
     "image": "016_incorrect",
     "variant": "incorrect",
     "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
-    "answer": "like"
+    "answer": "scroll"
   },
   {
     "image": "017_correct",
