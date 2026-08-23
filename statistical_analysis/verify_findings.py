@@ -100,36 +100,33 @@ hdr("1. GENERALIZATION PILOT — paired A/B (the conformity measure)")
 print("\ndiagonal = engagement tied (competence) | pressure = incorrect post has MORE engagement")
 print("support  = correct post has more engagement")
 
-sub("Climate pilot, ORIGINAL unlabeled chart (these are the primary reported figures)")
-show_paired("Qwen3-VL-8B", "experiments/e1_climate/qwen3-vl-8b/outputs/pre_label_backup/e1_results_metrics_paired.json")
-show_paired("Ministral-3-14B", "experiments/e1_climate/ministral-3-14b/outputs/pre_label_backup/e1_results_metrics_paired.json")
-show_paired("Gemma-E4B", "experiments/e1_climate/gemma4-e4b/outputs/e1_results_metrics_paired.json")
-show_paired("Gemma-12B", "experiments/e1_climate/gemma4-12b/outputs/e1_results_metrics_paired.json")
+# All six models now run on the value-labelled chart: Gemma-12B and Gemma-E4B were re-run
+# 2026-08-22 to close a stimulus mismatch (Section 4.10). Until then this block read
+# pre_label_backup/ for Qwen3-VL-8B and Ministral-3-14B, because the unlabelled figures were
+# the primary ones -- that is no longer true and the hardcoded backup paths are gone.
+sub("Climate pilot, VALUE-LABELLED chart — all six, one stimulus set (primary figures)")
+for _m in ["ministral-3-8b", "qwen3-vl-8b", "ministral-3-14b",
+           "gemma4-12b", "gemma4-e4b", "qwen3-vl-4b"]:
+    show_paired(_m, f"experiments/e1_climate/{_m}/outputs/e1_results_metrics_paired.json")
 
-sub("Climate pilot, VALUE-LABELED chart (robustness check)")
-show_paired("Qwen3-VL-8B", "experiments/e1_climate/qwen3-vl-8b/outputs/e1_results_metrics_paired.json")
-show_paired("Ministral-3-14B", "experiments/e1_climate/ministral-3-14b/outputs/e1_results_metrics_paired.json")
+sub("Pre-labelling runs, where a backup exists (historical only — NOT the reported figures)")
+for _m in ["qwen3-vl-8b", "ministral-3-14b"]:
+    _rel = f"experiments/e1_climate/{_m}/outputs/pre_label_backup/e1_results_metrics_paired.json"
+    if (ROOT / _rel).exists():
+        show_paired(_m, _rel)
 
 sub("MAIN STUDY (pie chart) — same models, for comparison")
-for m in ["gemma4-12b", "gemma4-e4b", "ministral-3-14b"]:
-    show_paired(m, f"experiments/e1/{m}/outputs/e1_results_metrics_paired.json")
-
-sub("Remaining roster models")
-for m in ["qwen3-vl-4b", "ministral-3-8b"]:
-    show_paired(m, f"experiments/e1_climate/{m}/outputs/e1_results_metrics_paired.json")
+for _m in ["gemma4-12b", "gemma4-e4b", "ministral-3-14b"]:
+    show_paired(_m, f"experiments/e1/{_m}/outputs/e1_results_metrics_paired.json")
 
 
 # ---------------------------------------------------------------------------
 # 1b. Is tied-engagement accuracy REAL judgment, or a position default?
 # ---------------------------------------------------------------------------
-CLIMATE_PAIRED = [
-    ("ministral-3-14b", "experiments/e1_climate/ministral-3-14b/outputs/pre_label_backup/e1_results_metrics_paired.json"),
-    ("ministral-3-8b",  "experiments/e1_climate/ministral-3-8b/outputs/e1_results_metrics_paired.json"),
-    ("qwen3-vl-8b",     "experiments/e1_climate/qwen3-vl-8b/outputs/pre_label_backup/e1_results_metrics_paired.json"),
-    ("qwen3-vl-4b",     "experiments/e1_climate/qwen3-vl-4b/outputs/e1_results_metrics_paired.json"),
-    ("gemma4-e4b",      "experiments/e1_climate/gemma4-e4b/outputs/e1_results_metrics_paired.json"),
-    ("gemma4-12b",      "experiments/e1_climate/gemma4-12b/outputs/e1_results_metrics_paired.json"),
-]
+# Value-labelled chart for every model -- see the note in section 1.
+CLIMATE_PAIRED = [(_m, f"experiments/e1_climate/{_m}/outputs/e1_results_metrics_paired.json")
+                  for _m in ["ministral-3-8b", "qwen3-vl-8b", "ministral-3-14b",
+                             "gemma4-12b", "gemma4-e4b", "qwen3-vl-4b"]]
 
 
 def lower_slot(x):
