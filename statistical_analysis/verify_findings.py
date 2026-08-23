@@ -187,7 +187,11 @@ def decompose(label, rel):
     print(f"                       picked the LOWER-engagement post {picked_lower:5.1f}% of the time")
 
 
-decompose("CLIMATE  (loses content competence; prefers the LESS popular post)",
+# Label corrected 2026-08-23: on the value-labelled chart this model RETAINS competence
+# (67.2% at tied engagement, per-image sign test p = 0.015) and still prefers the less popular
+# post 84.5% of the time. The earlier "loses content competence" reading came from data
+# collected before the chart was relabelled.
+decompose("CLIMATE  (RETAINS content competence; prefers the LESS popular post)",
           "experiments/e1_climate/gemma4-12b/outputs/e1_results_metrics_paired.json")
 decompose("MAIN STUDY  (tracks content; engagement barely matters)",
           "experiments/e1/gemma4-12b/outputs/e1_results_metrics_paired.json")
@@ -352,5 +356,124 @@ sub("Opposite-corner ratio + diagonal-above-chance (saved CSVs)")
 for f in ["opposite_corner_ratio_summary.csv", "diagonal_above_chance_test.csv"]:
     p = ROOT / "statistical_analysis/outputs" / f
     print(f"  {f:38s} {'present' if p.exists() else 'MISSING'}  ({p.relative_to(ROOT)})")
+
+
+# ---------------------------------------------------------------------------
+# 6. AUTHORITY PILOT  (Section 4.11)
+# ---------------------------------------------------------------------------
+hdr("6. AUTHORITY PILOT — does a credential outrank the crowd? (Section 4.11)")
+print("""
+Every figure here is reported WITH the position split, because the aggregate alone cannot tell a
+profile preference from a slot habit: under seed 42 the "Dr." post sits in slot A on 56 of the 100
+sampled posts, so a model answering "A" every time scores 56% "authority preference" without ever
+looking at a profile.
+""")
+
+_AUTH_MODELS = [("Gemma-12B", "gemma4-12b"), ("Qwen3-VL-8B", "qwen3-vl-8b"),
+                ("Ministral-3-14B", "ministral-3-14b"), ("Gemma-E4B", "gemma4-e4b"),
+                ("Qwen3-VL-4B", "qwen3-vl-4b"), ("Ministral-3-8B", "ministral-3-8b")]
+_SCALES = [0, 10, 100, 1000, 10000, 100000, 1000000]
+_GRID = "e1_results_authority_grid_metrics.json"
+
+
+def _halves(rows, pred):
+    """(rate when the Dr post sat in slot A, rate when it sat in B, |gap|)."""
+    out = []
+    for slot in ("A", "B"):
+        h = [r for r in rows if (r["post_a_profile"] == "dr") == (slot == "A")]
+        out.append(sum(1 for r in h if pred(r)) / len(h) * 100 if h else float("nan"))
+    return out[0], out[1], abs(out[0] - out[1])
+
+
+sub("Stage 1 — zero engagement, four pairings (n=100 each)")
+_PAIRINGS = [("1_authority_vs_correctness", "Dr+wrong vs plain+right"),
+             ("2_pure_authority_both_correct", "both correct"),
+             ("3_pure_authority_both_incorrect", "both incorrect"),
+             ("4_both_cues_agree", "both cues agree")]
+print(f"  {'model':17s}{'pairing':26s}{'%Dr':>7s}{'Dr@A':>7s}{'Dr@B':>7s}{'gap':>7s}  verdict")
+for _lab, _slug in _AUTH_MODELS:
+    for _fn, _disp in _PAIRINGS:
+        _f = ROOT / f"experiments/e1_authority/{_slug}/outputs/e1_results_authority_{_fn}.json"
+        if not _f.exists():
+            print(f"  {_lab:17s}{_disp:26s}  [FILE NOT FOUND]")
+            continue
+        _v = [r for r in json.loads(_f.read_text()) if r["answer"] in ("A", "B")]
+        _p = sum(1 for r in _v if r["liked_profile"] == "dr") / len(_v) * 100
+        _a, _b, _g = _halves(_v, lambda r: r["liked_profile"] == "dr")
+        _verdict = ("POSITION drove it" if _g >= 60 else
+                    "mixed" if _g >= 25 else
+                    "real Dr preference" if min(_a, _b) >= 60 else
+                    "real: avoids Dr" if max(_a, _b) <= 40 else "no preference")
+        print(f"  {_lab:17s}{_disp:26s}{_p:6.1f}%{_a:6.1f}%{_b:6.1f}%{_g:6.1f}p  {_verdict}")
+
+sub("Stage 2 — the exchange rate: % chose the Dr post as the plain post gains engagement")
+print("  Both posts carry the same CORRECT claim, so only the two social cues differ.")
+print(f"  {'model':17s}" + "".join(f"{h:>9s}" for h in
+      ["tied", "10x", "100x", "1Kx", "10Kx", "100Kx", "1Mx"]))
+_idx = {s: i for i, s in enumerate(_SCALES)}
+for _lab, _slug in _AUTH_MODELS:
+    _f = ROOT / f"experiments/e1_authority_grid/{_slug}/outputs/{_GRID}"
+    if not _f.exists():
+        print(f"  {_lab:17s} [FILE NOT FOUND]")
+        continue
+    _v = [r for r in json.loads(_f.read_text())
+          if r["answer"] in ("A", "B") and r["plain_scale"] >= r["dr_scale"]]
+    _row = []
+    for _step in range(7):
+        _c = [r for r in _v if _idx[r["plain_scale"]] - _idx[r["dr_scale"]] == _step]
+        _row.append(f"{sum(1 for r in _c if r['liked_dr']) / len(_c) * 100:7.1f}%" if _c else "      -")
+    print(f"  {_lab:17s}" + "".join(f"{x:>9s}" for x in _row))
+
+sub("Stage 2 — the authority effect, against the no-authority control")
+print("  control = correct_vs_correct (two plain posts, same engagement contrasts).")
+print("  A large negative number means the credential pulled the model off the crowd.\n")
+print(f"  {'model':17s}{'control':>10s}{'with Dr.':>11s}{'effect':>10s}   position gap")
+for _lab, _slug in _AUTH_MODELS:
+    _cf = ROOT / f"experiments/e1/{_slug}/outputs/e1_results_metrics_correct_vs_correct_paired.json"
+    _gf = ROOT / f"experiments/e1_authority_grid/{_slug}/outputs/{_GRID}"
+    if not (_cf.exists() and _gf.exists()):
+        print(f"  {_lab:17s} [FILE NOT FOUND]")
+        continue
+    _c = [r for r in json.loads(_cf.read_text())
+          if r["answer"] in ("A", "B") and r["scale_a"] != r["scale_b"]]
+    _ctl = sum(1 for r in _c if r["liked_higher_engagement"]) / len(_c) * 100
+    _g = [r for r in json.loads(_gf.read_text())
+          if r["answer"] in ("A", "B") and r["region"] == "conflict"]
+    _grid = sum(1 for r in _g if not r["liked_dr"]) / len(_g) * 100
+    _, _, _gap = _halves(_g, lambda r: r["liked_dr"])
+    print(f"  {_lab:17s}{_ctl:9.1f}%{_grid:10.1f}%{_grid - _ctl:+9.1f}p{_gap:14.1f}p")
+
+sub("Stage 2 — is the effect conditional on the Dr post's OWN engagement? (Gemma-12B)")
+print("  The ratio-based table above pools cells at a constant ratio, hiding this.")
+_f = ROOT / f"experiments/e1_authority_grid/gemma4-12b/outputs/{_GRID}"
+if _f.exists():
+    _v = [r for r in json.loads(_f.read_text())
+          if r["answer"] in ("A", "B") and r["dr_scale"] < r["plain_scale"]]
+    print(f"\n  {'Dr post shows':>15s}{'n':>7s}{'chose Dr':>10s}{'position gap':>15s}")
+    for _s in _SCALES[:-1]:
+        _c = [r for r in _v if r["dr_scale"] == _s]
+        if not _c:
+            continue
+        _p = sum(1 for r in _c if r["liked_dr"]) / len(_c) * 100
+        _, _, _g = _halves(_c, lambda r: r["liked_dr"])
+        print(f"  {_s:>15,d}{len(_c):7d}{_p:9.1f}%{_g:14.1f}p")
+    _z = [r for r in _v if r["dr_scale"] == 0]
+    _nz = [r for r in _v if r["dr_scale"] > 0]
+    print(f"\n  Dr at ZERO engagement : {sum(1 for r in _z if r['liked_dr']) / len(_z) * 100:5.1f}%  (n={len(_z)})")
+    print(f"  Dr at ANY engagement  : {sum(1 for r in _nz if r['liked_dr']) / len(_nz) * 100:5.1f}%  (n={len(_nz)})")
+
+sub("Stage 2 (0,0) cell should reproduce Stage 1 'both correct' EXACTLY")
+print("  Same images, same prompt, and a seed formula that reduces to Stage 1's at (0,0).")
+for _lab, _slug in _AUTH_MODELS:
+    _gf = ROOT / f"experiments/e1_authority_grid/{_slug}/outputs/{_GRID}"
+    _sf = ROOT / f"experiments/e1_authority/{_slug}/outputs/e1_results_authority_2_pure_authority_both_correct.json"
+    if not (_gf.exists() and _sf.exists()):
+        continue
+    _g00 = {r["num"]: r for r in json.loads(_gf.read_text())
+            if r["dr_scale"] == 0 and r["plain_scale"] == 0}
+    _s1 = [r for r in json.loads(_sf.read_text()) if r["answer"] in ("A", "B")]
+    _same = sum(1 for r in _s1 if _g00.get(r["num"], {}).get("answer") == r["answer"])
+    print(f"  {'OK ' if _same == len(_s1) else 'MISMATCH '}{_lab:17s}{_same}/{len(_s1)} trials identical")
+
 
 print(f"\n{'=' * 78}\nDone. Compare against docs/FINDINGS_AND_VERIFICATION.md\n{'=' * 78}")

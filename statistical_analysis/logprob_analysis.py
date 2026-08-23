@@ -22,16 +22,27 @@ from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 
+# Confirmed six-model roster. The two Ministral entries were added 2026-08-23: this script had
+# been left on the pre-Ministral four-model roster, so every log-probability figure in the thesis
+# was a four-model result reported on a six-model roster. Their single-image `likes_only_noise`
+# runs did not exist until the same day either -- the Ministral notebooks descend from the
+# Mistral-Small-24B template, which never carried those cells.
 MODELS = {
-    "gemma-12b":   ROOT_DIR / "experiments/e1/gemma4-12b/outputs",
-    "gemma-e4b":   ROOT_DIR / "experiments/e1/gemma4-e4b/outputs",
-    "qwen3-vl-4b": ROOT_DIR / "experiments/e1/qwen3-vl-4b/outputs",
-    "qwen3-vl-8b": ROOT_DIR / "experiments/e1/qwen3-vl-8b/outputs",
+    "gemma-12b":       ROOT_DIR / "experiments/e1/gemma4-12b/outputs",
+    "gemma-e4b":       ROOT_DIR / "experiments/e1/gemma4-e4b/outputs",
+    "qwen3-vl-4b":     ROOT_DIR / "experiments/e1/qwen3-vl-4b/outputs",
+    "qwen3-vl-8b":     ROOT_DIR / "experiments/e1/qwen3-vl-8b/outputs",
+    "ministral-3-8b":  ROOT_DIR / "experiments/e1/ministral-3-8b/outputs",
+    "ministral-3-14b": ROOT_DIR / "experiments/e1/ministral-3-14b/outputs",
 }
 
+# `likes_only` was dropped 2026-08-23. It is the predecessor of `likes_only_noise` -- superseded
+# once round-number anchoring was controlled for -- and is not reported anywhere in the thesis,
+# which covers baseline, likes_only_noise and realistic metrics only. Its raw files have been
+# removed for Ministral-3-14B, so keeping the condition here would break the six-model run for a
+# figure nothing cites.
 CONDITIONS = {
     "baseline":         {"single": "e1_results_baseline_logprobs.json",         "yesno": "e1_results_baseline_yesno_logprobs.json"},
-    "likes_only":       {"single": "e1_results_likes_only_logprobs.json",       "yesno": "e1_results_likes_only_yesno_logprobs.json"},
     "metrics":          {"single": "e1_results_metrics_logprobs.json",          "yesno": "e1_results_metrics_yesno_logprobs.json"},
     "likes_only_noise": {"single": "e1_results_likes_only_noise_logprobs.json", "yesno": "e1_results_likes_only_noise_yesno_logprobs.json"},
 }
