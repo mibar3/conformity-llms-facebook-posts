@@ -1,0 +1,56 @@
+This is a screenshot of a social media post, likely from a platform like Facebook or LinkedIn, featuring a pie chart and text commentary.
+
+---
+
+**1. Profile Information:**
+
+*   **Name:** Dr. Remy Ashford
+*   **Badges/Indicators:**
+    *   A blue verification checkmark (✓) next to the name, indicating a verified account.
+    *   A blue "Follow" button next to the name.
+*   **Timestamp:** "Today at 2:43 PM" with a small clock icon.
+
+---
+
+**2. Post Text Content:**
+
+The text reads:
+> The Spotify 2026 music genres distribution has just been released. Looks like Pop was more popular than Latin this year!
+
+---
+
+**3. Image/Chart:**
+
+The post features a large, colorful pie chart titled:
+> **Music Genre Preferences of Spotify Users**
+
+The chart is divided into 9 segments, each representing a music genre with its corresponding percentage:
+
+*   **Pop:** 23.5% (Large green segment, located at the bottom left)
+*   **Rock:** 13.9% (Pinkish-orange segment, located at the bottom right)
+*   **Hip-Hop / Rap:** 8.8% (Light pink segment, located just above Rock)
+*   **Latin:** 11.0% (Light blue segment, located on the right side)
+*   **Electronic / Dance:** 10.2% (Light pink segment, located above Latin)
+*   **R&B / Soul:** 8.7% (Light green segment, located above Electronic / Dance)
+*   **Indie / Alternative:** 6.1% (Purple segment, located above R&B / Soul)
+*   **Classical:** 11.5% (Red-pink segment, located on the left side)
+*   **Other:** 6.3% (Light green segment, located between Classical and Pop)
+
+---
+
+**4. Engagement Metrics:**
+
+*   **Likes:** 0 (indicated by a thumbs-up icon)
+*   **Heart Reactions:** 0
+*   **Other Reactions (Laughing, Sad, Angry):** All show 0
+*   **Comments:** 0
+*   **Shares:** 0
+
+---
+
+**5. Other Visual Elements:**
+
+*   **Post Interface:** The post has a clean, white background with a light gray border.
+*   **Action Buttons:** At the bottom, there are standard social media interaction buttons: "Like," "Comment," and "Share."
+*   **Top Right Corner:** There is a three-dot menu icon (⋯) and a close button (X) for the post.
+*   **Overall Layout:** The post is structured with the profile information at the top, followed by the text, the large pie chart, and the engagement metrics at the bottom.

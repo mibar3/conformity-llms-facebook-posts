@@ -1,0 +1,44 @@
+Here is a full and detailed description of the social media post image:
+
+**Profile Information:**
+*   **Profile Name:** Dr. Remy Ashford
+*   **Indicators:** The profile name is followed by a blue checkmark, indicating verification, and a "Follow" button.
+*   **Timestamp:** The post was made "Today at 2:43 PM."
+*   **Options:** There are three dots (...) and an 'X' icon in the top right corner, typical of social media post options.
+
+**Post Text Content:**
+*   "The Spotify 2026 music genres distribution has just been released. Looks like Latin was more popular than Pop this year!"
+
+**Image/Chart Content:**
+The post features a large, colorful **pie chart** titled: **"Music Genre Preferences of Spotify Users"**.
+
+The chart is divided into several slices, each representing a music genre with an associated percentage:
+
+*   **Pop:** 23.5% (Light Green)
+*   **Other:** 6.3% (Light Yellow/Lime Green)
+*   **Classical:** 11.5% (Light Red/Salmon)
+*   **Latin:** 11.0% (Light Blue)
+*   **Rock:** 13.9% (Light Orange/Peach)
+*   **Hip-Hop / Rap:** 8.8% (Light Pink/Salmon)
+*   **Electronic / Dance:** 10.2% (Light Pink/Magenta)
+*   **R&B / Soul:** 8.7% (Light Green/Mint)
+*   **Indie / Alternative:** 6.1% (Purple)
+
+**Engagement Metrics and Footer:**
+Below the chart, there is a row of reaction icons and engagement counters:
+*   **Likes/Reactions:**
+    *   Thumbs Up (Like): 0
+    *   Heart (Love): 0
+    *   Laughing Emoji: 0
+    *   Crying Emoji: 0
+    *   Surprised Emoji: 0
+    *   Fire Emoji: 0
+    *   Another Emoji (possibly a face): 0
+*   **Comments/Shares:**
+    *   "0 Comments · 0 Shares"
+
+**Action Buttons:**
+At the very bottom, there are three interactive buttons:
+1.  **Like** (with a thumbs-up icon)
+2.  **Comment** (with a speech bubble icon)
+3.  **Share** (with a share icon)

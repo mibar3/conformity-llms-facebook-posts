@@ -1,0 +1,33 @@
+This is a screenshot of a social media post, likely from a platform like Facebook or Instagram, featuring a pie chart. The post is from a user named "Dr. Remy Ashford," who has a blue verification checkmark next to their name and a "Follow" button. The post was made "Today at 2:43 PM."
+
+The post text reads:
+> The Spotify 2026 music genres distribution has just been released. Looks like Latin was more popular than Pop this year!
+
+Below the text is a large, colorful pie chart titled "Music Genre Preferences of Spotify Users."
+
+The chart is divided into 9 segments, each representing a music genre with its corresponding percentage:
+
+- **Pop**: 23.5% (large green segment, located at the bottom left)
+- **Rock**: 13.9% (pinkish-orange segment, located at the bottom right)
+- **Hip-Hop / Rap**: 8.8% (light pink segment, located just above Rock)
+- **Latin**: 11.0% (light blue segment, located on the right side)
+- **Electronic / Dance**: 10.2% (light pink segment, located above Latin)
+- **R&B / Soul**: 8.7% (light green segment, located above Electronic / Dance)
+- **Indie / Alternative**: 6.1% (purple segment, located above R&B / Soul)
+- **Classical**: 11.5% (red segment, located on the left side)
+- **Other**: 6.3% (light green segment, located between Classical and Pop)
+
+The chart uses a variety of pastel colors to distinguish each genre.
+
+At the bottom of the post, the engagement metrics are displayed:
+- 0 Likes (indicated by a thumbs-up icon)
+- 0 Hearts (indicated by a red heart icon)
+- 0 Laughing emojis
+- 0 Sad emojis
+- 0 Angry emojis
+- 0 Comments
+- 0 Shares
+
+Below the engagement metrics, there are interactive buttons for "Like," "Comment," and "Share."
+
+The overall layout is clean and typical of a social media post, with the user's profile information at the top, the post content in the middle, and the engagement metrics and interaction buttons at the bottom. The post appears to be a humorous or misleading claim, as Spotify does not release annual genre distribution data for 2026, which is in the future.

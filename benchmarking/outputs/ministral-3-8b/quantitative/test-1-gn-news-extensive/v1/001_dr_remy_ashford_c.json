@@ -1,0 +1,23 @@
+{
+  "image": "001_dr_remy_ashford_c",
+  "prompt_version": "v1",
+  "prompt_text": "Does the text in the post accurately describe the chart? Reply with only 'correct' or 'incorrect'.",
+  "answers": {
+    "profile_name": "Dr. Remy Ashford",
+    "profile_verification": "yes",
+    "likes_count": "The post has 0 likes.",
+    "heart_reactions": "0",
+    "haha_reactions": "The post has 0 haha reactions.",
+    "wow_reactions": "0",
+    "sad_reactions": "The post has 0 sad reactions.",
+    "angry_reactions": "0",
+    "comment_count": "0",
+    "shares_count": "0",
+    "chart_percentages_pop": "23.5%",
+    "chart_percentages_latin": "11.0%",
+    "chart_color_pop": "green",
+    "chart_color_latin": "Blue",
+    "chart_largest_slice": "Pop",
+    "post_claim_correct": "incorrect"
+  }
+}

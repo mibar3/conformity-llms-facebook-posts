@@ -1,0 +1,60 @@
+Here is a detailed description of the social media post image:
+
+---
+
+**Profile Information:**
+- **Profile Name:** Dr. Remy Ashford
+- **Badge/Indicator:** A blue verification checkmark (✓) is displayed next to the name, indicating a verified account.
+- **Follow Button:** A “Follow” button is visible next to the name.
+- **Post Timestamp:** The post was made “Today at 2:43 PM.”
+- **Post Icon:** A small circular icon with a question mark (?) is present next to the timestamp, likely indicating a “question” or “help” feature.
+
+---
+
+**Post Text Content:**
+The post text reads:
+> The Spotify 2026 music genres distribution has just been released. Looks like Pop was more popular than Latin this year!
+
+---
+
+**Image/Chart in the Post:**
+The post includes a colorful pie chart titled:
+> **Music Genre Preferences of Spotify Users**
+
+The chart is divided into segments, each representing a different music genre with its corresponding percentage and color:
+
+1. **Pop** — Largest segment, colored in a light green shade, labeled with **23.5%**.
+2. **Latin** — Light blue segment, labeled with **11.0%**.
+3. **Rock** — Light peach/pink segment, labeled with **13.9%**.
+4. **Hip-Hop / Rap** — Light pink segment, labeled with **8.8%**.
+5. **Electronic / Dance** — Light pink segment, labeled with **10.2%**.
+6. **R&B / Soul** — Light green segment, labeled with **8.7%**.
+7. **Indie / Alternative** — Purple segment, labeled with **6.1%**.
+8. **Classical** — Light red segment, labeled with **11.5%**.
+9. **Other** — Light yellow-green segment, labeled with **6.3%**.
+
+The segments are arranged in a clockwise order starting from the top right, with “Pop” at the bottom left, making it visually prominent.
+
+---
+
+**Engagement Metrics:**
+- **Likes:** 0 (indicated by a thumbs-up icon with “0”)
+- **Heart (Love):** 0
+- **Funny (😂):** 0
+- **Sad (😢):** 0
+- **Angry (😡):** 0
+- **Comments:** 0 Comments
+- **Shares:** 0 Shares
+
+---
+
+**Other Visual Elements:**
+- **Social Media Interface Elements:**
+  - A “...” menu icon (for more options) is located in the top right corner of the post.
+  - A “X” icon (to close or dismiss the post) is also in the top right.
+  - Below the chart, there are standard social media interaction buttons: “Like,” “Comment,” and “Share,” each with their respective icons.
+  - The post is displayed within a light gray background, typical of a social media feed.
+
+---
+
+This post appears to be a social media update sharing a pie chart of Spotify’s 2026 music genre preferences, with a focus on the popularity of Pop over Latin music. The post is from a verified user, Dr. Remy Ashford, and currently has no engagement.

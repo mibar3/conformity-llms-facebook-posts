@@ -1,0 +1,33 @@
+Here’s a detailed description of the social media post image:
+
+### **Profile Information:**
+- **Profile Name:** Dr. Remy Ashford
+- **Badges/Indicators:** A blue checkmark (✓) next to the name, indicating a verified account.
+
+### **Post Text Content:**
+- **Text:** *"The Spotify 2026 music genres distribution has just been released. Looks like Latin was more popular than Pop this year!"*
+
+### **Image/Chart Details:**
+- **Title:** *"Music Genre Preferences of Spotify Users"*
+- **Type:** A pie chart displaying the distribution of music genre preferences among Spotify users for the year 2026.
+- **Breakdown of Percentages and Colors:**
+  - **Pop:** 23.5% (light green)
+  - **Rock:** 13.9% (light peach)
+  - **Latin:** 11.0% (light blue)
+  - **Classical:** 11.5% (light red)
+  - **Hip-Hop/Rap:** 8.8% (light pink)
+  - **R&B/Soul:** 8.7% (light greenish-blue)
+  - **Electronic/Dance:** 10.2% (light purple)
+  - **Indie/Alternative:** 6.1% (light purple-blue)
+  - **Other:** 6.3% (light yellow)
+
+### **Engagement Metrics:**
+- **Likes:** 0 (no likes yet)
+- **Comments:** 0 (no comments)
+- **Shares:** 0 (no shares)
+- **Reactions:** 0 for each emoji (😂, 😍, 😢, 😡, 😎, 😂, 🤩)
+
+### **Other Visual Elements:**
+- The post includes standard social media interaction buttons: **Like, Comment, Share**.
+- The post was made **"Today at 2:43 PM"**.
+- The post has no visible comments or shares.
