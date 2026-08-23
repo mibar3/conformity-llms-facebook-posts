@@ -4,7 +4,13 @@ statistics, directly from the raw result JSONs — so each claim can be checked 
 rather than trusted.
 
 Usage (from the repo root):
-    python3 statistical_analysis/verify_findings.py
+    python3 statistical_analysis/verify_findings.py            # everything
+    python3 statistical_analysis/verify_findings.py authority  # one section
+    python3 statistical_analysis/verify_findings.py 4.10       # by thesis section
+    python3 statistical_analysis/verify_findings.py --list     # section names
+
+The argument is matched case-insensitively against the section headings, so "auth", "two-step",
+"phase 1" and "4.11" all work. From a notebook cell:  %run ../statistical_analysis/verify_findings.py
 
 Pairs with `docs/FINDINGS_AND_VERIFICATION.md`, which lists the same findings with the file
 each one comes from. Every number printed here should match that document exactly.
@@ -33,8 +39,32 @@ def load(rel):
     return json.loads(p.read_text())
 
 
+# Section filtering. Each section is a top-level block introduced by hdr(); shadowing `print` at
+# module level lets an unmatched section run its (cheap, file-reading) code while emitting nothing,
+# which keeps the script a single flat script rather than forcing a refactor into functions.
+_ARG = next((a for a in sys.argv[1:] if not a.startswith("-")), None)
+_FILTER = _ARG.lower() if _ARG else None
+_LIST_ONLY = "--list" in sys.argv
+_SECTIONS = []
+_ON = True
+_emit = print
+
+
+def print(*args, **kwargs):          # noqa: A001 - deliberate module-level shadow
+    if _ON:
+        _emit(*args, **kwargs)
+
+
 def hdr(title):
-    print(f"\n{'=' * 78}\n{title}\n{'=' * 78}")
+    global _ON
+    _SECTIONS.append(title)
+    _ON = (_FILTER is None) or (_FILTER in title.lower())
+    if _LIST_ONLY:
+        _ON = False
+        _emit(f"  {title}")
+        return
+    if _ON:
+        _emit(f"\n{'=' * 78}\n{title}\n{'=' * 78}")
 
 
 def sub(title):
@@ -476,4 +506,135 @@ for _lab, _slug in _AUTH_MODELS:
     print(f"  {'OK ' if _same == len(_s1) else 'MISMATCH '}{_lab:17s}{_same}/{len(_s1)} trials identical")
 
 
-print(f"\n{'=' * 78}\nDone. Compare against docs/FINDINGS_AND_VERIFICATION.md\n{'=' * 78}")
+
+# ---------------------------------------------------------------------------
+# 7. PHASE 1 PERCEPTION  (Sections 5.1, 4.10)
+# ---------------------------------------------------------------------------
+hdr("7. PHASE 1 PERCEPTION — does a better chart make the model read it better? (Section 5.1)")
+print("""
+Claim-verification accuracy pooled over prompt versions v1-v4 and tests 2 + 4, the two tests that
+ask the model directly whether the caption matches the chart. n = 2,800 per cell.
+
+Scored with the same last-verdict-wins extraction as rescore_claim_verdict.py, NOT exact string
+match: the original scripts compared the model's entire raw response against "correct"/"incorrect",
+so a model that reasoned before answering was scored zero for not being terse. That artifact cost
+Gemma-E4B 514 responses in the bigger-font tree alone.
+""")
+
+import re as _re
+_VERDICT_RE = _re.compile(r"\b(in)?correct\b")
+_P1_TESTS = ("test-2-gn-claim-only", "test-4-metrics-realistic-claim-only")
+_P1_TREES = [("original", "benchmarking"),
+             ("simplified", "benchmarking_simple_plot"),
+             ("bigger font", "benchmarking_simple_plot_bigfont")]
+
+
+def _verdict(raw):
+    txt = str(raw).strip().lower()
+    if txt in ("correct", "incorrect"):
+        return txt
+    m = _VERDICT_RE.findall(txt)
+    return None if not m else ("incorrect" if m[-1] == "in" else "correct")
+
+
+def _phase1(tree, slug, versions=("v1", "v2", "v3", "v4")):
+    """Pooled accuracy over tests 2+4. Ground truth is the variant token in the filename:
+    `072_incorrect` for test 2, `068_correct_10000` for test 4 -- hence parts[1], not a suffix
+    check, which silently drops all 2,400 test-4 files."""
+    k = n = 0
+    for test in _P1_TESTS:
+        for ver in versions:
+            base = ROOT / tree / "outputs" / slug / "quantitative" / test / ver
+            if not base.is_dir():
+                continue
+            for f in base.rglob("*.json"):
+                d = json.loads(f.read_text())
+                parts = d.get("image", "").split("_")
+                gt = parts[1] if len(parts) > 1 and parts[1] in ("correct", "incorrect") else None
+                if gt is None:
+                    continue
+                n += 1
+                k += (_verdict(d.get("answers", {}).get("post_claim_correct", "")) == gt)
+    return (k / n * 100 if n else float("nan")), n
+
+
+sub("Chart redesign vs. claim-verification accuracy (the two models run on all three charts)")
+print(f"  {'model':14s}" + "".join(f"{lab:>16s}" for lab, _ in _P1_TREES))
+for _lab, _slug in (("Qwen3-VL-8B", "qwen3-vl-8b"), ("Gemma-E4B", "gemma-e4b")):
+    _cells = []
+    for _t, _tree in _P1_TREES:
+        _a, _n = _phase1(_tree, _slug)
+        _cells.append(f"{_a:9.1f}% n={_n}" if _n else "         --")
+    print(f"  {_lab:14s}" + "".join(f"{c:>16s}" for c in _cells))
+print("\n  Simplifying the chart helps one model and not the other, and the bigger font adds a")
+print("  little more for Qwen. Neither shows up in the E1 diagonal (Section 5.1) -- which is the")
+print("  point: perception improved measurably while the liking decision did not move.")
+
+sub("Main chart, whole roster (is perception ever the bottleneck?)")
+print(f"  {'model':17s}{'pooled v1-v4':>14s}{'n':>8s}")
+for _slug in ["gemma4-12b", "gemma-e4b", "qwen3-vl-4b", "qwen3-vl-8b",
+              "ministral-3-8b", "ministral-3-14b"]:
+    _a, _n = _phase1("benchmarking", _slug)
+    print(f"  {_slug:17s}{_a:13.1f}%{_n:8d}" if _n else f"  {_slug:17s}  [NO DATA]")
+
+
+# ---------------------------------------------------------------------------
+# 8. TWO-STEP PROMPT PILOT  (Section 5.3)
+# ---------------------------------------------------------------------------
+hdr("8. TWO-STEP PROMPT PILOT — does reasoning first unlock judgment? (Section 5.3)")
+print("""
+All figures are the tied-engagement (diagonal) cells only, n = 700 per design.
+
+Two columns matter and they say different things. 'overall' counts a refusal as a failure, which
+is the headline figure. 'valid only' scores just the trials where the model actually answered A
+or B. Where those diverge, the intervention changed how often the model ANSWERED, not how often
+it was right -- which is exactly what happened to Qwen3-VL-8B under v4 wording.
+""")
+
+_TS_DESIGNS = [("single-step baseline", None),
+               ("paired_verdict", "paired_verdict"),
+               ("isolated_verdict", "isolated_verdict"),
+               ("isolated_verdict_v4", "isolated_verdict_v4")]
+_TS_MODELS = [("Qwen3-VL-8B", "qwen3-vl-8b"), ("Gemma-E4B", "gemma4-e4b"),
+              ("Qwen3-VL-4B", "qwen3-vl-4b"), ("Ministral-3-8B", "ministral-3-8b"),
+              ("Ministral-3-14B", "ministral-3-14b"), ("Gemma-12B", "gemma4-12b")]
+
+print(f"  {'model':17s}{'design':22s}{'n':>5s}{'overall':>9s}{'valid only':>12s}{'refusals':>10s}")
+for _lab, _slug in _TS_MODELS:
+    _any = False
+    for _dl, _fn in _TS_DESIGNS:
+        if _fn is None:
+            _p = ROOT / f"experiments/e1/{_slug}/outputs/e1_results_metrics_paired.json"
+            if not _p.exists():
+                continue
+            _d = [r for r in json.loads(_p.read_text())
+                  if r["correct_scale"] == r["incorrect_scale"]]
+        else:
+            _p = ROOT / f"experiments/e1/{_slug}/outputs/e1_results_metrics_diagonal_twostep_{_fn}.json"
+            if not _p.exists():
+                continue
+            _d = json.loads(_p.read_text())
+        _any = True
+        _ref = sum(1 for r in _d if r["answer"] not in ("A", "B"))
+        _ok = sum(1 for r in _d if r.get("liked_variant") == "correct")
+        _val = [r for r in _d if r["answer"] in ("A", "B")]
+        _vo = sum(1 for r in _val if r["liked_variant"] == "correct") / len(_val) * 100 if _val else float("nan")
+        print(f"  {_lab:17s}{_dl:22s}{len(_d):5d}{_ok / len(_d) * 100:8.1f}%{_vo:11.1f}%{_ref:10d}")
+    if not _any:
+        print(f"  {_lab:17s}{'(not run -- see below)':22s}")
+    print()
+
+print("  Gemma-12B was deliberately excluded from this pilot. It asks whether reasoning unlocks")
+print("  judgment the terse single-token format was suppressing; Gemma-12B's judgment is already")
+print("  visible at 82.7% on the diagonal, so there is nothing to unlock. Read its absence as a")
+print("  scope decision, not a coverage gap.")
+
+
+if _LIST_ONLY:
+    pass
+elif _FILTER and not any(_FILTER in s.lower() for s in _SECTIONS):
+    _emit(f"\nNo section matched {_ARG!r}. Available:")
+    for _s in _SECTIONS:
+        _emit(f"  {_s}")
+else:
+    _emit(f"\n{'=' * 78}\nDone. Compare against docs/FINDINGS_AND_VERIFICATION.md\n{'=' * 78}")
