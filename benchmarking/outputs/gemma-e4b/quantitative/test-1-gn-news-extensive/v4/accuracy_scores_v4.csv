@@ -17,3 +17,21 @@ we need to compare the percentages for ""latin"" and ""pop"" in the chart:
 since 11.0% (latin) is less than 23.5% (pop), the claim that ""latin was more popular than pop"" is **incorrect**.
 
 incorrect",incorrect,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,False,False,True,False,True,True,True,True,True,False,False
+001_dr_remy_ashford_c,v4,"In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",dr. remy ashford,yes,0,0,0,0,2,0,0,0,23.5,11,green,light blue,pop,"the claim in the text is: ""looks like pop was more popular than latin this year!""
+
+from the chart:
+*   **pop** popularity is **23.5%**.
+*   **latin** popularity is **11.0%**.
+
+since 23.5% (pop) is greater than 11.0% (latin), the claim matches the visualization.
+
+correct",correct,dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,False,True,True,True,True,True,True,True,True,False,False
+001_dr_remy_ashford_i,v4,"In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",dr. remy ashford,yes,0,0,0,0,2,0,0,0,23.5,11.0%,green,light blue,pop,"the claim in the text is: ""the spotify 2026 music genres distribution has just been released. looks like **latin was more popular than pop this year!**""
+
+we need to compare the percentages for ""latin"" and ""pop"" in the chart:
+*   **latin:** 11.0%
+*   **pop:** 23.5%
+
+since 11.0% (latin) is less than 23.5% (pop), the claim that ""latin was more popular than pop"" is **incorrect**.
+
+incorrect",incorrect,dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,False,True,True,False,True,True,True,True,True,False,False

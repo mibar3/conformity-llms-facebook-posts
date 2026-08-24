@@ -7,7 +7,7 @@ from the chart:
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
-correct",correct,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,correct,False,True,True,True,False,True,False,False,True,True,True,True,True,True,True,False,False
+correct",correct,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,False,True,True,True,False,True,False,False,True,True,True,True,True,False,False,False,False
 001_remy_ashford_i,v5,"In the post, the text above the chart claims one genre is more popular than another. Find the percentage for Pop and the percentage for Latin in the chart. If the genre the text says is more popular has a numerically higher percentage, reply 'correct'. If not, reply 'incorrect'.",remy ashford,no,5,0,2,0,3,2,0,0,23.5,11,green,pink,other,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
@@ -16,4 +16,4 @@ from the chart:
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
-incorrect",incorrect,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,incorrect,False,True,True,True,False,True,False,False,True,True,True,True,True,True,True,False,False
+incorrect",incorrect,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,False,True,True,True,False,True,False,False,True,True,True,True,True,False,False,False,False

@@ -13,3 +13,16 @@ since **pop (23.5%)** has a numerically higher percentage than **latin (11.0%)**
 - the percentage for **latin** is **11.0%**.
 
 since **pop (23.5%)** has a numerically higher percentage than **latin (11.0%)**, the claim in the text is **incorrect**.",incorrect,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,True,True,False,False,True,True,True,True,True,False,False
+001_dr_remy_ashford_c,v5,"In the post, the text above the chart claims one genre is more popular than another. Find the percentage for Pop and the percentage for Latin in the chart. If the genre the text says is more popular has a numerically higher percentage, reply 'correct'. If not, reply 'incorrect'.",dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5%,11.0%,green,blue,pop,"in the chart:
+- the percentage for **pop** is **23.5%**.
+- the percentage for **latin** is **11.0%**.
+
+since **pop (23.5%)** has a numerically higher percentage than **latin (11.0%)**, the reply is:
+
+**correct**",correct,dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,True,True,False,False,True,True,True,True,True,False,False
+001_dr_remy_ashford_i,v5,"In the post, the text above the chart claims one genre is more popular than another. Find the percentage for Pop and the percentage for Latin in the chart. If the genre the text says is more popular has a numerically higher percentage, reply 'correct'. If not, reply 'incorrect'.",dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5%,11.0%,green,blue,pop,"in the chart:
+
+- the percentage for **pop** is **23.5%**.
+- the percentage for **latin** is **11.0%**.
+
+since **pop (23.5%)** has a numerically higher percentage than **latin (11.0%)**, the claim in the text is **incorrect**.",incorrect,dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,True,True,False,False,True,True,True,True,True,False,False

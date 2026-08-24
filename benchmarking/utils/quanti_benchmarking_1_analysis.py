@@ -64,6 +64,11 @@ def run_accuracy_analysis(base_dir: Path, experiment_name: str, model_name: str)
             continue
 
         df_responses = pd.DataFrame(records)
+        missing = set(df_responses["image"]) - set(df_truth["image"])
+        if missing:
+            print(f"⚠️  {version_dir.name}: no ground-truth row for {sorted(missing)} "
+                  f"— these images are EXCLUDED from the accuracy figures below.")
+
         merged = df_responses.merge(df_truth, on="image", suffixes=("_pred", "_true"))
 
         for q in NUMERIC_QUESTIONS:

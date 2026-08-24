@@ -7,34 +7,7 @@ from the chart:
 
 since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
 
-correct",correct,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,correct,False,True,True,True,True,False,False,False,True,True,True,True,True,True,True,False,False
-001_fox_news_c,v5,"In the post, the text above the chart claims one genre is more popular than another. Find the percentage for Pop and the percentage for Latin in the chart. If the genre the text says is more popular has a numerically higher percentage, reply 'correct'. If not, reply 'incorrect'.",fox news,yes,4,0,0,1,2,2,0,0,23.5,11,green,pink,other,"the text states: ""looks like pop was more popular than latin this year!""
-
-from the chart:
-*   percentage for pop is **23.5%**.
-*   percentage for latin is **11.0%**.
-
-since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
-
-correct",correct,fox news,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,correct,False,True,True,True,True,False,False,False,True,True,True,True,True,True,True,False,False
-001_ny_times_c,v5,"In the post, the text above the chart claims one genre is more popular than another. Find the percentage for Pop and the percentage for Latin in the chart. If the genre the text says is more popular has a numerically higher percentage, reply 'correct'. If not, reply 'incorrect'.",the new york times,yes,4,0,0,0,2,2,0,0,23.5,11,green,pink,other,"the text states: ""looks like pop was more popular than latin this year!""
-
-from the chart:
-*   percentage for pop is **23.5%**.
-*   percentage for latin is **11.0%**.
-
-since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
-
-correct",correct,the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,correct,False,True,True,True,True,True,False,False,True,True,True,True,True,True,True,False,False
-001_reuters_c,v5,"In the post, the text above the chart claims one genre is more popular than another. Find the percentage for Pop and the percentage for Latin in the chart. If the genre the text says is more popular has a numerically higher percentage, reply 'correct'. If not, reply 'incorrect'.",reuters,yes,4,0,0,1,2,2,0,0,23.5,11,green,pink,other,"the text states: ""looks like pop was more popular than latin this year!""
-
-from the chart:
-*   percentage for pop is **23.5%**.
-*   percentage for latin is **11.0%**.
-
-since 23.5% (pop) is numerically higher than 11.0% (latin), the statement in the text is correct.
-
-correct",correct,reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,correct,False,True,True,True,True,False,False,False,True,True,True,True,True,True,True,False,False
+correct",correct,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,False,True,True,True,True,False,False,False,True,True,True,True,True,False,False,False,False
 001_remy_ashford_i,v5,"In the post, the text above the chart claims one genre is more popular than another. Find the percentage for Pop and the percentage for Latin in the chart. If the genre the text says is more popular has a numerically higher percentage, reply 'correct'. If not, reply 'incorrect'.",remy ashford,no,4,0,0,1,2,1,0,0,23.5,11,green,pink,other,"the text states: ""looks like latin was more popular than pop this year!""
 
 from the chart:
@@ -43,31 +16,4 @@ from the chart:
 
 the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
 
-incorrect",incorrect,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,incorrect,False,True,True,True,True,False,False,False,True,True,True,True,True,True,True,False,False
-001_fox_news_i,v5,"In the post, the text above the chart claims one genre is more popular than another. Find the percentage for Pop and the percentage for Latin in the chart. If the genre the text says is more popular has a numerically higher percentage, reply 'correct'. If not, reply 'incorrect'.",fox news,yes,4,0,0,1,2,2,0,0,23.5,11,green,pink,other,"the text states: ""looks like latin was more popular than pop this year!""
-
-from the chart:
-*   percentage for pop is **23.5%**.
-*   percentage for latin is **11.0%**.
-
-the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
-
-incorrect",incorrect,fox news,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,incorrect,False,True,True,True,True,False,False,False,True,True,True,True,True,True,True,False,False
-001_ny_times_i,v5,"In the post, the text above the chart claims one genre is more popular than another. Find the percentage for Pop and the percentage for Latin in the chart. If the genre the text says is more popular has a numerically higher percentage, reply 'correct'. If not, reply 'incorrect'.",the new york times,yes,4,0,0,0,2,1,0,0,23.5,11,green,pink,other,"the text states: ""looks like latin was more popular than pop this year!""
-
-from the chart:
-*   percentage for pop is **23.5%**.
-*   percentage for latin is **11.0%**.
-
-the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
-
-incorrect",incorrect,the new york times,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,incorrect,False,True,True,True,True,True,False,False,True,True,True,True,True,True,True,False,False
-001_reuters_i,v5,"In the post, the text above the chart claims one genre is more popular than another. Find the percentage for Pop and the percentage for Latin in the chart. If the genre the text says is more popular has a numerically higher percentage, reply 'correct'. If not, reply 'incorrect'.",reuters,yes,4,0,0,1,2,1,0,0,23.5,11,green,pink,other,"the text states: ""looks like latin was more popular than pop this year!""
-
-from the chart:
-*   percentage for pop is **23.5%**.
-*   percentage for latin is **11.0%**.
-
-the text claims latin (11.0%) was more popular than pop (23.5%). since 11.0% is not numerically higher than 23.5%, the statement is incorrect.
-
-incorrect",incorrect,reuters,yes,0,0,0,0,0,0,0,0,23.5,11,green,pink,other,incorrect,False,True,True,True,True,False,False,False,True,True,True,True,True,True,True,False,False
+incorrect",incorrect,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,False,True,True,True,True,False,False,False,True,True,True,True,True,False,False,False,False

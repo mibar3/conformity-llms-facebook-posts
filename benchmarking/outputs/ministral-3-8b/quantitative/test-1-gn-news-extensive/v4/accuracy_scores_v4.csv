@@ -13,3 +13,17 @@ from the chart:
 - latin has a value of **11.0%**.
 
 since **11.0% (latin) is not greater than 23.5% (pop)**, the claim is **incorrect**.",incorrect,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,False,True,True,True,True,True,True,True,False,False,True,True,True,True,True,False,False
+001_dr_remy_ashford_c,v4,"In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",dr. remy ashford,yes,the post has 0 likes.,0,the post has 0 haha reactions.,0,the post has 0 sad reactions.,0,0,0,23.5%,11.0%,green,blue,pop,"the claim in the post states that ""pop was more popular than latin this year.""
+
+from the chart:
+- pop has a percentage of **23.5%**.
+- latin has a percentage of **11.0%**.
+
+since 23.5% (pop) is indeed greater than 11.0% (latin), the claim is **correct**.",correct,dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,False,True,True,True,False,True,False,True,False,False,True,True,True,True,True,False,False
+001_dr_remy_ashford_i,v4,"In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",dr. remy ashford,yes,the post has 0 likes.,0,0,0,the post has 0 sad reactions.,0,0,0,23.5%,11.0%,green,blue,pop,"the claim in the post states that latin was more popular than pop in 2026 according to the spotify music genres distribution.
+
+from the chart:
+- pop has a value of **23.5%**.
+- latin has a value of **11.0%**.
+
+since **11.0% (latin) is not greater than 23.5% (pop)**, the claim is **incorrect**.",incorrect,dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,False,True,True,True,True,True,False,True,False,False,True,True,True,True,True,False,False

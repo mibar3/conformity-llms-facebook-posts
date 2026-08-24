@@ -7,3 +7,17 @@ according to the chart:
 
 since 23.5% is greater than 11.0%, the claim is **correct**.",correct,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,False,True,True,True,False,True,True,True,False,False,True,True,True,True,True,False,False
 001_remy_ashford_i,v3,"The post text claims one music genre is more popular than another. Look at the percentage values in the chart to verify this claim. If the genre described as more popular in the text has a higher percentage in the chart, reply 'correct'. If not, reply 'incorrect'.",remy ashford,no,the post has 0 likes.,0,0,0,0,0,0,0,23.5%,11.0%,light green,blue,pop,correct,incorrect,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,False,True,True,True,True,True,True,True,False,False,True,True,True,True,True,False,False
+001_dr_remy_ashford_c,v3,"The post text claims one music genre is more popular than another. Look at the percentage values in the chart to verify this claim. If the genre described as more popular in the text has a higher percentage in the chart, reply 'correct'. If not, reply 'incorrect'.",dr. remy ashford,yes,the post has 0 likes.,0,the post has 0 haha reactions.,0,the post has 0 sad reactions.,0,0,0,23.5%,11.0%,green,blue,pop,"the post claims that pop was more popular than latin in 2026.
+
+from the chart:
+- pop has a percentage of **23.5%**.
+- latin has a percentage of **11.0%**.
+
+since **23.5% > 11.0%**, the claim is **correct**.",correct,dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,False,True,True,True,False,True,False,True,False,False,True,True,True,True,True,False,False
+001_dr_remy_ashford_i,v3,"The post text claims one music genre is more popular than another. Look at the percentage values in the chart to verify this claim. If the genre described as more popular in the text has a higher percentage in the chart, reply 'correct'. If not, reply 'incorrect'.",dr. remy ashford,yes,the post has 0 likes.,0,0,0,the post has 0 sad reactions.,0,0,0,23.5%,11.0%,green,blue,pop,"the post claims that latin was more popular than pop this year.
+
+according to the chart:
+- latin has an 11.0% share.
+- pop has a 23.5% share.
+
+since 11.0% is not greater than 23.5%, the claim is **incorrect**.",incorrect,dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,False,True,True,True,True,True,False,True,False,False,True,True,True,True,True,False,False

@@ -13,3 +13,17 @@ looking at the chart:
 - pop has **23.5%** of the distribution.
 
 since **pop (23.5%)** has a higher percentage than **latin (11.0%)**, the claim is **incorrect**.",incorrect,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,True,True,False,False,True,True,True,True,True,False,False
+001_dr_remy_ashford_c,v3,"The post text claims one music genre is more popular than another. Look at the percentage values in the chart to verify this claim. If the genre described as more popular in the text has a higher percentage in the chart, reply 'correct'. If not, reply 'incorrect'.",dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5%,11.0%,green,blue,pop,"the post text claims that ""pop was more popular than latin this year.""
+
+looking at the chart:
+- pop has **23.5%** of the distribution.
+- latin has **11.0%** of the distribution.
+
+since **23.5% > 11.0%**, the claim is **correct**.",correct,dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,True,True,False,False,True,True,True,True,True,False,False
+001_dr_remy_ashford_i,v3,"The post text claims one music genre is more popular than another. Look at the percentage values in the chart to verify this claim. If the genre described as more popular in the text has a higher percentage in the chart, reply 'correct'. If not, reply 'incorrect'.",dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5%,11.0%,green,blue,pop,"the post text claims that ""latin was more popular than pop this year!""
+
+looking at the chart:
+- latin has **11.0%** of the distribution.
+- pop has **23.5%** of the distribution.
+
+since **pop (23.5%)** has a higher percentage than **latin (11.0%)**, the claim is **incorrect**.",incorrect,dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,True,True,False,False,True,True,True,True,True,False,False
