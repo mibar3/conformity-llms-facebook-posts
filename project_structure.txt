@@ -1,0 +1,1814 @@
+conformity-llms-facebook-posts/
+    README.md
+    Untitled.ipynb
+    bar_plot_diff_true.html
+    bar_plot_diff_true.png
+    gender_neutral_baseline_001.png
+    gender_neutral_metrics_001.png
+    git
+    project_structure.txt
+    spotify_genre_pie_chart.png
+    testing_tokenization_models.ipynb
+    spotify_pie_plot/
+        100_versions_pie_plot_and_posts.ipynb
+        100_versions_pie_plot_simple.ipynb
+        100_versions_pie_plot_simple_bigfont.ipynb
+        pie_plot_posts/
+            baselines/
+                correct/
+                    PNGs/
+                        remy_ashford_c_pngs.zip
+                incorrect/
+                    PNGs/
+                        remy_ashford_i_pngs.zip
+            baselines_simple_plot/
+                correct/
+                    PNGs/
+                        001_remy_ashford_c.png
+                        ... and 99 more file(s) with similar structure
+                    html/
+                        001_remy_ashford_c.html
+                        ... and 99 more file(s) with similar structure
+                incorrect/
+                    PNGs/
+                        001_remy_ashford_i.png
+                        ... and 99 more file(s) with similar structure
+                    html/
+                        001_remy_ashford_i.html
+                        ... and 99 more file(s) with similar structure
+            metrics/
+                remy-ashford/
+                    correct/
+                        PNGs/
+                            correct_likes_only.zip
+                            correct_likes_only_noise.zip
+                            correct_realistic.zip
+                            correct_uniform.zip
+                            likes_only/
+                                10/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                            likes_only_noise/
+                                10/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                            realistic/
+                                10/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                            uniform/
+                                10/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                        html/
+                            likes_only/
+                                10/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                            likes_only_noise/
+                                10/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                            realistic/
+                                10/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                            uniform/
+                                10/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                ignore/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                        old html - ignore/
+                            10/
+                                001_remy_ashford_c.html
+                                ... and 99 more file(s) with similar structure
+                            100/
+                                001_remy_ashford_c.html
+                                ... and 99 more file(s) with similar structure
+                            1000/
+                                001_remy_ashford_c.html
+                                ... and 99 more file(s) with similar structure
+                            10000/
+                                001_remy_ashford_c.html
+                                ... and 99 more file(s) with similar structure
+                            100000/
+                                001_remy_ashford_c.html
+                                ... and 99 more file(s) with similar structure
+                            1000000/
+                                001_remy_ashford_c.html
+                                ... and 99 more file(s) with similar structure
+                    incorrect/
+                        PNGs/
+                            incorrect_likes_only.zip
+                            incorrect_likes_only_noise.zip
+                            incorrect_realistic.zip
+                            incorrect_uniform.zip
+                            likes_only/
+                                10/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                            likes_only_noise/
+                                10/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                            realistic/
+                                10/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                            uniform/
+                                10/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                        html/
+                            likes_only/
+                                10/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                            likes_only_noise/
+                                10/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                            realistic/
+                                10/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                            uniform/
+                                10/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                        old html - ignore/
+                            10/
+                                001_remy_ashford_i.html
+                                ... and 99 more file(s) with similar structure
+                            100/
+                                001_remy_ashford_i.html
+                                ... and 99 more file(s) with similar structure
+                            1000/
+                                001_remy_ashford_i.html
+                                ... and 99 more file(s) with similar structure
+                            10000/
+                                001_remy_ashford_i.html
+                                ... and 99 more file(s) with similar structure
+                            100000/
+                                001_remy_ashford_i.html
+                                ... and 99 more file(s) with similar structure
+                            1000000/
+                                001_remy_ashford_i.html
+                                ... and 99 more file(s) with similar structure
+            metrics_simple_plot/
+                remy-ashford/
+                    correct/
+                        PNGs/
+                            likes_only/
+                                10/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                            likes_only_noise/
+                                10/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                            realistic/
+                                10/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                        html/
+                            likes_only/
+                                10/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                            likes_only_noise/
+                                10/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                            realistic/
+                                10/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                    incorrect/
+                        PNGs/
+                            likes_only/
+                                10/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                            likes_only_noise/
+                                10/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                            realistic/
+                                10/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                        html/
+                            likes_only/
+                                10/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                            likes_only_noise/
+                                10/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                            realistic/
+                                10/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+            baselines_simple_plot_bigfont/
+                correct/
+                    html/
+                        001_remy_ashford_c.html
+                        ... and 99 more file(s) with similar structure
+                    PNGs/
+                        001_remy_ashford_c.png
+                        ... and 99 more file(s) with similar structure
+                incorrect/
+                    html/
+                        001_remy_ashford_i.html
+                        ... and 99 more file(s) with similar structure
+                    PNGs/
+                        001_remy_ashford_i.png
+                        ... and 99 more file(s) with similar structure
+            metrics_simple_plot_bigfont/
+                remy-ashford/
+                    correct/
+                        html/
+                            realistic/
+                                10/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                            likes_only_noise/
+                                jitter_assignment_log_likes_only_noise.csv
+                                10/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.html
+                                    ... and 99 more file(s) with similar structure
+                        PNGs/
+                            likes_only_noise/
+                                10/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                            realistic/
+                                10/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_c.png
+                                    ... and 99 more file(s) with similar structure
+                    incorrect/
+                        html/
+                            realistic/
+                                10/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                            likes_only_noise/
+                                10/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.html
+                                    ... and 99 more file(s) with similar structure
+                        PNGs/
+                            likes_only_noise/
+                                10/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                            realistic/
+                                10/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                10000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                100000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+                                1000000/
+                                    001_remy_ashford_i.png
+                                    ... and 99 more file(s) with similar structure
+        100_pie_charts_simple/
+            spotify_genre_pie_chart_simple_001.png
+            ... and 99 more file(s) with similar structure
+        100_pie_charts_simple_bigfont/
+            spotify_genre_pie_chart_simple_001.png
+            ... and 99 more file(s) with similar structure
+    benchmarking/
+        1-overview-findings-original-plot.ipynb
+        gemma-e4b-benchmarking.ipynb
+        gemma4-12b-benchmarking.ipynb
+        ground_truth_dataframe_creation_qwen_input.ipynb
+        ministral-3-14b-benchmarking.ipynb
+        ministral-3-8b-benchmarking.ipynb
+        mistral-small-3.1-24b-benchmarking.ipynb
+        pixtral-12b-benchmarking.ipynb
+        qwen3-vl-4b-benchmarking.ipynb
+        qwen3-vl-8b-benchmarking.ipynb
+        ground_truth/
+            001_fox_news_c_ground_truth.csv
+            001_fox_news_i_ground_truth.csv
+            001_ny_times_c_ground_truth.csv
+            001_ny_times_i_ground_truth.csv
+            001_remy_ashford_c_ground_truth.csv
+            001_remy_ashford_i_ground_truth.csv
+            001_reuters_c_ground_truth.csv
+            001_reuters_i_ground_truth.csv
+            ground_truth_all.csv
+            old-no-visible-0s/
+                fox_news_baseline_001_c_ground_truth.csv
+                fox_news_baseline_001_i_ground_truth.csv
+                gender_neutral_baseline_001_c_ground_truth.csv
+                gender_neutral_baseline_001_i_ground_truth.csv
+                gender_neutral_metrics_001_c_ground_truth.csv
+                gender_neutral_metrics_001_i_ground_truth.csv
+                ground_truth_all.csv
+                ny_times_baseline_001_c_ground_truth.csv
+                ny_times_baseline_001_i_ground_truth.csv
+        correct/
+            001_dr_remy_ashford_c.png
+            001_remy_ashford_c.png
+            old-no-visible-0s/
+                fox_news_baseline_001_c.png
+                gender_neutral_baseline_001_c.png
+                gender_neutral_metrics_001_c.png
+                ny_times_baseline_001_c.png
+            remy-ashford/
+                001_remy_ashford_c.png
+                ... and 104 more file(s) with similar structure
+                metrics/
+                    uniform/
+                        1000000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        100000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        10000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        1000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        100/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        10/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                    realistic/
+                        10/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        100/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        1000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        10000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        100000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        1000000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                    likes_only/
+                        10/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        100/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        1000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        10000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        100000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        1000000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                    likes_only_noise/
+                        10/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        100/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        1000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        10000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        100000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        1000000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+            dr-remy-ashford/
+                001_remy_ashford_c.png
+                ... and 99 more file(s) with similar structure
+                metrics/
+                    likes_only_noise/
+                        10/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        100/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        1000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        10000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        100000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        1000000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                    realistic/
+                        10/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        100/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        1000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        10000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        100000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+                        1000000/
+                            001_remy_ashford_c.png
+                            ... and 99 more file(s) with similar structure
+        incorrect/
+            001_dr_remy_ashford_i.png
+            001_remy_ashford_i.png
+            old-no-visible-0s/
+                fox_news_baseline_001_i.png
+                gender_neutral_baseline_001_i.png
+                gender_neutral_metrics_001_i.png
+                ny_times_baseline_001_i.png
+            remy-ashford/
+                001_remy_ashford_i.png
+                ... and 104 more file(s) with similar structure
+                metrics/
+                    uniform/
+                        10/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        100/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        1000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        10000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        1000000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        100000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                    realistic/
+                        10/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        100/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        1000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        10000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        100000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        1000000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                    likes_only/
+                        10/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        100/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        1000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        10000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        100000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        1000000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                    likes_only_noise/
+                        10/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        100/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        1000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        10000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        100000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        1000000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+            dr-remy-ashford/
+                001_remy_ashford_i.png
+                ... and 99 more file(s) with similar structure
+                metrics/
+                    likes_only_noise/
+                        10/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        100/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        1000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        10000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        100000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        1000000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                    realistic/
+                        10/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        100/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        1000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        10000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        100000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+                        1000000/
+                            001_remy_ashford_i.png
+                            ... and 99 more file(s) with similar structure
+        utils/
+            __init__.py
+            generate_facebook_post_more_authentic.py
+            generate_facebook_post_original.py
+            quali_benchmarking.py
+            quanti_benchmarking_1_analysis.py
+            quanti_benchmarking_1_details.py
+            quanti_benchmarking_2_analysis.py
+            quanti_benchmarking_2_claim_only.py
+            quanti_benchmarking_3_analysis.py
+            quanti_benchmarking_3_percentages.py
+            quanti_benchmarking_4_analysis.py
+            quanti_benchmarking_4_reactions.py
+    experiments/
+        e1/
+            selected_images.json
+            qwen3-vl-8b/
+                e1-qwen3-8b.ipynb
+                outputs_n50_backup/
+            qwen3-vl-4b/
+                e1-qwen3-4b.ipynb
+                outputs_n50_backup/
+            gemma4-12b/
+                e1-gemma4-12b.ipynb
+            e1_utils/
+                e1.py
+                e1_analysis.py
+                e1_analysis_optimized.py
+                e1_optimized.py
+                e1_profile.py
+                e1_profile_grid.py
+                e1_two_step.py
+                inference_gemma.py
+                inference_mistral.py
+                inference_ovis.py
+                inference_pixtral.py
+                inference_qwen.py
+                logprob_scoring.py
+                sampling.py
+            ovis2.5-9b/
+                e1-ovis2.5-9b.ipynb
+                outputs_n50_backup/
+            pixtral-12b/
+                e1-pixtral-12b.ipynb
+            mistral-small-3.1-24b/
+                e1-mistral-small-3.1-24b.ipynb
+            gemma4-e4b/
+                e1-gemma-e4b.ipynb
+            ministral-3-8b/
+                e1-ministral-3-8b.ipynb
+            ministral-3-14b/
+                e1-ministral-3-14b.ipynb
+        e1_simple_plot/
+            selected_images.json
+            qwen3-vl-8b/
+                e1-qwen3-8b-simple-plot.ipynb
+            gemma4-e4b/
+                e1-gemma-e4b-simple-plot.ipynb
+                outputs_wrongchart_backup/
+                    e1_results_likes_only_noise.json
+                    e1_results_likes_only_noise_logprobs.json
+                    e1_results_likes_only_noise_yesno.json
+                    e1_results_likes_only_noise_yesno_logprobs.json
+        e1_simple_plot_bigfont/
+            selected_images.json
+            gemma4-e4b/
+                e1-gemma-e4b-simple-plot-bigfont.ipynb
+                outputs_pre_generator_fix/
+                    e1_analysis_baseline.csv
+                    ... and 27 more file(s) with similar structure
+            qwen3-vl-8b/
+                e1-qwen3-8b-simple-plot-bigfont.ipynb
+                outputs_pre_generator_fix/
+                    e1_analysis_baseline.csv
+                    ... and 21 more file(s) with similar structure
+        e1_climate/
+            selected_images.json
+            gemma4-12b/
+                e1-climate-gemma4-12b.ipynb
+            gemma4-e4b/
+                e1-climate-gemma4-e4b.ipynb
+            ministral-3-14b/
+                e1-climate-ministral-3-14b.ipynb
+            qwen3-vl-8b/
+                e1-climate-qwen3-vl-8b.ipynb
+            ministral-3-8b/
+                e1-climate-ministral-3-8b.ipynb
+            qwen3-vl-4b/
+                e1-climate-qwen3-vl-4b.ipynb
+        e1_authority/
+            selected_images.json
+            gemma4-12b/
+                e1-authority-gemma4-12b.ipynb
+            gemma4-e4b/
+                e1-authority-gemma4-e4b.ipynb
+            ministral-3-14b/
+                e1-authority-ministral-3-14b.ipynb
+            ministral-3-8b/
+                e1-authority-ministral-3-8b.ipynb
+            qwen3-vl-4b/
+                e1-authority-qwen3-vl-4b.ipynb
+            qwen3-vl-8b/
+                e1-authority-qwen3-vl-8b.ipynb
+        e1_authority_grid/
+            plotting_grids_e1_authority.ipynb
+            selected_images.json
+            gemma4-12b/
+                e1-authority-grid-gemma4-12b.ipynb
+            gemma4-e4b/
+                e1-authority-grid-gemma4-e4b.ipynb
+            ministral-3-14b/
+                e1-authority-grid-ministral-3-14b.ipynb
+            ministral-3-8b/
+                e1-authority-grid-ministral-3-8b.ipynb
+            qwen3-vl-4b/
+                e1-authority-grid-qwen3-vl-4b.ipynb
+            qwen3-vl-8b/
+                e1-authority-grid-qwen3-vl-8b.ipynb
+    ignore/
+    utils/
+        __init__.py
+        bbc_profile_pic.jpg
+        chart_creation.ipynb
+        fox_news_profile.png
+        generate_profile_posts.py
+        html_to_png.ipynb
+        html_to_png_bigfont.ipynb
+        ny_times_profile.jpg
+        post_generator_all_visible_emojis.py
+        render_profile_html_to_png.py
+        reuters_profile.jpg
+        updated_post_generator_all_visible_emojis.ipynb
+        updated_post_generator_all_visible_emojis_bigfont.ipynb
+        updated_post_generator_overlapping_emojis (1).ipynb
+    statistical_analysis/
+        overview-findings.ipynb
+        archive/
+            correct_vs_correct_analysis.py
+            e1_figures.py
+            gee_analysis.ipynb
+            grid_overview_figures.ipynb
+            logprob_analysis.ipynb
+            logprob_analysis.py
+            plotting_results_chart_variants.ipynb
+            plotting_results_climate.ipynb
+            plotting_results_e1.ipynb
+            rescore_claim_verdict.py
+            simple_plot_grid_tests.py
+            verify_findings.py
+    news-profile-images/
+        bbc_profile_pic.jpg
+        fox_news_profile.png
+        ny_times_profile.jpg
+        reuters_profile.jpg
+    benchmarking_simple_plot/
+        1-overview-findings-simple-plot.ipynb
+        gemma-e4b-benchmarking.ipynb
+        qwen3-vl-8b-benchmarking.ipynb
+        ground_truth/
+            ground_truth_all.csv
+    benchmarking_simple_plot_bigfont/
+        gemma-e4b-benchmarking.ipynb
+        qwen3-vl-8b-benchmarking.ipynb
+        ground_truth/
+            ground_truth_all.csv
+        outputs_pre_generator_fix/
+            gemma-e4b/
+                qualitative/
+                    correct/
+                        001_fox_news_c_simple.txt
+                        001_ny_times_c_simple.txt
+                        001_remy_ashford_c_simple.txt
+                        001_reuters_c_simple.txt
+                    incorrect/
+                        001_fox_news_i_simple.txt
+                        001_ny_times_i_simple.txt
+                        001_remy_ashford_i_simple.txt
+                        001_reuters_i_simple.txt
+                quantitative/
+                    test-1-gn-news-extensive/
+                        v1/
+                            001_fox_news_c.json
+                            001_fox_news_i.json
+                            001_ny_times_c.json
+                            001_ny_times_i.json
+                            001_remy_ashford_c.json
+                            001_remy_ashford_i.json
+                            001_reuters_c.json
+                            001_reuters_i.json
+                            accuracy_scores_v1.csv
+                        v2/
+                            001_fox_news_c.json
+                            001_fox_news_i.json
+                            001_ny_times_c.json
+                            001_ny_times_i.json
+                            001_remy_ashford_c.json
+                            001_remy_ashford_i.json
+                            001_reuters_c.json
+                            001_reuters_i.json
+                            accuracy_scores_v2.csv
+                        v3/
+                            001_fox_news_c.json
+                            001_fox_news_i.json
+                            001_ny_times_c.json
+                            001_ny_times_i.json
+                            001_remy_ashford_c.json
+                            001_remy_ashford_i.json
+                            001_reuters_c.json
+                            001_reuters_i.json
+                            accuracy_scores_v3.csv
+                        v4/
+                            001_fox_news_c.json
+                            001_fox_news_i.json
+                            001_ny_times_c.json
+                            001_ny_times_i.json
+                            001_remy_ashford_c.json
+                            001_remy_ashford_i.json
+                            001_reuters_c.json
+                            001_reuters_i.json
+                            accuracy_scores_v4.csv
+                        v5/
+                            001_fox_news_c.json
+                            001_fox_news_i.json
+                            001_ny_times_c.json
+                            001_ny_times_i.json
+                            001_remy_ashford_c.json
+                            001_remy_ashford_i.json
+                            001_reuters_c.json
+                            001_reuters_i.json
+                            accuracy_scores_v5.csv
+                        v6/
+                            001_fox_news_c.json
+                            001_fox_news_i.json
+                            001_ny_times_c.json
+                            001_ny_times_i.json
+                            001_remy_ashford_c.json
+                            001_remy_ashford_i.json
+                            001_reuters_c.json
+                            001_reuters_i.json
+                            accuracy_scores_v6.csv
+                    test-2-gn-claim-only/
+                        v1/
+                            001_correct.json
+                            ... and 100 more file(s) with similar structure
+                        v2/
+                            001_correct.json
+                            ... and 100 more file(s) with similar structure
+                        v3/
+                            001_correct.json
+                            ... and 100 more file(s) with similar structure
+                        v4/
+                            001_correct.json
+                            ... and 100 more file(s) with similar structure
+                        v5/
+                            001_correct.json
+                            ... and 100 more file(s) with similar structure
+                        v6/
+                            001_correct.json
+                            ... and 100 more file(s) with similar structure
+                    test-3-gn-percentages/
+                        001_correct.json
+                        ... and 100 more file(s) with similar structure
+                    test-4-metrics-realistic-claim-only/
+                        v1/
+                            001_correct_10.json
+                            ... and 600 more file(s) with similar structure
+                        v2/
+                            001_correct_10.json
+                            ... and 600 more file(s) with similar structure
+                        v3/
+                            001_correct_10.json
+                            ... and 600 more file(s) with similar structure
+                        v4/
+                            001_correct_10.json
+                            ... and 600 more file(s) with similar structure
+            qwen3-vl-8b/
+                qualitative/
+                    correct/
+                        001_fox_news_c_simple.txt
+                        001_ny_times_c_simple.txt
+                        001_remy_ashford_c_simple.txt
+                        001_reuters_c_simple.txt
+                    incorrect/
+                        001_fox_news_i_simple.txt
+                        001_ny_times_i_simple.txt
+                        001_remy_ashford_i_simple.txt
+                        001_reuters_i_simple.txt
+                quantitative/
+                    test-1-gn-news-extensive/
+                        v1/
+                            001_fox_news_c.json
+                            001_fox_news_i.json
+                            001_ny_times_c.json
+                            001_ny_times_i.json
+                            001_remy_ashford_c.json
+                            001_remy_ashford_i.json
+                            001_reuters_c.json
+                            001_reuters_i.json
+                            accuracy_scores_v1.csv
+                        v2/
+                            001_fox_news_c.json
+                            001_fox_news_i.json
+                            001_ny_times_c.json
+                            001_ny_times_i.json
+                            001_remy_ashford_c.json
+                            001_remy_ashford_i.json
+                            001_reuters_c.json
+                            001_reuters_i.json
+                            accuracy_scores_v2.csv
+                        v3/
+                            001_fox_news_c.json
+                            001_fox_news_i.json
+                            001_ny_times_c.json
+                            001_ny_times_i.json
+                            001_remy_ashford_c.json
+                            001_remy_ashford_i.json
+                            001_reuters_c.json
+                            001_reuters_i.json
+                            accuracy_scores_v3.csv
+                        v4/
+                            001_fox_news_c.json
+                            001_fox_news_i.json
+                            001_ny_times_c.json
+                            001_ny_times_i.json
+                            001_remy_ashford_c.json
+                            001_remy_ashford_i.json
+                            001_reuters_c.json
+                            001_reuters_i.json
+                            accuracy_scores_v4.csv
+                        v5/
+                            001_fox_news_c.json
+                            001_fox_news_i.json
+                            001_ny_times_c.json
+                            001_ny_times_i.json
+                            001_remy_ashford_c.json
+                            001_remy_ashford_i.json
+                            001_reuters_c.json
+                            001_reuters_i.json
+                            accuracy_scores_v5.csv
+                        v6/
+                            001_fox_news_c.json
+                            001_fox_news_i.json
+                            001_ny_times_c.json
+                            001_ny_times_i.json
+                            001_remy_ashford_c.json
+                            001_remy_ashford_i.json
+                            001_reuters_c.json
+                            001_reuters_i.json
+                            accuracy_scores_v6.csv
+                    test-2-gn-claim-only/
+                        v1/
+                            001_correct.json
+                            ... and 100 more file(s) with similar structure
+                        v2/
+                            001_correct.json
+                            ... and 100 more file(s) with similar structure
+                        v3/
+                            001_correct.json
+                            ... and 100 more file(s) with similar structure
+                        v4/
+                            001_correct.json
+                            ... and 100 more file(s) with similar structure
+                        v5/
+                            001_correct.json
+                            ... and 100 more file(s) with similar structure
+                        v6/
+                            001_correct.json
+                            ... and 100 more file(s) with similar structure
+                    test-3-gn-percentages/
+                        001_correct.json
+                        ... and 100 more file(s) with similar structure
+                    test-4-metrics-realistic-claim-only/
+                        v1/
+                            001_correct_10.json
+                            ... and 600 more file(s) with similar structure
+                        v2/
+                            001_correct_10.json
+                            ... and 600 more file(s) with similar structure
+                        v3/
+                            001_correct_10.json
+                            ... and 600 more file(s) with similar structure
+                        v4/
+                            001_correct_10.json
+                            ... and 600 more file(s) with similar structure
+    climate_pilot/
+        generate_climate_stimuli.py
+        generate_neutral_caption_diagnostic.py
+        generate_scatter_diagnostic.py
+        ground_truth_climate.csv
+        render_climate_html_to_png.py
+        render_neutral_caption_diagnostic.py
+        render_scatter_diagnostic.py
+        charts/
+            001.png
+            ... and 24 more file(s) with similar structure
+        posts/
+            correct/
+                PNGs/
+                    001_remy_ashford_c.png
+                    ... and 24 more file(s) with similar structure
+                    metrics/
+                        realistic/
+                            10/
+                                001_remy_ashford_c.png
+                                ... and 24 more file(s) with similar structure
+                            100/
+                                001_remy_ashford_c.png
+                                ... and 24 more file(s) with similar structure
+                            1000/
+                                001_remy_ashford_c.png
+                                ... and 24 more file(s) with similar structure
+                            10000/
+                                001_remy_ashford_c.png
+                                ... and 24 more file(s) with similar structure
+                            100000/
+                                001_remy_ashford_c.png
+                                ... and 24 more file(s) with similar structure
+                            1000000/
+                                001_remy_ashford_c.png
+                                ... and 24 more file(s) with similar structure
+                html/
+                    001_remy_ashford_c.html
+                    ... and 24 more file(s) with similar structure
+                    metrics/
+                        realistic/
+                            10/
+                                001_remy_ashford_c.html
+                                ... and 24 more file(s) with similar structure
+                            100/
+                                001_remy_ashford_c.html
+                                ... and 24 more file(s) with similar structure
+                            1000/
+                                001_remy_ashford_c.html
+                                ... and 24 more file(s) with similar structure
+                            10000/
+                                001_remy_ashford_c.html
+                                ... and 24 more file(s) with similar structure
+                            100000/
+                                001_remy_ashford_c.html
+                                ... and 24 more file(s) with similar structure
+                            1000000/
+                                001_remy_ashford_c.html
+                                ... and 24 more file(s) with similar structure
+            incorrect/
+                PNGs/
+                    001_remy_ashford_i.png
+                    ... and 24 more file(s) with similar structure
+                    metrics/
+                        realistic/
+                            10/
+                                001_remy_ashford_i.png
+                                ... and 24 more file(s) with similar structure
+                            100/
+                                001_remy_ashford_i.png
+                                ... and 24 more file(s) with similar structure
+                            1000/
+                                001_remy_ashford_i.png
+                                ... and 24 more file(s) with similar structure
+                            10000/
+                                001_remy_ashford_i.png
+                                ... and 24 more file(s) with similar structure
+                            100000/
+                                001_remy_ashford_i.png
+                                ... and 24 more file(s) with similar structure
+                            1000000/
+                                001_remy_ashford_i.png
+                                ... and 24 more file(s) with similar structure
+                html/
+                    001_remy_ashford_i.html
+                    ... and 24 more file(s) with similar structure
+                    metrics/
+                        realistic/
+                            10/
+                                001_remy_ashford_i.html
+                                ... and 24 more file(s) with similar structure
+                            100/
+                                001_remy_ashford_i.html
+                                ... and 24 more file(s) with similar structure
+                            1000/
+                                001_remy_ashford_i.html
+                                ... and 24 more file(s) with similar structure
+                            10000/
+                                001_remy_ashford_i.html
+                                ... and 24 more file(s) with similar structure
+                            100000/
+                                001_remy_ashford_i.html
+                                ... and 24 more file(s) with similar structure
+                            1000000/
+                                001_remy_ashford_i.html
+                                ... and 24 more file(s) with similar structure
+        diagnostic_neutral_caption/
+            posts/
+                correct/
+                    html/
+                        001_remy_ashford_c.html
+                        ... and 24 more file(s) with similar structure
+                    PNGs/
+                        001_remy_ashford_c.png
+                        ... and 24 more file(s) with similar structure
+                incorrect/
+                    html/
+                        001_remy_ashford_i.html
+                        ... and 24 more file(s) with similar structure
+                    PNGs/
+                        001_remy_ashford_i.png
+                        ... and 24 more file(s) with similar structure
+        diagnostic_scatter_chart/
+            charts/
+                001.png
+                ... and 24 more file(s) with similar structure
+            posts/
+                correct/
+                    PNGs/
+                        001_remy_ashford_c.png
+                        ... and 24 more file(s) with similar structure
+                    html/
+                        001_remy_ashford_c.html
+                        ... and 24 more file(s) with similar structure
+                incorrect/
+                    PNGs/
+                        001_remy_ashford_i.png
+                        ... and 24 more file(s) with similar structure
+                    html/
+                        001_remy_ashford_i.html
+                        ... and 24 more file(s) with similar structure
+        chart_type_benchmark/
+            generate_benchmark_charts.py
+            render_benchmark_charts.py
+            run_benchmark_gemma12b.py
+            area_overlay/
+                charts/
+                    001.png
+                    002.png
+                    003.png
+                    004.png
+                    005.png
+                    006.png
+                    007.png
+                    008.png
+                    009.png
+                    010.png
+                posts/
+                    correct/
+                        html/
+                            001_remy_ashford_c.html
+                            002_remy_ashford_c.html
+                            003_remy_ashford_c.html
+                            004_remy_ashford_c.html
+                            005_remy_ashford_c.html
+                            006_remy_ashford_c.html
+                            007_remy_ashford_c.html
+                            008_remy_ashford_c.html
+                            009_remy_ashford_c.html
+                            010_remy_ashford_c.html
+                        PNGs/
+                            001_remy_ashford_c.png
+                            002_remy_ashford_c.png
+                            003_remy_ashford_c.png
+                            004_remy_ashford_c.png
+                            005_remy_ashford_c.png
+                            006_remy_ashford_c.png
+                            007_remy_ashford_c.png
+                            008_remy_ashford_c.png
+                            009_remy_ashford_c.png
+                            010_remy_ashford_c.png
+                    incorrect/
+                        html/
+                            001_remy_ashford_i.html
+                            002_remy_ashford_i.html
+                            003_remy_ashford_i.html
+                            004_remy_ashford_i.html
+                            005_remy_ashford_i.html
+                            006_remy_ashford_i.html
+                            007_remy_ashford_i.html
+                            008_remy_ashford_i.html
+                            009_remy_ashford_i.html
+                            010_remy_ashford_i.html
+                        PNGs/
+                            001_remy_ashford_i.png
+                            002_remy_ashford_i.png
+                            003_remy_ashford_i.png
+                            004_remy_ashford_i.png
+                            005_remy_ashford_i.png
+                            006_remy_ashford_i.png
+                            007_remy_ashford_i.png
+                            008_remy_ashford_i.png
+                            009_remy_ashford_i.png
+                            010_remy_ashford_i.png
+            bar_grouped/
+                charts/
+                    001.png
+                    002.png
+                    003.png
+                    004.png
+                    005.png
+                    006.png
+                    007.png
+                    008.png
+                    009.png
+                    010.png
+                posts/
+                    correct/
+                        html/
+                            001_remy_ashford_c.html
+                            002_remy_ashford_c.html
+                            003_remy_ashford_c.html
+                            004_remy_ashford_c.html
+                            005_remy_ashford_c.html
+                            006_remy_ashford_c.html
+                            007_remy_ashford_c.html
+                            008_remy_ashford_c.html
+                            009_remy_ashford_c.html
+                            010_remy_ashford_c.html
+                        PNGs/
+                            001_remy_ashford_c.png
+                            002_remy_ashford_c.png
+                            003_remy_ashford_c.png
+                            004_remy_ashford_c.png
+                            005_remy_ashford_c.png
+                            006_remy_ashford_c.png
+                            007_remy_ashford_c.png
+                            008_remy_ashford_c.png
+                            009_remy_ashford_c.png
+                            010_remy_ashford_c.png
+                    incorrect/
+                        html/
+                            001_remy_ashford_i.html
+                            002_remy_ashford_i.html
+                            003_remy_ashford_i.html
+                            004_remy_ashford_i.html
+                            005_remy_ashford_i.html
+                            006_remy_ashford_i.html
+                            007_remy_ashford_i.html
+                            008_remy_ashford_i.html
+                            009_remy_ashford_i.html
+                            010_remy_ashford_i.html
+                        PNGs/
+                            001_remy_ashford_i.png
+                            002_remy_ashford_i.png
+                            003_remy_ashford_i.png
+                            004_remy_ashford_i.png
+                            005_remy_ashford_i.png
+                            006_remy_ashford_i.png
+                            007_remy_ashford_i.png
+                            008_remy_ashford_i.png
+                            009_remy_ashford_i.png
+                            010_remy_ashford_i.png
+            bar_single_year/
+                charts/
+                    001.png
+                    002.png
+                    003.png
+                    004.png
+                    005.png
+                    006.png
+                    007.png
+                    008.png
+                    009.png
+                    010.png
+                posts/
+                    correct/
+                        html/
+                            001_remy_ashford_c.html
+                            002_remy_ashford_c.html
+                            003_remy_ashford_c.html
+                            004_remy_ashford_c.html
+                            005_remy_ashford_c.html
+                            006_remy_ashford_c.html
+                            007_remy_ashford_c.html
+                            008_remy_ashford_c.html
+                            009_remy_ashford_c.html
+                            010_remy_ashford_c.html
+                        PNGs/
+                            001_remy_ashford_c.png
+                            002_remy_ashford_c.png
+                            003_remy_ashford_c.png
+                            004_remy_ashford_c.png
+                            005_remy_ashford_c.png
+                            006_remy_ashford_c.png
+                            007_remy_ashford_c.png
+                            008_remy_ashford_c.png
+                            009_remy_ashford_c.png
+                            010_remy_ashford_c.png
+                    incorrect/
+                        html/
+                            001_remy_ashford_i.html
+                            002_remy_ashford_i.html
+                            003_remy_ashford_i.html
+                            004_remy_ashford_i.html
+                            005_remy_ashford_i.html
+                            006_remy_ashford_i.html
+                            007_remy_ashford_i.html
+                            008_remy_ashford_i.html
+                            009_remy_ashford_i.html
+                            010_remy_ashford_i.html
+                        PNGs/
+                            001_remy_ashford_i.png
+                            002_remy_ashford_i.png
+                            003_remy_ashford_i.png
+                            004_remy_ashford_i.png
+                            005_remy_ashford_i.png
+                            006_remy_ashford_i.png
+                            007_remy_ashford_i.png
+                            008_remy_ashford_i.png
+                            009_remy_ashford_i.png
+                            010_remy_ashford_i.png
