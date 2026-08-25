@@ -194,11 +194,15 @@ def main():
             suffix = "c" if correct else "i"
             post_text = make_claim_text(solar_wins, correct)
 
-            # Baseline: 0 engagement, no metrics shown.
+            # Baseline: 0 engagement, shown as explicit zeros (not an empty reactions dict --
+            # that hides the whole reaction row instead of rendering "0 0 0 0 0 0", the same
+            # bug already documented and fixed once for the bigger-font pilot's baseline
+            # stimuli -- see utils/post_generator_all_visible_emojis.py's build_reaction_bubbles_html).
             baseline_out = POSTS_DIR / variant / "html" / f"{num:03d}_remy_ashford_{suffix}.html"
             generate_facebook_post(
                 profile_name=PROFILE_NAME, post_text=post_text, post_time=POST_TIME,
-                reactions={}, comment_count=0, share_count=0,
+                reactions={"like": 0, "love": 0, "haha": 0, "wow": 0, "sad": 0, "angry": 0},
+                comment_count=0, share_count=0,
                 profile_image_path=PROFILE_IMAGE_PATH, post_image_path=str(chart_path),
                 output_file=str(baseline_out), verified=VERIFIED,
             )
