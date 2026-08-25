@@ -213,12 +213,6 @@ SCALE_LABELS = ["0", "10", "100", "1K", "10K", "100K", "1M"]
 
 
 def authority_grid_matrix(output_dir: Path, output_filename: str):
-    """% chose the 'Dr.' post per cell, plus the position gap that says whether to believe it.
-
-    Returns (pct, gap, n) as 7x7 lists indexed [dr_scale][plain_scale], None where empty.
-    `gap` is |P(chose Dr | Dr in slot A) - P(chose Dr | Dr in slot B)| for that cell: small means
-    the model was tracking the profile, large means it was tracking the slot.
-    """
     data = json.loads((Path(output_dir) / output_filename).read_text())
     valid = [r for r in data if r["answer"] in ("A", "B")]
     n_lv = len(SCALE_VALUES)
@@ -226,8 +220,8 @@ def authority_grid_matrix(output_dir: Path, output_filename: str):
     gap = [[None] * n_lv for _ in range(n_lv)]
     cnt = [[0] * n_lv for _ in range(n_lv)]
 
-    for i, dr_s in enumerate(SCALE_VALUES):
-        for j, pl_s in enumerate(SCALE_VALUES):
+    for i, pl_s in enumerate(SCALE_VALUES):   # rows = plain scale (was dr_scale)
+        for j, dr_s in enumerate(SCALE_VALUES):  # columns = dr scale (was plain_scale)
             cell = [r for r in valid if r["dr_scale"] == dr_s and r["plain_scale"] == pl_s]
             if not cell:
                 continue
@@ -285,8 +279,8 @@ def plot_authority_grid(output_dir: Path, output_filename: str, title: str,
     ax.set_xticks(range(n)); ax.set_yticks(range(n))
     ax.set_xticklabels(SCALE_LABELS); ax.set_yticklabels(SCALE_LABELS)
     ax.invert_yaxis()
-    ax.set_xlabel("Reactions on the PLAIN 'Remy Ashford' post", fontsize=12)
-    ax.set_ylabel("Reactions on the 'Dr. Remy Ashford' post", fontsize=12)
+    ax.set_xlabel("Reactions on the 'Dr. Remy Ashford' post", fontsize=12)
+    ax.set_ylabel("Reactions on the PLAIN 'Remy Ashford' post", fontsize=12)
     ax.set_title(title, fontsize=13, fontweight="bold")
     fig.colorbar(im, ax=ax, label="Chose the 'Dr.' post (%)   —   gray = 50%, chance")
 
@@ -373,8 +367,8 @@ def plot_authority_grid_overview(repo_root: Path, output_filename: str = GRID_FI
         ax.set_yticklabels(SCALE_LABELS, fontsize=8)
         ax.invert_yaxis()
 
-    fig.supxlabel("Reactions on the plain 'Remy Ashford' post", fontsize=13)
-    fig.supylabel("Reactions on the 'Dr. Remy Ashford' post", fontsize=13)
+    fig.supxlabel("Reactions on the 'Dr. Remy Ashford' post", fontsize=13)
+    fig.supylabel("Reactions on the plain 'Remy Ashford' post", fontsize=13)
     fig.suptitle("% chose the 'Dr.' post — both posts correct, engagement varied",
                  fontsize=16, fontweight="bold", y=1.02)
     cbar = fig.colorbar(im, ax=flat.tolist(), shrink=0.8, pad=0.02)
