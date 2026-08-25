@@ -28,17 +28,20 @@ ALL_QUESTIONS = NUMERIC_QUESTIONS + TEXT_QUESTIONS
 # match still counts as correct — this only adds leniency, it never removes it.
 COLOR_QUESTIONS = ["chart_color_pop", "chart_color_latin"]
 
-
+# accounts for answers such as 23.5% instead of just 23.5 and for longer strings that contain the right answer, eg. "this post has 0 likes" instead og "0"
 def normalize_number(value: str) -> str:
     value = str(value).strip().lower()
+    match = re.search(r'-?\d[\d,]*\.?\d*\s*%?', value)
+    if match:
+        value = match.group().strip()
+    value = value.rstrip('%').strip()
     value = re.sub(r'[,.](?=\d{3})', '', value)
     value = value.replace(',', '.')
-    if '.' in value:
-        try:
-            value = str(float(value))
-            value = re.sub(r'\.0$', '', value)
-        except ValueError:
-            pass
+    try:
+        value = str(float(value))
+        value = re.sub(r'\.0$', '', value)
+    except ValueError:
+        pass
     return value
 
 
