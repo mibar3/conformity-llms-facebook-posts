@@ -1,0 +1,5402 @@
+[
+  {
+    "image": "001_correct_10",
+    "num": "001",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.632959365844727,
+        "prob_forced_choice": 0.0008492456216931709
+      },
+      "scroll": {
+        "logprob": -17.562646865844727,
+        "prob_forced_choice": 0.9991507543783068
+      }
+    }
+  },
+  {
+    "image": "001_incorrect_10",
+    "num": "001",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.968753814697266,
+        "prob_forced_choice": 0.00031627133069631204
+      },
+      "scroll": {
+        "logprob": -18.910160064697266,
+        "prob_forced_choice": 0.9996837286693037
+      }
+    }
+  },
+  {
+    "image": "002_correct_10",
+    "num": "002",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.765682220458984,
+        "prob_forced_choice": 0.00028240807799315707
+      },
+      "scroll": {
+        "logprob": -17.593807220458984,
+        "prob_forced_choice": 0.9997175919220068
+      }
+    }
+  },
+  {
+    "image": "002_incorrect_10",
+    "num": "002",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.9454345703125,
+        "prob_forced_choice": 0.0005152656843015681
+      },
+      "scroll": {
+        "logprob": -17.3751220703125,
+        "prob_forced_choice": 0.9994847343156984
+      }
+    }
+  },
+  {
+    "image": "003_correct_10",
+    "num": "003",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.68756866455078,
+        "prob_forced_choice": 0.00035697063503765833
+      },
+      "scroll": {
+        "logprob": -17.75006866455078,
+        "prob_forced_choice": 0.9996430293649623
+      }
+    }
+  },
+  {
+    "image": "003_incorrect_10",
+    "num": "003",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.812519073486328,
+        "prob_forced_choice": 0.0004373344035182828
+      },
+      "scroll": {
+        "logprob": -18.078144073486328,
+        "prob_forced_choice": 0.9995626655964818
+      }
+    }
+  },
+  {
+    "image": "004_correct_10",
+    "num": "004",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.836076736450195,
+        "prob_forced_choice": 0.0005571117181506888
+      },
+      "scroll": {
+        "logprob": -17.343889236450195,
+        "prob_forced_choice": 0.9994428882818492
+      }
+    }
+  },
+  {
+    "image": "004_incorrect_10",
+    "num": "004",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.48440170288086,
+        "prob_forced_choice": 0.0005442132624325574
+      },
+      "scroll": {
+        "logprob": -17.96877670288086,
+        "prob_forced_choice": 0.9994557867375674
+      }
+    }
+  },
+  {
+    "image": "005_correct_10",
+    "num": "005",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.46885871887207,
+        "prob_forced_choice": 0.0004173157606777201
+      },
+      "scroll": {
+        "logprob": -17.68760871887207,
+        "prob_forced_choice": 0.9995826842393223
+      }
+    }
+  },
+  {
+    "image": "005_incorrect_10",
+    "num": "005",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.804916381835938,
+        "prob_forced_choice": 0.0007379195929147702
+      },
+      "scroll": {
+        "logprob": -17.593978881835938,
+        "prob_forced_choice": 0.9992620804070853
+      }
+    }
+  },
+  {
+    "image": "006_correct_10",
+    "num": "006",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.422000885009766,
+        "prob_forced_choice": 0.0009547317110805592
+      },
+      "scroll": {
+        "logprob": -17.468875885009766,
+        "prob_forced_choice": 0.9990452682889194
+      }
+    }
+  },
+  {
+    "image": "006_incorrect_10",
+    "num": "006",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.421907424926758,
+        "prob_forced_choice": 0.0006263341581094201
+      },
+      "scroll": {
+        "logprob": -18.046907424926758,
+        "prob_forced_choice": 0.9993736658418905
+      }
+    }
+  },
+  {
+    "image": "007_correct_10",
+    "num": "007",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.171987533569336,
+        "prob_forced_choice": 0.0005112579049909173
+      },
+      "scroll": {
+        "logprob": -17.593862533569336,
+        "prob_forced_choice": 0.9994887420950092
+      }
+    }
+  },
+  {
+    "image": "007_incorrect_10",
+    "num": "007",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.53129005432129,
+        "prob_forced_choice": 0.00045831290063503817
+      },
+      "scroll": {
+        "logprob": -17.84379005432129,
+        "prob_forced_choice": 0.999541687099365
+      }
+    }
+  },
+  {
+    "image": "008_correct_10",
+    "num": "008",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.078229904174805,
+        "prob_forced_choice": 0.0005976693711028652
+      },
+      "scroll": {
+        "logprob": -17.656354904174805,
+        "prob_forced_choice": 0.999402330628897
+      }
+    }
+  },
+  {
+    "image": "008_incorrect_10",
+    "num": "008",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.015689849853516,
+        "prob_forced_choice": 0.0006361912109467575
+      },
+      "scroll": {
+        "logprob": -17.656314849853516,
+        "prob_forced_choice": 0.9993638087890532
+      }
+    }
+  },
+  {
+    "image": "009_correct_10",
+    "num": "009",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.062631607055664,
+        "prob_forced_choice": 0.0006263341581094201
+      },
+      "scroll": {
+        "logprob": -17.687631607055664,
+        "prob_forced_choice": 0.9993736658418905
+      }
+    }
+  },
+  {
+    "image": "009_incorrect_10",
+    "num": "009",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.000011444091797,
+        "prob_forced_choice": 0.0005838324581912443
+      },
+      "scroll": {
+        "logprob": -18.554698944091797,
+        "prob_forced_choice": 0.9994161675418086
+      }
+    }
+  },
+  {
+    "image": "010_correct_10",
+    "num": "010",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.843849182128906,
+        "prob_forced_choice": 0.0008040859356292355
+      },
+      "scroll": {
+        "logprob": -17.718849182128906,
+        "prob_forced_choice": 0.9991959140643708
+      }
+    }
+  },
+  {
+    "image": "010_incorrect_10",
+    "num": "010",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.031259536743164,
+        "prob_forced_choice": 0.000631243456875032
+      },
+      "scroll": {
+        "logprob": -18.664072036743164,
+        "prob_forced_choice": 0.9993687565431251
+      }
+    }
+  },
+  {
+    "image": "011_correct_10",
+    "num": "011",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.734533309936523,
+        "prob_forced_choice": 0.000767292412858718
+      },
+      "scroll": {
+        "logprob": -17.562658309936523,
+        "prob_forced_choice": 0.9992327075871412
+      }
+    }
+  },
+  {
+    "image": "011_incorrect_10",
+    "num": "011",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.72672462463379,
+        "prob_forced_choice": 0.0006214630161383599
+      },
+      "scroll": {
+        "logprob": -17.34391212463379,
+        "prob_forced_choice": 0.9993785369838617
+      }
+    }
+  },
+  {
+    "image": "012_correct_10",
+    "num": "012",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.859682083129883,
+        "prob_forced_choice": 0.001524786391225749
+      },
+      "scroll": {
+        "logprob": -17.375307083129883,
+        "prob_forced_choice": 0.9984752136087741
+      }
+    }
+  },
+  {
+    "image": "012_incorrect_10",
+    "num": "012",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.578166961669922,
+        "prob_forced_choice": 0.0005274784125231481
+      },
+      "scroll": {
+        "logprob": -18.031291961669922,
+        "prob_forced_choice": 0.9994725215874769
+      }
+    }
+  },
+  {
+    "image": "013_correct_10",
+    "num": "013",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.031587600708008,
+        "prob_forced_choice": 0.00154876109428798
+      },
+      "scroll": {
+        "logprob": -17.562837600708008,
+        "prob_forced_choice": 0.998451238905712
+      }
+    }
+  },
+  {
+    "image": "013_incorrect_10",
+    "num": "013",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.867286682128906,
+        "prob_forced_choice": 0.0006932422985664928
+      },
+      "scroll": {
+        "logprob": -17.593849182128906,
+        "prob_forced_choice": 0.9993067577014336
+      }
+    }
+  },
+  {
+    "image": "014_correct_10",
+    "num": "014",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.992305755615234,
+        "prob_forced_choice": 0.000507281282699237
+      },
+      "scroll": {
+        "logprob": -17.406368255615234,
+        "prob_forced_choice": 0.9994927187173008
+      }
+    }
+  },
+  {
+    "image": "014_incorrect_10",
+    "num": "014",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.218759536743164,
+        "prob_forced_choice": 0.000487857122782266
+      },
+      "scroll": {
+        "logprob": -18.593759536743164,
+        "prob_forced_choice": 0.9995121428772178
+      }
+    }
+  },
+  {
+    "image": "015_correct_10",
+    "num": "015",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.04697608947754,
+        "prob_forced_choice": 0.0004955359475635505
+      },
+      "scroll": {
+        "logprob": -17.43760108947754,
+        "prob_forced_choice": 0.9995044640524365
+      }
+    }
+  },
+  {
+    "image": "015_incorrect_10",
+    "num": "015",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.50002670288086,
+        "prob_forced_choice": 0.0006667023092435894
+      },
+      "scroll": {
+        "logprob": -18.18752670288086,
+        "prob_forced_choice": 0.9993332976907565
+      }
+    }
+  },
+  {
+    "image": "016_correct_10",
+    "num": "016",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.968860626220703,
+        "prob_forced_choice": 0.0006263341581094201
+      },
+      "scroll": {
+        "logprob": -17.593860626220703,
+        "prob_forced_choice": 0.9993736658418905
+      }
+    }
+  },
+  {
+    "image": "016_incorrect_10",
+    "num": "016",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.171939849853516,
+        "prob_forced_choice": 0.0004955359475635505
+      },
+      "scroll": {
+        "logprob": -17.562564849853516,
+        "prob_forced_choice": 0.9995044640524365
+      }
+    }
+  },
+  {
+    "image": "017_correct_10",
+    "num": "017",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.984663009643555,
+        "prob_forced_choice": 0.0013885232756900101
+      },
+      "scroll": {
+        "logprob": -17.406538009643555,
+        "prob_forced_choice": 0.99861147672431
+      }
+    }
+  },
+  {
+    "image": "017_incorrect_10",
+    "num": "017",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.65627098083496,
+        "prob_forced_choice": 0.0006070755804415096
+      },
+      "scroll": {
+        "logprob": -18.25002098083496,
+        "prob_forced_choice": 0.9993929244195585
+      }
+    }
+  },
+  {
+    "image": "018_correct_10",
+    "num": "018",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.683032989501953,
+        "prob_forced_choice": 0.0015085190884026021
+      },
+      "scroll": {
+        "logprob": -17.187915802001953,
+        "prob_forced_choice": 0.9984914809115973
+      }
+    }
+  },
+  {
+    "image": "018_incorrect_10",
+    "num": "018",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.125009536743164,
+        "prob_forced_choice": 0.0004916815522926534
+      },
+      "scroll": {
+        "logprob": -18.507822036743164,
+        "prob_forced_choice": 0.9995083184477073
+      }
+    }
+  },
+  {
+    "image": "019_correct_10",
+    "num": "019",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.234468460083008,
+        "prob_forced_choice": 0.0004373344035182828
+      },
+      "scroll": {
+        "logprob": -17.500093460083008,
+        "prob_forced_choice": 0.9995626655964818
+      }
+    }
+  },
+  {
+    "image": "019_incorrect_10",
+    "num": "019",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.468780517578125,
+        "prob_forced_choice": 0.0005442132624325574
+      },
+      "scroll": {
+        "logprob": -17.953155517578125,
+        "prob_forced_choice": 0.9994557867375674
+      }
+    }
+  },
+  {
+    "image": "020_correct_10",
+    "num": "020",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.65643310546875,
+        "prob_forced_choice": 0.0009110511944006454
+      },
+      "scroll": {
+        "logprob": -17.65643310546875,
+        "prob_forced_choice": 0.9990889488055994
+      }
+    }
+  },
+  {
+    "image": "020_incorrect_10",
+    "num": "020",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.656295776367188,
+        "prob_forced_choice": 0.00032503584523654725
+      },
+      "scroll": {
+        "logprob": -17.625045776367188,
+        "prob_forced_choice": 0.9996749641547633
+      }
+    }
+  },
+  {
+    "image": "021_correct_10",
+    "num": "021",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.632936477661133,
+        "prob_forced_choice": 0.0008761799515142255
+      },
+      "scroll": {
+        "logprob": -17.593873977661133,
+        "prob_forced_choice": 0.9991238200484857
+      }
+    }
+  },
+  {
+    "image": "021_incorrect_10",
+    "num": "021",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.297000885009766,
+        "prob_forced_choice": 0.0012255674483830526
+      },
+      "scroll": {
+        "logprob": -17.593875885009766,
+        "prob_forced_choice": 0.998774432551617
+      }
+    }
+  },
+  {
+    "image": "022_correct_10",
+    "num": "022",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.05497169494629,
+        "prob_forced_choice": 0.001294368035454269
+      },
+      "scroll": {
+        "logprob": -17.40653419494629,
+        "prob_forced_choice": 0.9987056319645456
+      }
+    }
+  },
+  {
+    "image": "022_incorrect_10",
+    "num": "022",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.52360725402832,
+        "prob_forced_choice": 0.0008360902969426321
+      },
+      "scroll": {
+        "logprob": -17.43766975402832,
+        "prob_forced_choice": 0.9991639097030574
+      }
+    }
+  },
+  {
+    "image": "023_correct_10",
+    "num": "023",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.859512329101562,
+        "prob_forced_choice": 0.0006771942330385673
+      },
+      "scroll": {
+        "logprob": -17.562637329101562,
+        "prob_forced_choice": 0.9993228057669614
+      }
+    }
+  },
+  {
+    "image": "023_incorrect_10",
+    "num": "023",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.7266788482666,
+        "prob_forced_choice": 0.0008231385881888256
+      },
+      "scroll": {
+        "logprob": -17.6251163482666,
+        "prob_forced_choice": 0.9991768614118112
+      }
+    }
+  },
+  {
+    "image": "024_correct_10",
+    "num": "024",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.656402587890625,
+        "prob_forced_choice": 0.0007793660930208433
+      },
+      "scroll": {
+        "logprob": -17.500152587890625,
+        "prob_forced_choice": 0.9992206339069791
+      }
+    }
+  },
+  {
+    "image": "024_incorrect_10",
+    "num": "024",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.375009536743164,
+        "prob_forced_choice": 0.0004173157606777201
+      },
+      "scroll": {
+        "logprob": -18.593759536743164,
+        "prob_forced_choice": 0.9995826842393223
+      }
+    }
+  },
+  {
+    "image": "025_correct_10",
+    "num": "025",
+    "variant": "correct",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.51584815979004,
+        "prob_forced_choice": 0.0008693673928062171
+      },
+      "scroll": {
+        "logprob": -17.46897315979004,
+        "prob_forced_choice": 0.9991306326071938
+      }
+    }
+  },
+  {
+    "image": "025_incorrect_10",
+    "num": "025",
+    "variant": "incorrect",
+    "scale_value": 10,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.187517166137695,
+        "prob_forced_choice": 0.0008969393236719385
+      },
+      "scroll": {
+        "logprob": -18.171892166137695,
+        "prob_forced_choice": 0.9991030606763281
+      }
+    }
+  },
+  {
+    "image": "001_correct_100",
+    "num": "001",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.851694107055664,
+        "prob_forced_choice": 0.0007264875213164841
+      },
+      "scroll": {
+        "logprob": -17.625131607055664,
+        "prob_forced_choice": 0.9992735124786836
+      }
+    }
+  },
+  {
+    "image": "001_incorrect_100",
+    "num": "001",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -27.218753814697266,
+        "prob_forced_choice": 0.0002663404644842798
+      },
+      "scroll": {
+        "logprob": -18.988285064697266,
+        "prob_forced_choice": 0.9997336595355156
+      }
+    }
+  },
+  {
+    "image": "002_correct_100",
+    "num": "002",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.359464645385742,
+        "prob_forced_choice": 0.0004108485376346404
+      },
+      "scroll": {
+        "logprob": -17.562589645385742,
+        "prob_forced_choice": 0.9995891514623653
+      }
+    }
+  },
+  {
+    "image": "002_incorrect_100",
+    "num": "002",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.632970809936523,
+        "prob_forced_choice": 0.0007041515890570883
+      },
+      "scroll": {
+        "logprob": -17.375158309936523,
+        "prob_forced_choice": 0.9992958484109428
+      }
+    }
+  },
+  {
+    "image": "003_correct_100",
+    "num": "003",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.82046890258789,
+        "prob_forced_choice": 0.0007495314256624536
+      },
+      "scroll": {
+        "logprob": -17.62515640258789,
+        "prob_forced_choice": 0.9992504685743375
+      }
+    }
+  },
+  {
+    "image": "003_incorrect_100",
+    "num": "003",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.625024795532227,
+        "prob_forced_choice": 0.0006563728324346652
+      },
+      "scroll": {
+        "logprob": -18.296899795532227,
+        "prob_forced_choice": 0.9993436271675653
+      }
+    }
+  },
+  {
+    "image": "004_correct_100",
+    "num": "004",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.93760108947754,
+        "prob_forced_choice": 0.0005527786369235996
+      },
+      "scroll": {
+        "logprob": -17.43760108947754,
+        "prob_forced_choice": 0.9994472213630764
+      }
+    }
+  },
+  {
+    "image": "004_incorrect_100",
+    "num": "004",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.156349182128906,
+        "prob_forced_choice": 0.000487857122782266
+      },
+      "scroll": {
+        "logprob": -17.531349182128906,
+        "prob_forced_choice": 0.9995121428772178
+      }
+    }
+  },
+  {
+    "image": "005_correct_100",
+    "num": "005",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.34386444091797,
+        "prob_forced_choice": 0.000519304864494927
+      },
+      "scroll": {
+        "logprob": -17.78136444091797,
+        "prob_forced_choice": 0.999480695135505
+      }
+    }
+  },
+  {
+    "image": "005_incorrect_100",
+    "num": "005",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.101699829101562,
+        "prob_forced_choice": 0.000602354126495203
+      },
+      "scroll": {
+        "logprob": -17.687637329101562,
+        "prob_forced_choice": 0.9993976458735048
+      }
+    }
+  },
+  {
+    "image": "006_correct_100",
+    "num": "006",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.890729904174805,
+        "prob_forced_choice": 0.0006986756664856787
+      },
+      "scroll": {
+        "logprob": -17.625104904174805,
+        "prob_forced_choice": 0.9993013243335144
+      }
+    }
+  },
+  {
+    "image": "006_incorrect_100",
+    "num": "006",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.265668869018555,
+        "prob_forced_choice": 0.0006986756664856787
+      },
+      "scroll": {
+        "logprob": -18.000043869018555,
+        "prob_forced_choice": 0.9993013243335144
+      }
+    }
+  },
+  {
+    "image": "007_correct_100",
+    "num": "007",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.8907470703125,
+        "prob_forced_choice": 0.0005614787461400804
+      },
+      "scroll": {
+        "logprob": -17.4063720703125,
+        "prob_forced_choice": 0.99943852125386
+      }
+    }
+  },
+  {
+    "image": "007_incorrect_100",
+    "num": "007",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.78130531311035,
+        "prob_forced_choice": 0.00035697063503765833
+      },
+      "scroll": {
+        "logprob": -17.84380531311035,
+        "prob_forced_choice": 0.9996430293649623
+      }
+    }
+  },
+  {
+    "image": "008_correct_100",
+    "num": "008",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.367326736450195,
+        "prob_forced_choice": 0.001107338985089895
+      },
+      "scroll": {
+        "logprob": -17.562639236450195,
+        "prob_forced_choice": 0.99889266101491
+      }
+    }
+  },
+  {
+    "image": "008_incorrect_100",
+    "num": "008",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.609432220458984,
+        "prob_forced_choice": 0.001116014259843091
+      },
+      "scroll": {
+        "logprob": -17.812557220458984,
+        "prob_forced_choice": 0.9988839857401568
+      }
+    }
+  },
+  {
+    "image": "009_correct_100",
+    "num": "009",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.445531845092773,
+        "prob_forced_choice": 0.0008231385881888256
+      },
+      "scroll": {
+        "logprob": -17.343969345092773,
+        "prob_forced_choice": 0.9991768614118112
+      }
+    }
+  },
+  {
+    "image": "009_incorrect_100",
+    "num": "009",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.50002098083496,
+        "prob_forced_choice": 0.0007208380258812108
+      },
+      "scroll": {
+        "logprob": -18.26564598083496,
+        "prob_forced_choice": 0.9992791619741188
+      }
+    }
+  },
+  {
+    "image": "010_correct_100",
+    "num": "010",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.164213180541992,
+        "prob_forced_choice": 0.0010566838241698937
+      },
+      "scroll": {
+        "logprob": -17.312650680541992,
+        "prob_forced_choice": 0.9989433161758301
+      }
+    }
+  },
+  {
+    "image": "010_incorrect_100",
+    "num": "010",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.875024795532227,
+        "prob_forced_choice": 0.0010817152527255937
+      },
+      "scroll": {
+        "logprob": -18.046899795532227,
+        "prob_forced_choice": 0.9989182847472744
+      }
+    }
+  },
+  {
+    "image": "011_correct_100",
+    "num": "011",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.49239730834961,
+        "prob_forced_choice": 0.000810387349057321
+      },
+      "scroll": {
+        "logprob": -17.37520980834961,
+        "prob_forced_choice": 0.9991896126509426
+      }
+    }
+  },
+  {
+    "image": "011_incorrect_100",
+    "num": "011",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.406476974487305,
+        "prob_forced_choice": 0.0009110511944006454
+      },
+      "scroll": {
+        "logprob": -17.406476974487305,
+        "prob_forced_choice": 0.9990889488055994
+      }
+    }
+  },
+  {
+    "image": "012_correct_100",
+    "num": "012",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.96914291381836,
+        "prob_forced_choice": 0.0012843081201339697
+      },
+      "scroll": {
+        "logprob": -17.31289291381836,
+        "prob_forced_choice": 0.9987156918798661
+      }
+    }
+  },
+  {
+    "image": "012_incorrect_100",
+    "num": "012",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.828237533569336,
+        "prob_forced_choice": 0.0007208380258812108
+      },
+      "scroll": {
+        "logprob": -17.593862533569336,
+        "prob_forced_choice": 0.9992791619741188
+      }
+    }
+  },
+  {
+    "image": "013_correct_100",
+    "num": "013",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.437744140625,
+        "prob_forced_choice": 0.0009697519677825861
+      },
+      "scroll": {
+        "logprob": -17.500244140625,
+        "prob_forced_choice": 0.9990302480322174
+      }
+    }
+  },
+  {
+    "image": "013_incorrect_100",
+    "num": "013",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.617395401000977,
+        "prob_forced_choice": 0.0006512682251634091
+      },
+      "scroll": {
+        "logprob": -17.281457901000977,
+        "prob_forced_choice": 0.9993487317748365
+      }
+    }
+  },
+  {
+    "image": "014_correct_100",
+    "num": "014",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.453401565551758,
+        "prob_forced_choice": 0.0008969393236719385
+      },
+      "scroll": {
+        "logprob": -17.437776565551758,
+        "prob_forced_choice": 0.9991030606763281
+      }
+    }
+  },
+  {
+    "image": "014_incorrect_100",
+    "num": "014",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.48441505432129,
+        "prob_forced_choice": 0.0005274784125231481
+      },
+      "scroll": {
+        "logprob": -17.93754005432129,
+        "prob_forced_choice": 0.9994725215874769
+      }
+    }
+  },
+  {
+    "image": "015_correct_100",
+    "num": "015",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.804824829101562,
+        "prob_forced_choice": 0.0006719278067448447
+      },
+      "scroll": {
+        "logprob": -17.500137329101562,
+        "prob_forced_choice": 0.9993280721932551
+      }
+    }
+  },
+  {
+    "image": "015_incorrect_100",
+    "num": "015",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.109420776367188,
+        "prob_forced_choice": 0.000767292412858718
+      },
+      "scroll": {
+        "logprob": -17.937545776367188,
+        "prob_forced_choice": 0.9992327075871412
+      }
+    }
+  },
+  {
+    "image": "016_correct_100",
+    "num": "016",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.664215087890625,
+        "prob_forced_choice": 0.0008761799515142255
+      },
+      "scroll": {
+        "logprob": -17.625152587890625,
+        "prob_forced_choice": 0.9991238200484857
+      }
+    }
+  },
+  {
+    "image": "016_incorrect_100",
+    "num": "016",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.55874252319336,
+        "prob_forced_choice": 0.0007124459916397521
+      },
+      "scroll": {
+        "logprob": -17.31264877319336,
+        "prob_forced_choice": 0.9992875540083602
+      }
+    }
+  },
+  {
+    "image": "017_correct_100",
+    "num": "017",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.211185455322266,
+        "prob_forced_choice": 0.0012160416047592268
+      },
+      "scroll": {
+        "logprob": -17.500247955322266,
+        "prob_forced_choice": 0.9987839583952408
+      }
+    }
+  },
+  {
+    "image": "017_incorrect_100",
+    "num": "017",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.711040496826172,
+        "prob_forced_choice": 0.0006932422985664928
+      },
+      "scroll": {
+        "logprob": -17.437602996826172,
+        "prob_forced_choice": 0.9993067577014336
+      }
+    }
+  },
+  {
+    "image": "018_correct_100",
+    "num": "018",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.082307815551758,
+        "prob_forced_choice": 0.0013406204230996853
+      },
+      "scroll": {
+        "logprob": -17.469026565551758,
+        "prob_forced_choice": 0.9986593795769002
+      }
+    }
+  },
+  {
+    "image": "018_incorrect_100",
+    "num": "018",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.890682220458984,
+        "prob_forced_choice": 0.0009547317110805592
+      },
+      "scroll": {
+        "logprob": -17.937557220458984,
+        "prob_forced_choice": 0.9990452682889194
+      }
+    }
+  },
+  {
+    "image": "019_correct_100",
+    "num": "019",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.859529495239258,
+        "prob_forced_choice": 0.0006771942330385673
+      },
+      "scroll": {
+        "logprob": -17.562654495239258,
+        "prob_forced_choice": 0.9993228057669614
+      }
+    }
+  },
+  {
+    "image": "019_incorrect_100",
+    "num": "019",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.125011444091797,
+        "prob_forced_choice": 0.0004802972318863163
+      },
+      "scroll": {
+        "logprob": -18.484386444091797,
+        "prob_forced_choice": 0.9995197027681136
+      }
+    }
+  },
+  {
+    "image": "020_correct_100",
+    "num": "020",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.664533615112305,
+        "prob_forced_choice": 0.0015367270613186887
+      },
+      "scroll": {
+        "logprob": -17.187971115112305,
+        "prob_forced_choice": 0.9984632729386814
+      }
+    }
+  },
+  {
+    "image": "020_incorrect_100",
+    "num": "020",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.83601188659668,
+        "prob_forced_choice": 0.0006932422985664928
+      },
+      "scroll": {
+        "logprob": -17.56257438659668,
+        "prob_forced_choice": 0.9993067577014336
+      }
+    }
+  },
+  {
+    "image": "021_correct_100",
+    "num": "021",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.859760284423828,
+        "prob_forced_choice": 0.001524786391225749
+      },
+      "scroll": {
+        "logprob": -17.375385284423828,
+        "prob_forced_choice": 0.9984752136087741
+      }
+    }
+  },
+  {
+    "image": "021_incorrect_100",
+    "num": "021",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.453250885009766,
+        "prob_forced_choice": 0.0009253848866495988
+      },
+      "scroll": {
+        "logprob": -17.468875885009766,
+        "prob_forced_choice": 0.9990746151133504
+      }
+    }
+  },
+  {
+    "image": "022_correct_100",
+    "num": "022",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.957284927368164,
+        "prob_forced_choice": 0.0014269596332777221
+      },
+      "scroll": {
+        "logprob": -17.406503677368164,
+        "prob_forced_choice": 0.9985730403667223
+      }
+    }
+  },
+  {
+    "image": "022_incorrect_100",
+    "num": "022",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.25012969970703,
+        "prob_forced_choice": 0.0011695102650555148
+      },
+      "scroll": {
+        "logprob": -17.50012969970703,
+        "prob_forced_choice": 0.9988304897349445
+      }
+    }
+  },
+  {
+    "image": "023_correct_100",
+    "num": "023",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.902755737304688,
+        "prob_forced_choice": 0.001460749574951026
+      },
+      "scroll": {
+        "logprob": -17.375411987304688,
+        "prob_forced_choice": 0.998539250425049
+      }
+    }
+  },
+  {
+    "image": "023_incorrect_100",
+    "num": "023",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.027746200561523,
+        "prob_forced_choice": 0.0012495570397145165
+      },
+      "scroll": {
+        "logprob": -17.344030380249023,
+        "prob_forced_choice": 0.9987504429602855
+      }
+    }
+  },
+  {
+    "image": "024_correct_100",
+    "num": "024",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.679853439331055,
+        "prob_forced_choice": 0.0006512682251634091
+      },
+      "scroll": {
+        "logprob": -17.343915939331055,
+        "prob_forced_choice": 0.9993487317748365
+      }
+    }
+  },
+  {
+    "image": "024_incorrect_100",
+    "num": "024",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.625036239624023,
+        "prob_forced_choice": 0.00045831290063503817
+      },
+      "scroll": {
+        "logprob": -17.937536239624023,
+        "prob_forced_choice": 0.999541687099365
+      }
+    }
+  },
+  {
+    "image": "025_correct_100",
+    "num": "025",
+    "variant": "correct",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.137619018554688,
+        "prob_forced_choice": 0.00229545998954787
+      },
+      "scroll": {
+        "logprob": -17.063095092773438,
+        "prob_forced_choice": 0.9977045400104522
+      }
+    }
+  },
+  {
+    "image": "025_incorrect_100",
+    "num": "025",
+    "variant": "incorrect",
+    "scale_value": 100,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.78133201599121,
+        "prob_forced_choice": 0.0006667023092435894
+      },
+      "scroll": {
+        "logprob": -17.46883201599121,
+        "prob_forced_choice": 0.9993332976907565
+      }
+    }
+  },
+  {
+    "image": "001_correct_1000",
+    "num": "001",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.17214012145996,
+        "prob_forced_choice": 0.0010162440410680167
+      },
+      "scroll": {
+        "logprob": -17.28151512145996,
+        "prob_forced_choice": 0.9989837559589321
+      }
+    }
+  },
+  {
+    "image": "001_incorrect_1000",
+    "num": "001",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -27.812501907348633,
+        "prob_forced_choice": 0.0001819988589481575
+      },
+      "scroll": {
+        "logprob": -19.201173782348633,
+        "prob_forced_choice": 0.9998180011410518
+      }
+    }
+  },
+  {
+    "image": "002_correct_1000",
+    "num": "002",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.844188690185547,
+        "prob_forced_choice": 0.0013250224172131609
+      },
+      "scroll": {
+        "logprob": -17.219188690185547,
+        "prob_forced_choice": 0.9986749775827868
+      }
+    }
+  },
+  {
+    "image": "002_incorrect_1000",
+    "num": "002",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.885194778442383,
+        "prob_forced_choice": 0.0015337331693289025
+      },
+      "scroll": {
+        "logprob": -17.406679153442383,
+        "prob_forced_choice": 0.9984662668306712
+      }
+    }
+  },
+  {
+    "image": "003_correct_1000",
+    "num": "003",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.578346252441406,
+        "prob_forced_choice": 0.0008167381046669486
+      },
+      "scroll": {
+        "logprob": -17.468971252441406,
+        "prob_forced_choice": 0.999183261895333
+      }
+    }
+  },
+  {
+    "image": "003_incorrect_1000",
+    "num": "003",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.343795776367188,
+        "prob_forced_choice": 0.0005703157070783359
+      },
+      "scroll": {
+        "logprob": -17.875045776367188,
+        "prob_forced_choice": 0.9994296842929216
+      }
+    }
+  },
+  {
+    "image": "004_correct_1000",
+    "num": "004",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.398700714111328,
+        "prob_forced_choice": 0.000761325841895028
+      },
+      "scroll": {
+        "logprob": -17.219013214111328,
+        "prob_forced_choice": 0.9992386741581051
+      }
+    }
+  },
+  {
+    "image": "004_incorrect_1000",
+    "num": "004",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.671993255615234,
+        "prob_forced_choice": 0.0006563728324346652
+      },
+      "scroll": {
+        "logprob": -17.343868255615234,
+        "prob_forced_choice": 0.9993436271675653
+      }
+    }
+  },
+  {
+    "image": "005_correct_1000",
+    "num": "005",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.390960693359375,
+        "prob_forced_choice": 0.001116014259843091
+      },
+      "scroll": {
+        "logprob": -17.594085693359375,
+        "prob_forced_choice": 0.9988839857401568
+      }
+    }
+  },
+  {
+    "image": "005_incorrect_1000",
+    "num": "005",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.1527042388916,
+        "prob_forced_choice": 0.0010691263618290232
+      },
+      "scroll": {
+        "logprob": -17.3128604888916,
+        "prob_forced_choice": 0.998930873638171
+      }
+    }
+  },
+  {
+    "image": "006_correct_1000",
+    "num": "006",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.37504768371582,
+        "prob_forced_choice": 0.000519304864494927
+      },
+      "scroll": {
+        "logprob": -17.81254768371582,
+        "prob_forced_choice": 0.999480695135505
+      }
+    }
+  },
+  {
+    "image": "006_incorrect_1000",
+    "num": "006",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.890689849853516,
+        "prob_forced_choice": 0.0007916296072837431
+      },
+      "scroll": {
+        "logprob": -17.750064849853516,
+        "prob_forced_choice": 0.9992083703927161
+      }
+    }
+  },
+  {
+    "image": "007_correct_1000",
+    "num": "007",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.18775749206543,
+        "prob_forced_choice": 0.0011695102650555148
+      },
+      "scroll": {
+        "logprob": -17.43775749206543,
+        "prob_forced_choice": 0.9988304897349445
+      }
+    }
+  },
+  {
+    "image": "007_incorrect_1000",
+    "num": "007",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.828197479248047,
+        "prob_forced_choice": 0.0007437028637763687
+      },
+      "scroll": {
+        "logprob": -17.625072479248047,
+        "prob_forced_choice": 0.9992562971362237
+      }
+    }
+  },
+  {
+    "image": "008_correct_1000",
+    "num": "008",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.593942642211914,
+        "prob_forced_choice": 0.0008830458477845482
+      },
+      "scroll": {
+        "logprob": -17.562692642211914,
+        "prob_forced_choice": 0.9991169541522155
+      }
+    }
+  },
+  {
+    "image": "008_incorrect_1000",
+    "num": "008",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.10943031311035,
+        "prob_forced_choice": 0.0007208380258812108
+      },
+      "scroll": {
+        "logprob": -17.87505531311035,
+        "prob_forced_choice": 0.9992791619741188
+      }
+    }
+  },
+  {
+    "image": "009_correct_1000",
+    "num": "009",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.961257934570312,
+        "prob_forced_choice": 0.0012160416047592268
+      },
+      "scroll": {
+        "logprob": -17.250320434570312,
+        "prob_forced_choice": 0.9987839583952408
+      }
+    }
+  },
+  {
+    "image": "009_incorrect_1000",
+    "num": "009",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.25002670288086,
+        "prob_forced_choice": 0.0006667023092435894
+      },
+      "scroll": {
+        "logprob": -17.93752670288086,
+        "prob_forced_choice": 0.9993332976907565
+      }
+    }
+  },
+  {
+    "image": "010_correct_1000",
+    "num": "010",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.320463180541992,
+        "prob_forced_choice": 0.0009622125595974061
+      },
+      "scroll": {
+        "logprob": -17.375150680541992,
+        "prob_forced_choice": 0.9990377874404025
+      }
+    }
+  },
+  {
+    "image": "010_incorrect_1000",
+    "num": "010",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.328149795532227,
+        "prob_forced_choice": 0.000767292412858718
+      },
+      "scroll": {
+        "logprob": -18.156274795532227,
+        "prob_forced_choice": 0.9992327075871412
+      }
+    }
+  },
+  {
+    "image": "011_correct_1000",
+    "num": "011",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.15635108947754,
+        "prob_forced_choice": 0.0005033355754528115
+      },
+      "scroll": {
+        "logprob": -17.56260108947754,
+        "prob_forced_choice": 0.9994966644245472
+      }
+    }
+  },
+  {
+    "image": "011_incorrect_1000",
+    "num": "011",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.24226951599121,
+        "prob_forced_choice": 0.0004765613104188452
+      },
+      "scroll": {
+        "logprob": -17.59383201599121,
+        "prob_forced_choice": 0.999523438689581
+      }
+    }
+  },
+  {
+    "image": "012_correct_1000",
+    "num": "012",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.46115493774414,
+        "prob_forced_choice": 0.0009473089682583146
+      },
+      "scroll": {
+        "logprob": -17.50021743774414,
+        "prob_forced_choice": 0.9990526910317417
+      }
+    }
+  },
+  {
+    "image": "012_incorrect_1000",
+    "num": "012",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.156265258789062,
+        "prob_forced_choice": 0.0005274784125231481
+      },
+      "scroll": {
+        "logprob": -18.609390258789062,
+        "prob_forced_choice": 0.9994725215874769
+      }
+    }
+  },
+  {
+    "image": "013_correct_1000",
+    "num": "013",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.648630142211914,
+        "prob_forced_choice": 0.0006932422985664928
+      },
+      "scroll": {
+        "logprob": -17.375192642211914,
+        "prob_forced_choice": 0.9993067577014336
+      }
+    }
+  },
+  {
+    "image": "013_incorrect_1000",
+    "num": "013",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.656436920166016,
+        "prob_forced_choice": 0.000646203290719727
+      },
+      "scroll": {
+        "logprob": -17.312686920166016,
+        "prob_forced_choice": 0.9993537967092804
+      }
+    }
+  },
+  {
+    "image": "014_correct_1000",
+    "num": "014",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.06265640258789,
+        "prob_forced_choice": 0.0005703157070783359
+      },
+      "scroll": {
+        "logprob": -17.59390640258789,
+        "prob_forced_choice": 0.9994296842929216
+      }
+    }
+  },
+  {
+    "image": "014_incorrect_1000",
+    "num": "014",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.820459365844727,
+        "prob_forced_choice": 0.0007978334816343424
+      },
+      "scroll": {
+        "logprob": -17.687646865844727,
+        "prob_forced_choice": 0.9992021665183656
+      }
+    }
+  },
+  {
+    "image": "015_correct_1000",
+    "num": "015",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.609540939331055,
+        "prob_forced_choice": 0.0009253848866495988
+      },
+      "scroll": {
+        "logprob": -17.625165939331055,
+        "prob_forced_choice": 0.9990746151133504
+      }
+    }
+  },
+  {
+    "image": "015_incorrect_1000",
+    "num": "015",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.218839645385742,
+        "prob_forced_choice": 0.000487857122782266
+      },
+      "scroll": {
+        "logprob": -17.593839645385742,
+        "prob_forced_choice": 0.9995121428772178
+      }
+    }
+  },
+  {
+    "image": "016_correct_1000",
+    "num": "016",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.75017738342285,
+        "prob_forced_choice": 0.0007321812616608614
+      },
+      "scroll": {
+        "logprob": -17.53142738342285,
+        "prob_forced_choice": 0.9992678187383391
+      }
+    }
+  },
+  {
+    "image": "016_incorrect_1000",
+    "num": "016",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.906269073486328,
+        "prob_forced_choice": 0.00045831290063503817
+      },
+      "scroll": {
+        "logprob": -18.218769073486328,
+        "prob_forced_choice": 0.999541687099365
+      }
+    }
+  },
+  {
+    "image": "017_correct_1000",
+    "num": "017",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.62542724609375,
+        "prob_forced_choice": 0.002115703400593114
+      },
+      "scroll": {
+        "logprob": -17.46917724609375,
+        "prob_forced_choice": 0.9978842965994068
+      }
+    }
+  },
+  {
+    "image": "017_incorrect_1000",
+    "num": "017",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.562519073486328,
+        "prob_forced_choice": 0.0006070755804415096
+      },
+      "scroll": {
+        "logprob": -18.156269073486328,
+        "prob_forced_choice": 0.9993929244195585
+      }
+    }
+  },
+  {
+    "image": "018_correct_1000",
+    "num": "018",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.14872169494629,
+        "prob_forced_choice": 0.0011786720362815634
+      },
+      "scroll": {
+        "logprob": -17.40653419494629,
+        "prob_forced_choice": 0.9988213279637184
+      }
+    }
+  },
+  {
+    "image": "018_incorrect_1000",
+    "num": "018",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.812517166137695,
+        "prob_forced_choice": 0.000687851155055246
+      },
+      "scroll": {
+        "logprob": -18.531267166137695,
+        "prob_forced_choice": 0.9993121488449448
+      }
+    }
+  },
+  {
+    "image": "019_correct_1000",
+    "num": "019",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.799245834350586,
+        "prob_forced_choice": 0.0016198054270180583
+      },
+      "scroll": {
+        "logprob": -17.375417709350586,
+        "prob_forced_choice": 0.9983801945729819
+      }
+    }
+  },
+  {
+    "image": "019_incorrect_1000",
+    "num": "019",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -27.562501907348633,
+        "prob_forced_choice": 0.00019147785969563452
+      },
+      "scroll": {
+        "logprob": -19.001955032348633,
+        "prob_forced_choice": 0.9998085221403044
+      }
+    }
+  },
+  {
+    "image": "020_correct_1000",
+    "num": "020",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.99846649169922,
+        "prob_forced_choice": 0.0013696945660936254
+      },
+      "scroll": {
+        "logprob": -17.40666961669922,
+        "prob_forced_choice": 0.9986303054339064
+      }
+    }
+  },
+  {
+    "image": "020_incorrect_1000",
+    "num": "020",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.12510108947754,
+        "prob_forced_choice": 0.0005703157070783359
+      },
+      "scroll": {
+        "logprob": -17.65635108947754,
+        "prob_forced_choice": 0.9994296842929216
+      }
+    }
+  },
+  {
+    "image": "021_correct_1000",
+    "num": "021",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.808853149414062,
+        "prob_forced_choice": 0.0013302015099117559
+      },
+      "scroll": {
+        "logprob": -17.187759399414062,
+        "prob_forced_choice": 0.9986697984900882
+      }
+    }
+  },
+  {
+    "image": "021_incorrect_1000",
+    "num": "021",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.80596160888672,
+        "prob_forced_choice": 0.0013763896547300681
+      },
+      "scroll": {
+        "logprob": -17.21904754638672,
+        "prob_forced_choice": 0.99862361034527
+      }
+    }
+  },
+  {
+    "image": "022_correct_1000",
+    "num": "022",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.46892547607422,
+        "prob_forced_choice": 0.000646203290719727
+      },
+      "scroll": {
+        "logprob": -17.12517547607422,
+        "prob_forced_choice": 0.9993537967092804
+      }
+    }
+  },
+  {
+    "image": "022_incorrect_1000",
+    "num": "022",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.593900680541992,
+        "prob_forced_choice": 0.0007793660930208433
+      },
+      "scroll": {
+        "logprob": -17.437650680541992,
+        "prob_forced_choice": 0.9992206339069791
+      }
+    }
+  },
+  {
+    "image": "023_correct_1000",
+    "num": "023",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.355730056762695,
+        "prob_forced_choice": 0.001085944368942709
+      },
+      "scroll": {
+        "logprob": -17.531511306762695,
+        "prob_forced_choice": 0.9989140556310573
+      }
+    }
+  },
+  {
+    "image": "023_incorrect_1000",
+    "num": "023",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.000049591064453,
+        "prob_forced_choice": 0.0008040859356292355
+      },
+      "scroll": {
+        "logprob": -17.875049591064453,
+        "prob_forced_choice": 0.9991959140643708
+      }
+    }
+  },
+  {
+    "image": "024_correct_1000",
+    "num": "024",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.625198364257812,
+        "prob_forced_choice": 0.0007554056327295276
+      },
+      "scroll": {
+        "logprob": -17.437698364257812,
+        "prob_forced_choice": 0.9992445943672705
+      }
+    }
+  },
+  {
+    "image": "024_incorrect_1000",
+    "num": "024",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.34375762939453,
+        "prob_forced_choice": 0.0004108485376346404
+      },
+      "scroll": {
+        "logprob": -18.54688262939453,
+        "prob_forced_choice": 0.9995891514623653
+      }
+    }
+  },
+  {
+    "image": "025_correct_1000",
+    "num": "025",
+    "variant": "correct",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.234603881835938,
+        "prob_forced_choice": 0.0010162440410680167
+      },
+      "scroll": {
+        "logprob": -17.343978881835938,
+        "prob_forced_choice": 0.9989837559589321
+      }
+    }
+  },
+  {
+    "image": "025_incorrect_1000",
+    "num": "025",
+    "variant": "incorrect",
+    "scale_value": 1000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.488449096679688,
+        "prob_forced_choice": 0.000865980985652889
+      },
+      "scroll": {
+        "logprob": -17.437667846679688,
+        "prob_forced_choice": 0.9991340190143472
+      }
+    }
+  },
+  {
+    "image": "001_correct_10000",
+    "num": "001",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.453205108642578,
+        "prob_forced_choice": 0.0004373344035182828
+      },
+      "scroll": {
+        "logprob": -17.718830108642578,
+        "prob_forced_choice": 0.9995626655964818
+      }
+    }
+  },
+  {
+    "image": "001_incorrect_10000",
+    "num": "001",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -27.375001907348633,
+        "prob_forced_choice": 0.00022429059096717522
+      },
+      "scroll": {
+        "logprob": -18.972658157348633,
+        "prob_forced_choice": 0.9997757094090328
+      }
+    }
+  },
+  {
+    "image": "002_correct_10000",
+    "num": "002",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.96885108947754,
+        "prob_forced_choice": 0.0005884088185569387
+      },
+      "scroll": {
+        "logprob": -17.53135108947754,
+        "prob_forced_choice": 0.9994115911814431
+      }
+    }
+  },
+  {
+    "image": "002_incorrect_10000",
+    "num": "002",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.773578643798828,
+        "prob_forced_choice": 0.000593021029357059
+      },
+      "scroll": {
+        "logprob": -17.343891143798828,
+        "prob_forced_choice": 0.999406978970643
+      }
+    }
+  },
+  {
+    "image": "003_correct_10000",
+    "num": "003",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.250083923339844,
+        "prob_forced_choice": 0.00043055708132461493
+      },
+      "scroll": {
+        "logprob": -17.500083923339844,
+        "prob_forced_choice": 0.9995694429186754
+      }
+    }
+  },
+  {
+    "image": "003_incorrect_10000",
+    "num": "003",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.843765258789062,
+        "prob_forced_choice": 0.0005112579049909173
+      },
+      "scroll": {
+        "logprob": -18.265640258789062,
+        "prob_forced_choice": 0.9994887420950092
+      }
+    }
+  },
+  {
+    "image": "004_correct_10000",
+    "num": "004",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.242504119873047,
+        "prob_forced_choice": 0.0009473089682583146
+      },
+      "scroll": {
+        "logprob": -17.281566619873047,
+        "prob_forced_choice": 0.9990526910317417
+      }
+    }
+  },
+  {
+    "image": "004_incorrect_10000",
+    "num": "004",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.562637329101562,
+        "prob_forced_choice": 0.0009110511944006454
+      },
+      "scroll": {
+        "logprob": -17.562637329101562,
+        "prob_forced_choice": 0.9990889488055994
+      }
+    }
+  },
+  {
+    "image": "005_correct_10000",
+    "num": "005",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.851747512817383,
+        "prob_forced_choice": 0.0006411777211655285
+      },
+      "scroll": {
+        "logprob": -17.500185012817383,
+        "prob_forced_choice": 0.9993588222788345
+      }
+    }
+  },
+  {
+    "image": "005_incorrect_10000",
+    "num": "005",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.578353881835938,
+        "prob_forced_choice": 0.0005976693711028652
+      },
+      "scroll": {
+        "logprob": -17.156478881835938,
+        "prob_forced_choice": 0.999402330628897
+      }
+    }
+  },
+  {
+    "image": "006_correct_10000",
+    "num": "006",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.890743255615234,
+        "prob_forced_choice": 0.0006986756664856787
+      },
+      "scroll": {
+        "logprob": -17.625118255615234,
+        "prob_forced_choice": 0.9993013243335144
+      }
+    }
+  },
+  {
+    "image": "006_incorrect_10000",
+    "num": "006",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.718812942504883,
+        "prob_forced_choice": 0.0008559006367452269
+      },
+      "scroll": {
+        "logprob": -17.656312942504883,
+        "prob_forced_choice": 0.9991440993632549
+      }
+    }
+  },
+  {
+    "image": "007_correct_10000",
+    "num": "007",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.742340087890625,
+        "prob_forced_choice": 0.0006719278067448447
+      },
+      "scroll": {
+        "logprob": -17.437652587890625,
+        "prob_forced_choice": 0.9993280721932551
+      }
+    }
+  },
+  {
+    "image": "007_incorrect_10000",
+    "num": "007",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.96881866455078,
+        "prob_forced_choice": 0.0006667023092435894
+      },
+      "scroll": {
+        "logprob": -17.65631866455078,
+        "prob_forced_choice": 0.9993332976907565
+      }
+    }
+  },
+  {
+    "image": "008_correct_10000",
+    "num": "008",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.078411102294922,
+        "prob_forced_choice": 0.001116014259843091
+      },
+      "scroll": {
+        "logprob": -17.281536102294922,
+        "prob_forced_choice": 0.9988839857401568
+      }
+    }
+  },
+  {
+    "image": "008_incorrect_10000",
+    "num": "008",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.656272888183594,
+        "prob_forced_choice": 0.0006070755804415096
+      },
+      "scroll": {
+        "logprob": -18.250022888183594,
+        "prob_forced_choice": 0.9993929244195585
+      }
+    }
+  },
+  {
+    "image": "009_correct_10000",
+    "num": "009",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.906347274780273,
+        "prob_forced_choice": 0.0005884088185569387
+      },
+      "scroll": {
+        "logprob": -17.468847274780273,
+        "prob_forced_choice": 0.9994115911814431
+      }
+    }
+  },
+  {
+    "image": "009_incorrect_10000",
+    "num": "009",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.250011444091797,
+        "prob_forced_choice": 0.00040448149784208087
+      },
+      "scroll": {
+        "logprob": -18.437511444091797,
+        "prob_forced_choice": 0.9995955185021579
+      }
+    }
+  },
+  {
+    "image": "010_correct_10000",
+    "num": "010",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.66417694091797,
+        "prob_forced_choice": 0.0006411777211655285
+      },
+      "scroll": {
+        "logprob": -17.31261444091797,
+        "prob_forced_choice": 0.9993588222788345
+      }
+    }
+  },
+  {
+    "image": "010_incorrect_10000",
+    "num": "010",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.046939849853516,
+        "prob_forced_choice": 0.0007437028637763687
+      },
+      "scroll": {
+        "logprob": -17.843814849853516,
+        "prob_forced_choice": 0.9992562971362237
+      }
+    }
+  },
+  {
+    "image": "011_correct_10000",
+    "num": "011",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.453203201293945,
+        "prob_forced_choice": 0.0004108485376346404
+      },
+      "scroll": {
+        "logprob": -17.656328201293945,
+        "prob_forced_choice": 0.9995891514623653
+      }
+    }
+  },
+  {
+    "image": "011_incorrect_10000",
+    "num": "011",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.58610725402832,
+        "prob_forced_choice": 0.0006719278067448447
+      },
+      "scroll": {
+        "logprob": -17.28141975402832,
+        "prob_forced_choice": 0.9993280721932551
+      }
+    }
+  },
+  {
+    "image": "012_correct_10000",
+    "num": "012",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.42201042175293,
+        "prob_forced_choice": 0.0011513995656772138
+      },
+      "scroll": {
+        "logprob": -17.65638542175293,
+        "prob_forced_choice": 0.9988486004343227
+      }
+    }
+  },
+  {
+    "image": "012_incorrect_10000",
+    "num": "012",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.53125762939453,
+        "prob_forced_choice": 0.00044076294791510137
+      },
+      "scroll": {
+        "logprob": -18.80469512939453,
+        "prob_forced_choice": 0.9995592370520848
+      }
+    }
+  },
+  {
+    "image": "013_correct_10000",
+    "num": "013",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.992534637451172,
+        "prob_forced_choice": 0.001512938361888412
+      },
+      "scroll": {
+        "logprob": -17.500347137451172,
+        "prob_forced_choice": 0.9984870616381116
+      }
+    }
+  },
+  {
+    "image": "013_incorrect_10000",
+    "num": "013",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.492347717285156,
+        "prob_forced_choice": 0.0006932422985664928
+      },
+      "scroll": {
+        "logprob": -17.218910217285156,
+        "prob_forced_choice": 0.9993067577014336
+      }
+    }
+  },
+  {
+    "image": "014_correct_10000",
+    "num": "014",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.984464645385742,
+        "prob_forced_choice": 0.0005976693711028652
+      },
+      "scroll": {
+        "logprob": -17.562589645385742,
+        "prob_forced_choice": 0.999402330628897
+      }
+    }
+  },
+  {
+    "image": "014_incorrect_10000",
+    "num": "014",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.32817268371582,
+        "prob_forced_choice": 0.0004802972318863163
+      },
+      "scroll": {
+        "logprob": -17.68754768371582,
+        "prob_forced_choice": 0.9995197027681136
+      }
+    }
+  },
+  {
+    "image": "015_correct_10000",
+    "num": "015",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.265722274780273,
+        "prob_forced_choice": 0.0004802972318863163
+      },
+      "scroll": {
+        "logprob": -17.625097274780273,
+        "prob_forced_choice": 0.9995197027681136
+      }
+    }
+  },
+  {
+    "image": "015_incorrect_10000",
+    "num": "015",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.328166961669922,
+        "prob_forced_choice": 0.0005112579049909173
+      },
+      "scroll": {
+        "logprob": -17.750041961669922,
+        "prob_forced_choice": 0.9994887420950092
+      }
+    }
+  },
+  {
+    "image": "016_correct_10000",
+    "num": "016",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.218852996826172,
+        "prob_forced_choice": 0.00045831290063503817
+      },
+      "scroll": {
+        "logprob": -17.531352996826172,
+        "prob_forced_choice": 0.999541687099365
+      }
+    }
+  },
+  {
+    "image": "016_incorrect_10000",
+    "num": "016",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.468788146972656,
+        "prob_forced_choice": 0.000487857122782266
+      },
+      "scroll": {
+        "logprob": -17.843788146972656,
+        "prob_forced_choice": 0.9995121428772178
+      }
+    }
+  },
+  {
+    "image": "017_correct_10000",
+    "num": "017",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.906360626220703,
+        "prob_forced_choice": 0.0005357805383473944
+      },
+      "scroll": {
+        "logprob": -17.375110626220703,
+        "prob_forced_choice": 0.9994642194616526
+      }
+    }
+  },
+  {
+    "image": "017_incorrect_10000",
+    "num": "017",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.43750762939453,
+        "prob_forced_choice": 0.0003175087886569813
+      },
+      "scroll": {
+        "logprob": -18.38282012939453,
+        "prob_forced_choice": 0.9996824912113431
+      }
+    }
+  },
+  {
+    "image": "018_correct_10000",
+    "num": "018",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.281465530395508,
+        "prob_forced_choice": 0.0009697519677825861
+      },
+      "scroll": {
+        "logprob": -17.343965530395508,
+        "prob_forced_choice": 0.9990302480322174
+      }
+    }
+  },
+  {
+    "image": "018_incorrect_10000",
+    "num": "018",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.937511444091797,
+        "prob_forced_choice": 0.0005233756913394546
+      },
+      "scroll": {
+        "logprob": -18.382823944091797,
+        "prob_forced_choice": 0.9994766243086606
+      }
+    }
+  },
+  {
+    "image": "019_correct_10000",
+    "num": "019",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.648588180541992,
+        "prob_forced_choice": 0.0006932422985664928
+      },
+      "scroll": {
+        "logprob": -17.375150680541992,
+        "prob_forced_choice": 0.9993067577014336
+      }
+    }
+  },
+  {
+    "image": "019_incorrect_10000",
+    "num": "019",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.5312557220459,
+        "prob_forced_choice": 0.0003799845147518645
+      },
+      "scroll": {
+        "logprob": -18.6562557220459,
+        "prob_forced_choice": 0.999620015485248
+      }
+    }
+  },
+  {
+    "image": "020_correct_10000",
+    "num": "020",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.679859161376953,
+        "prob_forced_choice": 0.0007379195929147702
+      },
+      "scroll": {
+        "logprob": -17.468921661376953,
+        "prob_forced_choice": 0.9992620804070853
+      }
+    }
+  },
+  {
+    "image": "020_incorrect_10000",
+    "num": "020",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.359439849853516,
+        "prob_forced_choice": 0.0005792916699214215
+      },
+      "scroll": {
+        "logprob": -17.906314849853516,
+        "prob_forced_choice": 0.9994207083300786
+      }
+    }
+  },
+  {
+    "image": "021_correct_10000",
+    "num": "021",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.637075424194336,
+        "prob_forced_choice": 0.0015307451011758208
+      },
+      "scroll": {
+        "logprob": -17.156606674194336,
+        "prob_forced_choice": 0.9984692548988241
+      }
+    }
+  },
+  {
+    "image": "021_incorrect_10000",
+    "num": "021",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -22.965633392333984,
+        "prob_forced_choice": 0.0029008577108601222
+      },
+      "scroll": {
+        "logprob": -17.125789642333984,
+        "prob_forced_choice": 0.99709914228914
+      }
+    }
+  },
+  {
+    "image": "022_correct_10000",
+    "num": "022",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.687576293945312,
+        "prob_forced_choice": 0.0008559006367452269
+      },
+      "scroll": {
+        "logprob": -17.625076293945312,
+        "prob_forced_choice": 0.9991440993632549
+      }
+    }
+  },
+  {
+    "image": "022_incorrect_10000",
+    "num": "022",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.750057220458984,
+        "prob_forced_choice": 0.0011335690050875119
+      },
+      "scroll": {
+        "logprob": -17.968807220458984,
+        "prob_forced_choice": 0.9988664309949126
+      }
+    }
+  },
+  {
+    "image": "023_correct_10000",
+    "num": "023",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.562671661376953,
+        "prob_forced_choice": 0.0007793660930208433
+      },
+      "scroll": {
+        "logprob": -17.406421661376953,
+        "prob_forced_choice": 0.9992206339069791
+      }
+    }
+  },
+  {
+    "image": "023_incorrect_10000",
+    "num": "023",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.679780960083008,
+        "prob_forced_choice": 0.0007152324320315966
+      },
+      "scroll": {
+        "logprob": -17.437593460083008,
+        "prob_forced_choice": 0.9992847675679684
+      }
+    }
+  },
+  {
+    "image": "024_correct_10000",
+    "num": "024",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.093835830688477,
+        "prob_forced_choice": 0.0006263341581094201
+      },
+      "scroll": {
+        "logprob": -17.718835830688477,
+        "prob_forced_choice": 0.9993736658418905
+      }
+    }
+  },
+  {
+    "image": "024_incorrect_10000",
+    "num": "024",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.7187557220459,
+        "prob_forced_choice": 0.000295957113513077
+      },
+      "scroll": {
+        "logprob": -18.5937557220459,
+        "prob_forced_choice": 0.999704042886487
+      }
+    }
+  },
+  {
+    "image": "025_correct_10000",
+    "num": "025",
+    "variant": "correct",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.383010864257812,
+        "prob_forced_choice": 0.0012351678202785303
+      },
+      "scroll": {
+        "logprob": -17.687698364257812,
+        "prob_forced_choice": 0.9987648321797215
+      }
+    }
+  },
+  {
+    "image": "025_incorrect_10000",
+    "num": "025",
+    "variant": "incorrect",
+    "scale_value": 10000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.953182220458984,
+        "prob_forced_choice": 0.0008167381046669486
+      },
+      "scroll": {
+        "logprob": -17.843807220458984,
+        "prob_forced_choice": 0.999183261895333
+      }
+    }
+  },
+  {
+    "image": "001_correct_100000",
+    "num": "001",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.35944366455078,
+        "prob_forced_choice": 0.0003859660905807735
+      },
+      "scroll": {
+        "logprob": -17.50006866455078,
+        "prob_forced_choice": 0.9996140339094192
+      }
+    }
+  },
+  {
+    "image": "001_incorrect_100000",
+    "num": "001",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.9062557220459,
+        "prob_forced_choice": 0.00027159213274713373
+      },
+      "scroll": {
+        "logprob": -18.6953182220459,
+        "prob_forced_choice": 0.9997284078672529
+      }
+    }
+  },
+  {
+    "image": "002_correct_100000",
+    "num": "002",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.56256866455078,
+        "prob_forced_choice": 0.0003920417892376281
+      },
+      "scroll": {
+        "logprob": -17.71881866455078,
+        "prob_forced_choice": 0.9996079582107623
+      }
+    }
+  },
+  {
+    "image": "002_incorrect_100000",
+    "num": "002",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.328216552734375,
+        "prob_forced_choice": 0.0004373344035182828
+      },
+      "scroll": {
+        "logprob": -17.593841552734375,
+        "prob_forced_choice": 0.9995626655964818
+      }
+    }
+  },
+  {
+    "image": "003_correct_100000",
+    "num": "003",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.312559127807617,
+        "prob_forced_choice": 0.0005703157070783359
+      },
+      "scroll": {
+        "logprob": -17.843809127807617,
+        "prob_forced_choice": 0.9994296842929216
+      }
+    }
+  },
+  {
+    "image": "003_incorrect_100000",
+    "num": "003",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.437509536743164,
+        "prob_forced_choice": 0.0003920417892376281
+      },
+      "scroll": {
+        "logprob": -18.593759536743164,
+        "prob_forced_choice": 0.9996079582107623
+      }
+    }
+  },
+  {
+    "image": "004_correct_100000",
+    "num": "004",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.343833923339844,
+        "prob_forced_choice": 0.0003799845147518645
+      },
+      "scroll": {
+        "logprob": -17.468833923339844,
+        "prob_forced_choice": 0.999620015485248
+      }
+    }
+  },
+  {
+    "image": "004_incorrect_100000",
+    "num": "004",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.04692840576172,
+        "prob_forced_choice": 0.0006986756664856787
+      },
+      "scroll": {
+        "logprob": -17.78130340576172,
+        "prob_forced_choice": 0.9993013243335144
+      }
+    }
+  },
+  {
+    "image": "005_correct_100000",
+    "num": "005",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.468889236450195,
+        "prob_forced_choice": 0.0012843081201339697
+      },
+      "scroll": {
+        "logprob": -17.812639236450195,
+        "prob_forced_choice": 0.9987156918798661
+      }
+    }
+  },
+  {
+    "image": "005_incorrect_100000",
+    "num": "005",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.953203201293945,
+        "prob_forced_choice": 0.0007916296072837431
+      },
+      "scroll": {
+        "logprob": -17.812578201293945,
+        "prob_forced_choice": 0.9992083703927161
+      }
+    }
+  },
+  {
+    "image": "006_correct_100000",
+    "num": "006",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.296916961669922,
+        "prob_forced_choice": 0.0005112579049909173
+      },
+      "scroll": {
+        "logprob": -17.718791961669922,
+        "prob_forced_choice": 0.9994887420950092
+      }
+    }
+  },
+  {
+    "image": "006_incorrect_100000",
+    "num": "006",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.968767166137695,
+        "prob_forced_choice": 0.0005357805383473944
+      },
+      "scroll": {
+        "logprob": -18.437517166137695,
+        "prob_forced_choice": 0.9994642194616526
+      }
+    }
+  },
+  {
+    "image": "007_correct_100000",
+    "num": "007",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.093828201293945,
+        "prob_forced_choice": 0.0006070755804415096
+      },
+      "scroll": {
+        "logprob": -17.687578201293945,
+        "prob_forced_choice": 0.9993929244195585
+      }
+    }
+  },
+  {
+    "image": "007_incorrect_100000",
+    "num": "007",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.43750762939453,
+        "prob_forced_choice": 0.0003920417892376281
+      },
+      "scroll": {
+        "logprob": -18.59375762939453,
+        "prob_forced_choice": 0.9996079582107623
+      }
+    }
+  },
+  {
+    "image": "008_correct_100000",
+    "num": "008",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.468801498413086,
+        "prob_forced_choice": 0.0003682979260160596
+      },
+      "scroll": {
+        "logprob": -17.562551498413086,
+        "prob_forced_choice": 0.999631702073984
+      }
+    }
+  },
+  {
+    "image": "008_incorrect_100000",
+    "num": "008",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.156267166137695,
+        "prob_forced_choice": 0.000330152725097801
+      },
+      "scroll": {
+        "logprob": -18.140642166137695,
+        "prob_forced_choice": 0.9996698472749022
+      }
+    }
+  },
+  {
+    "image": "009_correct_100000",
+    "num": "009",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.53132438659668,
+        "prob_forced_choice": 0.00043055708132461493
+      },
+      "scroll": {
+        "logprob": -17.78132438659668,
+        "prob_forced_choice": 0.9995694429186754
+      }
+    }
+  },
+  {
+    "image": "009_incorrect_100000",
+    "num": "009",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.35941505432129,
+        "prob_forced_choice": 0.0006667023092435894
+      },
+      "scroll": {
+        "logprob": -18.04691505432129,
+        "prob_forced_choice": 0.9993332976907565
+      }
+    }
+  },
+  {
+    "image": "010_correct_100000",
+    "num": "010",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.945419311523438,
+        "prob_forced_choice": 0.0006411777211655285
+      },
+      "scroll": {
+        "logprob": -17.593856811523438,
+        "prob_forced_choice": 0.9993588222788345
+      }
+    }
+  },
+  {
+    "image": "010_incorrect_100000",
+    "num": "010",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.87505340576172,
+        "prob_forced_choice": 0.0010649626720559452
+      },
+      "scroll": {
+        "logprob": -18.03130340576172,
+        "prob_forced_choice": 0.9989350373279441
+      }
+    }
+  },
+  {
+    "image": "011_correct_100000",
+    "num": "011",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.03135871887207,
+        "prob_forced_choice": 0.000646203290719727
+      },
+      "scroll": {
+        "logprob": -17.68760871887207,
+        "prob_forced_choice": 0.9993537967092804
+      }
+    }
+  },
+  {
+    "image": "011_incorrect_100000",
+    "num": "011",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.015718460083008,
+        "prob_forced_choice": 0.0006563728324346652
+      },
+      "scroll": {
+        "logprob": -17.687593460083008,
+        "prob_forced_choice": 0.9993436271675653
+      }
+    }
+  },
+  {
+    "image": "012_correct_100000",
+    "num": "012",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.09379768371582,
+        "prob_forced_choice": 0.000519304864494927
+      },
+      "scroll": {
+        "logprob": -17.53129768371582,
+        "prob_forced_choice": 0.999480695135505
+      }
+    }
+  },
+  {
+    "image": "012_incorrect_100000",
+    "num": "012",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.312509536743164,
+        "prob_forced_choice": 0.00045121062377819225
+      },
+      "scroll": {
+        "logprob": -18.609384536743164,
+        "prob_forced_choice": 0.9995487893762218
+      }
+    }
+  },
+  {
+    "image": "013_correct_100000",
+    "num": "013",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.31251335144043,
+        "prob_forced_choice": 0.0010162440410680167
+      },
+      "scroll": {
+        "logprob": -18.42188835144043,
+        "prob_forced_choice": 0.9989837559589321
+      }
+    }
+  },
+  {
+    "image": "013_incorrect_100000",
+    "num": "013",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.812511444091797,
+        "prob_forced_choice": 0.0007208380258812108
+      },
+      "scroll": {
+        "logprob": -18.578136444091797,
+        "prob_forced_choice": 0.9992791619741188
+      }
+    }
+  },
+  {
+    "image": "014_correct_100000",
+    "num": "014",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.18759536743164,
+        "prob_forced_choice": 0.0005357805383473944
+      },
+      "scroll": {
+        "logprob": -17.65634536743164,
+        "prob_forced_choice": 0.9994642194616526
+      }
+    }
+  },
+  {
+    "image": "014_incorrect_100000",
+    "num": "014",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.937501907348633,
+        "prob_forced_choice": 0.00035006861497698767
+      },
+      "scroll": {
+        "logprob": -18.980470657348633,
+        "prob_forced_choice": 0.999649931385023
+      }
+    }
+  },
+  {
+    "image": "015_correct_100000",
+    "num": "015",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.547029495239258,
+        "prob_forced_choice": 0.0009547317110805592
+      },
+      "scroll": {
+        "logprob": -17.593904495239258,
+        "prob_forced_choice": 0.9990452682889194
+      }
+    }
+  },
+  {
+    "image": "015_incorrect_100000",
+    "num": "015",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.50002670288086,
+        "prob_forced_choice": 0.0006667023092435894
+      },
+      "scroll": {
+        "logprob": -18.18752670288086,
+        "prob_forced_choice": 0.9993332976907565
+      }
+    }
+  },
+  {
+    "image": "016_correct_100000",
+    "num": "016",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.92198944091797,
+        "prob_forced_choice": 0.0006563728324346652
+      },
+      "scroll": {
+        "logprob": -17.59386444091797,
+        "prob_forced_choice": 0.9993436271675653
+      }
+    }
+  },
+  {
+    "image": "016_incorrect_100000",
+    "num": "016",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.31254005432129,
+        "prob_forced_choice": 0.0007096703991005882
+      },
+      "scroll": {
+        "logprob": -18.06254005432129,
+        "prob_forced_choice": 0.9992903296008995
+      }
+    }
+  },
+  {
+    "image": "017_correct_100000",
+    "num": "017",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.5626220703125,
+        "prob_forced_choice": 0.0008830458477845482
+      },
+      "scroll": {
+        "logprob": -17.5313720703125,
+        "prob_forced_choice": 0.9991169541522155
+      }
+    }
+  },
+  {
+    "image": "017_incorrect_100000",
+    "num": "017",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.50002670288086,
+        "prob_forced_choice": 0.0007096703991005882
+      },
+      "scroll": {
+        "logprob": -18.25002670288086,
+        "prob_forced_choice": 0.9992903296008995
+      }
+    }
+  },
+  {
+    "image": "018_correct_100000",
+    "num": "018",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.547035217285156,
+        "prob_forced_choice": 0.0008969393236719385
+      },
+      "scroll": {
+        "logprob": -17.531410217285156,
+        "prob_forced_choice": 0.9991030606763281
+      }
+    }
+  },
+  {
+    "image": "018_incorrect_100000",
+    "num": "018",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.07819175720215,
+        "prob_forced_choice": 0.000767292412858718
+      },
+      "scroll": {
+        "logprob": -17.90631675720215,
+        "prob_forced_choice": 0.9992327075871412
+      }
+    }
+  },
+  {
+    "image": "019_correct_100000",
+    "num": "019",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.246309280395508,
+        "prob_forced_choice": 0.0013302015099117559
+      },
+      "scroll": {
+        "logprob": -17.625215530395508,
+        "prob_forced_choice": 0.9986697984900882
+      }
+    }
+  },
+  {
+    "image": "019_incorrect_100000",
+    "num": "019",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -27.031253814697266,
+        "prob_forced_choice": 0.00030894717668771845
+      },
+      "scroll": {
+        "logprob": -18.949222564697266,
+        "prob_forced_choice": 0.9996910528233123
+      }
+    }
+  },
+  {
+    "image": "020_correct_100000",
+    "num": "020",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.343791961669922,
+        "prob_forced_choice": 0.0005527786369235996
+      },
+      "scroll": {
+        "logprob": -17.843791961669922,
+        "prob_forced_choice": 0.9994472213630764
+      }
+    }
+  },
+  {
+    "image": "020_incorrect_100000",
+    "num": "020",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.031267166137695,
+        "prob_forced_choice": 0.0005792916699214215
+      },
+      "scroll": {
+        "logprob": -18.578142166137695,
+        "prob_forced_choice": 0.9994207083300786
+      }
+    }
+  },
+  {
+    "image": "021_correct_100000",
+    "num": "021",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.195470809936523,
+        "prob_forced_choice": 0.0012351678202785303
+      },
+      "scroll": {
+        "logprob": -17.500158309936523,
+        "prob_forced_choice": 0.9987648321797215
+      }
+    }
+  },
+  {
+    "image": "021_incorrect_100000",
+    "num": "021",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.507984161376953,
+        "prob_forced_choice": 0.0007978334816343424
+      },
+      "scroll": {
+        "logprob": -17.375171661376953,
+        "prob_forced_choice": 0.9992021665183656
+      }
+    }
+  },
+  {
+    "image": "022_correct_100000",
+    "num": "022",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.015674591064453,
+        "prob_forced_choice": 0.0007916296072837431
+      },
+      "scroll": {
+        "logprob": -17.875049591064453,
+        "prob_forced_choice": 0.9992083703927161
+      }
+    }
+  },
+  {
+    "image": "022_incorrect_100000",
+    "num": "022",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.984447479248047,
+        "prob_forced_choice": 0.0006563728324346652
+      },
+      "scroll": {
+        "logprob": -17.656322479248047,
+        "prob_forced_choice": 0.9993436271675653
+      }
+    }
+  },
+  {
+    "image": "023_correct_100000",
+    "num": "023",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.461132049560547,
+        "prob_forced_choice": 0.000761325841895028
+      },
+      "scroll": {
+        "logprob": -17.281444549560547,
+        "prob_forced_choice": 0.9992386741581051
+      }
+    }
+  },
+  {
+    "image": "023_incorrect_100000",
+    "num": "023",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.12501335144043,
+        "prob_forced_choice": 0.000487857122782266
+      },
+      "scroll": {
+        "logprob": -18.50001335144043,
+        "prob_forced_choice": 0.9995121428772178
+      }
+    }
+  },
+  {
+    "image": "024_correct_100000",
+    "num": "024",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.17196273803711,
+        "prob_forced_choice": 0.0004373344035182828
+      },
+      "scroll": {
+        "logprob": -17.43758773803711,
+        "prob_forced_choice": 0.9995626655964818
+      }
+    }
+  },
+  {
+    "image": "024_incorrect_100000",
+    "num": "024",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -27.500001907348633,
+        "prob_forced_choice": 0.00019411318677896262
+      },
+      "scroll": {
+        "logprob": -18.953126907348633,
+        "prob_forced_choice": 0.9998058868132211
+      }
+    }
+  },
+  {
+    "image": "025_correct_100000",
+    "num": "025",
+    "variant": "correct",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.86730194091797,
+        "prob_forced_choice": 0.0008360902969426321
+      },
+      "scroll": {
+        "logprob": -17.78136444091797,
+        "prob_forced_choice": 0.9991639097030574
+      }
+    }
+  },
+  {
+    "image": "025_incorrect_100000",
+    "num": "025",
+    "variant": "incorrect",
+    "scale_value": 100000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.000043869018555,
+        "prob_forced_choice": 0.0008969393236719385
+      },
+      "scroll": {
+        "logprob": -17.984418869018555,
+        "prob_forced_choice": 0.9991030606763281
+      }
+    }
+  },
+  {
+    "image": "001_correct_1000000",
+    "num": "001",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.718786239624023,
+        "prob_forced_choice": 0.00045831290063503817
+      },
+      "scroll": {
+        "logprob": -18.031286239624023,
+        "prob_forced_choice": 0.999541687099365
+      }
+    }
+  },
+  {
+    "image": "001_incorrect_1000000",
+    "num": "001",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.125009536743164,
+        "prob_forced_choice": 0.0004477008468802068
+      },
+      "scroll": {
+        "logprob": -18.414072036743164,
+        "prob_forced_choice": 0.9995522991531197
+      }
+    }
+  },
+  {
+    "image": "002_correct_1000000",
+    "num": "002",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.172210693359375,
+        "prob_forced_choice": 0.0011513995656772138
+      },
+      "scroll": {
+        "logprob": -17.406585693359375,
+        "prob_forced_choice": 0.9988486004343227
+      }
+    }
+  },
+  {
+    "image": "002_incorrect_1000000",
+    "num": "002",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.687694549560547,
+        "prob_forced_choice": 0.0007554056327295276
+      },
+      "scroll": {
+        "logprob": -17.500194549560547,
+        "prob_forced_choice": 0.9992445943672705
+      }
+    }
+  },
+  {
+    "image": "003_correct_1000000",
+    "num": "003",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.820432662963867,
+        "prob_forced_choice": 0.0007264875213164841
+      },
+      "scroll": {
+        "logprob": -17.593870162963867,
+        "prob_forced_choice": 0.9992735124786836
+      }
+    }
+  },
+  {
+    "image": "003_incorrect_1000000",
+    "num": "003",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.031267166137695,
+        "prob_forced_choice": 0.0005274784125231481
+      },
+      "scroll": {
+        "logprob": -18.484392166137695,
+        "prob_forced_choice": 0.9994725215874769
+      }
+    }
+  },
+  {
+    "image": "004_correct_1000000",
+    "num": "004",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.81264877319336,
+        "prob_forced_choice": 0.0006667023092435894
+      },
+      "scroll": {
+        "logprob": -17.50014877319336,
+        "prob_forced_choice": 0.9993332976907565
+      }
+    }
+  },
+  {
+    "image": "004_incorrect_1000000",
+    "num": "004",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.812511444091797,
+        "prob_forced_choice": 0.0006263341581094201
+      },
+      "scroll": {
+        "logprob": -18.437511444091797,
+        "prob_forced_choice": 0.9993736658418905
+      }
+    }
+  },
+  {
+    "image": "005_correct_1000000",
+    "num": "005",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.390838623046875,
+        "prob_forced_choice": 0.0008693673928062171
+      },
+      "scroll": {
+        "logprob": -17.343963623046875,
+        "prob_forced_choice": 0.9991306326071938
+      }
+    }
+  },
+  {
+    "image": "005_incorrect_1000000",
+    "num": "005",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.554855346679688,
+        "prob_forced_choice": 0.0008360902969426321
+      },
+      "scroll": {
+        "logprob": -17.468917846679688,
+        "prob_forced_choice": 0.9991639097030574
+      }
+    }
+  },
+  {
+    "image": "006_correct_1000000",
+    "num": "006",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.820417404174805,
+        "prob_forced_choice": 0.0015854306758212333
+      },
+      "scroll": {
+        "logprob": -17.375104904174805,
+        "prob_forced_choice": 0.9984145693241788
+      }
+    }
+  },
+  {
+    "image": "006_incorrect_1000000",
+    "num": "006",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.968786239624023,
+        "prob_forced_choice": 0.0009399438806628558
+      },
+      "scroll": {
+        "logprob": -18.000036239624023,
+        "prob_forced_choice": 0.9990600561193372
+      }
+    }
+  },
+  {
+    "image": "007_correct_1000000",
+    "num": "007",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.015682220458984,
+        "prob_forced_choice": 0.0008295891883591028
+      },
+      "scroll": {
+        "logprob": -17.921932220458984,
+        "prob_forced_choice": 0.9991704108116409
+      }
+    }
+  },
+  {
+    "image": "007_incorrect_1000000",
+    "num": "007",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.2187557220459,
+        "prob_forced_choice": 0.0005484792388673105
+      },
+      "scroll": {
+        "logprob": -18.7109432220459,
+        "prob_forced_choice": 0.9994515207611326
+      }
+    }
+  },
+  {
+    "image": "008_correct_1000000",
+    "num": "008",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.656381607055664,
+        "prob_forced_choice": 0.000687851155055246
+      },
+      "scroll": {
+        "logprob": -17.375131607055664,
+        "prob_forced_choice": 0.9993121488449448
+      }
+    }
+  },
+  {
+    "image": "008_incorrect_1000000",
+    "num": "008",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.765653610229492,
+        "prob_forced_choice": 0.0005033355754528115
+      },
+      "scroll": {
+        "logprob": -18.171903610229492,
+        "prob_forced_choice": 0.9994966644245472
+      }
+    }
+  },
+  {
+    "image": "009_correct_1000000",
+    "num": "009",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.421937942504883,
+        "prob_forced_choice": 0.00046552691875201524
+      },
+      "scroll": {
+        "logprob": -17.750062942504883,
+        "prob_forced_choice": 0.9995344730812479
+      }
+    }
+  },
+  {
+    "image": "009_incorrect_1000000",
+    "num": "009",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.84376335144043,
+        "prob_forced_choice": 0.0005884088185569387
+      },
+      "scroll": {
+        "logprob": -18.40626335144043,
+        "prob_forced_choice": 0.9994115911814431
+      }
+    }
+  },
+  {
+    "image": "010_correct_1000000",
+    "num": "010",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.562580108642578,
+        "prob_forced_choice": 0.0012065897122463891
+      },
+      "scroll": {
+        "logprob": -17.843830108642578,
+        "prob_forced_choice": 0.9987934102877537
+      }
+    }
+  },
+  {
+    "image": "010_incorrect_1000000",
+    "num": "010",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -26.3125057220459,
+        "prob_forced_choice": 0.0004373344035182828
+      },
+      "scroll": {
+        "logprob": -18.5781307220459,
+        "prob_forced_choice": 0.9995626655964818
+      }
+    }
+  },
+  {
+    "image": "011_correct_1000000",
+    "num": "011",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.062620162963867,
+        "prob_forced_choice": 0.000687851155055246
+      },
+      "scroll": {
+        "logprob": -17.781370162963867,
+        "prob_forced_choice": 0.9993121488449448
+      }
+    }
+  },
+  {
+    "image": "011_incorrect_1000000",
+    "num": "011",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.921960830688477,
+        "prob_forced_choice": 0.0006361912109467575
+      },
+      "scroll": {
+        "logprob": -17.562585830688477,
+        "prob_forced_choice": 0.9993638087890532
+      }
+    }
+  },
+  {
+    "image": "012_correct_1000000",
+    "num": "012",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.14073944091797,
+        "prob_forced_choice": 0.0005614787461400804
+      },
+      "scroll": {
+        "logprob": -17.65636444091797,
+        "prob_forced_choice": 0.99943852125386
+      }
+    }
+  },
+  {
+    "image": "012_incorrect_1000000",
+    "num": "012",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.093835830688477,
+        "prob_forced_choice": 0.0005884088185569387
+      },
+      "scroll": {
+        "logprob": -17.656335830688477,
+        "prob_forced_choice": 0.9994115911814431
+      }
+    }
+  },
+  {
+    "image": "013_correct_1000000",
+    "num": "013",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.796974182128906,
+        "prob_forced_choice": 0.0007916296072837431
+      },
+      "scroll": {
+        "logprob": -17.656349182128906,
+        "prob_forced_choice": 0.9992083703927161
+      }
+    }
+  },
+  {
+    "image": "013_incorrect_1000000",
+    "num": "013",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.757970809936523,
+        "prob_forced_choice": 0.0007264875213164841
+      },
+      "scroll": {
+        "logprob": -17.531408309936523,
+        "prob_forced_choice": 0.9992735124786836
+      }
+    }
+  },
+  {
+    "image": "014_correct_1000000",
+    "num": "014",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.296985626220703,
+        "prob_forced_choice": 0.0005274784125231481
+      },
+      "scroll": {
+        "logprob": -17.750110626220703,
+        "prob_forced_choice": 0.9994725215874769
+      }
+    }
+  },
+  {
+    "image": "014_incorrect_1000000",
+    "num": "014",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.31261444091797,
+        "prob_forced_choice": 0.00040448149784208087
+      },
+      "scroll": {
+        "logprob": -17.50011444091797,
+        "prob_forced_choice": 0.9995955185021579
+      }
+    }
+  },
+  {
+    "image": "015_correct_1000000",
+    "num": "015",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.18759536743164,
+        "prob_forced_choice": 0.0006070755804415096
+      },
+      "scroll": {
+        "logprob": -17.78134536743164,
+        "prob_forced_choice": 0.9993929244195585
+      }
+    }
+  },
+  {
+    "image": "015_incorrect_1000000",
+    "num": "015",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.343822479248047,
+        "prob_forced_choice": 0.0006070755804415096
+      },
+      "scroll": {
+        "logprob": -17.937572479248047,
+        "prob_forced_choice": 0.9993929244195585
+      }
+    }
+  },
+  {
+    "image": "016_correct_1000000",
+    "num": "016",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.64859962463379,
+        "prob_forced_choice": 0.0008360902969426321
+      },
+      "scroll": {
+        "logprob": -17.56266212463379,
+        "prob_forced_choice": 0.9991639097030574
+      }
+    }
+  },
+  {
+    "image": "016_incorrect_1000000",
+    "num": "016",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.031335830688477,
+        "prob_forced_choice": 0.0007554056327295276
+      },
+      "scroll": {
+        "logprob": -17.843835830688477,
+        "prob_forced_choice": 0.9992445943672705
+      }
+    }
+  },
+  {
+    "image": "017_correct_1000000",
+    "num": "017",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.312606811523438,
+        "prob_forced_choice": 0.00045831290063503817
+      },
+      "scroll": {
+        "logprob": -17.625106811523438,
+        "prob_forced_choice": 0.999541687099365
+      }
+    }
+  },
+  {
+    "image": "017_incorrect_1000000",
+    "num": "017",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.218826293945312,
+        "prob_forced_choice": 0.0005703157070783359
+      },
+      "scroll": {
+        "logprob": -17.750076293945312,
+        "prob_forced_choice": 0.9994296842929216
+      }
+    }
+  },
+  {
+    "image": "018_correct_1000000",
+    "num": "018",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.781442642211914,
+        "prob_forced_choice": 0.0008295891883591028
+      },
+      "scroll": {
+        "logprob": -17.687692642211914,
+        "prob_forced_choice": 0.9991704108116409
+      }
+    }
+  },
+  {
+    "image": "018_incorrect_1000000",
+    "num": "018",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.93751335144043,
+        "prob_forced_choice": 0.0005976693711028652
+      },
+      "scroll": {
+        "logprob": -18.51563835144043,
+        "prob_forced_choice": 0.999402330628897
+      }
+    }
+  },
+  {
+    "image": "019_correct_1000000",
+    "num": "019",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.94545555114746,
+        "prob_forced_choice": 0.0006615174228741224
+      },
+      "scroll": {
+        "logprob": -17.62514305114746,
+        "prob_forced_choice": 0.999338482577126
+      }
+    }
+  },
+  {
+    "image": "019_incorrect_1000000",
+    "num": "019",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.68752670288086,
+        "prob_forced_choice": 0.000519304864494927
+      },
+      "scroll": {
+        "logprob": -18.12502670288086,
+        "prob_forced_choice": 0.999480695135505
+      }
+    }
+  },
+  {
+    "image": "020_correct_1000000",
+    "num": "020",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.070417404174805,
+        "prob_forced_choice": 0.0005316132776684706
+      },
+      "scroll": {
+        "logprob": -17.531354904174805,
+        "prob_forced_choice": 0.9994683867223316
+      }
+    }
+  },
+  {
+    "image": "020_incorrect_1000000",
+    "num": "020",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.07040023803711,
+        "prob_forced_choice": 0.0006214630161383599
+      },
+      "scroll": {
+        "logprob": -17.68758773803711,
+        "prob_forced_choice": 0.9993785369838617
+      }
+    }
+  },
+  {
+    "image": "021_correct_1000000",
+    "num": "021",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.328248977661133,
+        "prob_forced_choice": 0.001116014259843091
+      },
+      "scroll": {
+        "logprob": -17.531373977661133,
+        "prob_forced_choice": 0.9988839857401568
+      }
+    }
+  },
+  {
+    "image": "021_incorrect_1000000",
+    "num": "021",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.531278610229492,
+        "prob_forced_choice": 0.0005614787461400804
+      },
+      "scroll": {
+        "logprob": -18.046903610229492,
+        "prob_forced_choice": 0.99943852125386
+      }
+    }
+  },
+  {
+    "image": "022_correct_1000000",
+    "num": "022",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.48457145690918,
+        "prob_forced_choice": 0.0011513995656772138
+      },
+      "scroll": {
+        "logprob": -17.71894645690918,
+        "prob_forced_choice": 0.9988486004343227
+      }
+    }
+  },
+  {
+    "image": "022_incorrect_1000000",
+    "num": "022",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.125089645385742,
+        "prob_forced_choice": 0.0006263341581094201
+      },
+      "scroll": {
+        "logprob": -17.750089645385742,
+        "prob_forced_choice": 0.9993736658418905
+      }
+    }
+  },
+  {
+    "image": "023_correct_1000000",
+    "num": "023",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.312673568725586,
+        "prob_forced_choice": 0.0011335690050875119
+      },
+      "scroll": {
+        "logprob": -17.531423568725586,
+        "prob_forced_choice": 0.9988664309949126
+      }
+    }
+  },
+  {
+    "image": "023_incorrect_1000000",
+    "num": "023",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.718774795532227,
+        "prob_forced_choice": 0.0007437028637763687
+      },
+      "scroll": {
+        "logprob": -18.515649795532227,
+        "prob_forced_choice": 0.9992562971362237
+      }
+    }
+  },
+  {
+    "image": "024_correct_1000000",
+    "num": "024",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -23.66646957397461,
+        "prob_forced_choice": 0.0015337331693289025
+      },
+      "scroll": {
+        "logprob": -17.18795394897461,
+        "prob_forced_choice": 0.9984662668306712
+      }
+    }
+  },
+  {
+    "image": "024_incorrect_1000000",
+    "num": "024",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.64065170288086,
+        "prob_forced_choice": 0.0006070755804415096
+      },
+      "scroll": {
+        "logprob": -18.23440170288086,
+        "prob_forced_choice": 0.9993929244195585
+      }
+    }
+  },
+  {
+    "image": "025_correct_1000000",
+    "num": "025",
+    "variant": "correct",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -24.88295555114746,
+        "prob_forced_choice": 0.0006411777211655285
+      },
+      "scroll": {
+        "logprob": -17.53139305114746,
+        "prob_forced_choice": 0.9993588222788345
+      }
+    }
+  },
+  {
+    "image": "025_incorrect_1000000",
+    "num": "025",
+    "variant": "incorrect",
+    "scale_value": 1000000,
+    "prompt": "You are shown a social media post.\nYou can either press the Like button or scroll past it.\nDo you press Like on this post?\nReply with only 'like' or 'scroll'.",
+    "answer": "scroll",
+    "candidates": {
+      "like": {
+        "logprob": -25.0938663482666,
+        "prob_forced_choice": 0.0007096703991005882
+      },
+      "scroll": {
+        "logprob": -17.8438663482666,
+        "prob_forced_choice": 0.9992903296008995
+      }
+    }
+  }
+]
