@@ -1,0 +1,502 @@
+[
+  {
+    "image": "001_remy_ashford_c",
+    "num": "001",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "54.6",
+      "wind_year10": "47.3"
+    }
+  },
+  {
+    "image": "002_remy_ashford_c",
+    "num": "002",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "40.6",
+      "wind_year10": "39.2"
+    }
+  },
+  {
+    "image": "003_remy_ashford_c",
+    "num": "003",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "32.4",
+      "wind_year10": "25.9"
+    }
+  },
+  {
+    "image": "004_remy_ashford_c",
+    "num": "004",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "39.7",
+      "wind_year10": "34.2"
+    }
+  },
+  {
+    "image": "005_remy_ashford_c",
+    "num": "005",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "31.2",
+      "wind_year10": "24.5"
+    }
+  },
+  {
+    "image": "006_remy_ashford_c",
+    "num": "006",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "12.6",
+      "wind_year10": "7.1"
+    }
+  },
+  {
+    "image": "007_remy_ashford_c",
+    "num": "007",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "28.4",
+      "wind_year10": "20.9"
+    }
+  },
+  {
+    "image": "008_remy_ashford_c",
+    "num": "008",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "20.9",
+      "wind_year10": "14.8"
+    }
+  },
+  {
+    "image": "009_remy_ashford_c",
+    "num": "009",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "42.5",
+      "wind_year10": "39.8"
+    }
+  },
+  {
+    "image": "010_remy_ashford_c",
+    "num": "010",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "11.4",
+      "wind_year10": "6.3"
+    }
+  },
+  {
+    "image": "011_remy_ashford_c",
+    "num": "011",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "81.9",
+      "wind_year10": "77.8"
+    }
+  },
+  {
+    "image": "012_remy_ashford_c",
+    "num": "012",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "22.4",
+      "wind_year10": "15.0"
+    }
+  },
+  {
+    "image": "013_remy_ashford_c",
+    "num": "013",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "81.4",
+      "wind_year10": "70.9"
+    }
+  },
+  {
+    "image": "014_remy_ashford_c",
+    "num": "014",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "58.5",
+      "wind_year10": "51.2"
+    }
+  },
+  {
+    "image": "015_remy_ashford_c",
+    "num": "015",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "46.1",
+      "wind_year10": "40.4"
+    }
+  },
+  {
+    "image": "016_remy_ashford_c",
+    "num": "016",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "20.3",
+      "wind_year10": "14.6"
+    }
+  },
+  {
+    "image": "017_remy_ashford_c",
+    "num": "017",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "80.4",
+      "wind_year10": "74.6"
+    }
+  },
+  {
+    "image": "018_remy_ashford_c",
+    "num": "018",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "51.9",
+      "wind_year10": "43.6"
+    }
+  },
+  {
+    "image": "019_remy_ashford_c",
+    "num": "019",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "49.0",
+      "wind_year10": "41.1"
+    }
+  },
+  {
+    "image": "020_remy_ashford_c",
+    "num": "020",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "22.8",
+      "wind_year10": "16.6"
+    }
+  },
+  {
+    "image": "021_remy_ashford_c",
+    "num": "021",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "24.8",
+      "wind_year10": "17.1"
+    }
+  },
+  {
+    "image": "022_remy_ashford_c",
+    "num": "022",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "55.8",
+      "wind_year10": "52.8"
+    }
+  },
+  {
+    "image": "023_remy_ashford_c",
+    "num": "023",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "21.7",
+      "wind_year10": "17.5"
+    }
+  },
+  {
+    "image": "024_remy_ashford_c",
+    "num": "024",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "30.6",
+      "wind_year10": "29.6"
+    }
+  },
+  {
+    "image": "025_remy_ashford_c",
+    "num": "025",
+    "variant": "correct",
+    "answers": {
+      "post_claim_correct": "correct",
+      "solar_year10": "59.9",
+      "wind_year10": "54.3"
+    }
+  },
+  {
+    "image": "001_remy_ashford_i",
+    "num": "001",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "54.6",
+      "wind_year10": "47.3"
+    }
+  },
+  {
+    "image": "002_remy_ashford_i",
+    "num": "002",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "40.6",
+      "wind_year10": "39.2"
+    }
+  },
+  {
+    "image": "003_remy_ashford_i",
+    "num": "003",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "32.4",
+      "wind_year10": "25.9"
+    }
+  },
+  {
+    "image": "004_remy_ashford_i",
+    "num": "004",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "39.7",
+      "wind_year10": "34.2"
+    }
+  },
+  {
+    "image": "005_remy_ashford_i",
+    "num": "005",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "24.5",
+      "wind_year10": "24.5"
+    }
+  },
+  {
+    "image": "006_remy_ashford_i",
+    "num": "006",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "12.6",
+      "wind_year10": "7.1"
+    }
+  },
+  {
+    "image": "007_remy_ashford_i",
+    "num": "007",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "28.4",
+      "wind_year10": "20.9"
+    }
+  },
+  {
+    "image": "008_remy_ashford_i",
+    "num": "008",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "20.9",
+      "wind_year10": "14.8"
+    }
+  },
+  {
+    "image": "009_remy_ashford_i",
+    "num": "009",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "42.5",
+      "wind_year10": "39.8"
+    }
+  },
+  {
+    "image": "010_remy_ashford_i",
+    "num": "010",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "11.4",
+      "wind_year10": "6.3"
+    }
+  },
+  {
+    "image": "011_remy_ashford_i",
+    "num": "011",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "81.9",
+      "wind_year10": "77.8"
+    }
+  },
+  {
+    "image": "012_remy_ashford_i",
+    "num": "012",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "22.4",
+      "wind_year10": "15.0"
+    }
+  },
+  {
+    "image": "013_remy_ashford_i",
+    "num": "013",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "81.4",
+      "wind_year10": "70.9"
+    }
+  },
+  {
+    "image": "014_remy_ashford_i",
+    "num": "014",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "58.5",
+      "wind_year10": "51.2"
+    }
+  },
+  {
+    "image": "015_remy_ashford_i",
+    "num": "015",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "46.1",
+      "wind_year10": "40.4"
+    }
+  },
+  {
+    "image": "016_remy_ashford_i",
+    "num": "016",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "20.3",
+      "wind_year10": "14.6"
+    }
+  },
+  {
+    "image": "017_remy_ashford_i",
+    "num": "017",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "80.4",
+      "wind_year10": "74.6"
+    }
+  },
+  {
+    "image": "018_remy_ashford_i",
+    "num": "018",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "51.9",
+      "wind_year10": "43.6"
+    }
+  },
+  {
+    "image": "019_remy_ashford_i",
+    "num": "019",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "49.0",
+      "wind_year10": "41.1"
+    }
+  },
+  {
+    "image": "020_remy_ashford_i",
+    "num": "020",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "22.8",
+      "wind_year10": "16.6"
+    }
+  },
+  {
+    "image": "021_remy_ashford_i",
+    "num": "021",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "24.8",
+      "wind_year10": "17.1"
+    }
+  },
+  {
+    "image": "022_remy_ashford_i",
+    "num": "022",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "52.8",
+      "wind_year10": "52.8"
+    }
+  },
+  {
+    "image": "023_remy_ashford_i",
+    "num": "023",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "21.7",
+      "wind_year10": "17.5"
+    }
+  },
+  {
+    "image": "024_remy_ashford_i",
+    "num": "024",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "30.6",
+      "wind_year10": "29.6"
+    }
+  },
+  {
+    "image": "025_remy_ashford_i",
+    "num": "025",
+    "variant": "incorrect",
+    "answers": {
+      "post_claim_correct": "incorrect",
+      "solar_year10": "59.9",
+      "wind_year10": "54.3"
+    }
+  }
+]
