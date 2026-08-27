@@ -1,705 +1,101 @@
 image,ground_truth,prediction,correct
-001_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-001_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year"" based on the spotify 2026 music genres distribution.
-
-from the chart:
-- **latin** has a percentage of **11.0%**.
-- **pop** has a percentage of **23.5%**.
-
-since **pop (23.5%)** is more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-003_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-- latin accounts for **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-003_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- latin has a percentage of **11.0%**.
-- pop has a percentage of **23.5%**.
-
-since **pop (23.5%)** is more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-004_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-004_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-005_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-005_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-006_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-006_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-007_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-007_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-012_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-012_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- latin has a percentage of **11.0%**.
-- pop has a percentage of **23.5%**.
-
-since **pop (23.5%)** is more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-014_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-014_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the pie chart:
-- **latin** has a percentage of **11.0%**.
-- **pop** has a percentage of **23.5%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-015_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-- latin accounts for **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-015_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-017_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-017_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the pie chart:
-- **latin** has a percentage of **11.0%**.
-- **pop** has a percentage of **23.5%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-018_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-018_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- **latin** has a percentage of **11.0%**.
-- **pop** has a percentage of **23.5%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-020_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-- latin accounts for **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-020_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year!""
-
-according to the pie chart:
-- **latin** has a percentage of **11.0%**.
-- **pop** has a percentage of **23.5%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-021_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of music genre preferences.
-- latin accounts for **11.0%** of music genre preferences.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-021_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-023_correct,correct,"the claim in the text states that ""pop was more popular than latin this year.""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-023_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- **pop** has a percentage of **23.5%**.
-- **latin** has a percentage of **11.0%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-025_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-- latin accounts for **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-025_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-026_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-- latin accounts for **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-026_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-028_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-028_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- **latin** has a percentage of **11.0%**.
-- **pop** has a percentage of **23.5%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-029_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-029_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year!""
-
-according to the chart:
-- **latin** has a percentage of **11.0%**.
-- **pop** has a percentage of **23.5%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-030_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of music genre preferences.
-- latin accounts for **11.0%** of music genre preferences.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-030_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-032_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-- latin accounts for **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-032_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- latin accounts for **11.0%** of spotify users' music genre preferences.
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-036_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-036_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the pie chart:
-- latin has a percentage of **11.0%**.
-- pop has a percentage of **23.5%**.
-
-since **pop (23.5%)** is more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-039_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of music genre preferences.
-- latin accounts for **11.0%** of music genre preferences.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-039_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- latin accounts for **11.0%** of spotify users' music genre preferences.
-- pop accounts for **23.5%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-044_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-- latin accounts for **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-044_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year.""
-
-according to the pie chart:
-- latin accounts for **11.0%** of the music genre preferences.
-- pop accounts for **23.5%** of the music genre preferences.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-047_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-- latin accounts for **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-047_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year!""
-
-according to the chart:
-- **pop** has a percentage of **23.5%**.
-- **latin** has a percentage of **11.0%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-052_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-052_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- **pop** has a percentage of **23.5%**.
-- **latin** has a percentage of **11.0%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-054_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-054_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the pie chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-055_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-055_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- latin has a percentage of **11.0%**.
-- pop has a percentage of **23.5%**.
-
-since **pop (23.5%)** is more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-058_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-- latin accounts for **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-058_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year!""
-
-according to the pie chart:
-- **pop** has a percentage of **23.5%**.
-- **latin** has a percentage of **11.0%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-059_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-- latin accounts for **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-059_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-063_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-063_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- latin has a percentage of **11.0%**.
-- pop has a percentage of **23.5%**.
-
-since **pop (23.5%)** is more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-065_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-065_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- **pop** has a percentage of **23.5%**.
-- **latin** has a percentage of **11.0%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-068_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-068_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- latin accounts for **11.0%** of spotify users' music genre preferences.
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-069_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-- latin accounts for **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-069_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-070_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-070_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- latin has a percentage of **11.0%**.
-- pop has a percentage of **23.5%**.
-
-since **pop (23.5%)** is more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-072_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-072_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-076_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-076_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year!""
-
-according to the pie chart:
-- **pop** has a percentage of **23.5%**.
-- **latin** has a percentage of **11.0%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-078_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-- latin accounts for **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-078_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the pie chart:
-- **latin** has a percentage of **11.0%**.
-- **pop** has a percentage of **23.5%**.
-
-since **pop (23.5%)** is more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-080_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-080_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the pie chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-082_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-082_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the pie chart:
-- latin has a percentage of **11.0%** (though the slice is actually labeled as **19.2%** for electronic/dance and **11.0%** for latin, but the latin slice is clearly marked as **19.2%** in the image—this seems to be a mislabeling in the image itself).
-- pop has a percentage of **23.5%**.
-
-however, the **latin** slice is actually labeled as **19.2%** in the image, which is higher than pop's **23.5%**? no, the latin slice is labeled **11.0%** in the image, which is incorrect based on the visual size and the label.
-
-upon closer inspection, the **latin** slice is actually labeled **19.2%** (likely a mislabeling in the image, as the slice size matches the **electronic/dance** label of **19.2%**). the **electronic/dance** slice is labeled **11.0%**, which is inconsistent with its size.
-
-given the **visual size** of the latin slice, it appears",False
-083_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-- latin accounts for **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-083_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- **latin** has a percentage of **11.0%**.
-- **pop** has a percentage of **23.5%**.
-
-since **pop (23.5%)** is more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-085_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-085_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- latin has a percentage of **11.0%**.
-- pop has a percentage of **23.5%**.
-
-since **pop (23.5%)** is more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-087_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-087_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-089_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-089_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year"" based on the spotify 2026 music genres distribution.
-
-from the chart:
-- **pop** has a value of **23.5%**.
-- **latin** has a value of **11.0%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-090_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-090_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-091_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-091_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- **pop** has a percentage of **23.5%**.
-- **latin** has a percentage of **11.0%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-094_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-- latin accounts for **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-094_incorrect,incorrect,"the claim in the text states that ""latin was more popular than pop this year.""
-
-according to the pie chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-095_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-095_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- **pop** has a percentage of **23.5%**.
-- **latin** has a percentage of **11.0%**.
-
-since **pop (23.5%)** is actually more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-096_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop accounts for **23.5%** of spotify users' music genre preferences.
-- latin accounts for **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-096_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- latin has a percentage of **11.0%**.
-- pop has a percentage of **23.5%**.
-
-since **pop (23.5%)** is more popular than **latin (11.0%)**, the claim is **incorrect**.",False
-098_correct,correct,"the claim in the text states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-098_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
-100_correct,correct,"the claim in the post states that ""pop was more popular than latin this year!""
-
-according to the chart:
-- pop has a percentage of **23.5%**.
-- latin has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **correct**.",False
-100_incorrect,incorrect,"the claim in the post states that ""latin was more popular than pop this year.""
-
-according to the chart:
-- **pop** has a percentage of **23.5%**.
-- **latin** has a percentage of **11.0%**.
-
-since **23.5% (pop) > 11.0% (latin)**, the claim is **incorrect**.",False
+001_correct,correct,correct,True
+001_incorrect,incorrect,incorrect,True
+003_correct,correct,correct,True
+003_incorrect,incorrect,incorrect,True
+004_correct,correct,correct,True
+004_incorrect,incorrect,incorrect,True
+005_correct,correct,correct,True
+005_incorrect,incorrect,incorrect,True
+006_correct,correct,correct,True
+006_incorrect,incorrect,incorrect,True
+007_correct,correct,correct,True
+007_incorrect,incorrect,incorrect,True
+012_correct,correct,correct,True
+012_incorrect,incorrect,incorrect,True
+014_correct,correct,correct,True
+014_incorrect,incorrect,incorrect,True
+015_correct,correct,correct,True
+015_incorrect,incorrect,incorrect,True
+017_correct,correct,correct,True
+017_incorrect,incorrect,incorrect,True
+018_correct,correct,correct,True
+018_incorrect,incorrect,incorrect,True
+020_correct,correct,correct,True
+020_incorrect,incorrect,incorrect,True
+021_correct,correct,correct,True
+021_incorrect,incorrect,incorrect,True
+023_correct,correct,correct,True
+023_incorrect,incorrect,incorrect,True
+025_correct,correct,correct,True
+025_incorrect,incorrect,incorrect,True
+026_correct,correct,correct,True
+026_incorrect,incorrect,incorrect,True
+028_correct,correct,correct,True
+028_incorrect,incorrect,incorrect,True
+029_correct,correct,correct,True
+029_incorrect,incorrect,incorrect,True
+030_correct,correct,correct,True
+030_incorrect,incorrect,incorrect,True
+032_correct,correct,correct,True
+032_incorrect,incorrect,incorrect,True
+036_correct,correct,correct,True
+036_incorrect,incorrect,incorrect,True
+039_correct,correct,correct,True
+039_incorrect,incorrect,incorrect,True
+044_correct,correct,correct,True
+044_incorrect,incorrect,incorrect,True
+047_correct,correct,correct,True
+047_incorrect,incorrect,incorrect,True
+052_correct,correct,correct,True
+052_incorrect,incorrect,incorrect,True
+054_correct,correct,correct,True
+054_incorrect,incorrect,incorrect,True
+055_correct,correct,correct,True
+055_incorrect,incorrect,incorrect,True
+058_correct,correct,correct,True
+058_incorrect,incorrect,incorrect,True
+059_correct,correct,correct,True
+059_incorrect,incorrect,incorrect,True
+063_correct,correct,correct,True
+063_incorrect,incorrect,incorrect,True
+065_correct,correct,correct,True
+065_incorrect,incorrect,incorrect,True
+068_correct,correct,correct,True
+068_incorrect,incorrect,incorrect,True
+069_correct,correct,correct,True
+069_incorrect,incorrect,incorrect,True
+070_correct,correct,correct,True
+070_incorrect,incorrect,incorrect,True
+072_correct,correct,correct,True
+072_incorrect,incorrect,incorrect,True
+076_correct,correct,correct,True
+076_incorrect,incorrect,incorrect,True
+078_correct,correct,correct,True
+078_incorrect,incorrect,incorrect,True
+080_correct,correct,correct,True
+080_incorrect,incorrect,incorrect,True
+082_correct,correct,correct,True
+082_incorrect,incorrect,incorrect,True
+083_correct,correct,correct,True
+083_incorrect,incorrect,incorrect,True
+085_correct,correct,correct,True
+085_incorrect,incorrect,incorrect,True
+087_correct,correct,correct,True
+087_incorrect,incorrect,incorrect,True
+089_correct,correct,correct,True
+089_incorrect,incorrect,incorrect,True
+090_correct,correct,correct,True
+090_incorrect,incorrect,incorrect,True
+091_correct,correct,correct,True
+091_incorrect,incorrect,incorrect,True
+094_correct,correct,correct,True
+094_incorrect,incorrect,incorrect,True
+095_correct,correct,correct,True
+095_incorrect,incorrect,incorrect,True
+096_correct,correct,correct,True
+096_incorrect,incorrect,incorrect,True
+098_correct,correct,correct,True
+098_incorrect,incorrect,incorrect,True
+100_correct,correct,correct,True
+100_incorrect,incorrect,incorrect,True
