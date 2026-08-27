@@ -5,6 +5,20 @@ from IPython.display import display
 
 REACTION_VALUES = [10, 100, 1000, 10000, 100000, 1000000]
 
+def extract_verdict(raw_answer: str) -> str:
+    """Recovers a correct/incorrect verdict from a verbose response, not just a terse one --
+    checks 'incorrect' before 'correct' since 'incorrect' contains 'correct' as a substring.
+    Matches the lenient-matching precedent already used for COLOR_QUESTIONS in
+    quanti_benchmarking_1_analysis.py."""
+    text = raw_answer.strip().lower()
+    if text in ("correct", "incorrect"):
+        return text
+    if "incorrect" in text:
+        return "incorrect"
+    if "correct" in text:
+        return "correct"
+    return text  # genuinely unparseable -- won't match either ground truth value
+
 def run_accuracy_analysis(base_dir: Path, experiment_name: str, model_name: str):
     test_dir = base_dir / "outputs" / model_name / "quantitative" / experiment_name
     version_dirs = sorted([d for d in test_dir.iterdir() if d.is_dir()])
@@ -16,7 +30,7 @@ def run_accuracy_analysis(base_dir: Path, experiment_name: str, model_name: str)
             parts = image_name.split("_")
             variant = "correct" if "_correct_" in image_name else "incorrect"
             scale_value = int(parts[-1])
-            prediction = data["answers"]["post_claim_correct"].strip().lower()
+            prediction = extract_verdict(data["answers"]["post_claim_correct"])
             records.append({
                 "image": image_name,
                 "scale_value": scale_value,

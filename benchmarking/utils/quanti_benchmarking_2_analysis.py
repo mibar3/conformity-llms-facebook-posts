@@ -3,6 +3,20 @@ import pandas as pd
 from pathlib import Path
 from IPython.display import display
 
+def extract_verdict(raw_answer: str) -> str:
+    """Recovers a correct/incorrect verdict from a verbose response, not just a terse one --
+    checks 'incorrect' before 'correct' since 'incorrect' contains 'correct' as a substring.
+    Matches the lenient-matching precedent already used for COLOR_QUESTIONS in
+    quanti_benchmarking_1_analysis.py."""
+    text = raw_answer.strip().lower()
+    if text in ("correct", "incorrect"):
+        return text
+    if "incorrect" in text:
+        return "incorrect"
+    if "correct" in text:
+        return "correct"
+    return text  # genuinely unparseable -- won't match either ground truth value
+    
 
 def run_accuracy_analysis(base_dir: Path, experiment_name: str, model_name: str):
     test_dir = base_dir / "outputs" / model_name / "quantitative" / experiment_name
@@ -15,7 +29,7 @@ def run_accuracy_analysis(base_dir: Path, experiment_name: str, model_name: str)
             image_name = data["image"]
 
             ground_truth = "correct" if image_name.endswith("_correct") else "incorrect"
-            prediction = data["answers"]["post_claim_correct"].strip().lower()
+            prediction = extract_verdict(data["answers"]["post_claim_correct"])
 
             records.append({
                 "image": image_name,
