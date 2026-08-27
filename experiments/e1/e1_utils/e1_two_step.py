@@ -1,33 +1,5 @@
 """
-Two-step E1 prompt pilot (supervisor item 4, 2026-08).
-
-Theory being tested: the near-50% diagonal ("competence") several models show in the main E1
-study (docs/THESIS.md Section 6.1) might improve if the model is made to explicitly verify which
-post's claim is factually correct *before* being asked the popularity-influenced like/scroll
-question, rather than doing both in one shot. This follows the same two-call pattern already
-validated for benchmarking claim-verification (benchmarking/utils/quanti_benchmarking_2_claim_only.py
-v7-v9): extract a fact via one inference call, feed it back as plain text into a second call.
-Deliberately NOT true multi-turn chat history (no assistant turn appended to `messages`) -- string
-interpolation avoids chat-template quirks that differ across model families, matching the
-benchmarking precedent exactly.
-
-Two candidate designs, meant to be run head-to-head on the same images so the better one can be
-picked and (a separate, larger decision) extended to the rest of the E1 protocol:
-
-- "paired_verdict": step 1 shows BOTH posts together (the same A/B framing as the final decision)
-  and asks which one's claim is factually correct. Keeps step 1 and step 2 in the same paired
-  context -- arguably the more natural design for this specific task, as opposed to bolting on
-  an unrelated single-image framing.
-- "isolated_verdict": step 1 asks about each post SEPARATELY (single image, the same framing
-  already used and tuned for the benchmarking claim-verification task) whether its own claim is
-  correct. Mirrors the existing benchmarking two-call pattern most directly, at the cost of an
-  extra inference call per trial (2 step-1 calls instead of 1).
-
-Pilot scope (deliberately narrow -- see module-level NOTE below): only the 7 diagonal cells
-(correct_scale == incorrect_scale, disparity = 0) rather than the full 49-cell grid, since the
-question being asked is specifically about the diagonal/competence score, not the full collapse
-curve. Pass `scale_pairs=ADJACENT_PAIRS` (from e1_optimized) instead of the default
-`DIAGONAL_PAIRS` below to extend to the full grid once/if a design is chosen to carry forward.
+Two-step E1 prompt pilot 
 """
 import json
 import random
@@ -42,18 +14,7 @@ Each post's text makes a claim about the chart shown in that same post.
 Which post's claim is factually correct according to its own chart -- Post A, Post B, or both?
 Reply with only 'A', 'B', or 'both'."""
 
-ISOLATED_VERDICT_STEP1_PROMPT = """You are shown a social media post.
-Does the text in the post accurately describe the chart shown?
-Reply with only 'correct' or 'incorrect'."""
-
-# v4-wording variant (2026-08-16): benchmarking's quanti_benchmarking_1_details.py v1 scored only
-# 69% claim-verification accuracy for qwen3-vl-8b on this same image set, vs. 98% for v4's wording
-# (naming the specific categories being compared, explicit "verify" instruction). isolated_verdict
-# above uses v1's wording verbatim -- this variant re-tests step 1 with v4's wording to check
-# whether a stronger step-1 verdict signal changes the final two-step diagonal accuracy.
-ISOLATED_VERDICT_V4_STEP1_PROMPT = """In the post, the text above the image makes a claim comparing the popularity of Pop and Latin.
-Identify the according values in the chart to verify this claim.
-If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'."""
+ISOLATED_VERDICT_STEP1_PROMPT = """Does the text in the post accurately describe the chart? Reply with only 'correct' or 'incorrect'."""
 
 LIKE_PROMPT_PAIR_TWOSTEP_PAIRED = """You are shown two social media posts, Post A and Post B.
 You already determined that: {verdict_sentence}
@@ -81,9 +42,13 @@ def run_e1_metrics_paired_twostep(selected_numbers: list, correct_base: Path, in
                                    device, output_dir: Path, seed: int, design: str, output_filename: str,
                                    inference_fn, baseline_correct_dir: Path = None,
                                    baseline_incorrect_dir: Path = None, scale_pairs: list = None):
-    """`design` is 'paired_verdict', 'isolated_verdict', or 'isolated_verdict_v4' -- see module docstring.
-    `scale_pairs` defaults to DIAGONAL_PAIRS (7 cells); pass ADJACENT_PAIRS for the full 49-cell grid."""
-    assert design in ("paired_verdict", "isolated_verdict", "isolated_verdict_v4")
+   """`design` is 'paired_verdict' or 'isolated_verdict' -- see module docstring. `isolated_verdict`
+    uses the v1 wording validated by a cross-model comparison (docs/THESIS.md Section 5.3.2) -- an
+    earlier v4-wording variant was tried and dropped 2026-08-27, kept only as static historical
+    output files (e1_results_metrics_diagonal_twostep_isolated_verdict_v4.json), not as a runnable
+    design. `scale_pairs` defaults to DIAGONAL_PAIRS (7 cells); pass ADJACENT_PAIRS for the full
+    49-cell grid."""
+    assert design in ("paired_verdict", "isolated_verdict")
     if scale_pairs is None:
         scale_pairs = DIAGONAL_PAIRS
 
@@ -136,8 +101,7 @@ def run_e1_metrics_paired_twostep(selected_numbers: list, correct_base: Path, in
                     verdict_sentence=_verdict_sentence(step1_answer))
                 step1_record = {"step1_answer": step1_answer}
             else:
-                step1_prompt = (ISOLATED_VERDICT_V4_STEP1_PROMPT if design == "isolated_verdict_v4"
-                                 else ISOLATED_VERDICT_STEP1_PROMPT)
+                step1_prompt = ISOLATED_VERDICT_STEP1_PROMPT
                 step1_a = inference_fn(
                     [{"role": "user", "content": [{"type": "image", "image": post_a_path},
                                                    {"type": "text", "text": step1_prompt}]}],
