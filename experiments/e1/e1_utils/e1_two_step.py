@@ -42,7 +42,7 @@ def run_e1_metrics_paired_twostep(selected_numbers: list, correct_base: Path, in
                                    device, output_dir: Path, seed: int, design: str, output_filename: str,
                                    inference_fn, baseline_correct_dir: Path = None,
                                    baseline_incorrect_dir: Path = None, scale_pairs: list = None):
-   """`design` is 'paired_verdict' or 'isolated_verdict' -- see module docstring. `isolated_verdict`
+    """`design` is 'paired_verdict' or 'isolated_verdict' -- see module docstring. `isolated_verdict`
     uses the v1 wording validated by a cross-model comparison (docs/THESIS.md Section 5.3.2) -- an
     earlier v4-wording variant was tried and dropped 2026-08-27, kept only as static historical
     output files (e1_results_metrics_diagonal_twostep_isolated_verdict_v4.json), not as a runnable
