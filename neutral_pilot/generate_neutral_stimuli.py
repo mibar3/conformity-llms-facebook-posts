@@ -117,8 +117,8 @@ def make_line_chart(a_values, b_values, output_path: Path):
              linewidth=2.5, marker="o", markersize=6)
     ax.plot(YEAR_LABELS, b_values, label="Product B", color="#3498db",
              linewidth=2.5, marker="o", markersize=6)
-    ax.set_ylabel("Quarterly revenue ($ billions)")
-    ax.set_title("Quarterly Product Revenue")
+    ax.set_ylabel("Annual revenue ($ billions)")
+    ax.set_title("Annual Product Revenue")
     ax.legend(loc="best", frameon=False)
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
