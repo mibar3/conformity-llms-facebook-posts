@@ -10,7 +10,6 @@ spotify_pie_plot/pie_plot_posts/baselines/**/*.png
 spotify_pie_plot/pie_plot_posts/for_benchmarking/**/*.html
 spotify_pie_plot/pie_plot_posts/for_benchmarking/**/*.png
 
-spotify_pie_plot/pie_visualizations/**/*.png
 
 benchmarking/correct/remy-ashford/*.png
 benchmarking/correct/remy-ashford/metrics/**/*.png
