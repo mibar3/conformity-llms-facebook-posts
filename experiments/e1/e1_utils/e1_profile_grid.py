@@ -16,39 +16,6 @@ Putting "Dr." on one side revives the diagonal: equal engagement, equal claim, o
 The diagonal becomes the pure-authority test measured at seven engagement levels, and Stage 1's
 "pure_authority_both_correct" pairing is exactly its (0, 0) cell.
 
-WHAT THE THREE REGIONS ANSWER
------------------------------
-  diagonal  (dr == plain)  7 cells   does the authority preference survive as popularity rises?
-  conflict  (dr <  plain)  21 cells  authority vs popularity -- how many likes outweigh a "Dr."?
-  aligned   (dr >  plain)  21 cells  both cues agree: saturation, and whether the effect is
-                                     symmetric or authority is special
-
-The matching no-authority control already exists: the off-diagonal cells of
-`e1_results_metrics_correct_vs_correct_paired.json` are the same engagement contrasts between two
-plain posts. Subtracting the two grids cell by cell isolates the authority effect, and whether
-that difference grows or shrinks with the engagement gap distinguishes Social Impact Theory
-(multiplicative: strength x number) from heuristic-sufficiency substitution.
-
-CELL ORDER
-----------
-Cells run diagonal -> conflict -> aligned, most informative first, because the aligned triangle is
-the region most likely to sit at ceiling (models already follow engagement 92-99% in
-correct_vs_correct and the "Dr." post 98-100% at zero engagement). Combined with the resume logic
-inherited from the other runners, the run can be stopped at any point and still yield a complete,
-analysable design rather than a partial grid.
-
-A/B ORDER
----------
-`random.Random(seed + int(num) + dr_scale + plain_scale)` -- the same shape as
-`run_e1_correct_vs_correct_paired`. At (0, 0) it reduces to `seed + int(num)`, which is the formula
-`run_e1_profile_paired` and `run_e1_baseline_paired` use, so the diagonal's zero cell reproduces
-Stage 1's slot assignment exactly and the two runs are directly comparable.
-
-TIES
-----
-`liked_higher_engagement` is None on the diagonal. It is not False and not True: with engagement
-equal there is no higher side. Writing True there is what made the tied cells trivially "correct"
-in the original correct-vs-correct output and is why those cells had to be filtered out downstream.
 """
 import json
 import random
@@ -303,9 +270,9 @@ def plot_authority_grid(output_dir: Path, output_filename: str, title: str,
 
 # Order matches statistical_analysis/grid_overview_figures.ipynb so the two figure sets read
 # as siblings: larger models on the top row, smaller on the bottom.
-ROSTER = [("Gemma-12B", "gemma4-12b"), ("Qwen3-VL-8B", "qwen3-vl-8b"),
-          ("Ministral-3-14B", "ministral-3-14b"), ("Gemma-E4B", "gemma4-e4b"),
-          ("Qwen3-VL-4B", "qwen3-vl-4b"), ("Ministral-3-8B", "ministral-3-8b")]
+ROSTER = [("Gemma 4 12B", "gemma4-12b"), ("Qwen3-VL-8B", "qwen3-vl-8b"),
+          ("Ministral 3 14B", "ministral-3-14b"), ("Gemma 4 E4B", "gemma4-e4b"),
+          ("Qwen3-VL-4B", "qwen3-vl-4b"), ("Ministral 3 8B", "ministral-3-8b")]
 
 GRID_FILENAME = "e1_results_authority_grid_metrics.json"
 
@@ -376,41 +343,6 @@ def plot_authority_grid_overview(repo_root: Path, output_filename: str = GRID_FI
     fig.text(0.5, -0.02, "outlined = equal engagement (pure authority)   ·   "
                          "hatched = answered by slot, not by profile",
              ha="center", fontsize=10, color="#444444")
-
-    if save_path:
-        Path(save_path).parent.mkdir(parents=True, exist_ok=True)
-        plt.savefig(save_path, dpi=150, bbox_inches="tight")
-        print(f"✅ Saved to: {save_path}")
-    plt.show()
-
-
-def plot_exchange_rate(repo_root: Path, output_filename: str = GRID_FILENAME, models=None,
-                       save_path: Path = None):
-    """One line per model: how much engagement it takes to overturn the 'Dr.' preference.
-
-    This is the pilot's headline figure — where a line crosses 50% is the point at which
-    popularity outweighs the credential.
-    """
-    import matplotlib.pyplot as plt
-
-    models = models or ROSTER
-    fig, ax = plt.subplots(figsize=(10, 6.5))
-    colors = ["#2a78d6", "#e34948", "#3fa34d", "#c46a1f", "#7d54b3", "#6b7280"]
-
-    for (label, slug), c in zip(models, colors):
-        steps, pct, _ = exchange_rate_series(repo_root, slug, output_filename)
-        ax.plot(steps, pct, marker="o", linewidth=2, color=c, label=label)
-
-    ax.axhline(50, ls="--", color="#888888", linewidth=1)
-    ax.text(6.05, 51, "chance", fontsize=9, color="#888888", va="bottom", ha="right")
-    ax.set_xticks(range(len(SCALE_VALUES)))
-    ax.set_xticklabels(["tied", "10x", "100x", "1Kx", "10Kx", "100Kx", "1Mx"])
-    ax.set_ylim(-3, 103)
-    ax.set_xlabel("How much more engagement the PLAIN post shows", fontsize=12)
-    ax.set_ylabel("Chose the 'Dr.' post (%)", fontsize=12)
-    ax.set_title("How much popularity outweighs a credential", fontsize=14, fontweight="bold")
-    ax.legend(fontsize=10, framealpha=0.9)
-    ax.grid(axis="y", alpha=0.25)
 
     if save_path:
         Path(save_path).parent.mkdir(parents=True, exist_ok=True)
