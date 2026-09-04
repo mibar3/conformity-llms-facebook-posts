@@ -1,3 +1,7 @@
+spotify_pie_plot/pie_visualizations/**/*.png
+
+news-profile-images/
+
 spotify_pie_plot/pie_plot_posts/baselines/**/*.html
 spotify_pie_plot/pie_plot_posts/baselines/**/*.png
 
