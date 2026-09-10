@@ -1,3 +1,15 @@
+experiments/e1/ovis2.5-9b/
+experiments/e1/pixtral-12b/
+experiments/e1/mistral-small-3.1-24b/
+
+benchmarking/mistral-small-3.1-24b-benchmarking.ipynb
+benchmarking/pixtral-12b-benchmarking.ipynb
+
+benchmarking/outputs/pixtral-12b/
+cbenchmarking/outputs/mistral-small-3.1-24b/
+
+statistical_analysis/
+
 spotify_pie_plot/pie_visualizations/**/*.png
 
 news-profile-images/
