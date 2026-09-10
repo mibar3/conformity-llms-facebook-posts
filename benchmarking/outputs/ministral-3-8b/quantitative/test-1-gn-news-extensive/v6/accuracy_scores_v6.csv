@@ -2,11 +2,6 @@ image,prompt_version,prompt_text,profile_name_pred,profile_verification_pred,lik
 001_remy_ashford_c,v6,"Look at the text above the chart. It makes a claim about Pop and Latin popularity. Step 1: find the percentage value for Pop in the chart. Step 2: find the percentage value for Latin in the chart. Step 3: check if the claim in the text matches which one is higher. If it matches, reply 'correct'. If not, reply 'incorrect'.",remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,"step 1: the percentage value for pop in the chart is **23.5%**.
 step 2: the percentage value for latin in the chart is **11.0%**.
 step 3: since 23.5% (pop) is higher than 11.0% (latin), the claim in the text is **correct**.",correct,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
-001_remy_ashford_i,v6,"Look at the text above the chart. It makes a claim about Pop and Latin popularity. Step 1: find the percentage value for Pop in the chart. Step 2: find the percentage value for Latin in the chart. Step 3: check if the claim in the text matches which one is higher. If it matches, reply 'correct'. If not, reply 'incorrect'.",remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,light green,blue,pop,"step 1: the percentage value for pop in the chart is **23.5%**.
-step 2: the percentage value for latin in the chart is **11.0%**.
-step 3: the claim states that latin was more popular than pop, but the data shows pop is higher.
-
-**incorrect**",incorrect,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
 001_dr_remy_ashford_c,v6,"Look at the text above the chart. It makes a claim about Pop and Latin popularity. Step 1: find the percentage value for Pop in the chart. Step 2: find the percentage value for Latin in the chart. Step 3: check if the claim in the text matches which one is higher. If it matches, reply 'correct'. If not, reply 'incorrect'.",dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,"step 1: the percentage value for pop in the chart is **23.5%**.
 step 2: the percentage value for latin in the chart is **11.0%**.
 step 3: since 23.5% (pop) is higher than 11.0% (latin), the claim in the text is **correct**.",correct,dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,correct,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
@@ -15,3 +10,8 @@ step 2: the percentage value for latin in the chart is **11.0%**.
 step 3: the claim states that latin was more popular than pop, but the data shows pop is higher.
 
 **incorrect**",incorrect,dr. remy ashford,yes,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
+001_remy_ashford_i,v6,"Look at the text above the chart. It makes a claim about Pop and Latin popularity. Step 1: find the percentage value for Pop in the chart. Step 2: find the percentage value for Latin in the chart. Step 3: check if the claim in the text matches which one is higher. If it matches, reply 'correct'. If not, reply 'incorrect'.",remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,light green,blue,pop,"step 1: the percentage value for pop in the chart is **23.5%**.
+step 2: the percentage value for latin in the chart is **11.0%**.
+step 3: the claim states that latin was more popular than pop, but the data shows pop is higher.
+
+**incorrect**",incorrect,remy ashford,no,0,0,0,0,0,0,0,0,23.5,11,green,blue,pop,incorrect,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False
