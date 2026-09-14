@@ -16,11 +16,10 @@ repository).
 | `utils/` | Shared post-generation code (`post_generator_all_visible_emojis.py` — builds the HTML/CSS Facebook-style post, given a chart image, claim text, profile, and engagement counts) and chart-creation notebooks. |
 | `spotify_pie_plot/` | Stimulus generation for the main study: the pie-chart pool, the correct/incorrect claim variants, and the engagement-scaled post pool. |
 | `benchmarking/`, `benchmarking_simple_plot/`, `benchmarking_simple_plot_bigfont/` | Phase 1 perception validation (can each model read the chart correctly?) plus the organized, final stimulus image tree the main experiment (`experiments/e1/`) actually reads from. |
-| `experiments/e1/` | The main experiment. One subfolder per model (`gemma4-12b/`, `qwen3-vl-8b/`, etc.), each a self-contained notebook + `outputs/` folder. `experiments/e1/e1_utils/` is the shared harness (see below) imported by every model's notebook. |
+| `experiments/e1/` | The main experiment. One subfolder per model (`gemma4-12b/`, `qwen3-vl-8b/`, etc.), each a self-contained notebook + `outputs/` folder. `experiments/e1/e1_utils/` is the shared harness (see below) imported by every model's notebook.  |
 | `experiments/e1_simple_plot/`, `experiments/e1_simple_plot_bigfont/` | Chart-legibility pilots (simplified chart, larger font) on a subset of models. |
 | `experiments/e1_climate/` | Generalization pilot run notebooks (chart type + content domain) — see `climate_pilot/` below for the stimulus generation half. |
 | `climate_pilot/` | Stimulus generation for the generalization pilot: a fabricated solar-vs-wind investment line chart, deliberately independent of the main study's pool. Self-contained, documented at the top of `generate_climate_stimuli.py`. |
-| `statistical_analysis/` | Cross-model formal statistics (GEE regression, `gee_analysis.ipynb`), grid overview figures, and supporting analysis scripts. |
 
 ## Models
 
