@@ -22,7 +22,7 @@ repository).
 | `climate_pilot/` | Stimulus generation for the generalization pilot: a fabricated solar-vs-wind investment line chart, deliberately independent of the main study's pool. Self-contained, documented at the top of `generate_climate_stimuli.py`. |
 | `statistical_analysis/` | Cross-model formal statistics (GEE regression, `gee_analysis.ipynb`), grid overview figures, and supporting analysis scripts. |
 
-## Hardware used
+## Models
 
 All model inference (Phase 1 benchmarking and the Phase 2 experiments) was run on an **NVIDIA
 H100 80GB HBM3**, CUDA 12.4, driver 550.127.08. Most models ran on a 40GB MIG partition of the
@@ -30,7 +30,7 @@ card rather than the full 80GB:
 
 | 40GB MIG slice | Full 80GB card |
 |---|---|
-| Gemma-12B, Gemma-E4B, Ovis2.5-9B, Pixtral-12B, Qwen3-VL-8B | Qwen3-VL-4B, Mistral Small 3.1 24B, Ministral-3-8B, Ministral-3-14B |
+| Gemma-12B, Gemma-E4B, Qwen3-VL-8B | Qwen3-VL-4B, Ministral-3-8B, Ministral-3-14B |
 
 Exact `nvidia-smi` output is captured in each model's own notebook (an early cell in
 `experiments/e1/<model>/e1-<model>.ipynb`).
