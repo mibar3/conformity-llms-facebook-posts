@@ -20,18 +20,17 @@ spotify_pie_plot/pie_visualizations/**/*.png
 
 news-profile-images/
 
+spotify_pie_plot/pie_plot_posts/baselines/**/*.png
 #spotify_pie_plot/pie_plot_posts/baselines/**/*.html
-#spotify_pie_plot/pie_plot_posts/baselines/**/*.png
 #spotify_pie_plot/pie_plot_posts/for_benchmarking/**/*.html
-#spotify_pie_plot/pie_plot_posts/for_benchmarking/**/*.png
 #spotify_pie_plot/pie_plot_posts/baselines_*/**/*.html
 #spotify_pie_plot/pie_plot_posts/metrics/dr-remy-ashford/**/*.html
-
-spotify_pie_plot/pie_plot_posts/baselines/**/*.html
-spotify_pie_plot/pie_plot_posts/baselines/**/*.png
-
-spotify_pie_plot/pie_plot_posts/for_benchmarking/**/*.html
 spotify_pie_plot/pie_plot_posts/for_benchmarking/**/*.png
+
+
+spotify_pie_plot/pie_plot_posts/metrics_simple_plot/remy-ashford/correct/html/likes_only/
+spotify_pie_plot/pie_plot_posts/metrics/remy-ashford/correct/old_html/
+spotify_pie_plot/pie_plot_posts/metrics/remy-ashford/incorrect/old_html/
 
 
 benchmarking/correct/remy-ashford/*.png
