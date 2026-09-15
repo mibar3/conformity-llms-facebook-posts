@@ -1,8 +1,0 @@
-{
-  "image": "020_correct_1000",
-  "prompt_version": "v2",
-  "prompt_text": "Read the text in the post and look at the chart. Does the text correctly describe what the chart shows? Reply with only 'correct' or 'incorrect'.",
-  "answers": {
-    "post_claim_correct": "incorrect"
-  }
-}
