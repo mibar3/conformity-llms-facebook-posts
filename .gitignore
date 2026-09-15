@@ -1,3 +1,12 @@
+**/qualitative/*/001_fox_news_i_simple.txt
+**/qualitative/*/001_ny_times_i_simple.txt
+**/qualitative/*/001_reuters_i_simple.txt
+
+conformity-llms-facebook-posts/benchmarking/outputs/pixtral-12b/
+conformity-llms-facebook-posts/benchmarking/outputs/mistral-small-3.1-24b/
+conformity-llms-facebook-posts/benchmarking/pixtral-12b-benchmarking.ipynb
+conformity-llms-facebook-posts/benchmarking/mistral-small-3.1-24b-benchmarking.ipynb
+
 experiments/e1/ovis2.5-9b/
 experiments/e1/pixtral-12b/
 experiments/e1/mistral-small-3.1-24b/
