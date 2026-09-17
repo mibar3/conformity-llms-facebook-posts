@@ -138,18 +138,28 @@ accepted on its own page, and a personal access token — none of that can be
 skipped or worked around from this repo, it's how gated-model downloads work on
 HF's side.
 
-Each notebook has a cell that tries to authenticate via a personal, untracked
-`config_hf_token.py` (yours, not part of this repo) — that cell is commented out
-for exactly this reason. The standard, simpler path for anyone else running this:
+**Run `utils/huggingface_login.ipynb` once, before any other notebook.** It
+prompts for your token (hidden input, never typed as literal code) and caches
+it to `~/.cache/huggingface/token` on this machine — every other notebook
+checks that cache automatically, so this runs once per machine/account, not
+once per model.
+
+Each model notebook itself only has a lean check for this (`whoami()`, raising
+a clear error naming that notebook if you haven't run it) — the old
+hand-editable auth cell some notebooks had (importing a personal, untracked
+`config_hf_token.py`) is gone, replaced by this shared, portable path.
+
+If `huggingface_login.ipynb` won't run for some reason, the equivalent from a
+plain terminal:
 
 ```bash
-huggingface-cli login          # one time, caches your token
-# or: export HF_TOKEN=hf_...   # per-session, no caching
+huggingface-cli login          # one time, caches your token the same way
+# or: hf auth login --force    # newer huggingface_hub versions rename the CLI
 ```
 
-`from_pretrained` picks either up automatically, no code change needed. If a
-model load fails with an authentication or "gated repo" error, that's HF telling
-you to accept that model's license on its page first — not a bug here.
+If a model load still fails with a gated-repo/license error after logging in,
+that's HF telling you to accept *that specific model's* license on its own
+page — a separate one-time step per model, not fixed by logging in again.
 
 ```
 benchmarking/<model>-benchmarking.ipynb           # phase 1, optional but recommended
@@ -263,7 +273,7 @@ one part without re-reading the whole file. Every path is relative to the repo r
 
 | Symptom | Cause |
 |---|---|
-| `ModuleNotFoundError: config_hf_token`, or a 401/`RepositoryNotFoundError` on model load | That's the original author's personal token cell, already commented out. Run `huggingface-cli login` (or set `HF_TOKEN`) with your own account, and make sure you've accepted that model's license on its Hugging Face page. |
+| `RuntimeError: Not logged in to Hugging Face`, or a 401/`RepositoryNotFoundError` on model load | Run `utils/huggingface_login.ipynb` once. If it still fails afterward, that specific model's license likely isn't accepted on your account yet — check its page on huggingface.co. |
 | `ModuleNotFoundError: selenium`, or no Chromium | You are on the GPU machine. Rendering belongs on the other one. |
 | A notebook prints "Skipping" and does nothing | Resume logic working. Results already exist in `outputs/`. |
 | `--selftest` says the pixels differ | Your Chromium or fonts differ from the study's. The PNGs in the repository are still the authoritative ones; render nothing and use them. |

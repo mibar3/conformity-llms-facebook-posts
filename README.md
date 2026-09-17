@@ -17,7 +17,7 @@ or findings — those live in the thesis document itself (not part of this repos
 | `REPRODUCE.md` | Run order for the whole pipeline, per stage and per machine. Start here. |
 | `reproducibility/` | `prepare_stimuli.py` (unpack the archived stimuli, report what is missing), `verify_stimuli.py` (prove the images are the ones the results came from), and the fingerprint manifest they check against. |
 | `utils/render_html_to_png.py` | The HTML-to-PNG step for every stimulus tree, by name or by path. Resumable, skips what exists. |
-| `utils/` | Shared post-generation code (`post_generator_all_visible_emojis.py` — builds the HTML/CSS Facebook-style post, given a chart image, claim text, profile, and engagement counts) and chart-creation notebooks. |
+| `utils/` | Shared post-generation code (`post_generator_all_visible_emojis.py` — builds the HTML/CSS Facebook-style post, given a chart image, claim text, profile, and engagement counts), chart-creation notebooks, and `huggingface_login.ipynb` (run once before any benchmarking/e1 notebook — see REPRODUCE.md). |
 | `spotify_pie_plot/` | Stimulus generation for the main study: the pie-chart pool, the correct/incorrect claim variants, and the engagement-scaled post pool. |
 | `benchmarking/`, `benchmarking_simple_plot/`, `benchmarking_simple_plot_bigfont/` | Phase 1 perception validation (can each model read the chart correctly?) plus the organized, final stimulus image tree the main experiment (`experiments/e1/`) actually reads from. |
 | `experiments/e1/` | The main experiment. One subfolder per model (`gemma4-12b/`, `qwen3-vl-8b/`, etc.), each a self-contained notebook + `outputs/` folder. `experiments/e1/e1_utils/` is the shared harness (see below) imported by every model's notebook.  |
