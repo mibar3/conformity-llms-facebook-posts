@@ -7,13 +7,13 @@ project's environment split, the GPU server does not have one).
     python3 utils/render_profile_html_to_png.py --slug dr-remy-ashford --check
     python3 utils/render_profile_html_to_png.py --slug dr-remy-ashford
 
-Path mapping -- the PNG layout mirrors the main study's `remy-ashford` tree with only the
-profile directory changed, so the E1 notebooks need nothing but a different `correct_dir`:
+Path mapping (changed 2026-09-17) -- HTML and PNGs now live side by side under the same
+profile folder in benchmarking/, so no separate staging tree is involved:
 
-  baselines_<slug>/{variant}/html/NNN_remy_ashford_X.html
+  benchmarking/{correct,incorrect}/<slug>/html/baseline/NNN_remy_ashford_X.html
       -> benchmarking/{correct,incorrect}/<slug>/NNN_remy_ashford_X.png
-  metrics/<slug>/{variant}/html/{cond}/{scale}/NNN_remy_ashford_X.html
-      -> benchmarking/{correct,incorrect}/<slug>/metrics/{cond}/{scale}/NNN_remy_ashford_X.png
+  benchmarking/{correct,incorrect}/<slug>/html/metrics/<cond>/<scale>/NNN_remy_ashford_X.html
+      -> benchmarking/{correct,incorrect}/<slug>/metrics/<cond>/<scale>/NNN_remy_ashford_X.png
 
 Filenames stay `*_remy_ashford_*` for every profile -- `e1_utils/sampling.py` hardcodes that
 string. The profile is carried by the directory. See generate_profile_posts.py.
@@ -26,7 +26,6 @@ import time
 from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
-POSTS_ROOT = ROOT_DIR / "spotify_pie_plot/pie_plot_posts"
 BENCH_ROOT = ROOT_DIR / "benchmarking"
 METRIC_CONDITIONS = ["realistic", "likes_only", "likes_only_noise"]
 CHROMIUM = "/usr/bin/chromium"
@@ -35,21 +34,23 @@ CHROMIUM = "/usr/bin/chromium"
 def build_jobs(slug, conditions):
     jobs = []
     for variant in ("correct", "incorrect"):
-        out_root = BENCH_ROOT / variant / slug
+        profile_root = BENCH_ROOT / variant / slug
+        html_root = profile_root / "html"
         if "baseline" in conditions:
-            src = POSTS_ROOT / f"baselines_{slug}" / variant / "html"
+            src = html_root / "baseline"
             if src.is_dir():
                 for h in sorted(src.glob("*.html")):
-                    jobs.append((h, out_root / f"{h.stem}.png"))
+                    jobs.append((h, profile_root / f"{h.stem}.png"))
         for cond in METRIC_CONDITIONS:
             if cond not in conditions:
                 continue
-            src = POSTS_ROOT / "metrics" / slug / variant / "html" / cond
+            src = html_root / "metrics" / cond
             if not src.is_dir():
                 continue
             for scale_dir in sorted(d for d in src.iterdir() if d.is_dir()):
                 for h in sorted(scale_dir.glob("*.html")):
-                    jobs.append((h, out_root / "metrics" / cond / scale_dir.name / f"{h.stem}.png"))
+                    jobs.append((h, profile_root / "metrics" / cond / scale_dir.name
+                                 / f"{h.stem}.png"))
     return jobs
 
 
@@ -89,13 +90,14 @@ def main():
     ap.add_argument("--slug", required=True, help="profile directory, e.g. dr-remy-ashford")
     ap.add_argument("--conditions", nargs="+",
                     choices=["baseline"] + METRIC_CONDITIONS,
-                    default=["baseline", "realistic"])
+                    default=["baseline", "realistic", "likes_only_noise"])
     ap.add_argument("--check", action="store_true")
     args = ap.parse_args()
 
     jobs = build_jobs(args.slug, args.conditions)
     todo = [j for j in jobs if not j[1].exists()]
     print(f"Slug   : {args.slug}")
+    print(f"Source : benchmarking/{{correct,incorrect}}/{args.slug}/html/")
     print(f"Target : benchmarking/{{correct,incorrect}}/{args.slug}/")
     print(f"Found  : {len(jobs)} HTML, {len(todo)} to render, {len(jobs)-len(todo)} already present")
     if not jobs:
@@ -109,7 +111,6 @@ def main():
     print(f"\nRendering ~{len(todo)*2/3600:.1f}h for {len(todo)} files...")
     done, skipped = render(jobs)
     print(f"\nDone. {done} rendered, {skipped} skipped.")
-    print(f"Next: run the notebooks in experiments/e1_authority/")
 
 
 if __name__ == "__main__":
