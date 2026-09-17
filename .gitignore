@@ -27,6 +27,14 @@ spotify_pie_plot/pie_plot_posts/baselines/**/*.png
 #spotify_pie_plot/pie_plot_posts/metrics/dr-remy-ashford/**/*.html
 spotify_pie_plot/pie_plot_posts/for_benchmarking/**/*.png
 
+# Loose test-profile HTML (casey_brierly, morgan_fenwick, an early remy-ashford draft) sitting
+# directly in baselines/{correct,incorrect}/html/, one level above the real remy-ashford/ and
+# dr-remy-ashford/ subfolders. A single * does not cross a /, so this leaves those subfolders
+# untouched. Not deleted, just not tracked (2026-09-17).
+spotify_pie_plot/pie_plot_posts/baselines/correct/html/*.html
+spotify_pie_plot/pie_plot_posts/baselines/incorrect/html/*.html
+spotify_pie_plot/pie_plot_posts/baselines/*/html/.ipynb_checkpoints*/
+
 
 spotify_pie_plot/pie_plot_posts/metrics_simple_plot/remy-ashford/correct/html/likes_only/
 spotify_pie_plot/pie_plot_posts/metrics/remy-ashford/correct/old_html/
