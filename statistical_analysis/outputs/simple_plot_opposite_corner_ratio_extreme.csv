@@ -1,5 +1,0 @@
-model,signal_type,correct_scale_disadv,incorrect_scale_disadv,disadvantaged_pct,advantaged_pct,ratio,n_disadv,n_adv
-gemma4-e4b-simple-plot,metrics,0,1000000,0.0,100.0,0.004975124378109453,100,100
-gemma4-e4b-simple-plot,likes_only_noise,0,1000000,0.0,100.0,0.004975124378109453,100,100
-qwen3-vl-8b-simple-plot,metrics,0,1000000,0.0,100.0,0.004975124378109453,100,100
-qwen3-vl-8b-simple-plot,likes_only_noise,0,1000000,8.0,100.0,0.0845771144278607,100,100
