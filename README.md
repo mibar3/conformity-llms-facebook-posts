@@ -1,4 +1,4 @@
-# conformity-llms-facebook-posts
+# Testing Conformity in Large Language Models Using Simulated Social Media Posts (Master Thesis)
 
 Do vision-language models (VLMs) show social-conformity bias: favoring a popular-but-incorrect
 post over an accurate-but-unpopular one when acting as a synthetic social-media user? This repo
@@ -49,14 +49,18 @@ it is safe.
    pipeline (see `REPRODUCE.md`). `utils/render_profile_html_to_png.py --slug <name>` for the
    profile-based posts from step 2; `utils/render_html_to_png.py <target>` for everything else
    (`--list` shows every target).
-4. **Run Phase 1 perception benchmarking**: `benchmarking/<model>-benchmarking.ipynb` (optional,
+   
+`utils/huggingface_login.ipynb` needs to run once, before step 4 or 5, on whichever machine runs
+them: see `REPRODUCE.md` for why and how.
+
+5. **Run Phase 1 perception benchmarking**: `benchmarking/<model>-benchmarking.ipynb` (optional,
    but recommended before trusting Phase 2: validates the model can read the chart at all).
-5. **Run Phase 2, the actual experiment**: `experiments/e1/<model>/e1-<model>.ipynb`, top to
+6. **Run Phase 2, the actual experiment**: `experiments/e1/<model>/e1-<model>.ipynb`, top to
    bottom. Each notebook loads its model, builds (or reuses) the seeded image sample via
    `e1_utils.sampling.build_paired_sample`, runs the isolated-judgment and paired A/B protocols
    via `e1_utils.e1_optimized`, and writes results incrementally to `outputs/e1_results_*.json`
    (safe to stop and restart: already-completed trials are skipped).
-6. **The pilots**, each self-contained, none touch the main study's data:
+7. **The pilots**, each self-contained, none touch the main study's data:
 
    | Pilot | Stimuli | Experiment notebooks |
    |---|---|---|
@@ -66,10 +70,7 @@ it is safe.
    | Generalization (climate chart) | `climate_pilot/` (`generate_climate_stimuli.py` + `render_climate_html_to_png.py`) | `experiments/e1_climate/` |
    | Neutral claim | `neutral_pilot/` (`generate_neutral_stimuli.py` + `render_neutral_html_to_png.py`) | `experiments/e1_neutral/` |
 
-7. **Analyze**: the overview-findings notebooks listed at the top.
-
-`utils/huggingface_login.ipynb` needs to run once, before step 4 or 5, on whichever machine runs
-them: see `REPRODUCE.md` for why and how.
+8. **Analyze**: the overview-findings notebooks listed at the top.
 
 ## Repository map
 
