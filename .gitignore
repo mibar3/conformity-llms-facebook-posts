@@ -1,6 +1,9 @@
 **/qualitative/*/001_fox_news_i_simple.txt
 **/qualitative/*/001_ny_times_i_simple.txt
 **/qualitative/*/001_reuters_i_simple.txt
+**/qualitative/*/001_fox_news_c_simple.txt
+**/qualitative/*/001_ny_times_c_simple.txt
+**/qualitative/*/001_reuters_c_simple.txt
 
 benchmarking/outputs/pixtral-12b/
 benchmarking/outputs/mistral-small-3.1-24b/

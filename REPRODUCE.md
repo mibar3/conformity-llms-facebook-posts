@@ -226,8 +226,7 @@ one part without re-reading the whole file. Every path is relative to the repo r
 
 | What | Where |
 |---|---|
-| Per-tree summary (what the thesis draws from) | Each tree's own `1-overview-findings-*.ipynb` (`benchmarking/`, `benchmarking_simple_plot/`, `benchmarking_simple_plot_bigfont/`, `experiments/e1/`, `experiments/e1_authority_grid/`, `experiments/e1_climate/`, `experiments/e1_simple_plot_bigfont/`) — **`experiments/e1_simple_plot/` (non-bigfont) has no overview notebook of its own**, confirmed by directory listing; its results are only in that tree's raw `outputs/*.json` and whatever `experiments/e1/1-overview-findings-e1.ipynb` cites directly. |
-| Two-step protocol pilot | `experiments/e1/2-overview-findings-two-step.ipynb` |
+| Per-tree summary (what the thesis draws from) | Each tree's own `1-overview-findings-*.ipynb` (`benchmarking/`, `benchmarking_simple_plot/`, `benchmarking_simple_plot_bigfont/`, `experiments/e1/`, `experiments/e1_authority_grid/`, `experiments/e1_climate/`) — **`experiments/e1_simple_plot/` (non-bigfont) has no notebook of its own; its findings are combined into `experiments/e1_simple_plot_bigfont/1-overview-findings-e1-simple-plot-bigfont.ipynb`**, which covers both chart-legibility variants together for the two models tested on both (Gemma-E4B, Qwen3-VL-8B). |
 
 ### Verifying nothing has drifted
 
