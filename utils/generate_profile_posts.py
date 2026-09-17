@@ -155,6 +155,11 @@ class Generator:
         self.name, self.verified, self.slug = name, verified, slug
 
     def emit(self, text, reactions, comments, shares, out_file, i):
+        """Write one post, unless it's already there. Returns True if it wrote,
+        False if it skipped -- callers use this to report written/skipped counts,
+        same convention as utils/render_html_to_png.py's rendering side."""
+        if out_file.exists():
+            return False
         out_file.parent.mkdir(parents=True, exist_ok=True)
         generate_facebook_post(
             profile_name=self.name, post_text=text, post_time=POST_TIME,
@@ -162,6 +167,7 @@ class Generator:
             post_image_path=str(CHART_DIR / f"spotify_genre_pie_chart_{i:03d}.png"),
             output_file=str(out_file), verified=self.verified, profile_image_path=None,
         )
+        return True
 
     def path(self, variant, cond, scale, i):
         stem = f"{i:03d}_remy_ashford_{SUFFIX[variant]}.html"
@@ -175,38 +181,45 @@ class Generator:
         # (👍0 ❤️0 😆0 😮0 😢0 😡0); an empty dict renders no reaction bar at all, which is a
         # visibly different stimulus. Verified against benchmarking/correct/remy-ashford.
         zeros = {k: 0 for k in REACTION_TYPES}
-        n = 0
+        written = skipped = 0
         for variant, text in VARIANTS.items():
             for i in range(1, N_POSTS + 1):
-                self.emit(text, dict(zeros), 0, 0, self.path(variant, "baseline", None, i), i)
-                n += 1
-        return n
+                if self.emit(text, dict(zeros), 0, 0, self.path(variant, "baseline", None, i), i):
+                    written += 1
+                else:
+                    skipped += 1
+        print(f"    written {written}, already present (skipped) {skipped}")
+        return written
 
     def realistic(self):
-        n = 0
+        written = skipped = 0
         for scale in REACTION_VALUES:
             for variant, text in VARIANTS.items():
                 for i in range(1, N_POSTS + 1):
-                    self.emit(text, make_log_reactions(scale, 0.10, seed=i),
-                              max(1, round(scale * 0.08)), max(1, round(scale * 0.04)),
-                              self.path(variant, "realistic", scale, i), i)
-                    n += 1
-            print(f"    realistic {scale} done")
-        return n
+                    if self.emit(text, make_log_reactions(scale, 0.10, seed=i),
+                                  max(1, round(scale * 0.08)), max(1, round(scale * 0.04)),
+                                  self.path(variant, "realistic", scale, i), i):
+                        written += 1
+                    else:
+                        skipped += 1
+            print(f"    realistic {scale} done (written {written}, skipped {skipped} so far)")
+        return written
 
     def likes_only(self):
-        n = 0
+        written = skipped = 0
         for scale in REACTION_VALUES:
             r = {"like": scale, "love": 0, "haha": 0, "wow": 0, "sad": 0, "angry": 0}
             for variant, text in VARIANTS.items():
                 for i in range(1, N_POSTS + 1):
-                    self.emit(text, r, 0, 0, self.path(variant, "likes_only", scale, i), i)
-                    n += 1
-            print(f"    likes_only {scale} done")
-        return n
+                    if self.emit(text, r, 0, 0, self.path(variant, "likes_only", scale, i), i):
+                        written += 1
+                    else:
+                        skipped += 1
+            print(f"    likes_only {scale} done (written {written}, skipped {skipped} so far)")
+        return written
 
     def likes_only_noise(self):
-        n = 0
+        written = skipped = 0
         for scale in REACTION_VALUES:
             for variant, text in VARIANTS.items():
                 orig = read_original_noise_likes(variant, scale)
@@ -217,10 +230,12 @@ class Generator:
                     continue
                 for i, likes in orig.items():
                     r = {"like": likes, "love": 0, "haha": 0, "wow": 0, "sad": 0, "angry": 0}
-                    self.emit(text, r, 0, 0, self.path(variant, "likes_only_noise", scale, i), i)
-                    n += 1
-            print(f"    likes_only_noise {scale} done")
-        return n
+                    if self.emit(text, r, 0, 0, self.path(variant, "likes_only_noise", scale, i), i):
+                        written += 1
+                    else:
+                        skipped += 1
+            print(f"    likes_only_noise {scale} done (written {written}, skipped {skipped} so far)")
+        return written
 
 
 CONDITIONS = ["baseline", "realistic", "likes_only", "likes_only_noise"]
