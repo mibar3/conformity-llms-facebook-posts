@@ -34,7 +34,7 @@ python3 -m pip install --user -r requirements.txt
 ```
 
 Covers stimulus generation, rendering, the reproducibility scripts, and the
-analysis/overview-findings notebooks. It does **not** cover `torch`/`transformers` —
+analysis/overview-findings notebooks. It does **not** cover `torch`/`transformers`:
 those are pinned per model and installed by each model's own notebook (the
 experiments stage), because different models need different versions. See
 `requirements.txt`'s own header comment, or README.md's "Common pitfalls", for why.
@@ -149,18 +149,18 @@ phase 2 is the experiment itself.
 
 Every model here loads via `from_pretrained(MODEL_ID, ...)`, and several (Gemma
 especially) are **gated**: Hugging Face requires an account, the model's license
-accepted on its own page, and a personal access token — none of that can be
+accepted on its own page, and a personal access token: none of that can be
 skipped or worked around from this repo, it's how gated-model downloads work on
 HF's side.
 
 **Run `utils/huggingface_login.ipynb` once, before any other notebook.** It
 prompts for your token (hidden input, never typed as literal code) and caches
-it to `~/.cache/huggingface/token` on this machine — every other notebook
+it to `~/.cache/huggingface/token` on this machine: every other notebook
 checks that cache automatically, so this runs once per machine/account, not
 once per model.
 
 Each model notebook itself only has a lean check for this (`whoami()`, raising
-a clear error naming that notebook if you haven't run it) — the old
+a clear error naming that notebook if you haven't run it): the old
 hand-editable auth cell some notebooks had (importing a personal, untracked
 `config_hf_token.py`) is gone, replaced by this shared, portable path.
 
@@ -174,7 +174,7 @@ huggingface-cli login          # one time, caches your token the same way
 
 If a model load still fails with a gated-repo/license error after logging in,
 that's HF telling you to accept *that specific model's* license on its own
-page — a separate one-time step per model, not fixed by logging in again.
+page: a separate one-time step per model, not fixed by logging in again.
 
 ```
 benchmarking/<model>-benchmarking.ipynb           # phase 1, optional but recommended
@@ -183,7 +183,7 @@ experiments/e1/<model>/e1-<model>.ipynb           # phase 2
 
 Run a notebook top to bottom. Each one:
 
-- pins its own `transformers` / `torch` versions in its setup cell — the models do
+- pins its own `transformers` / `torch` versions in its setup cell: the models do
   not share an environment, so check that cell before assuming yours works;
 - builds or reuses the seeded 50/100-image sample via
   `e1_utils.sampling.build_paired_sample`, cached in `selected_images.json` so
@@ -193,11 +193,11 @@ Run a notebook top to bottom. Each one:
   does nothing has already finished; delete the output file to force a re-run.
 
 Then the analysis: each model's `1-overview-findings-*.ipynb` (self-contained, generates its
-own tables/figures from that tree's `outputs/*.json` — nothing external to read first) is what
+own tables/figures from that tree's `outputs/*.json`, nothing external to read first) is what
 the thesis actually draws from. `e1_utils.e1_analysis_optimized` has the underlying per-model
 functions (`analyse_single`, `analyse_paired`, `analyse_metrics_paired`) those notebooks call.
 
-`statistical_analysis/` (formal cross-model GEE/Wald tests) is untracked as of 2026-09-18 —
+`statistical_analysis/` (formal cross-model GEE/Wald tests) is untracked as of 2026-09-18:
 confirmed unused by the current thesis, which cites no value from it and whose overview
 notebooks have zero references to that folder. Still on disk/in git history if ever needed again.
 
@@ -228,11 +228,11 @@ one part without re-reading the whole file. Every path is relative to the repo r
 | Simplified chart | `spotify_pie_plot/100_versions_pie_plot_simple.ipynb` | `spotify_pie_plot/100_pie_charts_simple/` |
 | Simplified, larger font | `spotify_pie_plot/100_versions_pie_plot_simple_bigfont.ipynb` | `spotify_pie_plot/100_pie_charts_simple_bigfont/` |
 
-### Post (stimulus) creation — turning a chart into a Facebook-style post
+### Post (stimulus) creation: turning a chart into a Facebook-style post
 
 | What | Script/notebook | Covers |
 |---|---|---|
-| Any profile, main study's chart, baseline/realistic/likes_only/likes_only_noise | `utils/generate_profile_posts.py --slug <name>` | `remy-ashford`, `dr-remy-ashford`, or a new profile — see its own docstring |
+| Any profile, main study's chart, baseline/realistic/likes_only_noise | `utils/generate_profile_posts.py --slug <name>` | `remy-ashford`, `dr-remy-ashford`, or a new profile -- see its own docstring |
 | Simplified-chart pilot | `utils/updated_post_generator_all_visible_emojis.ipynb` | The only source for this chart pool; no `.py` script covers it |
 | Bigfont pilot | `utils/updated_post_generator_all_visible_emojis_bigfont.ipynb` | Same, for the bigfont chart pool |
 | Climate generalization pilot | `climate_pilot/generate_climate_stimuli.py` | Independent chart + claim, own module docstring has the design rationale |
@@ -248,7 +248,7 @@ one part without re-reading the whole file. Every path is relative to the repo r
 | Climate pilot | `climate_pilot/render_climate_html_to_png.py` |
 | Neutral pilot | `neutral_pilot/render_neutral_html_to_png.py` |
 
-### Phase 1 — perception benchmarking (does the model read the chart correctly?)
+### Phase 1: perception benchmarking (does the model read the chart correctly?)
 
 | What | Where |
 |---|---|
@@ -256,23 +256,23 @@ one part without re-reading the whole file. Every path is relative to the repo r
 | Shared scoring/analysis code | `benchmarking/utils/quanti_benchmarking_{1,2,3,4}_analysis.py`, `quali_benchmarking.py` |
 | Summaries | Each tree's own `1-overview-findings-*.ipynb` |
 
-### Phase 2 — the main experiment (E1)
+### Phase 2: the main experiment (E1)
 
 | What | Where |
 |---|---|
-| 9 model folders — 6 main roster, 2 appendix-only (`mistral-small-3.1-24b`, `pixtral-12b`), 1 fully excluded from the study (`ovis2.5-9b`, folder exists but not reported anywhere) | `experiments/e1/<model>/e1-<model>.ipynb` |
-| Shared harness | `experiments/e1/e1_utils/` — `sampling.py` (seeded sample), `e1_optimized.py` (the run functions), `inference_<model>.py` (per-model adapters), `e1_analysis_optimized.py` (per-model summaries) |
+| 9 model folders: 6 main roster, 2 appendix-only (`mistral-small-3.1-24b`, `pixtral-12b`), 1 fully excluded from the study (`ovis2.5-9b`, folder exists but not reported anywhere) | `experiments/e1/<model>/e1-<model>.ipynb` |
+| Shared harness | `experiments/e1/e1_utils/`: `sampling.py` (seeded sample), `e1_optimized.py` (the run functions), `inference_<model>.py` (per-model adapters), `e1_analysis_optimized.py` (per-model summaries) |
 | Simplified-chart pilot | `experiments/e1_simple_plot/{gemma4-e4b,qwen3-vl-8b}/` |
 | Bigfont pilot | `experiments/e1_simple_plot_bigfont/{gemma4-e4b,qwen3-vl-8b}/` |
 | Climate pilot | `experiments/e1_climate/<model>/`, all 6 main-roster models |
 | Neutral pilot | `experiments/e1_neutral/gemma4-12b/` |
-| Authority pilot | `experiments/e1_authority_grid/<model>/`, all 6 main-roster models — shares `e1_utils/e1_profile_grid.py` |
+| Authority pilot | `experiments/e1_authority_grid/<model>/`, all 6 main-roster models: shares `e1_utils/e1_profile_grid.py` |
 
 ### Analysis / results
 
 | What | Where |
 |---|---|
-| Per-tree summary (what the thesis draws from) | Each tree's own `1-overview-findings-*.ipynb` (`benchmarking/`, `benchmarking_simple_plot/`, `benchmarking_simple_plot_bigfont/`, `experiments/e1/`, `experiments/e1_authority_grid/`, `experiments/e1_climate/`) — **`experiments/e1_simple_plot/` (non-bigfont) has no notebook of its own; its findings are combined into `experiments/e1_simple_plot_bigfont/1-overview-findings-e1-simple-plot-bigfont.ipynb`**, which covers both chart-legibility variants together for the two models tested on both (Gemma-E4B, Qwen3-VL-8B). |
+| Per-tree summary (what the thesis draws from) | Each tree's own `1-overview-findings-*.ipynb` (`benchmarking/`, `benchmarking_simple_plot/`, `benchmarking_simple_plot_bigfont/`, `experiments/e1/`, `experiments/e1_authority_grid/`, `experiments/e1_climate/`). **`experiments/e1_simple_plot/` (non-bigfont) has no notebook of its own; its findings are combined into `experiments/e1_simple_plot_bigfont/1-overview-findings-e1-simple-plot-bigfont.ipynb`**, which covers both chart-legibility variants together for the two models tested on both (Gemma-E4B, Qwen3-VL-8B). |
 
 ### Verifying nothing has drifted
 
@@ -288,7 +288,7 @@ one part without re-reading the whole file. Every path is relative to the repo r
 
 | Symptom | Cause |
 |---|---|
-| `RuntimeError: Not logged in to Hugging Face`, or a 401/`RepositoryNotFoundError` on model load | Run `utils/huggingface_login.ipynb` once. If it still fails afterward, that specific model's license likely isn't accepted on your account yet — check its page on huggingface.co. |
+| `RuntimeError: Not logged in to Hugging Face`, or a 401/`RepositoryNotFoundError` on model load | Run `utils/huggingface_login.ipynb` once. If it still fails afterward, that specific model's license likely isn't accepted on your account yet: check its page on huggingface.co. |
 | `ModuleNotFoundError: selenium`, or no Chromium | You are on the GPU machine. Rendering belongs on the other one. |
 | A notebook prints "Skipping" and does nothing | Resume logic working. Results already exist in `outputs/`. |
 | `--selftest` says the pixels differ | Your Chromium or fonts differ from the study's. The PNGs in the repository are still the authoritative ones; render nothing and use them. |
