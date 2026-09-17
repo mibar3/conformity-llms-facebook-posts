@@ -33,10 +33,14 @@ spotify_pie_plot/pie_plot_posts/metrics/remy-ashford/correct/old_html/
 spotify_pie_plot/pie_plot_posts/metrics/remy-ashford/incorrect/old_html/
 
 
-benchmarking/correct/remy-ashford/*.png
-benchmarking/correct/remy-ashford/metrics/**/*.png
-benchmarking/incorrect/remy-ashford/*.png
-benchmarking/incorrect/remy-ashford/metrics/**/*.png
+# The main study's stimuli are tracked here, in the tree the notebooks actually
+# read, rather than under spotify_pie_plot/. These four rules used to ignore them,
+# which is why a clone had the images only in the other arrangement. dr-remy-ashford
+# was always tracked here; remy-ashford now matches it.
+#benchmarking/correct/remy-ashford/*.png
+#benchmarking/correct/remy-ashford/metrics/**/*.png
+#benchmarking/incorrect/remy-ashford/*.png
+#benchmarking/incorrect/remy-ashford/metrics/**/*.png
 
 benchmarking/correct/old-no-visible-0s/*.png
 benchmarking/incorrect/old-no-visible-0s/*.png
