@@ -49,10 +49,8 @@ it is safe.
    pipeline (see `REPRODUCE.md`). `utils/render_profile_html_to_png.py --slug <name>` for the
    profile-based posts from step 2; `utils/render_html_to_png.py <target>` for everything else
    (`--list` shows every target).
-   
-`utils/huggingface_login.ipynb` needs to run once, before step 4 or 5, on whichever machine runs
-them: see `REPRODUCE.md` for why and how.
-
+4. **Log in to Hugging Face once.** `utils/huggingface_login.ipynb`, before step 5 or 6, on
+   whichever machine runs them: see `REPRODUCE.md` for why and how.
 5. **Run Phase 1 perception benchmarking**: `benchmarking/<model>-benchmarking.ipynb` (optional,
    but recommended before trusting Phase 2: validates the model can read the chart at all).
 6. **Run Phase 2, the actual experiment**: `experiments/e1/<model>/e1-<model>.ipynb`, top to
