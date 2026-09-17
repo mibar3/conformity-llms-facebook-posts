@@ -55,6 +55,15 @@ spotify_pie_plot/pie_plot_posts/metrics/remy-ashford/incorrect/old_html/
 benchmarking/correct/old-no-visible-0s/*.png
 benchmarking/incorrect/old-no-visible-0s/*.png
 
+# Stray loose test copies, byte-identical to the real tracked images in
+# benchmarking/{correct,incorrect}/{remy-ashford,dr-remy-ashford}/001_..._{c,i}.png
+# (2026-09-18). Not deleted, just not tracked -- the * doesn't cross into
+# the profile subfolders, so those stay tracked as before.
+benchmarking/correct/001_remy_ashford_c.png
+benchmarking/correct/001_dr_remy_ashford_c.png
+benchmarking/incorrect/001_remy_ashford_i.png
+benchmarking/incorrect/001_dr_remy_ashford_i.png
+
 # Leftover draft/exploratory artifacts, not part of the tracked pipeline (2026-09-17).
 # Not deleted, just not tracked -- flag if any of these turn out to hold real content.
 spotify_pie_plot/pie_plot_posts/baselines/correct/html/news/
