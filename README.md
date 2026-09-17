@@ -39,19 +39,14 @@ Exact `nvidia-smi` output is captured in each model's own notebook (an early cel
 
 ## Reproducing the main study
 
-1. **Put the stimuli in place**: `python3 reproducibility/prepare_stimuli.py`. Unpacks the
-   archived baseline PNGs, installs the main study's images into
-   `benchmarking/{correct,incorrect}/remy-ashford/` (the gitignored tree the notebooks open — a
-   fresh clone has the images but not this arrangement of them, so every e1 notebook fails on
-   file-not-found until this runs), and reports every tree, HTML count against PNG count.
-   Normally nothing is left to render, because the PNGs are in the repository. If a tree is
-   short, fill it with
-   `python3 utils/render_html_to_png.py <target>` on a machine that has Chromium (`--list` shows
-   the targets, `--check-env` checks the machine, `--selftest` proves it reproduces the study's
-   pixels). Full detail, including generating from scratch, in [`REPRODUCE.md`](REPRODUCE.md).
-2. **Run Phase 1 perception benchmarking** (optional — validates the model can read
+Every stimulus image is already generated and tracked directly in git — a fresh clone has
+everything `benchmarking/{correct,incorrect}/remy-ashford/` needs, nothing to unpack or render.
+`python3 reproducibility/prepare_stimuli.py` is author-side verification, not a required step;
+see [`REPRODUCE.md`](REPRODUCE.md) if you want to run it or regenerate stimuli from scratch.
+
+1. **Run Phase 1 perception benchmarking** (optional — validates the model can read
    the stimulus before trusting Phase 2 results): `benchmarking/<model>-benchmarking.ipynb`.
-3. **Run Phase 2 (the actual experiment)**: open `experiments/e1/<model>/e1-<model>.ipynb`
+2. **Run Phase 2 (the actual experiment)**: open `experiments/e1/<model>/e1-<model>.ipynb`
    and run its cells top to bottom. Each notebook:
    - loads its model,
    - builds (or reuses) a reproducible 50/100-image sample via `e1_utils.sampling.build_paired_sample`
@@ -60,10 +55,10 @@ Exact `nvidia-smi` output is captured in each model's own notebook (an early cel
      via `e1_utils.e1_optimized`,
    - writes results incrementally to `outputs/e1_results_*.json` (resumable — safe to stop and
      restart; already-completed trials are skipped).
-4. **Analyze**: `e1_utils.e1_analysis_optimized` functions (`analyse_single`, `analyse_paired`,
-   `analyse_metrics_paired`, ...) summarize a given model's `outputs/*.json` into accuracy
-   tables/plots. `statistical_analysis/gee_analysis.ipynb` runs the cross-model formal
-   statistical tests once every model's `metrics`/`likes_only`/`likes_only_noise` grids exist.
+3. **Analyze**: each tree's own `1-overview-findings-*.ipynb` is self-contained and generates
+   its own tables/figures from that tree's `outputs/*.json` — this is what the thesis actually
+   draws from. `e1_utils.e1_analysis_optimized` has the underlying per-model functions
+   (`analyse_single`, `analyse_paired`, `analyse_metrics_paired`, ...) those notebooks call.
 
 ## Reproducing (or extending) the generalization pilot
 

@@ -3,17 +3,28 @@
 Start here. `README.md` describes what the repository contains; this file is the
 order to run it in.
 
-The pipeline has three stages, and they do not run on the same machine:
+**Every stimulus image is already generated and tracked directly in git.** A
+reviewer following the core path -- create the charts, create the posts,
+convert them to PNG, run the benchmarks, run the experiments, run the
+overview-findings notebooks -- can clone and go straight to Stage 2 below.
+Nothing in `reproducibility/` needs to run for that path; those scripts are
+author-side tooling (proving the path refactor didn't silently change an
+image, catching what's missing if a tree is ever extended), not a required
+step. They're documented in their own section further down, kept separate
+from the steps you actually need.
+
+The pipeline has two stages that matter for reproducing the results, and they
+do not run on the same machine:
 
 | Stage | What it needs | Roughly |
 |---|---|---|
-| 1. Stimuli | Python + Pillow | minutes |
-| 2. Rendering HTML to PNG | a Chromium binary, no GPU | only if a tree is short |
-| 3. Experiments | an NVIDIA GPU, no Chromium | hours per model |
+| Rendering HTML to PNG | a Chromium binary, no GPU | only if you ever regenerate a stimulus -- not needed to reproduce the existing results |
+| Experiments | an NVIDIA GPU, no Chromium | hours per model |
 
-Stage 2 is the one that usually trips people up: the GPU server has no browser,
-and the rendering machine has no GPU. The images are therefore rendered on one
-machine and copied to the other. **Stage 2 is normally not needed at all** — the
+The rendering stage is the one that usually trips people up if it ever comes
+up: the GPU server has no browser, and the rendering machine has no GPU. The
+images are therefore rendered on one machine and copied to the other. In
+practice **this is not needed at all** for reproducing the study -- the
 rendered PNGs are already in the repository.
 
 ## Before any stage: install the base dependencies
@@ -24,35 +35,30 @@ python3 -m pip install --user -r requirements.txt
 
 Covers stimulus generation, rendering, the reproducibility scripts, and the
 analysis/overview-findings notebooks. It does **not** cover `torch`/`transformers` —
-those are pinned per model and installed by each model's own notebook (stage 3),
-because different models need different versions. See `requirements.txt`'s own
-header comment, or README.md's "Common pitfalls", for why.
+those are pinned per model and installed by each model's own notebook (the
+experiments stage), because different models need different versions. See
+`requirements.txt`'s own header comment, or README.md's "Common pitfalls", for why.
 
 ---
 
-## Stage 1: put the stimuli in place
+## Optional, author-side: reproducibility/
+
+Not part of the path above -- skip this section unless you're extending the
+stimuli, regenerating something, or specifically want to verify nothing has
+drifted.
 
 ```bash
 python3 reproducibility/prepare_stimuli.py
 ```
 
-(Needs Pillow, already covered by `requirements.txt` above.)
-
-That does two things:
-
-- installs the main study's stimuli into
-  `benchmarking/{correct,incorrect}/remy-ashford/`, the tree the e1 and phase 1
-  notebooks actually open, from their other tracked copy under `spotify_pie_plot/`.
-  Both `benchmarking/` and `spotify_pie_plot/` ship the actual images directly in
-  git as of 2026-09-18, so on a fresh clone this step is a no-op -- everything is
-  already there. It only does real work if `spotify_pie_plot/` gets regenerated or
-  extended later and `benchmarking/` needs to catch up. Hard links either way, so
-  the second copy costs no disk;
-- prints one table: every stimulus tree, HTML count against PNG count, and whether
-  the experiment tree is ready.
-
-If it says every tree is fully rendered, **skip stage 2 entirely** and go to
-stage 3. Re-running is safe: nothing already in place is overwritten.
+Installs the main study's stimuli into
+`benchmarking/{correct,incorrect}/remy-ashford/`, the tree the e1 and phase 1
+notebooks actually open, from their other tracked copy under `spotify_pie_plot/`.
+Both trees ship the actual images directly in git, so on a fresh clone this is
+a no-op -- everything is already there. It only does real work if
+`spotify_pie_plot/` gets regenerated or extended later and `benchmarking/`
+needs to catch up. Hard links either way, so the second copy costs no disk.
+Also prints one table: every stimulus tree, HTML count against PNG count.
 
 The pilots (simplified chart, larger font, climate, neutral) read straight out of
 `spotify_pie_plot/` and `climate_pilot/` and need nothing installed.
@@ -62,13 +68,13 @@ files under `benchmarking/`, and as two zip archives under `spotify_pie_plot/
 pie_plot_posts/baselines/`. The archives exist only so `verify_stimuli.py
 --survivors`/`--baselines` (below) have something to check the loose files
 against; nothing in the normal path needs them unpacked, so `prepare_stimuli.py`
-doesn't do that by default. If you want to run those specific checks:
+doesn't do that by default:
 
 ```bash
 python3 reproducibility/prepare_stimuli.py --unpack-baseline-archives
 ```
 
-To confirm that for yourself, at any point:
+To confirm nothing has drifted, at any point:
 
 ```bash
 python3 reproducibility/verify_stimuli.py --manifest    # all 14,516 images vs. the pre-refactor fingerprints
@@ -100,10 +106,11 @@ The engagement-scaled posts come from the notebooks under `spotify_pie_plot/`
 
 ---
 
-## Stage 2: render HTML to PNG
+## Stage 1: render HTML to PNG
 
-Only if stage 1 reported a tree as short, or you regenerated HTML yourself. On
-the machine with Chromium:
+Not part of the core reproduction path (see the top of this file) -- only if
+`reproducibility/prepare_stimuli.py` ever reports a tree as short, or you
+regenerated HTML yourself. On the machine with Chromium:
 
 ```bash
 python3 utils/render_html_to_png.py --check-env    # is this machine set up?
@@ -125,7 +132,7 @@ python3 utils/render_html_to_png.py all
 
 Existing PNGs are skipped, so an interrupted run resumes by re-running the same
 command, and nothing already in the repository is overwritten. Copy the resulting
-PNG trees to the GPU server before stage 3.
+PNG trees to the GPU server before Stage 2.
 
 This replaces the hand-edited cells in `utils/html_to_png.ipynb`. That notebook
 still works and is what produced the study's images; it is kept for the record,
@@ -133,7 +140,7 @@ but it needs a block edited per condition and hardcodes one machine's paths.
 
 ---
 
-## Stage 3: run the experiments
+## Stage 2: run the experiments
 
 On the GPU machine. Phase 1 validates that a model can read the chart at all;
 phase 2 is the experiment itself.
@@ -232,7 +239,7 @@ one part without re-reading the whole file. Every path is relative to the repo r
 | Neutral-claim pilot | `neutral_pilot/generate_neutral_stimuli.py` | |
 | Shared HTML/CSS template | `utils/post_generator_all_visible_emojis.py` | `generate_facebook_post()`, called by everything above |
 
-### HTML → PNG rendering (needs Chromium, see Stage 2 above)
+### HTML → PNG rendering (needs Chromium, see Stage 1 above)
 
 | What | Script |
 |---|---|
