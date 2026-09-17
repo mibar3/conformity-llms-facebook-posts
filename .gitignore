@@ -53,6 +53,14 @@ spotify_pie_plot/pie_plot_posts/metrics/remy-ashford/incorrect/old_html/
 benchmarking/correct/old-no-visible-0s/*.png
 benchmarking/incorrect/old-no-visible-0s/*.png
 
+# Leftover draft/exploratory artifacts, not part of the tracked pipeline (2026-09-17).
+# Not deleted, just not tracked -- flag if any of these turn out to hold real content.
+spotify_pie_plot/pie_plot_posts/baselines/correct/html/news/
+spotify_pie_plot/pie_plot_posts/baselines/incorrect/html/
+spotify_pie_plot/pie_plot_posts/for_benchmarking/correct/html/old-no-visible-0s/
+spotify_pie_plot/pie_plot_posts/for_benchmarking/incorrect/html/old-no-visible-0s/
+spotify_pie_plot/pie_plot_posts/for_benchmarking/correct/html/reuters_baseline_001_c.html
+
 benchmarking/ground_truth/old-no-visible-0s/*.csv
 
 benchmarking/outputs/qwen3-vl-8b/old-no-visible-0s/*
