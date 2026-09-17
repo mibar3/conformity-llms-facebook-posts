@@ -109,3 +109,16 @@ utils/html_to_png.ipynb
 # Early prototype for an unrelated task ("crowd estimation" / bbc_news / bad-bunny --
 # not the Spotify conformity study), never cleaned out (2026-09-17).
 utils/updated_post_generator_overlapping_emojis (1).ipynb
+
+# Two-step judgment protocol pilot -- not included in the final thesis (2026-09-18).
+# Cells calling e1_utils.e1_two_step also exist inside several main model notebooks
+# (qwen3-vl-4b, ministral-3-8b/-14b, gemma4-e4b, qwen3-vl-8b, and the simple-plot/
+# bigfont pilot variants) -- those notebooks stay tracked for their real content;
+# removing those specific cells is a separate, more careful edit, not done here.
+experiments/e1/2-overview-findings-two-step.ipynb
+experiments/e1/e1_utils/e1_two_step.py
+
+# Pre-fix benchmarking outputs (commit 909a2658e broke the shared post generator --
+# dropped zeros, re-sorted reactions, "1.0K" formatting -- before it was regenerated).
+# Superseded by benchmarking_simple_plot_bigfont/outputs/ (2026-09-18).
+benchmarking_simple_plot_bigfont/outputs_pre_generator_fix/

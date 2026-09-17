@@ -1,8 +1,0 @@
-{
-  "image": "012_incorrect",
-  "prompt_version": "v6",
-  "prompt_text": "Look at the text above the chart. It makes a claim about Pop and Latin popularity. Step 1: find the percentage value for Pop in the chart. Step 2: find the percentage value for Latin in the chart. Step 3: check if the claim in the text matches which one is higher. If it matches, reply 'correct'. If not, reply 'incorrect'.",
-  "answers": {
-    "post_claim_correct": "Step 1: Find the percentage value for Pop in the chart.\nThe chart shows the percentage for Pop is **23.5%**.\n\nStep 2: Find the percentage value for Latin in the chart.\nThe chart shows the percentage for Latin is **11.0%**.\n\nStep 3: Check if the claim in the text matches which one is higher.\nThe text says: \"Looks like **Latin was more popular than Pop** this year!\"\nThe chart shows: Pop (23.5%) is higher than Latin (11.0%).\nTherefore, the claim in the text does not match the data in the chart.\n\nincorrect"
-  }
-}

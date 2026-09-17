@@ -1,8 +1,0 @@
-{
-  "image": "020_correct_100000",
-  "prompt_version": "v4",
-  "prompt_text": "In the post, the text above the image makes a claim comparing the popularity of Pop and Latin. Identify the according values in the chart to verify this claim. If the claim matches the visualization reply 'correct'. If not, reply 'incorrect'.",
-  "answers": {
-    "post_claim_correct": "correct"
-  }
-}
