@@ -146,14 +146,14 @@ Run a notebook top to bottom. Each one:
   that are already there, so a run is resumable. A cell that prints "Skipping" and
   does nothing has already finished; delete the output file to force a re-run.
 
-Then the analysis:
+Then the analysis: each model's `1-overview-findings-*.ipynb` (self-contained, generates its
+own tables/figures from that tree's `outputs/*.json` — nothing external to read first) is what
+the thesis actually draws from. `e1_utils.e1_analysis_optimized` has the underlying per-model
+functions (`analyse_single`, `analyse_paired`, `analyse_metrics_paired`) those notebooks call.
 
-```
-statistical_analysis/gee_analysis.ipynb           # cross-model formal tests
-```
-
-`e1_utils.e1_analysis_optimized` has the per-model summaries
-(`analyse_single`, `analyse_paired`, `analyse_metrics_paired`).
+`statistical_analysis/` (formal cross-model GEE/Wald tests) is untracked as of 2026-09-18 —
+confirmed unused by the current thesis, which cites no value from it and whose overview
+notebooks have zero references to that folder. Still on disk/in git history if ever needed again.
 
 ### The pilots
 
@@ -164,6 +164,78 @@ Self-contained, none of them touch the main study's data:
 | Simplified chart | `metrics_simple_plot` | `experiments/e1_simple_plot/` |
 | Larger chart font | `metrics_simple_plot_bigfont` | `experiments/e1_simple_plot_bigfont/` |
 | Climate generalization | `climate_pilot/` | `experiments/e1_climate/` |
+| Neutral claim | `neutral_pilot/` | `experiments/e1_neutral/` |
+| Authority (verified "Dr." profile) | `benchmarking/{correct,incorrect}/dr-remy-ashford/` | `experiments/e1_authority_grid/` |
+
+---
+
+## Quick reference: I want to work on a specific topic, what files does that touch?
+
+The stages above are the order to run things in; this is the index to find your way back into
+one part without re-reading the whole file. Every path is relative to the repo root.
+
+### Chart pool creation (the pie chart itself, before any post is built)
+
+| What | Notebook | Output |
+|---|---|---|
+| Original 9-slice chart | `spotify_pie_plot/100_versions_pie_plots.ipynb` | `spotify_pie_plot/pie_visualizations/pop_23_5_latin_11/` |
+| Simplified chart | `spotify_pie_plot/100_versions_pie_plot_simple.ipynb` | `spotify_pie_plot/100_pie_charts_simple/` |
+| Simplified, larger font | `spotify_pie_plot/100_versions_pie_plot_simple_bigfont.ipynb` | `spotify_pie_plot/100_pie_charts_simple_bigfont/` |
+
+### Post (stimulus) creation — turning a chart into a Facebook-style post
+
+| What | Script/notebook | Covers |
+|---|---|---|
+| Any profile, main study's chart, baseline/realistic/likes_only/likes_only_noise | `utils/generate_profile_posts.py --slug <name>` | `remy-ashford`, `dr-remy-ashford`, or a new profile — see its own docstring |
+| Simplified-chart pilot | `utils/updated_post_generator_all_visible_emojis.ipynb` | The only source for this chart pool; no `.py` script covers it |
+| Bigfont pilot | `utils/updated_post_generator_all_visible_emojis_bigfont.ipynb` | Same, for the bigfont chart pool |
+| Climate generalization pilot | `climate_pilot/generate_climate_stimuli.py` | Independent chart + claim, own module docstring has the design rationale |
+| Neutral-claim pilot | `neutral_pilot/generate_neutral_stimuli.py` | |
+| Shared HTML/CSS template | `utils/post_generator_all_visible_emojis.py` | `generate_facebook_post()`, called by everything above |
+
+### HTML → PNG rendering (needs Chromium, see Stage 2 above)
+
+| What | Script |
+|---|---|
+| Any profile in `benchmarking/` (main study, any `--slug`) | `utils/render_profile_html_to_png.py --slug <name>` |
+| Any tree under `spotify_pie_plot/`, by name or path | `utils/render_html_to_png.py <target>` (`--list` shows targets) |
+| Climate pilot | `climate_pilot/render_climate_html_to_png.py` |
+| Neutral pilot | `neutral_pilot/render_neutral_html_to_png.py` |
+
+### Phase 1 — perception benchmarking (does the model read the chart correctly?)
+
+| What | Where |
+|---|---|
+| Per-model notebooks | `benchmarking/<model>-benchmarking.ipynb`, `benchmarking_simple_plot/<model>-benchmarking.ipynb`, `benchmarking_simple_plot_bigfont/<model>-benchmarking.ipynb` |
+| Shared scoring/analysis code | `benchmarking/utils/quanti_benchmarking_{1,2,3,4}_analysis.py`, `quali_benchmarking.py` |
+| Summaries | Each tree's own `1-overview-findings-*.ipynb` |
+
+### Phase 2 — the main experiment (E1)
+
+| What | Where |
+|---|---|
+| 9 model folders — 6 main roster, 2 appendix-only (`mistral-small-3.1-24b`, `pixtral-12b`), 1 fully excluded from the study (`ovis2.5-9b`, folder exists but not reported anywhere) | `experiments/e1/<model>/e1-<model>.ipynb` |
+| Shared harness | `experiments/e1/e1_utils/` — `sampling.py` (seeded sample), `e1_optimized.py` (the run functions), `inference_<model>.py` (per-model adapters), `e1_analysis_optimized.py` (per-model summaries) |
+| Simplified-chart pilot | `experiments/e1_simple_plot/{gemma4-e4b,qwen3-vl-8b}/` |
+| Bigfont pilot | `experiments/e1_simple_plot_bigfont/{gemma4-e4b,qwen3-vl-8b}/` |
+| Climate pilot | `experiments/e1_climate/<model>/`, all 6 main-roster models |
+| Neutral pilot | `experiments/e1_neutral/gemma4-12b/` |
+| Authority pilot | `experiments/e1_authority_grid/<model>/`, all 6 main-roster models — shares `e1_utils/e1_profile_grid.py` |
+
+### Analysis / results
+
+| What | Where |
+|---|---|
+| Per-tree summary (what the thesis draws from) | Each tree's own `1-overview-findings-*.ipynb` (`benchmarking/`, `benchmarking_simple_plot/`, `benchmarking_simple_plot_bigfont/`, `experiments/e1/`, `experiments/e1_authority_grid/`, `experiments/e1_climate/`, `experiments/e1_simple_plot_bigfont/`) — **`experiments/e1_simple_plot/` (non-bigfont) has no overview notebook of its own**, confirmed by directory listing; its results are only in that tree's raw `outputs/*.json` and whatever `experiments/e1/1-overview-findings-e1.ipynb` cites directly. |
+| Two-step protocol pilot | `experiments/e1/2-overview-findings-two-step.ipynb` |
+
+### Verifying nothing has drifted
+
+| What | Script |
+|---|---|
+| Every stimulus tree, HTML vs. PNG counts | `reproducibility/prepare_stimuli.py --report` |
+| Image bytes vs. the pre-refactor fingerprints | `reproducibility/verify_stimuli.py --manifest` |
+| `benchmarking/` vs. `spotify_pie_plot/` byte-for-byte | `reproducibility/compare_trees.py` |
 
 ---
 
