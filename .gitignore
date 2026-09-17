@@ -100,10 +100,6 @@ spotify_pie_plot/pie_plot_posts/metrics/remy-ashford/*/html/likes_only/
 spotify_pie_plot/pie_plot_posts/metrics_simple_plot/remy-ashford/*/PNGs/likes_only/
 spotify_pie_plot/pie_plot_posts/metrics_simple_plot/remy-ashford/*/html/likes_only/
 
-# Superseded by experiments/e1_authority_grid/ (2026-09-17) -- older, smaller, nothing else
-# in the codebase references it. Kept on disk as a record, not carried in the repo.
-experiments/e1_authority/
-
 # Superseded by utils/render_html_to_png.py and utils/render_profile_html_to_png.py
 # (2026-09-17) -- this notebook needed a block hand-edited per condition and hardcoded
 # one machine's path. Kept on disk as a record of what produced the study's images.
