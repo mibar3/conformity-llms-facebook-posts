@@ -28,12 +28,11 @@ or findings — those live in the thesis document itself (not part of this repos
 ## Models
 
 All model inference (Phase 1 benchmarking and the Phase 2 experiments) was run on an **NVIDIA
-H100 80GB HBM3**, CUDA 12.4, driver 550.127.08. Most models ran on a 40GB MIG partition of the
-card rather than the full 80GB:
-
-| 40GB MIG slice | Full 80GB card |
-|---|---|
-| Gemma-12B, Gemma-E4B, Qwen3-VL-8B | Qwen3-VL-4B, Ministral-3-8B, Ministral-3-14B |
+H100 80GB HBM3**, CUDA 12.4, driver 550.127.08. Every model fits comfortably within a **40GB MIG
+partition** on its own; none needed more. The full 80GB card shows up in some notebooks' own
+`nvidia-smi` cell only because multiple models were sometimes run concurrently, sharing the
+undivided card rather than separate MIG slices — that reflects scheduling, not any individual
+model's memory requirement.
 
 Exact `nvidia-smi` output is captured in each model's own notebook (an early cell in
 `experiments/e1/<model>/e1-<model>.ipynb`).

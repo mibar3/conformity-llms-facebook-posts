@@ -16,14 +16,27 @@ and the rendering machine has no GPU. The images are therefore rendered on one
 machine and copied to the other. **Stage 2 is normally not needed at all** — the
 rendered PNGs are already in the repository.
 
+## Before any stage: install the base dependencies
+
+```bash
+python3 -m pip install --user -r requirements.txt
+```
+
+Covers stimulus generation, rendering, the reproducibility scripts, and the
+analysis/overview-findings notebooks. It does **not** cover `torch`/`transformers` —
+those are pinned per model and installed by each model's own notebook (stage 3),
+because different models need different versions. See `requirements.txt`'s own
+header comment, or README.md's "Common pitfalls", for why.
+
 ---
 
 ## Stage 1: put the stimuli in place
 
 ```bash
-python3 -m pip install --user Pillow
 python3 reproducibility/prepare_stimuli.py
 ```
+
+(Needs Pillow, already covered by `requirements.txt` above.)
 
 That does three things:
 
@@ -85,7 +98,6 @@ Only if stage 1 reported a tree as short, or you regenerated HTML yourself. On
 the machine with Chromium:
 
 ```bash
-python3 -m pip install --user 'selenium>=4.6'
 python3 utils/render_html_to_png.py --check-env    # is this machine set up?
 python3 utils/render_html_to_png.py --selftest     # does it reproduce the study's pixels?
 python3 utils/render_html_to_png.py --list         # what can be rendered

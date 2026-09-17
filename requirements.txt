@@ -1,0 +1,24 @@
+# Base dependencies for this repo, built from a full scan of every .py and .ipynb
+# import (2026-09-18). Covers stimulus generation, rendering, reproducibility
+# scripts, and the analysis/overview-findings notebooks.
+#
+# NOT covered here, deliberately: torch, transformers, qwen_vl_utils. Each model's
+# own notebook installs its own pinned versions in its setup cell (e.g.
+# torch==2.6.0+cu124, a specific transformers commit) -- see
+# experiments/e1/<model>/e1-<model>.ipynb, first code cell. They differ per model,
+# so a single version here would be wrong for most of them. See REPRODUCE.md and
+# README.md's "Common pitfalls" for why.
+#
+#     python3 -m pip install --user -r requirements.txt
+
+Pillow>=10.0          # image generation/verification: PIL, ImageChops (reproducibility/, utils/)
+selenium>=4.6          # HTML->PNG rendering; 4.6+ needed for automatic driver matching (utils/render_html_to_png.py)
+
+pandas>=2.0             # overview-findings / statistical_analysis notebooks
+numpy>=1.24
+matplotlib>=3.7
+scipy>=1.11             # sign tests, GEE-adjacent stats
+statsmodels>=0.14       # gee_analysis.ipynb
+
+huggingface_hub>=0.20   # HF_TOKEN login cell, every e1/benchmarking notebook
+ipython>=8.0            # display_facebook_post() in utils/post_generator_all_visible_emojis.py
