@@ -5,14 +5,18 @@ post over an accurate-but-unpopular one when acting as a synthetic social-media 
 holds the full pipeline: synthetic stimulus generation, a model-agnostic experiment harness, and
 the statistical analysis, for a study spanning eight VLMs.
 
-This file documents how to reproduce or extend the pipeline. It does not restate the study's
-methodology or findings in full — that lives in the thesis document itself (not part of this
-repository).
+**To run any of it, follow [`REPRODUCE.md`](REPRODUCE.md)** — the stages in order, which machine
+each one needs, and how to check the images are the ones the results came from. This file is the
+map of what is here; that one is the order to run it in. Neither restates the study's methodology
+or findings — those live in the thesis document itself (not part of this repository).
 
 ## Repository map
 
 | Path | What it is |
 |---|---|
+| `REPRODUCE.md` | Run order for the whole pipeline, per stage and per machine. Start here. |
+| `reproducibility/` | `prepare_stimuli.py` (unpack the archived stimuli, report what is missing), `verify_stimuli.py` (prove the images are the ones the results came from), and the fingerprint manifest they check against. |
+| `utils/render_html_to_png.py` | The HTML-to-PNG step for every stimulus tree, by name or by path. Resumable, skips what exists. |
 | `utils/` | Shared post-generation code (`post_generator_all_visible_emojis.py` — builds the HTML/CSS Facebook-style post, given a chart image, claim text, profile, and engagement counts) and chart-creation notebooks. |
 | `spotify_pie_plot/` | Stimulus generation for the main study: the pie-chart pool, the correct/incorrect claim variants, and the engagement-scaled post pool. |
 | `benchmarking/`, `benchmarking_simple_plot/`, `benchmarking_simple_plot_bigfont/` | Phase 1 perception validation (can each model read the chart correctly?) plus the organized, final stimulus image tree the main experiment (`experiments/e1/`) actually reads from. |
@@ -36,10 +40,16 @@ Exact `nvidia-smi` output is captured in each model's own notebook (an early cel
 
 ## Reproducing the main study
 
-1. **Generate stimuli**: pie-chart pool + engagement-scaled HTML posts — see the notebooks
-   under `spotify_pie_plot/` and `utils/`, then render with `utils/html_to_png.ipynb` (needs
-   Selenium + a Chromium binary). This step is normally already done; the resulting PNGs live
-   under `benchmarking/{correct,incorrect}/remy-ashford/`.
+1. **Put the stimuli in place**: `python3 reproducibility/prepare_stimuli.py`. Unpacks the
+   archived baseline PNGs, installs the main study's images into
+   `benchmarking/{correct,incorrect}/remy-ashford/` (the gitignored tree the notebooks open — a
+   fresh clone has the images but not this arrangement of them, so every e1 notebook fails on
+   file-not-found until this runs), and reports every tree, HTML count against PNG count.
+   Normally nothing is left to render, because the PNGs are in the repository. If a tree is
+   short, fill it with
+   `python3 utils/render_html_to_png.py <target>` on a machine that has Chromium (`--list` shows
+   the targets, `--check-env` checks the machine, `--selftest` proves it reproduces the study's
+   pixels). Full detail, including generating from scratch, in [`REPRODUCE.md`](REPRODUCE.md).
 2. **Run Phase 1 perception benchmarking** (optional — validates the model can read
    the stimulus before trusting Phase 2 results): `benchmarking/<model>-benchmarking.ipynb`.
 3. **Run Phase 2 (the actual experiment)**: open `experiments/e1/<model>/e1-<model>.ipynb`
@@ -86,9 +96,9 @@ is) before changing the stimulus design.
 
 ## Common pitfalls
 
-- **`ModuleNotFoundError: No module named 'selenium'` / missing Chromium** — the rendering step
-  (`utils/html_to_png.ipynb`, `climate_pilot/render_climate_html_to_png.py`) needs both;
-  `python3 -m pip install --user selenium` if only the Python package is missing.
+- **`ModuleNotFoundError: No module named 'selenium'` / missing Chromium** — rendering needs
+  both, and the GPU server has neither by design. Run `python3 utils/render_html_to_png.py
+  --check-env` on the machine you meant to render on; it names what is missing.
 - **A notebook run silently does nothing / prints "Skipping"** — this is the harness's
   resume logic working as intended (results already exist for that trial in the corresponding
   `outputs/e1_results_*.json`); delete or move that file if you want to force a clean re-run.

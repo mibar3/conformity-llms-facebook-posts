@@ -27,16 +27,28 @@ spotify_pie_plot/pie_plot_posts/baselines/**/*.png
 #spotify_pie_plot/pie_plot_posts/metrics/dr-remy-ashford/**/*.html
 spotify_pie_plot/pie_plot_posts/for_benchmarking/**/*.png
 
+# Loose test-profile HTML (casey_brierly, morgan_fenwick, an early remy-ashford draft) sitting
+# directly in baselines/{correct,incorrect}/html/, one level above the real remy-ashford/ and
+# dr-remy-ashford/ subfolders. A single * does not cross a /, so this leaves those subfolders
+# untouched. Not deleted, just not tracked (2026-09-17).
+spotify_pie_plot/pie_plot_posts/baselines/correct/html/*.html
+spotify_pie_plot/pie_plot_posts/baselines/incorrect/html/*.html
+spotify_pie_plot/pie_plot_posts/baselines/*/html/.ipynb_checkpoints*/
+
 
 spotify_pie_plot/pie_plot_posts/metrics_simple_plot/remy-ashford/correct/html/likes_only/
 spotify_pie_plot/pie_plot_posts/metrics/remy-ashford/correct/old_html/
 spotify_pie_plot/pie_plot_posts/metrics/remy-ashford/incorrect/old_html/
 
 
-benchmarking/correct/remy-ashford/*.png
-benchmarking/correct/remy-ashford/metrics/**/*.png
-benchmarking/incorrect/remy-ashford/*.png
-benchmarking/incorrect/remy-ashford/metrics/**/*.png
+# The main study's stimuli are tracked here, in the tree the notebooks actually
+# read, rather than under spotify_pie_plot/. These four rules used to ignore them,
+# which is why a clone had the images only in the other arrangement. dr-remy-ashford
+# was always tracked here; remy-ashford now matches it.
+#benchmarking/correct/remy-ashford/*.png
+#benchmarking/correct/remy-ashford/metrics/**/*.png
+#benchmarking/incorrect/remy-ashford/*.png
+#benchmarking/incorrect/remy-ashford/metrics/**/*.png
 
 benchmarking/correct/old-no-visible-0s/*.png
 benchmarking/incorrect/old-no-visible-0s/*.png
@@ -63,3 +75,29 @@ __pycache__/
 # via utils/generate_profile_posts.py, and ~180MB per profile as embedded-base64 HTML.
 spotify_pie_plot/pie_plot_posts/metrics/*-verified/**/*.html
 spotify_pie_plot/pie_plot_posts/metrics/*-noverify/**/*.html
+
+# Conditions not reported in the thesis (2026-09-17). Kept on disk / on the GPU server,
+# not carried in the repo. Regenerable via utils/generate_profile_posts.py if ever needed.
+benchmarking/correct/remy-ashford/metrics/uniform/
+benchmarking/incorrect/remy-ashford/metrics/uniform/
+benchmarking/correct/remy-ashford/metrics/likes_only/
+benchmarking/incorrect/remy-ashford/metrics/likes_only/
+spotify_pie_plot/pie_plot_posts/metrics/remy-ashford/*/PNGs/uniform/
+spotify_pie_plot/pie_plot_posts/metrics/remy-ashford/*/html/uniform/
+spotify_pie_plot/pie_plot_posts/metrics/remy-ashford/*/PNGs/likes_only/
+spotify_pie_plot/pie_plot_posts/metrics/remy-ashford/*/html/likes_only/
+spotify_pie_plot/pie_plot_posts/metrics_simple_plot/remy-ashford/*/PNGs/likes_only/
+spotify_pie_plot/pie_plot_posts/metrics_simple_plot/remy-ashford/*/html/likes_only/
+
+# Superseded by experiments/e1_authority_grid/ (2026-09-17) -- older, smaller, nothing else
+# in the codebase references it. Kept on disk as a record, not carried in the repo.
+experiments/e1_authority/
+
+# Superseded by utils/render_html_to_png.py and utils/render_profile_html_to_png.py
+# (2026-09-17) -- this notebook needed a block hand-edited per condition and hardcoded
+# one machine's path. Kept on disk as a record of what produced the study's images.
+utils/html_to_png.ipynb
+
+# Early prototype for an unrelated task ("crowd estimation" / bbc_news / bad-bunny --
+# not the Spotify conformity study), never cleaned out (2026-09-17).
+utils/updated_post_generator_overlapping_emojis (1).ipynb
