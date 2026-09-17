@@ -130,6 +130,27 @@ but it needs a block edited per condition and hardcodes one machine's paths.
 On the GPU machine. Phase 1 validates that a model can read the chart at all;
 phase 2 is the experiment itself.
 
+### You need your own Hugging Face token, and accepted model licenses
+
+Every model here loads via `from_pretrained(MODEL_ID, ...)`, and several (Gemma
+especially) are **gated**: Hugging Face requires an account, the model's license
+accepted on its own page, and a personal access token — none of that can be
+skipped or worked around from this repo, it's how gated-model downloads work on
+HF's side.
+
+Each notebook has a cell that tries to authenticate via a personal, untracked
+`config_hf_token.py` (yours, not part of this repo) — that cell is commented out
+for exactly this reason. The standard, simpler path for anyone else running this:
+
+```bash
+huggingface-cli login          # one time, caches your token
+# or: export HF_TOKEN=hf_...   # per-session, no caching
+```
+
+`from_pretrained` picks either up automatically, no code change needed. If a
+model load fails with an authentication or "gated repo" error, that's HF telling
+you to accept that model's license on its page first — not a bug here.
+
 ```
 benchmarking/<model>-benchmarking.ipynb           # phase 1, optional but recommended
 experiments/e1/<model>/e1-<model>.ipynb           # phase 2
@@ -242,6 +263,7 @@ one part without re-reading the whole file. Every path is relative to the repo r
 
 | Symptom | Cause |
 |---|---|
+| `ModuleNotFoundError: config_hf_token`, or a 401/`RepositoryNotFoundError` on model load | That's the original author's personal token cell, already commented out. Run `huggingface-cli login` (or set `HF_TOKEN`) with your own account, and make sure you've accepted that model's license on its Hugging Face page. |
 | `ModuleNotFoundError: selenium`, or no Chromium | You are on the GPU machine. Rendering belongs on the other one. |
 | A notebook prints "Skipping" and does nothing | Resume logic working. Results already exist in `outputs/`. |
 | `--selftest` says the pixels differ | Your Chromium or fonts differ from the study's. The PNGs in the repository are still the authoritative ones; render nothing and use them. |
