@@ -38,15 +38,16 @@ python3 reproducibility/prepare_stimuli.py
 
 (Needs Pillow, already covered by `requirements.txt` above.)
 
-That does three things:
+That does two things:
 
-- unpacks the 200 baseline (zero-engagement) PNGs from their tracked archives;
 - installs the main study's stimuli into
   `benchmarking/{correct,incorrect}/remy-ashford/`, the tree the e1 and phase 1
-  notebooks actually open. That tree is gitignored, because the same images are
-  already tracked once under `spotify_pie_plot/`, so a fresh clone has every image
-  but an empty experiment tree and every notebook fails on file-not-found until
-  this runs. Hard links, so the second copy costs no disk;
+  notebooks actually open, from their other tracked copy under `spotify_pie_plot/`.
+  Both `benchmarking/` and `spotify_pie_plot/` ship the actual images directly in
+  git as of 2026-09-18, so on a fresh clone this step is a no-op -- everything is
+  already there. It only does real work if `spotify_pie_plot/` gets regenerated or
+  extended later and `benchmarking/` needs to catch up. Hard links either way, so
+  the second copy costs no disk;
 - prints one table: every stimulus tree, HTML count against PNG count, and whether
   the experiment tree is ready.
 
@@ -56,9 +57,16 @@ stage 3. Re-running is safe: nothing already in place is overwritten.
 The pilots (simplified chart, larger font, climate, neutral) read straight out of
 `spotify_pie_plot/` and `climate_pilot/` and need nothing installed.
 
-Gitignored here never means missing. The baselines are two tracked zips rather
-than 200 loose files, and the experiment tree is a second arrangement of images
-that are already tracked; neither is a re-rendering.
+The 200 baseline (zero-engagement) images are also tracked twice -- as loose
+files under `benchmarking/`, and as two zip archives under `spotify_pie_plot/
+pie_plot_posts/baselines/`. The archives exist only so `verify_stimuli.py
+--survivors`/`--baselines` (below) have something to check the loose files
+against; nothing in the normal path needs them unpacked, so `prepare_stimuli.py`
+doesn't do that by default. If you want to run those specific checks:
+
+```bash
+python3 reproducibility/prepare_stimuli.py --unpack-baseline-archives
+```
 
 To confirm that for yourself, at any point:
 

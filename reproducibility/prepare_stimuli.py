@@ -5,33 +5,33 @@ Put the stimulus images in place, then say what is still missing.
 This is the first thing to run after cloning. It needs nothing but Python and
 Pillow: no Chromium, no GPU, no model.
 
-Three things happen:
+Two things happen by default:
 
-1. The baseline (zero-engagement) PNGs are unpacked out of the two tracked zip
-   archives into the folders the notebooks read. The loose PNGs are gitignored
-   because 200 near-identical images are not worth versioning twice, but the
-   archives holding them are tracked, so a fresh clone has the images and just
-   needs them unpacked. They are the originals, not a regeneration: all 200 match
-   the surviving originals and the metrics stimuli byte for byte above the
-   engagement bar (reproducibility/verify_stimuli.py --baselines proves it).
+1. The engagement-scaled and baseline images -- all already tracked directly
+   under benchmarking/{correct,incorrect}/remy-ashford/ as of 2026-09-18, so a
+   fresh clone already has them -- are installed (hard-linked, no disk cost)
+   into that same tree from their other tracked copy under spotify_pie_plot/.
+   On a fresh clone this is a no-op (everything already present); it only does
+   real work if spotify_pie_plot/ has been regenerated or extended since.
 
-2. Those images, and the engagement-scaled ones, are installed into
-   benchmarking/{correct,incorrect}/remy-ashford/, which is the tree the main
-   study's notebooks actually open. It is gitignored -- the same images are
-   already tracked once, under spotify_pie_plot/ -- so a fresh clone has every
-   image but an empty experiment tree, and every e1 notebook fails on file-not-
-   found until this runs. Hard links, so the second copy costs no disk.
-
-   The pilots (simplified chart, larger font, climate) read straight out of
-   spotify_pie_plot/ and climate_pilot/ and need nothing installed.
-
-3. Every stimulus tree is counted, HTML against PNG, so the remaining work is
+2. Every stimulus tree is counted, HTML against PNG, so the remaining work is
    one table rather than a hunt. Whatever is short gets rendered with
    utils/render_html_to_png.py, on a machine that has Chromium.
 
-    python3 reproducibility/prepare_stimuli.py            # unpack, install, report
-    python3 reproducibility/prepare_stimuli.py --report    # report only, change nothing
-    python3 reproducibility/prepare_stimuli.py --verify    # also checksum what is already there
+    python3 reproducibility/prepare_stimuli.py               # install, report
+    python3 reproducibility/prepare_stimuli.py --report       # report only, change nothing
+    python3 reproducibility/prepare_stimuli.py --verify       # also checksum what is already there
+
+--unpack-baseline-archives is a separate, opt-in step: the two zip archives
+under spotify_pie_plot/pie_plot_posts/baselines/{correct,incorrect}/PNGs/ hold
+the same 200 baseline images already tracked loose under benchmarking/ -- kept
+as archives there only so reproducibility/verify_stimuli.py --survivors and
+--baselines have something on disk to check the images against. Nothing in
+the normal reproduction path needs them unpacked, so this does not run unless
+asked for, or unless you pass --verify (which implies you want that check to
+be runnable).
+
+    python3 reproducibility/prepare_stimuli.py --unpack-baseline-archives
 """
 import argparse
 import hashlib
@@ -211,14 +211,19 @@ def report() -> int:
 def main() -> int:
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--report", action="store_true", help="count only, unpack nothing")
+    ap.add_argument("--report", action="store_true", help="count only, change nothing")
     ap.add_argument("--verify", action="store_true",
-                    help="checksum every already-present baseline against the archive")
+                    help="checksum every already-present file against its source "
+                         "(also unpacks the baseline archives, so --survivors/--baselines can run)")
+    ap.add_argument("--unpack-baseline-archives", action="store_true",
+                    help="also unpack the two baseline zips -- only needed for "
+                         "verify_stimuli.py --survivors/--baselines, not for reproduction")
     args = ap.parse_args()
 
     rc = 0
     if not args.report:
-        rc |= unpack(args.verify)
+        if args.unpack_baseline_archives or args.verify:
+            rc |= unpack(args.verify)
         rc |= install(args.verify)
     rc |= report()
     return rc
